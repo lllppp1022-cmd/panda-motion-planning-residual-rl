@@ -1,0 +1,11 @@
+{
+  "time": "2026-10-26T15:50:46.945254+08:00",
+  "account": "lllppp1022-cmd",
+  "repository": "lllppp1022-cmd/panda-motion-planning-residual-rl",
+  "url": "https://github.com/lllppp1022-cmd/panda-motion-planning-residual-rl",
+  "private": false,
+  "visibility": "public",
+  "main": "99f8f42424ed121cfb3702869aa7a928c903c6fb",
+  "changed": true,
+  "method": "Authenticated GitHub official REST PATCH; no credentials persisted"
+}

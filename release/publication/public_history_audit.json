@@ -1,0 +1,61 @@
+{
+  "time": "2026-10-26T15:47:59.674715+08:00",
+  "head": "99f8f42424ed121cfb3702869aa7a928c903c6fb",
+  "refs": [
+    "99f8f42424ed121cfb3702869aa7a928c903c6fb refs/heads/main",
+    "99f8f42424ed121cfb3702869aa7a928c903c6fb refs/remotes/origin/main"
+  ],
+  "commits": [
+    "99f8f42424ed121cfb3702869aa7a928c903c6fb",
+    "fa13fb76d8f860101bf50e038316858c25e2e65c"
+  ],
+  "tracked_files": 645,
+  "history_blobs": 609,
+  "history_blob_bytes": 198144210,
+  "archive_members": 493,
+  "findings": [],
+  "models": {
+    "BC78": {
+      "bytes": 46633,
+      "sha256": "31be9237c94fe78c72262ed4f5052713916bd8d3951a9a5e926aa9094cb9dd2d",
+      "match": true
+    },
+    "BC85": {
+      "bytes": 48553,
+      "sha256": "b245652748bd3c6a23eae99c955fdf755da5cde7f3fb6621428bb46ddbf453d7",
+      "match": true
+    },
+    "A_seed42": {
+      "bytes": 296214,
+      "sha256": "01c2291d9a905e8e7f813eb5aa66bc188eb1ab5c25bbde1591435ef95b7144d7",
+      "match": true
+    },
+    "A_seed123": {
+      "bytes": 296261,
+      "sha256": "c6253955cbd8dbf83d6584e015fa2455c7ffff3758a1855e7003eca5fb6d5baf",
+      "match": true
+    },
+    "B_seed42": {
+      "bytes": 296224,
+      "sha256": "36c4872b66979ee3a80f8736e45e46b005b18896620b951c5783de3f844926c3",
+      "match": true
+    },
+    "B_seed123": {
+      "bytes": 296258,
+      "sha256": "23d44f6ab366314689b41eb11ba9945094972f33220ac5d33fe65538e9405284",
+      "match": true
+    }
+  },
+  "video_hashes": {
+    "panda_keyboard_teleop_20261021.mp4": true,
+    "phase2b_rrt_planning_demo.mp4": true,
+    "phase2c_dynamic_execution.mp4": true,
+    "phase2d_margin_comparison.mp4": true,
+    "phase3dc_policy_comparison.mp4": true,
+    "phase3dc_actual_training.mp4": true,
+    "project_overview.mp4": true
+  },
+  "large_files": [],
+  "scope": "All reachable refs/commits and unique blobs, working tracked files, model ZIP textual metadata. Pattern scan plus source/license/media provenance review; not an absolute guarantee.",
+  "excluded": "Ignored runtime, raw CSV.gz, unlisted checkpoints and environment files are not published."
+}

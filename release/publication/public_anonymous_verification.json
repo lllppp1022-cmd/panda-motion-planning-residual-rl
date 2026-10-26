@@ -1,0 +1,299 @@
+{
+  "time": "2026-10-26T16:01:45.073396+08:00",
+  "anonymous": true,
+  "authorization_header": false,
+  "cookie_header": false,
+  "homepage_http": 200,
+  "readme_visible": true,
+  "api_private": false,
+  "api_visibility": "public",
+  "default_branch": "main",
+  "local_head": "99f8f42424ed121cfb3702869aa7a928c903c6fb",
+  "remote_head": "99f8f42424ed121cfb3702869aa7a928c903c6fb",
+  "head_match": true,
+  "remote_files": 645,
+  "all_tracked_paths_match": true,
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "status": 200,
+      "bytes": 583,
+      "sha256": "e88ec99c895600a422fb8cebc1e28c2270279fa601aa165328fcbda175755a2a",
+      "local_match": true,
+      "content_type": "text/plain; charset=utf-8",
+      "verification": "Anonymous GET + hash"
+    },
+    {
+      "path": "README.md",
+      "status": 200,
+      "bytes": 7663,
+      "sha256": "3945516ff197837a883055f005c49a89ddbe5a648bbf41b09ed90dd546809547",
+      "local_match": true,
+      "content_type": "text/plain; charset=utf-8",
+      "verification": "Anonymous GET + hash"
+    },
+    {
+      "path": "README_EN.md",
+      "status": 200,
+      "bytes": 4952,
+      "sha256": "5f1c32d1bf84577a16f9d01c0b7deb0b97e94a2c3fa073369b8669eaf47ac808",
+      "local_match": true,
+      "content_type": "text/plain; charset=utf-8",
+      "verification": "Anonymous GET + hash"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "status": 200,
+      "bytes": 1478,
+      "sha256": "5edcafd1d2790a6ee3078506faa871f99779d5cdc931231b3d1720a879b3c6eb",
+      "local_match": true,
+      "content_type": "text/plain; charset=utf-8",
+      "verification": "Anonymous GET + hash"
+    },
+    {
+      "path": "assets/plots/final_recomputed.png",
+      "status": 200,
+      "bytes": 56353,
+      "sha256": "4a6b577673b1a71ed21733d16957c65f756ab3a3377123d5cdebf3dfe0c0ef1b",
+      "local_match": true,
+      "content_type": "image/png",
+      "verification": "Earlier anonymous GET + hash; repeated anonymous HEAD"
+    },
+    {
+      "path": "assets/videos/overview_preview.gif",
+      "status": 200,
+      "bytes": 2871453,
+      "sha256": "32297d23f9df6f7ea1be5fc81d81bbe8b09b130202525edb690f6119b513c18d",
+      "local_match": true,
+      "content_type": "image/gif",
+      "verification": "Earlier anonymous GET + hash; repeated anonymous HEAD"
+    },
+    {
+      "path": "assets/videos/phase3dc_actual_training.mp4",
+      "status": 200,
+      "bytes": 4047669,
+      "sha256": "e7661a2b15abc806ebaf45f21c6c8afafc90e7d448b6a6aa144c3cbb7b619e13",
+      "local_match": true,
+      "content_type": "application/octet-stream",
+      "verification": "Earlier anonymous GET + hash; repeated anonymous HEAD"
+    },
+    {
+      "path": "assets/videos/phase3dc_policy_comparison.mp4",
+      "status": 200,
+      "bytes": 12311236,
+      "sha256": "bcfe80e1b5beb08832edabebf2272aed03d319a1356d8badf9e1a65d8b31656d",
+      "local_match": true,
+      "content_type": "application/octet-stream",
+      "verification": "Earlier anonymous GET + hash; repeated anonymous HEAD"
+    },
+    {
+      "path": "assets/videos/project_overview.mp4",
+      "status": 200,
+      "bytes": 2363221,
+      "sha256": "5af471c819a0e5e16cd3eea8ee81124112a57ff5842debecb58de4ad58718f0f",
+      "local_match": true,
+      "content_type": "application/octet-stream",
+      "verification": "Earlier anonymous GET + hash; repeated anonymous HEAD"
+    },
+    {
+      "path": "docs/31_项目最终技术总结.md",
+      "status": 200,
+      "bytes": 2200,
+      "sha256": "5a396f9eea5c0d80160c168b829ff2e697fef62c8cf6660e18f41b0cc0e593f9",
+      "local_match": true,
+      "content_type": "text/plain; charset=utf-8",
+      "verification": "Anonymous GET + hash"
+    },
+    {
+      "path": "docs/32_项目最终验收报告.md",
+      "status": 200,
+      "bytes": 5917,
+      "sha256": "48ffa4a75c06dfb7a0f72fafde9a78050b2a82b21505359181550bda10018a80",
+      "local_match": true,
+      "content_type": "text/plain; charset=utf-8",
+      "verification": "Anonymous GET + hash"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "status": 200,
+      "bytes": 5041,
+      "sha256": "59dcc5163cd0b76ec23414cc874065bea0479a6024a52d617904c6f065bc2e0e",
+      "local_match": true,
+      "content_type": "text/plain; charset=utf-8",
+      "verification": "Anonymous GET + hash"
+    },
+    {
+      "path": "docs/项目面试问答.md",
+      "status": 200,
+      "bytes": 3237,
+      "sha256": "a6116498578ed0cf7e3e290b0e2a285633d2868d44e2ddbbdb069161a57a27e1",
+      "local_match": true,
+      "content_type": "text/plain; charset=utf-8",
+      "verification": "Anonymous GET + hash"
+    },
+    {
+      "path": "models/mujoco_menagerie/franka_emika_panda/LICENSE",
+      "status": 200,
+      "bytes": 10349,
+      "sha256": "6d1d968fb225eca367cb7f0b8831ab012a35d92b547e945e17ef8e7b05c3e5cc",
+      "local_match": true,
+      "content_type": "text/plain; charset=utf-8",
+      "verification": "Anonymous GET + hash"
+    },
+    {
+      "path": "models/pretrained/A_seed123.zip",
+      "status": 200,
+      "bytes": 296261,
+      "sha256": "c6253955cbd8dbf83d6584e015fa2455c7ffff3758a1855e7003eca5fb6d5baf",
+      "local_match": true,
+      "content_type": "application/zip",
+      "verification": "Earlier anonymous GET + hash; repeated anonymous HEAD"
+    },
+    {
+      "path": "models/pretrained/A_seed42.zip",
+      "status": 200,
+      "bytes": 296214,
+      "sha256": "01c2291d9a905e8e7f813eb5aa66bc188eb1ab5c25bbde1591435ef95b7144d7",
+      "local_match": true,
+      "content_type": "application/zip",
+      "verification": "Earlier anonymous GET + hash; repeated anonymous HEAD"
+    },
+    {
+      "path": "models/pretrained/BC78_best.pt",
+      "status": 200,
+      "bytes": 46633,
+      "sha256": "31be9237c94fe78c72262ed4f5052713916bd8d3951a9a5e926aa9094cb9dd2d",
+      "local_match": true,
+      "content_type": "application/octet-stream",
+      "verification": "Earlier anonymous GET + hash; repeated anonymous HEAD"
+    },
+    {
+      "path": "models/pretrained/BC85_best.pt",
+      "status": 200,
+      "bytes": 48553,
+      "sha256": "b245652748bd3c6a23eae99c955fdf755da5cde7f3fb6621428bb46ddbf453d7",
+      "local_match": true,
+      "content_type": "application/octet-stream",
+      "verification": "Earlier anonymous GET + hash; repeated anonymous HEAD"
+    },
+    {
+      "path": "models/pretrained/B_seed123.zip",
+      "status": 200,
+      "bytes": 296258,
+      "sha256": "23d44f6ab366314689b41eb11ba9945094972f33220ac5d33fe65538e9405284",
+      "local_match": true,
+      "content_type": "application/zip",
+      "verification": "Earlier anonymous GET + hash; repeated anonymous HEAD"
+    },
+    {
+      "path": "models/pretrained/B_seed42.zip",
+      "status": 200,
+      "bytes": 296224,
+      "sha256": "36c4872b66979ee3a80f8736e45e46b005b18896620b951c5783de3f844926c3",
+      "local_match": true,
+      "content_type": "application/zip",
+      "verification": "Earlier anonymous GET + hash; repeated anonymous HEAD"
+    },
+    {
+      "path": "release/final_cases.json",
+      "status": 200,
+      "bytes": 48561,
+      "sha256": "05426dbf5e2314e8a94306a8dae9b2c7a0f05f446916696f2b3c3106273c9b28",
+      "local_match": true,
+      "content_type": "text/plain; charset=utf-8",
+      "verification": "Anonymous GET + hash"
+    },
+    {
+      "path": "release/models.json",
+      "status": 200,
+      "bytes": 1463,
+      "sha256": "14dc32c1ac78a9709297c14e3c5f53224aa5558f8af9017963177ceda9c91415",
+      "local_match": true,
+      "content_type": "text/plain; charset=utf-8",
+      "verification": "Anonymous GET + hash"
+    },
+    {
+      "path": "release/original_archive_manifest.json",
+      "status": 200,
+      "bytes": 3192118,
+      "sha256": "e546079bb1eb86accdf24d9fb1db0a04965fba8a44ced004bdcfc25793dc441c",
+      "local_match": true,
+      "content_type": "text/plain; charset=utf-8",
+      "verification": "Anonymous GET + hash"
+    },
+    {
+      "path": "release/video_edit_manifest.json",
+      "status": 200,
+      "bytes": 2846,
+      "sha256": "4870926356e2bf1e83f40345a6ffaf0063895b10f14b055bb3c3a10e8662f6c0",
+      "local_match": true,
+      "content_type": "text/plain; charset=utf-8",
+      "verification": "Anonymous GET + hash"
+    },
+    {
+      "path": "requirements.txt",
+      "status": 200,
+      "bytes": 309,
+      "sha256": "a9f78274b6a3acc784c91977a0b4f357527c7de346b777317002eb69e62f9198",
+      "local_match": true,
+      "content_type": "text/plain; charset=utf-8",
+      "verification": "Anonymous GET + hash"
+    },
+    {
+      "path": "results/summary/final_controller_metrics.csv",
+      "status": 200,
+      "bytes": 736,
+      "sha256": "8d174cc29af3eaa767d8fc0de9847a5f2ca4ad0ad3b6103db5f6e14aad2c8684",
+      "local_match": true,
+      "content_type": "text/plain; charset=utf-8",
+      "verification": "Anonymous GET + hash"
+    },
+    {
+      "path": "src/planning/collision_checker.py",
+      "status": 200,
+      "bytes": 19930,
+      "sha256": "6b45feda5270bf0e3477f980544bda60e99814998c4877f9ab176495c302f79a",
+      "local_match": true,
+      "content_type": "text/plain; charset=utf-8",
+      "verification": "Anonymous GET + hash"
+    },
+    {
+      "path": "src/planning/rrt_connect.py",
+      "status": 200,
+      "bytes": 16800,
+      "sha256": "fb48db3543f02b61b65fc65ae580e95da0889dd0c169e6c7cc45d40590807308",
+      "local_match": true,
+      "content_type": "text/plain; charset=utf-8",
+      "verification": "Anonymous GET + hash"
+    }
+  ],
+  "gif": {
+    "frames": 60,
+    "unique_frames": 60,
+    "duration_s": 12.0
+  },
+  "videos": [
+    {
+      "path": "project_overview.mp4",
+      "decoded_frames": 800,
+      "unique_frames": 800,
+      "fps": 10.0,
+      "duration_s": 80.0
+    },
+    {
+      "path": "phase3dc_actual_training.mp4",
+      "decoded_frames": 812,
+      "unique_frames": 812,
+      "fps": 10.0,
+      "duration_s": 81.2
+    },
+    {
+      "path": "phase3dc_policy_comparison.mp4",
+      "decoded_frames": 2880,
+      "unique_frames": 2880,
+      "fps": 10.0,
+      "duration_s": 288.0
+    }
+  ],
+  "verification": "Anonymous HTTP bytes/hash and full local decoding of anonymously fetched media; not manual browser player testing"
+}

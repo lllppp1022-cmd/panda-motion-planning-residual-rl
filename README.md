@@ -103,4 +103,4 @@ python -m pytest -q
 
 Panda模型来自MuJoCo Menagerie commit `cda5236f98383f6fbaa4820c6b18dba892cd087f`，对应目录Apache-2.0许可证和原来源说明原样保留，见[第三方声明](THIRD_PARTY_NOTICES.md)。依赖通过包管理安装，没有打包第三方库源码或FFmpeg二进制。
 
-**新Panda仓库仅准备/发布为Private。** 公开权限与自有源码开源许可证待单独确认；此前Reacher的公开授权不适用于本项目。当前许可说明见[LICENSE.md](LICENSE.md)。
+**GitHub仓库现为Public，已完成匿名访问验收（2026-10-26）。** 用户已授权公开本仓库现有代码、六个预训练模型和演示媒体；自有代码、权重及媒体尚未选定开源或再分发许可证，公开可见不等于授予MIT/Apache-2.0等许可。第三方原有许可继续适用。见[公开发布验收报告](docs/34_GitHub公开发布验收报告.md)与[LICENSE.md](LICENSE.md)。

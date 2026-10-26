@@ -1,0 +1,70 @@
+{
+  "commands": [
+    {
+      "command": "python scripts/setup_release.py --check",
+      "cwd": "isolated clone runtime/public_acceptance",
+      "exit_code": 0,
+      "seconds": 10.843,
+      "log": "public_check_0.log"
+    },
+    {
+      "command": "python scripts/portfolio.py doctor",
+      "cwd": "isolated clone runtime/public_acceptance",
+      "exit_code": 0,
+      "seconds": 2.529,
+      "log": "public_check_1.log"
+    },
+    {
+      "command": "python scripts/portfolio.py model",
+      "cwd": "isolated clone runtime/public_acceptance",
+      "exit_code": 0,
+      "seconds": 0.603,
+      "log": "public_check_2.log"
+    },
+    {
+      "command": "python scripts/portfolio.py plan",
+      "cwd": "isolated clone runtime/public_acceptance",
+      "exit_code": 0,
+      "seconds": 1.106,
+      "log": "public_check_3.log"
+    },
+    {
+      "command": "python scripts/portfolio.py policy",
+      "cwd": "isolated clone runtime/public_acceptance",
+      "exit_code": 0,
+      "seconds": 14.122,
+      "log": "public_check_4.log"
+    },
+    {
+      "command": "python scripts/portfolio.py training-replay",
+      "cwd": "isolated clone runtime/public_acceptance",
+      "exit_code": 0,
+      "seconds": 3.144,
+      "log": "public_check_5.log"
+    },
+    {
+      "command": "python scripts/portfolio.py evaluate --compact",
+      "cwd": "isolated clone runtime/public_acceptance",
+      "exit_code": 0,
+      "seconds": 2.827,
+      "log": "public_check_6.log"
+    },
+    {
+      "command": "python scripts/portfolio.py metrics --compact",
+      "cwd": "isolated clone runtime/public_acceptance",
+      "exit_code": 0,
+      "seconds": 1.748,
+      "log": "public_check_7.log"
+    },
+    {
+      "command": "python scripts/portfolio.py media",
+      "cwd": "isolated clone runtime/public_acceptance",
+      "exit_code": 0,
+      "seconds": 15.235,
+      "log": "public_check_8.log"
+    }
+  ],
+  "no_training": true,
+  "metrics_recomputed_in_isolated_clone": true,
+  "original_release_csv_unchanged": true
+}

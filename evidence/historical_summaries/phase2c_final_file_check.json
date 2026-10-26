@@ -1,0 +1,48 @@
+{
+  "required_files": {
+    "docs/11_轨迹时间参数化与动力学执行.md": {
+      "sha256": "b9e527fbf03e7d08f66323c8aa9b74dd35303cd4dd5daca7081fda828b52bdfe",
+      "bytes": 9479
+    },
+    "docs/12_Phase2C验收报告.md": {
+      "sha256": "d2a1f55cd1424d1087246d27262f6de080f6c72f63cc2f35f78ebceceeb2c714",
+      "bytes": 14520
+    },
+    "results/phase2c_execution_summary.csv": {
+      "sha256": "b31652ba87611a590574c89edd9c504a3d7deb8b225f32da337be3f1e7cb8d11",
+      "bytes": 18433
+    },
+    "results/phase2c_tracking.csv": {
+      "sha256": "188611ba01cb4d706b987a16bac07dce0000060e67e64cd2e274217f6a940a31",
+      "bytes": 250660828
+    },
+    "results/phase2c_clearance.csv": {
+      "sha256": "d916c97b7867f49383b3ba1e9152e93469882f79af8aa6596f3c207db80f2226",
+      "bytes": 22337123
+    },
+    "assets/videos/phase2c_dynamic_execution.mp4": {
+      "sha256": "c36cd8b80f817929e42b81220d553b94938f890cd91a31ec6f83c5736fb3d49c",
+      "bytes": 927050
+    }
+  },
+  "all_batch_source_hashes_match_current": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "phase2b_acceptance_artifacts_all_unchanged": true,
+  "video_tracking_rows_matched": 333
+}

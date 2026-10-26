@@ -1,0 +1,340 @@
+{
+  "files": [
+    {
+      "path": "research-archive/docs/29_Phase3D_C策略初始化与动作设计.md",
+      "sha256": "4336b200397413fab4a319ecd2c3cd3ca63470a35a2c6c9748d5dcf6242135ca",
+      "bytes": 8522
+    },
+    {
+      "path": "research-archive/docs/30_Phase3D_C有限训练验收报告.md",
+      "sha256": "767a4166c004111b240f7fed413f742918cf1cc0e88c7756588166ffb441e7d2",
+      "bytes": 10954
+    },
+    {
+      "path": "research-archive/configs/phase3dc.json",
+      "sha256": "360b9749bd43cec01b8600da64d3fed8b77b47c7812ad61073961e385bc18fc2",
+      "bytes": 2298
+    },
+    {
+      "path": "research-archive/configs/phase3dc_interpretation.json",
+      "sha256": "71d8b2173ef56f716a87586f18e244a0b0bd5a2b2bb5b0637f261439fe476db4",
+      "bytes": 705
+    },
+    {
+      "path": "research-archive/results/phase3dc_action_audit.csv",
+      "sha256": "40d6bfe2c17fe9b59dd7646057fbaf44ca92c211fca6c94ec4212e44e99751ad",
+      "bytes": 1154
+    },
+    {
+      "path": "research-archive/results/phase3dc_controller_evaluation.csv",
+      "sha256": "822d20c30f9d6e23a87511ae057c85c35ebc154ebf435b37baaf19f4f264d208",
+      "bytes": 48293
+    },
+    {
+      "path": "research-archive/results/phase3dc_training_comparison.csv",
+      "sha256": "15c603e36a92573a54e1b68a215f0d36fb27598ff60c42f28521e7705811f29d",
+      "bytes": 3720
+    },
+    {
+      "path": "research-archive/assets/plots/phase3dc_action_tcp_clearance.png",
+      "sha256": "9d72de6e2021a1e4589d732e31eb490a08cd4229c68ef7094738eeb55cfb1900",
+      "bytes": 227868
+    },
+    {
+      "path": "research-archive/assets/plots/phase3dc_actual_training_contact_sheet.png",
+      "sha256": "74dc95cd5f17fbd0f6b729ed15e167fb33d50ce95247902b3bf80bd98c063062",
+      "bytes": 418789
+    },
+    {
+      "path": "research-archive/assets/plots/phase3dc_final_comparison.png",
+      "sha256": "9916a4484e7a018b047ea3ba185b8acea23a54c63d3f48216ee4e92e41786236",
+      "bytes": 46168
+    },
+    {
+      "path": "research-archive/assets/plots/phase3dc_learning_curves.png",
+      "sha256": "3d1a13e8e60a9d0dc2c2f6f9a3a7b5aff0fe3adcc633878c3604391a44e1551d",
+      "bytes": 419862
+    },
+    {
+      "path": "research-archive/assets/plots/phase3dc_policy_comparison_contact_sheet.png",
+      "sha256": "6934cd3d65c7132163c6eac685f8e91dcb0303251c59748c4f4991f83e4c0ed5",
+      "bytes": 728593
+    },
+    {
+      "path": "research-archive/assets/videos/phase3dc_actual_training.mp4",
+      "sha256": "e7661a2b15abc806ebaf45f21c6c8afafc90e7d448b6a6aa144c3cbb7b619e13",
+      "bytes": 4047669
+    },
+    {
+      "path": "research-archive/assets/videos/phase3dc_policy_comparison.mp4",
+      "sha256": "bcfe80e1b5beb08832edabebf2272aed03d319a1356d8badf9e1a65d8b31656d",
+      "bytes": 12311236
+    }
+  ],
+  "checkpoint_hashes": [
+    {
+      "method": "M3",
+      "path": null,
+      "sha256": ""
+    },
+    {
+      "method": "Integral500",
+      "path": null,
+      "sha256": ""
+    },
+    {
+      "method": "Integral20",
+      "path": null,
+      "sha256": ""
+    },
+    {
+      "method": "BC85",
+      "path": null,
+      "sha256": ""
+    },
+    {
+      "method": "A_seed42",
+      "path": "research-archive/results/runs/phase3dc_training_continue_1792747188828613400/A_seed42/checkpoints/final.zip",
+      "sha256": "01c2291d9a905e8e7f813eb5aa66bc188eb1ab5c25bbde1591435ef95b7144d7"
+    },
+    {
+      "method": "A_seed123",
+      "path": "research-archive/results/runs/phase3dc_training_continue_1792747188828613400/A_seed123/checkpoints/final.zip",
+      "sha256": "c6253955cbd8dbf83d6584e015fa2455c7ffff3758a1855e7003eca5fb6d5baf"
+    },
+    {
+      "method": "B_seed42",
+      "path": "research-archive/results/runs/phase3dc_training_continue_1792747188828613400/B_seed42/checkpoints/final.zip",
+      "sha256": "36c4872b66979ee3a80f8736e45e46b005b18896620b951c5783de3f844926c3"
+    },
+    {
+      "method": "B_seed123",
+      "path": "research-archive/results/runs/phase3dc_training_continue_1792747188828613400/B_seed123/checkpoints/final.zip",
+      "sha256": "23d44f6ab366314689b41eb11ba9945094972f33220ac5d33fe65538e9405284"
+    }
+  ],
+  "acceptance": {
+    "passed": true,
+    "tests": 222,
+    "historical_files_verified": 9982,
+    "historical_changed": false,
+    "interface": {
+      "passed": true,
+      "action_max_abs_error": 1.1920928955078125e-07,
+      "all_four_trajectories_bitwise_equal": true,
+      "exact_reload": true
+    },
+    "common_gate_passed": true,
+    "training_decisions": 16384,
+    "training_physics": 447208,
+    "metrics": {
+      "validation": {
+        "M3": {
+          "n": 3,
+          "success": 3,
+          "tcp_mm": 0.5600753897704482,
+          "joint_rad": 0.00036100713007569175,
+          "final_tcp_mm": 0.45877136564885745,
+          "min_gap_mm": 21.693487591158632,
+          "violations": 0,
+          "contacts": 0,
+          "residual_squared_rate": 0.0,
+          "saturation": 0
+        },
+        "Integral500": {
+          "n": 3,
+          "success": 3,
+          "tcp_mm": 0.36211159481353034,
+          "joint_rad": 0.0002842508496898914,
+          "final_tcp_mm": 0.1846386027216933,
+          "min_gap_mm": 21.693465710379748,
+          "violations": 0,
+          "contacts": 0,
+          "residual_squared_rate": 1.2720350625248214e-08,
+          "saturation": 0
+        },
+        "Integral20": {
+          "n": 3,
+          "success": 3,
+          "tcp_mm": 0.3624858152813244,
+          "joint_rad": 0.000285072153692986,
+          "final_tcp_mm": 0.18562280693228092,
+          "min_gap_mm": 21.69346397369852,
+          "violations": 0,
+          "contacts": 0,
+          "residual_squared_rate": 3.2441249147196185e-07,
+          "saturation": 0
+        },
+        "BC85": {
+          "n": 3,
+          "success": 3,
+          "tcp_mm": 0.43335786022238265,
+          "joint_rad": 0.0003317619648801105,
+          "final_tcp_mm": 0.27982530906761793,
+          "min_gap_mm": 21.693409335820554,
+          "violations": 0,
+          "contacts": 0,
+          "residual_squared_rate": 3.17009747741358e-07,
+          "saturation": 0
+        },
+        "A_seed42": {
+          "n": 3,
+          "success": 3,
+          "tcp_mm": 0.4464147920157419,
+          "joint_rad": 0.0003358506602328776,
+          "final_tcp_mm": 0.31452275960322096,
+          "min_gap_mm": 21.693495384472243,
+          "violations": 0,
+          "contacts": 0,
+          "residual_squared_rate": 3.503704213179321e-07,
+          "saturation": 0
+        },
+        "A_seed123": {
+          "n": 3,
+          "success": 3,
+          "tcp_mm": 0.44526733715597855,
+          "joint_rad": 0.00033776203319663345,
+          "final_tcp_mm": 0.2797530193955942,
+          "min_gap_mm": 21.693422992226033,
+          "violations": 0,
+          "contacts": 0,
+          "residual_squared_rate": 3.147728344379993e-07,
+          "saturation": 0
+        },
+        "B_seed42": {
+          "n": 3,
+          "success": 3,
+          "tcp_mm": 0.36187973932702305,
+          "joint_rad": 0.00028485855038736413,
+          "final_tcp_mm": 0.18482002546371656,
+          "min_gap_mm": 21.693461151836324,
+          "violations": 0,
+          "contacts": 0,
+          "residual_squared_rate": 3.2396211121395574e-07,
+          "saturation": 0
+        },
+        "B_seed123": {
+          "n": 3,
+          "success": 3,
+          "tcp_mm": 0.3629557955029417,
+          "joint_rad": 0.0002851140520981331,
+          "final_tcp_mm": 0.1859081829629695,
+          "min_gap_mm": 21.6934637154817,
+          "violations": 0,
+          "contacts": 0,
+          "residual_squared_rate": 3.243856440221303e-07,
+          "saturation": 0
+        }
+      },
+      "test": {
+        "M3": {
+          "n": 6,
+          "success": 6,
+          "tcp_mm": 1.154319470616465,
+          "joint_rad": 0.000747591319423309,
+          "final_tcp_mm": 1.2047756005073358,
+          "min_gap_mm": 21.72873184532979,
+          "violations": 0,
+          "contacts": 0,
+          "residual_squared_rate": 0.0,
+          "saturation": 0
+        },
+        "Integral500": {
+          "n": 6,
+          "success": 6,
+          "tcp_mm": 0.4729030203801316,
+          "joint_rad": 0.0003993359696128724,
+          "final_tcp_mm": 0.31059116150882976,
+          "min_gap_mm": 21.728213174318114,
+          "violations": 0,
+          "contacts": 0,
+          "residual_squared_rate": 2.3260992581571564e-08,
+          "saturation": 0
+        },
+        "Integral20": {
+          "n": 6,
+          "success": 6,
+          "tcp_mm": 0.469298587421813,
+          "joint_rad": 0.00039942924640721687,
+          "final_tcp_mm": 0.3114591237928518,
+          "min_gap_mm": 21.728210807636096,
+          "violations": 0,
+          "contacts": 0,
+          "residual_squared_rate": 5.554039844549886e-07,
+          "saturation": 0
+        },
+        "BC85": {
+          "n": 6,
+          "success": 6,
+          "tcp_mm": 0.6648385423623342,
+          "joint_rad": 0.0005356382446483812,
+          "final_tcp_mm": 0.5994285451774459,
+          "min_gap_mm": 21.72800464618706,
+          "violations": 0,
+          "contacts": 0,
+          "residual_squared_rate": 2.2947685231359945e-07,
+          "saturation": 0
+        },
+        "A_seed42": {
+          "n": 6,
+          "success": 6,
+          "tcp_mm": 0.6618443822033789,
+          "joint_rad": 0.0005344569480261185,
+          "final_tcp_mm": 0.6104976939454957,
+          "min_gap_mm": 21.72801365999125,
+          "violations": 0,
+          "contacts": 0,
+          "residual_squared_rate": 2.46569740962893e-07,
+          "saturation": 0
+        },
+        "A_seed123": {
+          "n": 6,
+          "success": 6,
+          "tcp_mm": 0.6947249798767808,
+          "joint_rad": 0.0005486956424151284,
+          "final_tcp_mm": 0.6206489472151404,
+          "min_gap_mm": 21.728158959148757,
+          "violations": 0,
+          "contacts": 0,
+          "residual_squared_rate": 2.1354961107090978e-07,
+          "saturation": 0
+        },
+        "B_seed42": {
+          "n": 6,
+          "success": 6,
+          "tcp_mm": 0.4691336799318963,
+          "joint_rad": 0.00039936959888792553,
+          "final_tcp_mm": 0.3112321221965808,
+          "min_gap_mm": 21.728213053771157,
+          "violations": 0,
+          "contacts": 0,
+          "residual_squared_rate": 5.548622247895008e-07,
+          "saturation": 0
+        },
+        "B_seed123": {
+          "n": 6,
+          "success": 6,
+          "tcp_mm": 0.46969187514713173,
+          "joint_rad": 0.00039948276212585526,
+          "final_tcp_mm": 0.3116084425551476,
+          "min_gap_mm": 21.72820911910761,
+          "violations": 0,
+          "contacts": 0,
+          "residual_squared_rate": 5.551880048269118e-07,
+          "saturation": 0
+        }
+      }
+    },
+    "relative_tcp_improvement_over_integral20": {
+      "A_seed42": -0.4102841984659602,
+      "A_seed123": -0.48034747705803554,
+      "B_seed42": 0.00035139140482536496,
+      "B_seed123": -0.0008380330473171032
+    },
+    "cross_seed_integral_ppo_effect_at_least_one_percent": false,
+    "conclusion": "未获得跨两个训练种子、达到1%描述性效果门槛且保持安全的强积分基线额外收益证据。建议结束当前算法扩展，整理为求职作品集；本轮后不自动扩大训练。",
+    "videos_validated": true,
+    "stage_paused": true,
+    "statistics": "descriptive only; no significance claim"
+  }
+}

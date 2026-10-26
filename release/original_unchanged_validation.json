@@ -1,0 +1,11 @@
+{
+  "verified_files": 13449,
+  "changes": [],
+  "initial_inaccessible": [
+    "pytest-cache-files-a58ybqvf",
+    "results\\runs\\phase3dc_pytest_acceptance_20261023_c",
+    "results\\runs\\phase3dc_pytest_preflight_20261023_a",
+    "results\\runs\\phase3dc_pytest_preflight_20261023_b"
+  ],
+  "excluded": "Git internals and Python bytecode caches; no original experiment data intentionally excluded"
+}

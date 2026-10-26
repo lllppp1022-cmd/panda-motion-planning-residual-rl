@@ -1,0 +1,22 @@
+{
+  "commands": [
+    "setup_release.py --check",
+    "portfolio.py doctor",
+    "portfolio.py model",
+    "portfolio.py plan",
+    "portfolio.py compare",
+    "portfolio.py policy",
+    "portfolio.py training-replay",
+    "portfolio.py execute --method A_seed42 --check",
+    "portfolio.py execute --method B_seed42 --check",
+    "portfolio.py evaluate --compact",
+    "portfolio.py metrics --compact",
+    "portfolio.py media",
+    "pytest default release suite"
+  ],
+  "tests": 8,
+  "historical_tests_archived": 222,
+  "new_training": false,
+  "clean_network_install": false,
+  "manual_GUI_reacceptance": false
+}

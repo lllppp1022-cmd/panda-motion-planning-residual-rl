@@ -1,0 +1,13 @@
+mujoco==3.16.0
+numpy==2.4.6
+scipy==1.17.1
+matplotlib==3.11.2
+PyYAML==6.0.3
+pytest==9.1.1
+Pillow==13.0.0
+imageio==2.38.1
+imageio-ffmpeg==0.6.0
+gymnasium==1.4.0
+stable-baselines3==2.9.0
+tensorboard==2.21.0
+# Install torch==2.14.1+cpu separately from the CPU wheel index; see reproducibility guide.

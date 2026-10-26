@@ -1,0 +1,11 @@
+{
+  "actual_training_frames": 812,
+  "actual_training_duration_s": 81.2,
+  "comparison_frames": 2880,
+  "comparison_duration_s": 288.0,
+  "fps": 10,
+  "width": 960,
+  "height": 832,
+  "full_decode_passed": true,
+  "live_state_validation": "each frame matched archived qpos/ctrl and tracking; all8 comparison tracking files matched frozen formal results"
+}

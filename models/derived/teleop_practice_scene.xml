@@ -1,0 +1,10 @@
+<mujoco model="Panda keyboard practice Phase 1.5">
+ <include file="panda_phase1.xml" />
+ <visual><global offwidth="960" offheight="720" /><headlight diffuse="0.7 0.7 0.7" ambient="0.4 0.4 0.4" /></visual>
+ <asset><texture name="floor_tex" type="2d" builtin="checker" rgb1="0.22 0.28 0.34" rgb2="0.16 0.21 0.26" width="256" height="256" /><material name="floor_mat" texture="floor_tex" texrepeat="3 3" reflectance="0.1" /></asset>
+ <worldbody>
+  <light pos="0 -1 2.5" dir="0 0 -1" directional="true" />
+  <geom name="floor" type="plane" size="2 2 0.05" material="floor_mat" />
+  <body name="target_marker" mocap="true" pos="0.45 0 0.55"><geom name="target_visual" type="sphere" size="0.018" rgba="0.1 0.8 0.2 0.55" contype="0" conaffinity="0" group="1" /></body>
+  </worldbody>
+</mujoco>

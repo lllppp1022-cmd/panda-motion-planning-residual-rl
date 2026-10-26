@@ -1,0 +1,9 @@
+{
+  "frozen_before_final_dynamic_execution":true,
+  "purpose":"Descriptive pilot interpretation only; never select checkpoints or change reward/budget based on final test",
+  "cross_seed_mean_effect_fraction":0.01,
+  "require_all_six_final_tasks_safe_and_complete":true,
+  "caveat":"1 percent is an engineering description scale, NOT statistical significance; always disclose signed effect sizes and per-task results",
+  "nominal_tradeoff":"Report final-checkpoint nominal validation separately; no post-test retuning",
+  "portfolio_rule":"If strong-integral extra benefit is absent or tiny/inconsistent across seeds, recommend ending algorithm expansion and packaging honest negative/positive results"
+}

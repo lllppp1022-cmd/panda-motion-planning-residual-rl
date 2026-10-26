@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+runtime/
+*.log
+.venv/
+evidence/final_tracking/*.csv.gz
+models/upstream_backup/
+*.mjb
+.env
+.env.*
+*.pem
+*.key

@@ -1,0 +1,181 @@
+{
+  "date": "2026-10-22",
+  "groups": [
+    {
+      "method": "M0",
+      "actual_runs": 22,
+      "outcomes": {
+        "success": 16,
+        "failure": 6
+      },
+      "contact_intervals": 2,
+      "hard_violation_runs": 6,
+      "minimum_actual_gap_m": -0.0004432894079066107,
+      "torque_saturation_steps": 0,
+      "maximum_successful_final_tcp_error_m": 0.006724463928965086,
+      "median_successful_final_tcp_error_m": 0.006724433301467459,
+      "joint_rmse_mean_rad": [
+        0.00651239109581436,
+        0.006590986380441324,
+        0.0030234903899259073,
+        0.006569379899761982,
+        0.002753279002510971,
+        0.0029301160127689196,
+        0.004195831040244259
+      ],
+      "actual_max_velocity_rad_s": 0.1508439656335108,
+      "actual_max_acceleration_rad_s2": 8.941548359977293,
+      "max_ctrl_rate_rad_s": 0.35000000000001696,
+      "max_ctrl_acceleration_rad_s2": 239.06785931961105,
+      "compensation_clipped_steps": 0,
+      "position_clipped_steps": 0,
+      "effective_rate_limit_steps": 73,
+      "gravity_amortized_us_per_physics_step": 0.0,
+      "guard_amortized_us_per_physics_step": 0.0,
+      "guard_call_p50_s": null,
+      "guard_call_p95_s": null,
+      "guard_call_max_s": null
+    },
+    {
+      "method": "M1",
+      "actual_runs": 22,
+      "outcomes": {
+        "success": 22
+      },
+      "contact_intervals": 0,
+      "hard_violation_runs": 0,
+      "minimum_actual_gap_m": 0.005741749129003169,
+      "torque_saturation_steps": 0,
+      "maximum_successful_final_tcp_error_m": 3.9686005083077377e-07,
+      "median_successful_final_tcp_error_m": 6.681329113469108e-08,
+      "joint_rmse_mean_rad": [
+        0.006736171232505123,
+        0.00242293903964399,
+        0.003477735814874626,
+        0.001753161561025292,
+        0.0026038856882475083,
+        0.00229204043736919,
+        0.0042133490922627095
+      ],
+      "actual_max_velocity_rad_s": 0.1499583365527186,
+      "actual_max_acceleration_rad_s2": 8.085360157163256,
+      "max_ctrl_rate_rad_s": 0.35000000000000003,
+      "max_ctrl_acceleration_rad_s2": 174.99999999999997,
+      "compensation_clipped_steps": 0,
+      "position_clipped_steps": 0,
+      "effective_rate_limit_steps": 198,
+      "gravity_amortized_us_per_physics_step": 124.21396416834502,
+      "guard_amortized_us_per_physics_step": 0.0,
+      "guard_call_p50_s": null,
+      "guard_call_p95_s": null,
+      "guard_call_max_s": null
+    },
+    {
+      "method": "M2",
+      "actual_runs": 22,
+      "outcomes": {
+        "success": 20,
+        "protected_stop": 2
+      },
+      "contact_intervals": 0,
+      "hard_violation_runs": 0,
+      "minimum_actual_gap_m": 0.007276340182687,
+      "torque_saturation_steps": 0,
+      "maximum_successful_final_tcp_error_m": 3.9686005083077377e-07,
+      "median_successful_final_tcp_error_m": 7.66812776586475e-08,
+      "joint_rmse_mean_rad": [
+        0.0063468687635209195,
+        0.002437659295384944,
+        0.0034814609278224174,
+        0.001784581370548131,
+        0.002669797968367328,
+        0.0023276255700585484,
+        0.004352144590945208
+      ],
+      "actual_max_velocity_rad_s": 0.1499583365527186,
+      "actual_max_acceleration_rad_s2": 8.085360157163256,
+      "max_ctrl_rate_rad_s": 0.35000000000001696,
+      "max_ctrl_acceleration_rad_s2": 220.74411236601765,
+      "compensation_clipped_steps": 0,
+      "position_clipped_steps": 0,
+      "effective_rate_limit_steps": 219,
+      "gravity_amortized_us_per_physics_step": 124.24611884739056,
+      "guard_amortized_us_per_physics_step": 1286.3842988410156,
+      "guard_call_p50_s": 0.03047339990735054,
+      "guard_call_p95_s": 0.04212507014162838,
+      "guard_call_max_s": 0.5736206998117268
+    }
+  ],
+  "actual_dynamic_executions": 66,
+  "condition_assessments": 96,
+  "unique_paths": 11,
+  "static_executions": 6,
+  "authoritative_shadow_executions": 4,
+  "active_pilot_executions": 2,
+  "video_executions": 4,
+  "conservative_stops": 2,
+  "shadow_gate": {
+    "comparisons": 20925,
+    "max_joint_prediction_error_rad": 1.017519402068956e-13,
+    "max_gap_prediction_error_m": 6.825684548822375e-11,
+    "p95_prediction_time_s": 0.030935950204730035,
+    "warning_leads": [
+      {
+        "method": "M0",
+        "source": "research-archive/results/runs/phase2e_shadow_1792636652674219100/case0_M0_shadow",
+        "warning": 10.202000000000076,
+        "violation": 10.522000000000183,
+        "lead_s": 0.32000000000010687
+      },
+      {
+        "method": "M0",
+        "source": "research-archive/results/runs/phase2e_shadow_1792636652674219100/case1_M0_shadow",
+        "warning": 10.60200000000021,
+        "violation": 11.090000000000373,
+        "lead_s": 0.48800000000016297
+      }
+    ],
+    "passed": true,
+    "caution": "Nominal model consistency only; no continuous safety or disturbance guarantee; not hard realtime"
+  },
+  "provenance": {
+    "frozen_files": 740,
+    "unchanged_at_original_paths": 739,
+    "archived_original_test_sources": 1,
+    "experimental_artifacts_all_unchanged": true,
+    "test_assertions_unchanged": true,
+    "explicit_test_selection_fixes": [
+      {
+        "path": "tests/test_phase2d_margin.py",
+        "original_sha256": "24f94e75fd6708a28487bb5ff7e5833e882928031014bc95c5f663f08c1f176f",
+        "original_backup": "research-archive/results/runs/phase2e_freeze_1792636184488662300/original_test_phase2d_margin.py",
+        "reason": "Latest Phase2D demo was user-aborted (viewer_closed). Keep all experiment artifacts; regression must use the immutable accepted video, not mutable latest.",
+        "accepted_video_run": "research-archive/results/runs/phase2d_margin_video_1792574741305131600",
+        "patched_sha256": "dffee7da6a5acb704f4de7e6014aac1efe954fa5a129c0ad177f103f14a4df10"
+      }
+    ]
+  },
+  "csv_all_metrics_recomputed": true,
+  "parameter_perturbations_executed": false,
+  "reinforcement_learning_executed": false,
+  "tests_passed": 137,
+  "video_audit": {
+    "all_matched": true,
+    "videos": [
+      {
+        "kind": "controller",
+        "decoded_frames": 418,
+        "frames_matched_to_actual_tracking": 418,
+        "native_viewers_closed": true,
+        "all_same_live_data": true
+      },
+      {
+        "kind": "guard",
+        "decoded_frames": 414,
+        "frames_matched_to_actual_tracking": 414,
+        "native_viewers_closed": true,
+        "all_same_live_data": true
+      }
+    ]
+  }
+}

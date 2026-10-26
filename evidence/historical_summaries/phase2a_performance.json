@@ -1,0 +1,81 @@
+{
+  "seed": 20261021,
+  "python": "3.11.17",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "mujoco": "3.16.0",
+  "timing": "perf_counter wall-clock; no renderer; no cache shortcut; all audited pairs checked even for invalid states",
+  "cpu": "12th Gen Intel(R) Core(TM) i5-12400F",
+  "inputs_sha256": "0dbf98ae4d4a4b338e57d13a69dd9c41187d9b5b417bfdaddfcfe23bab2d19d4",
+  "benchmarks": [
+    {
+      "robot_geoms": 23,
+      "environment_geoms": 4,
+      "total_collision_geoms": 27,
+      "audited_pairs": 274,
+      "pair_categories": {
+        "self": 183,
+        "external": 91
+      },
+      "queries": 1000,
+      "warmup_queries": 20,
+      "model_load_s": 0.05457379994913936,
+      "query_total_s": 0.7339795995503664,
+      "median_ms": 0.6701000966131687,
+      "p95_ms": 1.0524448473006485,
+      "p99_ms": 1.266102325171232,
+      "max_ms": 1.6147000715136528,
+      "forward_total_s": 0.04992830194532871,
+      "distance_total_s": 0.49673970649018884,
+      "valid_queries": 838
+    },
+    {
+      "robot_geoms": 23,
+      "environment_geoms": 7,
+      "total_collision_geoms": 30,
+      "audited_pairs": 343,
+      "pair_categories": {
+        "self": 183,
+        "external": 160
+      },
+      "queries": 1000,
+      "warmup_queries": 20,
+      "model_load_s": 0.06862909998744726,
+      "query_total_s": 0.8741069999523461,
+      "median_ms": 0.7964000105857849,
+      "p95_ms": 1.2279048096388574,
+      "p99_ms": 1.6012039687484503,
+      "max_ms": 7.164000067859888,
+      "forward_total_s": 0.052118110936135054,
+      "distance_total_s": 0.6158647076226771,
+      "valid_queries": 838
+    },
+    {
+      "robot_geoms": 23,
+      "environment_geoms": 13,
+      "total_collision_geoms": 36,
+      "audited_pairs": 481,
+      "pair_categories": {
+        "self": 183,
+        "external": 298
+      },
+      "queries": 1000,
+      "warmup_queries": 20,
+      "model_load_s": 0.07087279995903373,
+      "query_total_s": 1.1317540002055466,
+      "median_ms": 1.041649840772152,
+      "p95_ms": 1.6292001819238062,
+      "p99_ms": 1.9710758747532964,
+      "max_ms": 2.328000031411648,
+      "forward_total_s": 0.05540380207821727,
+      "distance_total_s": 0.8553535998798907,
+      "valid_queries": 838
+    }
+  ],
+  "model_scene_sha256": "7d9c191b17f0b02596fc7dc329e1155ba3ab22aca61e364115b19f8862cb79e3",
+  "robot_xml_sha256": "6bbe9e79aee916da63af2d1ef361e80dc8ab331c51d991a42ccec5b5c86b6cb9",
+  "ccd_options": {
+    "ccd_tolerance": 1e-06,
+    "ccd_iterations": 35,
+    "disableflags": 0
+  }
+}

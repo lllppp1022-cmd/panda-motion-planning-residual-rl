@@ -1,0 +1,598 @@
+{
+  "nq": 9,
+  "nv": 9,
+  "nu": 8,
+  "njnt": 9,
+  "nbody": 15,
+  "ngeom": 85,
+  "neq": 1,
+  "ntendon": 1,
+  "timestep": 0.002,
+  "integrator": 3,
+  "arm_joints": [
+    {
+      "name": "joint1",
+      "joint_id": 0,
+      "qpos_address": 0,
+      "dof_address": 0,
+      "range_rad": [
+        -2.8973,
+        2.8973
+      ],
+      "actuator": "actuator1",
+      "actuator_id": 0,
+      "ctrlrange": [
+        -2.8973,
+        2.8973
+      ],
+      "forcerange": [
+        -87.0,
+        87.0
+      ],
+      "gain": [
+        4500.0,
+        0.0,
+        0.0
+      ],
+      "bias": [
+        0.0,
+        -4500.0,
+        -450.0
+      ],
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "control_meaning": "desired joint position in radians; not joint torque"
+    },
+    {
+      "name": "joint2",
+      "joint_id": 1,
+      "qpos_address": 1,
+      "dof_address": 1,
+      "range_rad": [
+        -1.7628,
+        1.7628
+      ],
+      "actuator": "actuator2",
+      "actuator_id": 1,
+      "ctrlrange": [
+        -1.7628,
+        1.7628
+      ],
+      "forcerange": [
+        -87.0,
+        87.0
+      ],
+      "gain": [
+        4500.0,
+        0.0,
+        0.0
+      ],
+      "bias": [
+        0.0,
+        -4500.0,
+        -450.0
+      ],
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "control_meaning": "desired joint position in radians; not joint torque"
+    },
+    {
+      "name": "joint3",
+      "joint_id": 2,
+      "qpos_address": 2,
+      "dof_address": 2,
+      "range_rad": [
+        -2.8973,
+        2.8973
+      ],
+      "actuator": "actuator3",
+      "actuator_id": 2,
+      "ctrlrange": [
+        -2.8973,
+        2.8973
+      ],
+      "forcerange": [
+        -87.0,
+        87.0
+      ],
+      "gain": [
+        3500.0,
+        0.0,
+        0.0
+      ],
+      "bias": [
+        0.0,
+        -3500.0,
+        -350.0
+      ],
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "control_meaning": "desired joint position in radians; not joint torque"
+    },
+    {
+      "name": "joint4",
+      "joint_id": 3,
+      "qpos_address": 3,
+      "dof_address": 3,
+      "range_rad": [
+        -3.0718,
+        -0.0698
+      ],
+      "actuator": "actuator4",
+      "actuator_id": 3,
+      "ctrlrange": [
+        -3.0718,
+        -0.0698
+      ],
+      "forcerange": [
+        -87.0,
+        87.0
+      ],
+      "gain": [
+        3500.0,
+        0.0,
+        0.0
+      ],
+      "bias": [
+        0.0,
+        -3500.0,
+        -350.0
+      ],
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "control_meaning": "desired joint position in radians; not joint torque"
+    },
+    {
+      "name": "joint5",
+      "joint_id": 4,
+      "qpos_address": 4,
+      "dof_address": 4,
+      "range_rad": [
+        -2.8973,
+        2.8973
+      ],
+      "actuator": "actuator5",
+      "actuator_id": 4,
+      "ctrlrange": [
+        -2.8973,
+        2.8973
+      ],
+      "forcerange": [
+        -12.0,
+        12.0
+      ],
+      "gain": [
+        2000.0,
+        0.0,
+        0.0
+      ],
+      "bias": [
+        0.0,
+        -2000.0,
+        -200.0
+      ],
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "control_meaning": "desired joint position in radians; not joint torque"
+    },
+    {
+      "name": "joint6",
+      "joint_id": 5,
+      "qpos_address": 5,
+      "dof_address": 5,
+      "range_rad": [
+        -0.0175,
+        3.7525
+      ],
+      "actuator": "actuator6",
+      "actuator_id": 5,
+      "ctrlrange": [
+        -0.0175,
+        3.7525
+      ],
+      "forcerange": [
+        -12.0,
+        12.0
+      ],
+      "gain": [
+        2000.0,
+        0.0,
+        0.0
+      ],
+      "bias": [
+        0.0,
+        -2000.0,
+        -200.0
+      ],
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "control_meaning": "desired joint position in radians; not joint torque"
+    },
+    {
+      "name": "joint7",
+      "joint_id": 6,
+      "qpos_address": 6,
+      "dof_address": 6,
+      "range_rad": [
+        -2.8973,
+        2.8973
+      ],
+      "actuator": "actuator7",
+      "actuator_id": 6,
+      "ctrlrange": [
+        -2.8973,
+        2.8973
+      ],
+      "forcerange": [
+        -12.0,
+        12.0
+      ],
+      "gain": [
+        2000.0,
+        0.0,
+        0.0
+      ],
+      "bias": [
+        0.0,
+        -2000.0,
+        -200.0
+      ],
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "control_meaning": "desired joint position in radians; not joint torque"
+    }
+  ],
+  "all_joints": [
+    {
+      "name": "joint1",
+      "id": 0,
+      "type": 3,
+      "qpos_address": 0,
+      "dof_address": 0,
+      "range": [
+        -2.8973,
+        2.8973
+      ]
+    },
+    {
+      "name": "joint2",
+      "id": 1,
+      "type": 3,
+      "qpos_address": 1,
+      "dof_address": 1,
+      "range": [
+        -1.7628,
+        1.7628
+      ]
+    },
+    {
+      "name": "joint3",
+      "id": 2,
+      "type": 3,
+      "qpos_address": 2,
+      "dof_address": 2,
+      "range": [
+        -2.8973,
+        2.8973
+      ]
+    },
+    {
+      "name": "joint4",
+      "id": 3,
+      "type": 3,
+      "qpos_address": 3,
+      "dof_address": 3,
+      "range": [
+        -3.0718,
+        -0.0698
+      ]
+    },
+    {
+      "name": "joint5",
+      "id": 4,
+      "type": 3,
+      "qpos_address": 4,
+      "dof_address": 4,
+      "range": [
+        -2.8973,
+        2.8973
+      ]
+    },
+    {
+      "name": "joint6",
+      "id": 5,
+      "type": 3,
+      "qpos_address": 5,
+      "dof_address": 5,
+      "range": [
+        -0.0175,
+        3.7525
+      ]
+    },
+    {
+      "name": "joint7",
+      "id": 6,
+      "type": 3,
+      "qpos_address": 6,
+      "dof_address": 6,
+      "range": [
+        -2.8973,
+        2.8973
+      ]
+    },
+    {
+      "name": "finger_joint1",
+      "id": 7,
+      "type": 2,
+      "qpos_address": 7,
+      "dof_address": 7,
+      "range": [
+        0.0,
+        0.04
+      ]
+    },
+    {
+      "name": "finger_joint2",
+      "id": 8,
+      "type": 2,
+      "qpos_address": 8,
+      "dof_address": 8,
+      "range": [
+        0.0,
+        0.04
+      ]
+    }
+  ],
+  "all_actuators": [
+    {
+      "id": 0,
+      "name": "actuator1",
+      "transmission_type": 0,
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "ctrlrange": [
+        -2.8973,
+        2.8973
+      ],
+      "gain": [
+        4500.0,
+        0.0,
+        0.0
+      ],
+      "bias": [
+        0.0,
+        -4500.0,
+        -450.0
+      ]
+    },
+    {
+      "id": 1,
+      "name": "actuator2",
+      "transmission_type": 0,
+      "transmission_ids": [
+        1,
+        -1
+      ],
+      "ctrlrange": [
+        -1.7628,
+        1.7628
+      ],
+      "gain": [
+        4500.0,
+        0.0,
+        0.0
+      ],
+      "bias": [
+        0.0,
+        -4500.0,
+        -450.0
+      ]
+    },
+    {
+      "id": 2,
+      "name": "actuator3",
+      "transmission_type": 0,
+      "transmission_ids": [
+        2,
+        -1
+      ],
+      "ctrlrange": [
+        -2.8973,
+        2.8973
+      ],
+      "gain": [
+        3500.0,
+        0.0,
+        0.0
+      ],
+      "bias": [
+        0.0,
+        -3500.0,
+        -350.0
+      ]
+    },
+    {
+      "id": 3,
+      "name": "actuator4",
+      "transmission_type": 0,
+      "transmission_ids": [
+        3,
+        -1
+      ],
+      "ctrlrange": [
+        -3.0718,
+        -0.0698
+      ],
+      "gain": [
+        3500.0,
+        0.0,
+        0.0
+      ],
+      "bias": [
+        0.0,
+        -3500.0,
+        -350.0
+      ]
+    },
+    {
+      "id": 4,
+      "name": "actuator5",
+      "transmission_type": 0,
+      "transmission_ids": [
+        4,
+        -1
+      ],
+      "ctrlrange": [
+        -2.8973,
+        2.8973
+      ],
+      "gain": [
+        2000.0,
+        0.0,
+        0.0
+      ],
+      "bias": [
+        0.0,
+        -2000.0,
+        -200.0
+      ]
+    },
+    {
+      "id": 5,
+      "name": "actuator6",
+      "transmission_type": 0,
+      "transmission_ids": [
+        5,
+        -1
+      ],
+      "ctrlrange": [
+        -0.0175,
+        3.7525
+      ],
+      "gain": [
+        2000.0,
+        0.0,
+        0.0
+      ],
+      "bias": [
+        0.0,
+        -2000.0,
+        -200.0
+      ]
+    },
+    {
+      "id": 6,
+      "name": "actuator7",
+      "transmission_type": 0,
+      "transmission_ids": [
+        6,
+        -1
+      ],
+      "ctrlrange": [
+        -2.8973,
+        2.8973
+      ],
+      "gain": [
+        2000.0,
+        0.0,
+        0.0
+      ],
+      "bias": [
+        0.0,
+        -2000.0,
+        -200.0
+      ]
+    },
+    {
+      "id": 7,
+      "name": "actuator8",
+      "transmission_type": 3,
+      "transmission_ids": [
+        0,
+        -1
+      ],
+      "ctrlrange": [
+        0.0,
+        255.0
+      ],
+      "gain": [
+        0.01568627451,
+        0.0,
+        0.0
+      ],
+      "bias": [
+        0.0,
+        -100.0,
+        -10.0
+      ]
+    }
+  ],
+  "tool_site_id": 0,
+  "tool_body": "hand",
+  "tool_local_position": [
+    0.0,
+    0.0,
+    0.1034
+  ],
+  "tool_local_quaternion": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "tool_world_position": [
+    0.5544994780317354,
+    -5.186760451828153e-33,
+    0.5211024294875892
+  ],
+  "base_world_position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "gripper": "Two slide joints coupled by equality; actuator8 drives split tendon, ctrl0..255 maps to average finger opening0..0.04m"
+}

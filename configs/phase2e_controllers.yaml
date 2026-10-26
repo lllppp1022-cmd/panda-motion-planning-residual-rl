@@ -1,0 +1,13 @@
+# Frozen before the static pilot. Original dynamics and task thresholds unchanged.
+compensation_max_offset_rad: 0.02
+command_slew_rad_s: 0.35
+guard_period_s: 0.05
+prediction_horizon_s: 0.30
+prediction_collision_period_s: 0.02
+execution_clearance_m: 0.005
+prediction_warning_margin_m: 0.007
+models: [M0, M1, M2]
+speeds_rad_s: [0.10, 0.15]
+static_cases: [home, D_start, D_critical_reference]
+maximum_parallel_workers: 3
+active_guard_policy: early_abort_to_compensated_restricted_hold

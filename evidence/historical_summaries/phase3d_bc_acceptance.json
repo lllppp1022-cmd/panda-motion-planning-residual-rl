@@ -1,0 +1,134 @@
+{
+  "passed": true,
+  "tests": 209,
+  "historical_files_verified": 8661,
+  "historical_changes": [],
+  "final_frozen_source_and_checkpoints_match": true,
+  "unique_dynamic_runs": 79,
+  "unique_experiment_physics_steps": 681342,
+  "dataset_physics_steps": 239536,
+  "video_additional_physics_steps": 49570,
+  "counts_exclude_automated_test_executions": true,
+  "ppo_optimizer_steps": 0,
+  "aggregates": {
+    "validation": {
+      "M3": {
+        "n": 4,
+        "success": 4,
+        "tcp_rmse_mm": 0.6137572866142027,
+        "joint_rmse_rad": 0.00034503227581140995,
+        "final_tcp_mm": 0.546825114616863,
+        "minimum_clearance_mm": 19.74182701829362,
+        "violations": 0,
+        "prohibited_contacts": 0,
+        "own_state_action_mse": 0.19010499212890863
+      },
+      "Integral500": {
+        "n": 4,
+        "success": 4,
+        "tcp_rmse_mm": 0.3215703200128865,
+        "joint_rmse_rad": 0.00021270259262287942,
+        "final_tcp_mm": 0.1332918734975748,
+        "minimum_clearance_mm": 20.489939712408866,
+        "violations": 0,
+        "prohibited_contacts": 0,
+        "own_state_action_mse": 0.0
+      },
+      "Integral20": {
+        "n": 4,
+        "success": 4,
+        "tcp_rmse_mm": 0.3195726363138369,
+        "joint_rmse_rad": 0.0002122393732566788,
+        "final_tcp_mm": 0.13318170452804867,
+        "minimum_clearance_mm": 20.53024159274404,
+        "violations": 0,
+        "prohibited_contacts": 0,
+        "own_state_action_mse": 0.0
+      },
+      "BC78": {
+        "n": 4,
+        "success": 4,
+        "tcp_rmse_mm": 0.5937598346310967,
+        "joint_rmse_rad": 0.00041133953486189505,
+        "final_tcp_mm": 0.40199152082132844,
+        "minimum_clearance_mm": 20.45567795222851,
+        "violations": 0,
+        "prohibited_contacts": 0,
+        "own_state_action_mse": 0.13653230480849743
+      },
+      "BC85": {
+        "n": 4,
+        "success": 4,
+        "tcp_rmse_mm": 0.3941673133792141,
+        "joint_rmse_rad": 0.0002600465361586986,
+        "final_tcp_mm": 0.17555308100292855,
+        "minimum_clearance_mm": 20.543447438282236,
+        "violations": 0,
+        "prohibited_contacts": 0,
+        "own_state_action_mse": 0.006657663092482835
+      }
+    },
+    "final": {
+      "M3": {
+        "n": 6,
+        "success": 6,
+        "tcp_rmse_mm": 1.0866625695973884,
+        "joint_rmse_rad": 0.0006341194952888382,
+        "final_tcp_mm": 1.0680815915749988,
+        "minimum_clearance_mm": 22.88800322900553,
+        "violations": 0,
+        "prohibited_contacts": 0,
+        "own_state_action_mse": 0.36174846937259036
+      },
+      "Integral500": {
+        "n": 6,
+        "success": 6,
+        "tcp_rmse_mm": 0.403321488016908,
+        "joint_rmse_rad": 0.0003115591054922597,
+        "final_tcp_mm": 0.24719198030489295,
+        "minimum_clearance_mm": 22.883144976272604,
+        "violations": 0,
+        "prohibited_contacts": 0,
+        "own_state_action_mse": 0.0
+      },
+      "Integral20": {
+        "n": 6,
+        "success": 6,
+        "tcp_rmse_mm": 0.3976129961046228,
+        "joint_rmse_rad": 0.00031079073090178937,
+        "final_tcp_mm": 0.24785503372287807,
+        "minimum_clearance_mm": 22.883058133181425,
+        "violations": 0,
+        "prohibited_contacts": 0,
+        "own_state_action_mse": 0.0
+      },
+      "BC78": {
+        "n": 6,
+        "success": 6,
+        "tcp_rmse_mm": 0.7161253208432065,
+        "joint_rmse_rad": 0.0005846501304167814,
+        "final_tcp_mm": 0.6691080319895719,
+        "minimum_clearance_mm": 22.884603723326777,
+        "violations": 0,
+        "prohibited_contacts": 0,
+        "own_state_action_mse": 0.2989969352881114
+      },
+      "BC85": {
+        "n": 6,
+        "success": 6,
+        "tcp_rmse_mm": 0.5040663941966218,
+        "joint_rmse_rad": 0.00035810122800822167,
+        "final_tcp_mm": 0.44241561981940225,
+        "minimum_clearance_mm": 22.885298476320187,
+        "violations": 0,
+        "prohibited_contacts": 0,
+        "own_state_action_mse": 0.030497040327948827
+      }
+    }
+  },
+  "video": "research-archive/results/runs/phase3d_bc_video_1792744038891360000/phase3d_bc_vs_integral.mp4",
+  "video_frames": 1000,
+  "video_duration_s": 100.0,
+  "video_all_tracking_matches": true,
+  "ready_for_automatic_ppo": false
+}

@@ -1,0 +1,9 @@
+{
+  "scanned_files": 639,
+  "text_files": 461,
+  "findings": [],
+  "files_over25MiB": [],
+  "total_candidate_bytes": 214398185,
+  "excludes": "Gitignored runtime, raw large CSV.gz and environment caches; no credentials read by this scanner",
+  "third_party_license_present": true
+}

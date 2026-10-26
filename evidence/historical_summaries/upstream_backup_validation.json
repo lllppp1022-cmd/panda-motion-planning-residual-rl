@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "files": 80,
+  "bytes": 37488535,
+  "source": "models\\mujoco_menagerie\\franka_emika_panda",
+  "backup": "models\\upstream_backup\\franka_emika_panda"
+}

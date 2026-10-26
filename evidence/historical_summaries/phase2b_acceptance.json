@@ -1,0 +1,67 @@
+{
+  "phase": "2B",
+  "date_local": "2026-10-21",
+  "pytest": {
+    "passed": 89,
+    "failed": 0,
+    "skipped": 0
+  },
+  "pilot_run": "research-archive/results/runs/phase2b_pilot_1792571046083953000",
+  "batch_run": "research-archive/results/runs/phase2b_batch_1792571440539901700",
+  "native_demo_run": "research-archive/results/runs/phase2b_rrt_demo_1792571556789686400",
+  "regression_run": "research-archive/results/runs/phase2b_regression_evidence_1792571537523801200",
+  "representative_trials": 50,
+  "representative_successes": 49,
+  "expected_invalid_rejections": 30,
+  "fine_rejections": 1,
+  "previous_stage_hashes_unchanged": {
+    "src/planning/collision_checker.py": true,
+    "configs/planning_collision.yaml": true,
+    "src/robot/teleop.py": true,
+    "scripts/teleop_panda.py": true,
+    "configs/teleop.yaml": true,
+    "src/robot/joint_controller.py": true,
+    "models/derived/panda_phase1.xml": true,
+    "models/derived/phase2a_scene.xml": true,
+    "results/phase2a_acceptance.json": true,
+    "results/phase2a_latest.json": true,
+    "scripts/phase2a_resolution.py": true,
+    "tests/test_phase2a_collision.py": true
+  },
+  "native_video": {
+    "source": "KINEMATIC PLANNING VISUALIZATION; NOT DYNAMIC SERVO EXECUTION; independent MjData; mj_forward only",
+    "frames": 356,
+    "expected_frames": 356,
+    "interrupted": false,
+    "viewer_closed": true,
+    "native_viewer_launched": true,
+    "fps": 10,
+    "physics_steps": 0,
+    "max_displayed_joint_motion_rad": 1.3000000000000003,
+    "mp4_sha256": "15384ceb63be8af11a2cd6cba6bde20680fff14a5662abcea035450b49c5b952",
+    "decoded_frames": 356,
+    "duration_s": 35.6,
+    "resolution": [
+      960,
+      768
+    ],
+    "file_bytes": 910932,
+    "raw_unique_frames": 257
+  },
+  "dynamic_execution": false,
+  "reinforcement_learning_executed": false,
+  "continuous_safety_guarantee": false,
+  "audited_after_runs_sha256": {
+    "src\\planning\\rrt_connect.py": "fb48db3543f02b61b65fc65ae580e95da0889dd0c169e6c7cc45d40590807308",
+    "tests\\test_rrt_connect.py": "5d2cec81c0423837cd04addfa3cef33349bbe1511aa9918337ce44fd334787cc",
+    "configs\\phase2b_scenes.yaml": "a988cb5bde348e5a2c5f9dd86ce514dbfdb7721ca532d2b6e9c13a99529b46fd",
+    "configs\\rrt_connect.yaml": "26a7b2bcf1461635190e6ce28a7d32d9aadcb5cd9c01d142cec40d8bd582100f",
+    "scripts\\demo_rrt_connect.py": "91d2855f91fd5e067f9e0580df4c4a1a29175337981e39d15a037d0845da3f94",
+    "scripts\\phase2b_visualization.py": "4535aa017d16ec3afc73379b212971761a299546bce00b91812e127feb6b10ca",
+    "docs\\09_RRTConnect算法设计与原理.md": "bd6686faf071d06753a8ff387df419e38f77832022917ca8b96c4d5cc548565f",
+    "docs\\10_Phase2B验收报告.md": "c7b424626144253e8adae6be4692dbadc44905cd538facd53a28190a97b48974",
+    "results\\phase2b_planning_results.csv": "923e20c98b91586593031cbe0a2a23392a1bc9563b5e7d838e3127d488559c28",
+    "results\\phase2b_path_validation.csv": "23c77d256cd8708eb63d24ea94f7d95e5a383e9ed49ad34f70c51b6e038d7261",
+    "results\\phase2b_performance.json": "883519c3540b11f9c59eaeef0328708b3e4550fa4079801e844b38f94b10eeb0"
+  }
+}

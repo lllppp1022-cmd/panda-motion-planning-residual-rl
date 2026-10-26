@@ -1,0 +1,19 @@
+{
+  "all_matched": true,
+  "videos": [
+    {
+      "kind": "controller",
+      "decoded_frames": 418,
+      "frames_matched_to_actual_tracking": 418,
+      "native_viewers_closed": true,
+      "all_same_live_data": true
+    },
+    {
+      "kind": "guard",
+      "decoded_frames": 414,
+      "frames_matched_to_actual_tracking": 414,
+      "native_viewers_closed": true,
+      "all_same_live_data": true
+    }
+  ]
+}

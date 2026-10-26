@@ -1,0 +1,34 @@
+{
+  "phase": "2A",
+  "date_local": "2026-10-21",
+  "pytest": {
+    "passed": 71,
+    "failed": 0,
+    "skipped": 0
+  },
+  "numerical_run": "research-archive/results/runs/phase2a_validation_1792552512460507700",
+  "native_collision_run": "research-archive/results/runs/phase2a_collision_demo_1792552519491151300",
+  "native_edge_run": "research-archive/results/runs/phase2a_edge_demo_1792552419164423000",
+  "included_pairs": 274,
+  "excluded_pairs": 71,
+  "previous_stage_hashes_unchanged": true,
+  "model_commit": "cda5236f98383f6fbaa4820c6b18dba892cd087f",
+  "coarse_resolution_false_negative_demonstrated": true,
+  "continuous_collision_guarantee": false,
+  "rrt_implemented": false,
+  "reinforcement_learning_executed": false,
+  "audited_after_runs_sha256": {
+    "src/planning/collision_checker.py": "6b45feda5270bf0e3477f980544bda60e99814998c4877f9ab176495c302f79a",
+    "configs/planning_collision.yaml": "201b70f001a03ce894c01779772a84e466f669972afad46573d2503c480f0d41",
+    "tests/test_phase2a_collision.py": "c339938b32b1de598ecfdc493d9e378967bfbb919c177ebe498e6145fd2b8fe8",
+    "scripts/phase2a_cases.py": "2d853a8333334bbe6758d4023a4c91d069e2d94cdb9cee8268da92f4c95a34f1",
+    "scripts/phase2a_resolution.py": "793062c344e97d980cb50550745d80fa3791d4c45ac9a5509e7c7c1bd13222e0",
+    "scripts/run_phase2a_validation.py": "e5ca74a287fb33b7d77b642e21bcc694d6165ebe9413d6245117f67d8029f311",
+    "scripts/demo_collision_checker.py": "64835128ced67f6a1058feb0d5edf2b7cd9e44bc099e8f0be47c2c614719169e",
+    "scripts/demo_edge_validation.py": "c2f204a72a496d06f1885b515709e07434b72c2e45b7f142ddade9199fcd322a",
+    "scripts/phase2a_visualization.py": "b775161fd90bcb6e23f2567d46b1267ddafba2f4c74e7120f107461d3b5f7929",
+    "models/derived/phase2a_scene.xml": "7d9c191b17f0b02596fc7dc329e1155ba3ab22aca61e364115b19f8862cb79e3",
+    "assets/videos/phase2a_collision_demo.mp4": "0f95f6b4aa399b84f270e5f55916f35e953be7b921b8b6fd24380111f077565d",
+    "assets/videos/phase2a_edge_demo.mp4": "51baefca6b9b60615dbb362e9e3eb31484d85a41ddbc939a6f54fe58aea4ffdc"
+  }
+}

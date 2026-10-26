@@ -1,0 +1,42 @@
+{
+  "BC78": {
+    "path": "models/pretrained/BC78_best.pt",
+    "sha256": "31be9237c94fe78c72262ed4f5052713916bd8d3951a9a5e926aa9094cb9dd2d",
+    "input_dim": 78,
+    "source": "Phase3D-B validation-best"
+  },
+  "BC85": {
+    "path": "models/pretrained/BC85_best.pt",
+    "sha256": "b245652748bd3c6a23eae99c955fdf755da5cde7f3fb6621428bb46ddbf453d7",
+    "input_dim": 85,
+    "source": "Phase3D-B validation-best"
+  },
+  "A_seed42": {
+    "path": "models/pretrained/A_seed42.zip",
+    "sha256": "01c2291d9a905e8e7f813eb5aa66bc188eb1ab5c25bbde1591435ef95b7144d7",
+    "input_dim": 85,
+    "decisions": 4096,
+    "source": "fixed4096 budget, no best-seed selection"
+  },
+  "A_seed123": {
+    "path": "models/pretrained/A_seed123.zip",
+    "sha256": "c6253955cbd8dbf83d6584e015fa2455c7ffff3758a1855e7003eca5fb6d5baf",
+    "input_dim": 85,
+    "decisions": 4096,
+    "source": "fixed4096 budget, no best-seed selection"
+  },
+  "B_seed42": {
+    "path": "models/pretrained/B_seed42.zip",
+    "sha256": "36c4872b66979ee3a80f8736e45e46b005b18896620b951c5783de3f844926c3",
+    "input_dim": 85,
+    "decisions": 4096,
+    "source": "fixed4096 budget, no best-seed selection"
+  },
+  "B_seed123": {
+    "path": "models/pretrained/B_seed123.zip",
+    "sha256": "23d44f6ab366314689b41eb11ba9945094972f33220ac5d33fe65538e9405284",
+    "input_dim": 85,
+    "decisions": 4096,
+    "source": "fixed4096 budget, no best-seed selection"
+  }
+}

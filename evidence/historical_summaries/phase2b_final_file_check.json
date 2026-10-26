@@ -1,0 +1,38 @@
+{
+  "previous_phase2a_acceptance_comparison": {
+    "src/planning/collision_checker.py": true,
+    "configs/planning_collision.yaml": true,
+    "tests/test_phase2a_collision.py": true,
+    "scripts/phase2a_cases.py": true,
+    "scripts/phase2a_resolution.py": true,
+    "scripts/run_phase2a_validation.py": true,
+    "scripts/demo_collision_checker.py": true,
+    "scripts/demo_edge_validation.py": true,
+    "scripts/phase2a_visualization.py": true,
+    "models/derived/phase2a_scene.xml": true,
+    "assets/videos/phase2a_collision_demo.mp4": false,
+    "assets/videos/phase2a_edge_demo.mp4": true
+  },
+  "preexisting_video_difference": {
+    "original": "research-archive/results/runs/phase2a_collision_demo_1792552519491151300/phase2a_collision_demo.mp4",
+    "newer": "research-archive/results/runs/phase2a_collision_demo_1792570235842638700/phase2a_collision_demo.mp4",
+    "original_preserved": true,
+    "newer_predates_phase2b_snapshot": true
+  },
+  "batch_source_matches_current": {
+    "src/planning/rrt_connect.py": true,
+    "src/planning/collision_checker.py": true,
+    "configs/planning_collision.yaml": true,
+    "scripts/run_phase2b_experiments.py": true
+  },
+  "required_files": {
+    "src/planning/rrt_connect.py": "fb48db3543f02b61b65fc65ae580e95da0889dd0c169e6c7cc45d40590807308",
+    "scripts/demo_rrt_connect.py": "91d2855f91fd5e067f9e0580df4c4a1a29175337981e39d15a037d0845da3f94",
+    "docs/09_RRTConnect算法设计与原理.md": "bd6686faf071d06753a8ff387df419e38f77832022917ca8b96c4d5cc548565f",
+    "docs/10_Phase2B验收报告.md": "c7b424626144253e8adae6be4692dbadc44905cd538facd53a28190a97b48974",
+    "results/phase2b_planning_results.csv": "923e20c98b91586593031cbe0a2a23392a1bc9563b5e7d838e3127d488559c28",
+    "results/phase2b_path_validation.csv": "23c77d256cd8708eb63d24ea94f7d95e5a383e9ed49ad34f70c51b6e038d7261",
+    "results/phase2b_performance.json": "883519c3540b11f9c59eaeef0328708b3e4550fa4079801e844b38f94b10eeb0",
+    "assets/videos/phase2b_rrt_planning_demo.mp4": "15384ceb63be8af11a2cd6cba6bde20680fff14a5662abcea035450b49c5b952"
+  }
+}

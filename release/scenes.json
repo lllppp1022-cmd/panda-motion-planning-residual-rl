@@ -1,0 +1,27 @@
+[
+  {
+    "scene": "dc_train_sphere",
+    "split": "train",
+    "path": "evidence/scenes/dc_train_sphere_521.json"
+  },
+  {
+    "scene": "dc_train_cylinder",
+    "split": "train",
+    "path": "evidence/scenes/dc_train_cylinder_521.json"
+  },
+  {
+    "scene": "dc_validation_box",
+    "split": "validation",
+    "path": "evidence/scenes/dc_validation_box_521.json"
+  },
+  {
+    "scene": "dc_final_cylinder",
+    "split": "test",
+    "path": "evidence/scenes/dc_final_cylinder_521.json"
+  },
+  {
+    "scene": "dc_final_sphere",
+    "split": "test",
+    "path": "evidence/scenes/dc_final_sphere_521.json"
+  }
+]

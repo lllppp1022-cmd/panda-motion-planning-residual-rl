@@ -1,0 +1,10 @@
+# Global planning uses actual MJCF joint limits, NOT the teleop practice envelope.
+minimum_clearance_m: 0.005
+distance_query_max_m: 0.10
+numerical_tolerance_m: 0.0000001
+edge_step_rad: 0.02
+verification_step_rad: 0.005
+maximum_edge_segments: 5000
+gripper_opening_m: 0.04
+# Optional extra planning bounds; null means actual seven MJCF hard limits.
+planning_joint_bounds_rad: null

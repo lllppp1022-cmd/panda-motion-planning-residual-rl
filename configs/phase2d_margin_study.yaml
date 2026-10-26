@@ -1,0 +1,10 @@
+planning_clearances_m: [0.005, 0.008, 0.010, 0.015]
+execution_clearance_m: 0.005
+planning_seeds: [42, 123, 2026]
+reference_speeds_rad_s: [0.10, 0.15]
+deterministic_execution_repeats_per_path_speed: 1
+# Bounded pilot: all 12 searches, then execute every accepted path at both speeds.
+# Larger planning cohorts require an explicit recorded budget decision.
+scene: D_two_obstacles
+historical_scene_seed: 42
+control_variant: original_position_servo

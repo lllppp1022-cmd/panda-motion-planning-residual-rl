@@ -1,0 +1,17 @@
+{
+  "files": {
+    "docs/25_Phase3D_A训练可视化使用教程.md": "1ef697104f600f438fa3330a9445c6483ba6d187b230a7971be4d1acbe4dd5bd",
+    "docs/26_Phase3D_A验收报告.md": "c75c84b49d0031cc4204f293400c08bccf1c2c1f1601e28c70559c50270737d4",
+    "scripts/watch_ppo_training.py": "8038d1074c1d6439d39adf8ea8b7ed709adff8a535151870ae51120853e7c54d",
+    "scripts/train_phase3d_observed.py": "7a8c4ff2ee11e77b7cf4ea9e412f0e6ca85fd1004803a285aa535efa4516941f",
+    "assets/videos/phase3d_actual_training.mp4": "dc5bcdada20b6c5d09cb7086e559b1dd064754156bab348ff64e8671167d6a07",
+    "assets/plots/phase3d_action_vs_applied.png": "881c54c59eb1352dbdc1ad4718184c85a26831e9817f8e0a71f09695e3c90c99",
+    "assets/plots/phase3d_ppo_update_timeline.png": "8556d13c9faf71b62ff94a685cfb9b7c7f1d5e147a9d381452349e1e2098f790",
+    "assets/plots/phase3d_tcp_error.png": "df391aeb6e914fe797210e947fcfa031c0c9024dbcabd8fa632731dea6dd6ed3",
+    "assets/plots/phase3d_reward_components.png": "751cc102d8d088ee74c56f6d06b0a5af9b833000fdb2f8a64e42b0fd0b23fb8e",
+    "assets/plots/phase3d_independent_evaluation.png": "fae62d9eea564ca998480e5c425e04e8971057c46fe13a242ad7f85a6ea079b3",
+    "results/phase3d_recording_validation.json": "7d135738f9cce47702e1f2de096bd7b69dc9fb1abd5a056b054d8ed63fdfa431"
+  },
+  "historical_unchanged": true,
+  "training_stopped": true
+}

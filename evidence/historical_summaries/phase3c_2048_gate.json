@@ -1,0 +1,44 @@
+{
+  "all_four_passed": true,
+  "groups": [
+    {
+      "version": "R0",
+      "seed": 42,
+      "training_safe": true,
+      "networks_updated": true,
+      "completed_mismatch_episodes": 4,
+      "validation_safe_and_complete": true,
+      "passed": true
+    },
+    {
+      "version": "R1",
+      "seed": 42,
+      "training_safe": true,
+      "networks_updated": true,
+      "completed_mismatch_episodes": 4,
+      "validation_safe_and_complete": true,
+      "passed": true
+    },
+    {
+      "version": "R0",
+      "seed": 123,
+      "training_safe": true,
+      "networks_updated": true,
+      "completed_mismatch_episodes": 4,
+      "validation_safe_and_complete": true,
+      "passed": true
+    },
+    {
+      "version": "R1",
+      "seed": 123,
+      "training_safe": true,
+      "networks_updated": true,
+      "completed_mismatch_episodes": 4,
+      "validation_safe_and_complete": true,
+      "passed": true
+    }
+  ],
+  "training_run": "research-archive/results/runs/phase3c_training_initial_1792661639684930100",
+  "evaluation_run": "research-archive/results/runs/phase3c_eval_gate_1792661876878166300",
+  "common_budget": "continue all to4096 only if all pass; otherwise all stop2048"
+}

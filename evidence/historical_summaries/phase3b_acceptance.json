@@ -1,0 +1,40 @@
+{
+  "tests_passed": 173,
+  "training_run": "research-archive/results/runs/phase3b_training_1792658731055848900",
+  "evaluation_validation_run": "research-archive/results/runs/phase3b_eval_validation_1792658808381704200",
+  "evaluation_final_run": "research-archive/results/runs/phase3b_eval_final_1792659094600682200",
+  "zero_residual_gate": true,
+  "nonzero_gate": true,
+  "prior_files_unchanged": 2132,
+  "training_decisions": 1024,
+  "training_physics": 28833,
+  "final_model": "research-archive/results/runs/phase3b_training_1792658731055848900/checkpoints/ppo_smoke_final.zip",
+  "final_model_sha256": "32ae03f299209d96056b1f044b2a290224ec52997daf9fa410ca8f6b354f163e",
+  "recommend_long_training": false,
+  "required_files": {
+    "docs/20_Phase3B残差RL环境设计.md": {
+      "sha256": "e0400b5f6c9f3613692d30795b3a426da77a0b47e261ca1c5f98170c24f8c514",
+      "bytes": 6750
+    },
+    "docs/21_Phase3B首次训练验收报告.md": {
+      "sha256": "5eec8f49c6d43c84c0a7b540cc6a1a784b3ed92ab350824fc1abf0562fb92100",
+      "bytes": 11384
+    },
+    "results/phase3b_smoke_training.csv": {
+      "sha256": "e35cd819b27fc0831136a6fe575f9c89180a08a335b875a40397c550fae7cae4",
+      "bytes": 541476
+    },
+    "results/phase3b_zero_residual_equivalence.json": {
+      "sha256": "d733357368a7e27d4081d41981231f9fe7e210f811a54b0345d11942fbe244f8",
+      "bytes": 1297
+    },
+    "results/phase3b_action_safety_tests.json": {
+      "sha256": "0f074f199e4bacc62716624322a320be7e8ba6bfd36ac961241d749118213db0",
+      "bytes": 36624
+    },
+    "assets/plots/phase3b_reward_curve.png": {
+      "sha256": "8550a76f09741b5200578eafd152288a086b75fe9d10bd1966c8a8d1a91d94de",
+      "bytes": 91088
+    }
+  }
+}

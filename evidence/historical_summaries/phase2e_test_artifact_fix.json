@@ -1,0 +1,8 @@
+{
+  "path": "tests/test_phase2d_margin.py",
+  "original_sha256": "24f94e75fd6708a28487bb5ff7e5833e882928031014bc95c5f663f08c1f176f",
+  "original_backup": "research-archive/results/runs/phase2e_freeze_1792636184488662300/original_test_phase2d_margin.py",
+  "reason": "Latest Phase2D demo was user-aborted (viewer_closed). Keep all experiment artifacts; regression must use the immutable accepted video, not mutable latest.",
+  "accepted_video_run": "research-archive/results/runs/phase2d_margin_video_1792574741305131600",
+  "patched_sha256": "dffee7da6a5acb704f4de7e6014aac1efe954fa5a129c0ad177f103f14a4df10"
+}

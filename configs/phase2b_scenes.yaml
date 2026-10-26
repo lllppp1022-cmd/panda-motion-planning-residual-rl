@@ -1,0 +1,582 @@
+training_or_dynamics: false
+planning_seeds:
+- 42
+- 123
+- 2026
+- 7
+- 11
+- 19
+- 31
+- 73
+- 101
+- 314
+pilot_seeds:
+- 42
+- 123
+- 2026
+checker_options:
+  minimum_clearance_m: 0.005
+  distance_query_max_m: 0.1
+  numerical_tolerance_m: 1.0e-07
+  edge_step_rad: 0.02
+  verification_step_rad: 0.005
+  maximum_edge_segments: 5000
+  gripper_opening_m: 0.04
+  planning_joint_bounds_rad: null
+planner_config: configs/rrt_connect.yaml
+sampling: Seven arm MJCF limits; fixed Phase2A gripper; parked objects remain checked
+scenes:
+- name: A_clear
+  description: No nearby external obstacles; audited floor and self pairs still enabled
+  q_start:
+  - -0.65
+  - 0.0
+  - 0.0
+  - -1.57079
+  - 0.0
+  - 1.57079
+  - -0.7853
+  q_goal:
+  - 0.65
+  - 0.0
+  - 0.0
+  - -1.57079
+  - 0.0
+  - 1.57079
+  - -0.7853
+  scene:
+    obstacle_sphere:
+      position:
+      - 2.2
+      - 1.0
+      - 1.0
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.06
+      - 0.0
+      - 0.0
+      type: 2
+    obstacle_cylinder:
+      position:
+      - 2.4
+      - 1.0
+      - 1.0
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.065
+      - 0.18
+      - 0.0
+      type: 5
+    obstacle_box:
+      position:
+      - 2.6
+      - 1.0
+      - 1.0
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.06
+      - 0.08
+      - 0.08
+      type: 6
+  endpoint_validity:
+    start: true
+    goal: true
+  direct_fine_valid: true
+  solvability: direct_fine_path_exists
+- name: B_sphere
+  description: Sphere at actual fingertip FK position at joint1=-.18 rad
+  q_start:
+  - -0.65
+  - 0.0
+  - 0.0
+  - -1.57079
+  - 0.0
+  - 1.57079
+  - -0.7853
+  q_goal:
+  - 0.65
+  - 0.0
+  - 0.0
+  - -1.57079
+  - 0.0
+  - 1.57079
+  - -0.7853
+  scene:
+    obstacle_sphere:
+      position:
+      - 0.5903049020135275
+      - -0.10742204640513359
+      - 0.5216024294875891
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.06
+      - 0.0
+      - 0.0
+      type: 2
+    obstacle_cylinder:
+      position:
+      - 2.4
+      - 1.0
+      - 1.0
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.065
+      - 0.18
+      - 0.0
+      type: 5
+    obstacle_box:
+      position:
+      - 2.6
+      - 1.0
+      - 1.0
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.06
+      - 0.08
+      - 0.08
+      type: 6
+  endpoint_validity:
+    start: true
+    goal: true
+  direct_fine_valid: false
+  solvability: not_yet_confirmed
+- name: C_cylinder
+  description: Cylinder at actual fingertip FK position at joint1=.10 rad
+  q_start:
+  - -0.65
+  - 0.0
+  - 0.0
+  - -1.57079
+  - 0.0
+  - 1.57079
+  - -0.7853
+  q_goal:
+  - 0.65
+  - 0.0
+  - 0.0
+  - -1.57079
+  - 0.0
+  - 1.57079
+  - -0.7853
+  scene:
+    obstacle_sphere:
+      position:
+      - 2.2
+      - 1.0
+      - 1.0
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.06
+      - 0.0
+      - 0.0
+      type: 2
+    obstacle_cylinder:
+      position:
+      - 0.5970024256459823
+      - 0.059895552154398346
+      - 0.5216024294875894
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.065
+      - 0.18
+      - 0.0
+      type: 5
+    obstacle_box:
+      position:
+      - 2.6
+      - 1.0
+      - 1.0
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.06
+      - 0.08
+      - 0.08
+      type: 6
+  endpoint_validity:
+    start: true
+    goal: true
+  direct_fine_valid: false
+  solvability: not_yet_confirmed
+- name: D_two_obstacles
+  description: Sphere and cylinder at two distinct fingertip FK locations along the
+    direct sweep
+  q_start:
+  - -0.65
+  - 0.0
+  - 0.0
+  - -1.57079
+  - 0.0
+  - 1.57079
+  - -0.7853
+  q_goal:
+  - 0.65
+  - 0.0
+  - 0.0
+  - -1.57079
+  - 0.0
+  - 1.57079
+  - -0.7853
+  scene:
+    obstacle_sphere:
+      position:
+      - 0.5855369849417076
+      - -0.1309420202243773
+      - 0.5216024294875894
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.06
+      - 0.0
+      - 0.0
+      type: 2
+    obstacle_cylinder:
+      position:
+      - 0.5855389350518453
+      - 0.13093329955904173
+      - 0.5216024294875894
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.065
+      - 0.18
+      - 0.0
+      type: 5
+    obstacle_box:
+      position:
+      - 2.6
+      - 1.0
+      - 1.0
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.06
+      - 0.08
+      - 0.08
+      type: 6
+  endpoint_validity:
+    start: true
+    goal: true
+  direct_fine_valid: false
+  solvability: not_yet_confirmed
+- name: E_box_detour
+  description: Box blocks the direct joint1 sweep; detour feasibility to be confirmed
+    by fine validation
+  q_start:
+  - -0.65
+  - 0.0
+  - 0.0
+  - -1.57079
+  - 0.0
+  - 1.57079
+  - -0.7853
+  q_goal:
+  - 0.65
+  - 0.0
+  - 0.0
+  - -1.57079
+  - 0.0
+  - 1.57079
+  - -0.7853
+  scene:
+    obstacle_sphere:
+      position:
+      - 2.2
+      - 1.0
+      - 1.0
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.06
+      - 0.0
+      - 0.0
+      type: 2
+    obstacle_cylinder:
+      position:
+      - 2.4
+      - 1.0
+      - 1.0
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.065
+      - 0.18
+      - 0.0
+      type: 5
+    obstacle_box:
+      position:
+      - 0.5999994778123592
+      - -4.4680234288609905e-06
+      - 0.5216024294875892
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.06
+      - 0.08
+      - 0.08
+      type: 6
+  endpoint_validity:
+    start: true
+    goal: true
+  direct_fine_valid: false
+  solvability: not_yet_confirmed
+- name: F_invalid_start
+  description: Place sphere in actual start fingertip collision geom centre
+  q_start:
+  - -0.65
+  - 0.0
+  - 0.0
+  - -1.57079
+  - 0.0
+  - 1.57079
+  - -0.7853
+  q_goal:
+  - 0.65
+  - 0.0
+  - 0.0
+  - -1.57079
+  - 0.0
+  - 1.57079
+  - -0.7853
+  scene:
+    obstacle_sphere:
+      position:
+      - 0.4776471594372731
+      - -0.36311508434182543
+      - 0.5216024294875893
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.06
+      - 0.0
+      - 0.0
+      type: 2
+    obstacle_cylinder:
+      position:
+      - 2.4
+      - 1.0
+      - 1.0
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.065
+      - 0.18
+      - 0.0
+      type: 5
+    obstacle_box:
+      position:
+      - 2.6
+      - 1.0
+      - 1.0
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.06
+      - 0.08
+      - 0.08
+      type: 6
+  endpoint_validity:
+    start: false
+    goal: true
+  direct_fine_valid: false
+  solvability: not_yet_confirmed
+- name: F_invalid_goal
+  description: Place sphere in actual goal fingertip collision geom centre
+  q_start:
+  - -0.65
+  - 0.0
+  - 0.0
+  - -1.57079
+  - 0.0
+  - 1.57079
+  - -0.7853
+  q_goal:
+  - 0.65
+  - 0.0
+  - 0.0
+  - -1.57079
+  - 0.0
+  - 1.57079
+  - -0.7853
+  scene:
+    obstacle_sphere:
+      position:
+      - 0.47765256741135237
+      - 0.36310797049969895
+      - 0.5216024294875894
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.06
+      - 0.0
+      - 0.0
+      type: 2
+    obstacle_cylinder:
+      position:
+      - 2.4
+      - 1.0
+      - 1.0
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.065
+      - 0.18
+      - 0.0
+      type: 5
+    obstacle_box:
+      position:
+      - 2.6
+      - 1.0
+      - 1.0
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.06
+      - 0.08
+      - 0.08
+      type: 6
+  endpoint_validity:
+    start: true
+    goal: false
+  direct_fine_valid: false
+  solvability: not_yet_confirmed
+- name: F_goal_limit
+  description: Goal joint4 exceeds actual MJCF upper hard limit by .01 rad
+  q_start:
+  - -0.65
+  - 0.0
+  - 0.0
+  - -1.57079
+  - 0.0
+  - 1.57079
+  - -0.7853
+  q_goal:
+  - 0.65
+  - 0.0
+  - 0.0
+  - -0.0598
+  - 0.0
+  - 1.57079
+  - -0.7853
+  scene:
+    obstacle_sphere:
+      position:
+      - 2.2
+      - 1.0
+      - 1.0
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.06
+      - 0.0
+      - 0.0
+      type: 2
+    obstacle_cylinder:
+      position:
+      - 2.4
+      - 1.0
+      - 1.0
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.065
+      - 0.18
+      - 0.0
+      type: 5
+    obstacle_box:
+      position:
+      - 2.6
+      - 1.0
+      - 1.0
+      quaternion:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      size:
+      - 0.06
+      - 0.08
+      - 0.08
+      type: 6
+  endpoint_validity:
+    start: true
+    goal: false
+  direct_fine_valid: false
+  solvability: not_yet_confirmed

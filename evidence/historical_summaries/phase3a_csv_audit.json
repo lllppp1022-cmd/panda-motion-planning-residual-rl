@@ -1,0 +1,9 @@
+{
+  "actual_runs": 120,
+  "valid_recomputed": 120,
+  "invalid_runs": [],
+  "paired_conditions": 60,
+  "all_pairs_fair": true,
+  "all_metrics_match": true,
+  "zero_live_qpos_writes": true
+}

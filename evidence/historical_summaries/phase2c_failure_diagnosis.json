@@ -1,0 +1,298 @@
+[
+  {
+    "scene": "D_two_obstacles",
+    "speed": 0.1,
+    "repeat": 1,
+    "first_violation": {
+      "time": 14.982000000001673,
+      "q": [
+        -0.5467854438350606,
+        -0.1667490629188279,
+        0.4378197826548042,
+        -1.4380957669029621,
+        0.3502992136278203,
+        1.8018715250728485,
+        0.0680365088304425
+      ],
+      "reason": "dynamic_safety_violation",
+      "monitor": {
+        "valid": false,
+        "minimum_clearance_m": 0.004959683618444618,
+        "minimum_is_lower_bound": false,
+        "fixed_gripper_audit_valid": false,
+        "fixed_gripper_minimum_m": 0.004959683515277833,
+        "offending_geom_pairs": [
+          {
+            "id1": 76,
+            "id2": 84,
+            "geom1": "panda_right_finger_collision_2",
+            "geom2": "obstacle_cylinder",
+            "category": "external",
+            "body1": "right_finger",
+            "body2": "cylinder_obstacle",
+            "distance_m": 0.004959683618444618
+          }
+        ],
+        "native_contacts": [],
+        "prohibited_contacts": 0,
+        "reason": "minimum_clearance"
+      },
+      "trajectory_time": 13.482000000001172
+    },
+    "q_ref": [
+      -0.5461146056692302,
+      -0.17200548724820944,
+      0.44004727331051335,
+      -1.431443334757856,
+      0.3530234214690539,
+      1.8047654066081813,
+      0.07361710599709403
+    ],
+    "q_actual": [
+      -0.5467854438350606,
+      -0.1667490629188279,
+      0.4378197826548042,
+      -1.4380957669029621,
+      0.3502992136278203,
+      1.8018715250728485,
+      0.0680365088304425
+    ],
+    "joint_error_rad": [
+      -0.0006708381658303564,
+      0.005256424329381532,
+      -0.0022274906557091523,
+      -0.006652432145106246,
+      -0.002724207841233617,
+      -0.002893881535332765,
+      -0.0055805971666515325
+    ],
+    "reference_state_valid": true,
+    "reference_minimum_gap_m": 0.005944583607286237,
+    "actual_fixed_gripper_minimum_gap_m": 0.004959683515277833,
+    "post_stop_recorded_duration_s": 0.500000000000167,
+    "actual_minimum_gap_including_hold_m": 0.004670673425738455,
+    "observation": "Actual servo deviation consumed the limited geometric margin; stopped without contact."
+  },
+  {
+    "scene": "D_two_obstacles",
+    "speed": 0.1,
+    "repeat": 2,
+    "first_violation": {
+      "time": 14.982000000001673,
+      "q": [
+        -0.5467854438350606,
+        -0.1667490629188279,
+        0.4378197826548042,
+        -1.4380957669029621,
+        0.3502992136278203,
+        1.8018715250728485,
+        0.0680365088304425
+      ],
+      "reason": "dynamic_safety_violation",
+      "monitor": {
+        "valid": false,
+        "minimum_clearance_m": 0.004959683618444618,
+        "minimum_is_lower_bound": false,
+        "fixed_gripper_audit_valid": false,
+        "fixed_gripper_minimum_m": 0.004959683515277833,
+        "offending_geom_pairs": [
+          {
+            "id1": 76,
+            "id2": 84,
+            "geom1": "panda_right_finger_collision_2",
+            "geom2": "obstacle_cylinder",
+            "category": "external",
+            "body1": "right_finger",
+            "body2": "cylinder_obstacle",
+            "distance_m": 0.004959683618444618
+          }
+        ],
+        "native_contacts": [],
+        "prohibited_contacts": 0,
+        "reason": "minimum_clearance"
+      },
+      "trajectory_time": 13.482000000001172
+    },
+    "q_ref": [
+      -0.5461146056692302,
+      -0.17200548724820944,
+      0.44004727331051335,
+      -1.431443334757856,
+      0.3530234214690539,
+      1.8047654066081813,
+      0.07361710599709403
+    ],
+    "q_actual": [
+      -0.5467854438350606,
+      -0.1667490629188279,
+      0.4378197826548042,
+      -1.4380957669029621,
+      0.3502992136278203,
+      1.8018715250728485,
+      0.0680365088304425
+    ],
+    "joint_error_rad": [
+      -0.0006708381658303564,
+      0.005256424329381532,
+      -0.0022274906557091523,
+      -0.006652432145106246,
+      -0.002724207841233617,
+      -0.002893881535332765,
+      -0.0055805971666515325
+    ],
+    "reference_state_valid": true,
+    "reference_minimum_gap_m": 0.005944583607286237,
+    "actual_fixed_gripper_minimum_gap_m": 0.004959683515277833,
+    "post_stop_recorded_duration_s": 0.500000000000167,
+    "actual_minimum_gap_including_hold_m": 0.004670673425738455,
+    "observation": "Actual servo deviation consumed the limited geometric margin; stopped without contact."
+  },
+  {
+    "scene": "D_two_obstacles",
+    "speed": 0.15,
+    "repeat": 1,
+    "first_violation": {
+      "time": 10.522000000000183,
+      "q": [
+        -0.5467807404317685,
+        -0.16674335750591596,
+        0.4378233759562509,
+        -1.4380954195729063,
+        0.35029892165521875,
+        1.8018713770708896,
+        0.06803444085784835
+      ],
+      "reason": "dynamic_safety_violation",
+      "monitor": {
+        "valid": false,
+        "minimum_clearance_m": 0.0049561431102884005,
+        "minimum_is_lower_bound": false,
+        "fixed_gripper_audit_valid": false,
+        "fixed_gripper_minimum_m": 0.004956142663341469,
+        "offending_geom_pairs": [
+          {
+            "id1": 76,
+            "id2": 84,
+            "geom1": "panda_right_finger_collision_2",
+            "geom2": "obstacle_cylinder",
+            "category": "external",
+            "body1": "right_finger",
+            "body2": "cylinder_obstacle",
+            "distance_m": 0.0049561431102884005
+          }
+        ],
+        "native_contacts": [],
+        "prohibited_contacts": 0,
+        "reason": "minimum_clearance"
+      },
+      "trajectory_time": 9.021999999999682
+    },
+    "q_ref": [
+      -0.545777479473555,
+      -0.17256367500814243,
+      0.44147530334422597,
+      -1.4309911305626875,
+      0.3541690439488143,
+      1.8055246975481591,
+      0.07640444158175941
+    ],
+    "q_actual": [
+      -0.5467807404317685,
+      -0.16674335750591596,
+      0.4378233759562509,
+      -1.4380954195729063,
+      0.35029892165521875,
+      1.8018713770708896,
+      0.06803444085784835
+    ],
+    "joint_error_rad": [
+      -0.0010032609582134588,
+      0.005820317502226474,
+      -0.0036519273879750402,
+      -0.007104289010218867,
+      -0.003870122293595568,
+      -0.003653320477269517,
+      -0.008370000723911059
+    ],
+    "reference_state_valid": true,
+    "reference_minimum_gap_m": 0.0057504523698578445,
+    "actual_fixed_gripper_minimum_gap_m": 0.004956142663341469,
+    "post_stop_recorded_duration_s": 0.500000000000167,
+    "actual_minimum_gap_including_hold_m": 0.004605294098032286,
+    "observation": "Actual servo deviation consumed the limited geometric margin; stopped without contact."
+  },
+  {
+    "scene": "D_two_obstacles",
+    "speed": 0.15,
+    "repeat": 2,
+    "first_violation": {
+      "time": 10.522000000000183,
+      "q": [
+        -0.5467807404317685,
+        -0.16674335750591596,
+        0.4378233759562509,
+        -1.4380954195729063,
+        0.35029892165521875,
+        1.8018713770708896,
+        0.06803444085784835
+      ],
+      "reason": "dynamic_safety_violation",
+      "monitor": {
+        "valid": false,
+        "minimum_clearance_m": 0.0049561431102884005,
+        "minimum_is_lower_bound": false,
+        "fixed_gripper_audit_valid": false,
+        "fixed_gripper_minimum_m": 0.004956142663341469,
+        "offending_geom_pairs": [
+          {
+            "id1": 76,
+            "id2": 84,
+            "geom1": "panda_right_finger_collision_2",
+            "geom2": "obstacle_cylinder",
+            "category": "external",
+            "body1": "right_finger",
+            "body2": "cylinder_obstacle",
+            "distance_m": 0.0049561431102884005
+          }
+        ],
+        "native_contacts": [],
+        "prohibited_contacts": 0,
+        "reason": "minimum_clearance"
+      },
+      "trajectory_time": 9.021999999999682
+    },
+    "q_ref": [
+      -0.545777479473555,
+      -0.17256367500814243,
+      0.44147530334422597,
+      -1.4309911305626875,
+      0.3541690439488143,
+      1.8055246975481591,
+      0.07640444158175941
+    ],
+    "q_actual": [
+      -0.5467807404317685,
+      -0.16674335750591596,
+      0.4378233759562509,
+      -1.4380954195729063,
+      0.35029892165521875,
+      1.8018713770708896,
+      0.06803444085784835
+    ],
+    "joint_error_rad": [
+      -0.0010032609582134588,
+      0.005820317502226474,
+      -0.0036519273879750402,
+      -0.007104289010218867,
+      -0.003870122293595568,
+      -0.003653320477269517,
+      -0.008370000723911059
+    ],
+    "reference_state_valid": true,
+    "reference_minimum_gap_m": 0.0057504523698578445,
+    "actual_fixed_gripper_minimum_gap_m": 0.004956142663341469,
+    "post_stop_recorded_duration_s": 0.500000000000167,
+    "actual_minimum_gap_including_hold_m": 0.004605294098032286,
+    "observation": "Actual servo deviation consumed the limited geometric margin; stopped without contact."
+  }
+]

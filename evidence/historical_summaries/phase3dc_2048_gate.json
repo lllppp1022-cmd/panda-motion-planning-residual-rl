@@ -1,0 +1,88 @@
+{
+  "training_run": "research-archive/results/runs/phase3dc_training_initial_1792746554788972800",
+  "all_four_passed": true,
+  "groups": [
+    {
+      "method": "A",
+      "seed": 42,
+      "checks": {
+        "training_safe": true,
+        "validation_safe_success": true,
+        "updated": true,
+        "finite": true,
+        "enough_mismatch": true,
+        "effective": true,
+        "no_unacceptable_degradation": true
+      },
+      "passed": true,
+      "validation_tcp_mm": 0.4390734877462008,
+      "initial_tcp_mm": 0.43335786022238265,
+      "effective_fraction": 0.9999302455357143,
+      "mismatched_completed": 4
+    },
+    {
+      "method": "A",
+      "seed": 123,
+      "checks": {
+        "training_safe": true,
+        "validation_safe_success": true,
+        "updated": true,
+        "finite": true,
+        "enough_mismatch": true,
+        "effective": true,
+        "no_unacceptable_degradation": true
+      },
+      "passed": true,
+      "validation_tcp_mm": 0.43058903085359534,
+      "initial_tcp_mm": 0.43335786022238265,
+      "effective_fraction": 0.9999302455357143,
+      "mismatched_completed": 4
+    },
+    {
+      "method": "B",
+      "seed": 42,
+      "checks": {
+        "training_safe": true,
+        "validation_safe_success": true,
+        "updated": true,
+        "finite": true,
+        "enough_mismatch": true,
+        "effective": true,
+        "no_unacceptable_degradation": true
+      },
+      "passed": true,
+      "validation_tcp_mm": 0.362508871081721,
+      "initial_tcp_mm": 0.36248581528132434,
+      "effective_fraction": 0.9983956473214286,
+      "mismatched_completed": 4
+    },
+    {
+      "method": "B",
+      "seed": 123,
+      "checks": {
+        "training_safe": true,
+        "validation_safe_success": true,
+        "updated": true,
+        "finite": true,
+        "enough_mismatch": true,
+        "effective": true,
+        "no_unacceptable_degradation": true
+      },
+      "passed": true,
+      "validation_tcp_mm": 0.36279115786077487,
+      "initial_tcp_mm": 0.36248581528132434,
+      "effective_fraction": 0.9987444196428571,
+      "mismatched_completed": 4
+    }
+  ],
+  "rule": {
+    "no_training_safety_contact": true,
+    "all_validation_success": true,
+    "max_relative_mean_tcp_degradation": 0.05,
+    "minimum_mismatched_completed_episodes": 2,
+    "minimum_effective_correction_fraction": 0.1,
+    "actor_critic_all_updates_nonzero": true,
+    "finite_losses": true,
+    "all_four_or_none_continue": true
+  }
+}

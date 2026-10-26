@@ -1,0 +1,113 @@
+{
+  "phase": "2D",
+  "date": "2026-10-21",
+  "planning_trials": 12,
+  "dynamic_trials": 24,
+  "tests_passed": 120,
+  "original_tests_preserved": 104,
+  "groups": [
+    {
+      "planning_clearance_m": 0.005,
+      "execution_clearance_m": 0.005,
+      "planning_trials": 3,
+      "planning_successes": 3,
+      "raw_fine_passes": 3,
+      "final_fine_passes": 3,
+      "dynamic_trials": 6,
+      "dynamic_successes": 0,
+      "minimum_planned_gap_m": 0.005756321983164421,
+      "minimum_actual_gap_m": -0.0004432894079066107,
+      "contact_intervals": 2,
+      "contact_executions": 2,
+      "planning_median_s": 1.777681399602443,
+      "path_length_median_rad": 1.9628175911420223,
+      "dynamic_simulation_median_s": 12.40000000000081,
+      "planning_failures": []
+    },
+    {
+      "planning_clearance_m": 0.008,
+      "execution_clearance_m": 0.005,
+      "planning_trials": 3,
+      "planning_successes": 3,
+      "raw_fine_passes": 3,
+      "final_fine_passes": 3,
+      "dynamic_trials": 6,
+      "dynamic_successes": 4,
+      "minimum_planned_gap_m": 0.009300346870848797,
+      "minimum_actual_gap_m": -0.0004432894079066107,
+      "contact_intervals": 2,
+      "contact_executions": 2,
+      "planning_median_s": 1.7821841998957098,
+      "path_length_median_rad": 2.2538562254423846,
+      "dynamic_simulation_median_s": 26.009999999996463,
+      "planning_failures": []
+    },
+    {
+      "planning_clearance_m": 0.01,
+      "execution_clearance_m": 0.005,
+      "planning_trials": 3,
+      "planning_successes": 3,
+      "raw_fine_passes": 3,
+      "final_fine_passes": 3,
+      "dynamic_trials": 6,
+      "dynamic_successes": 6,
+      "minimum_planned_gap_m": 0.01415581696124524,
+      "minimum_actual_gap_m": 0.008516963927930693,
+      "contact_intervals": 0,
+      "contact_executions": 0,
+      "planning_median_s": 1.799793700221926,
+      "path_length_median_rad": 2.2538562254423846,
+      "dynamic_simulation_median_s": 28.59399999999503,
+      "planning_failures": []
+    },
+    {
+      "planning_clearance_m": 0.015,
+      "execution_clearance_m": 0.005,
+      "planning_trials": 3,
+      "planning_successes": 3,
+      "raw_fine_passes": 3,
+      "final_fine_passes": 3,
+      "dynamic_trials": 6,
+      "dynamic_successes": 6,
+      "minimum_planned_gap_m": 0.01809694987233695,
+      "minimum_actual_gap_m": 0.013438546962784534,
+      "contact_intervals": 0,
+      "contact_executions": 0,
+      "planning_median_s": 2.1617737002670765,
+      "path_length_median_rad": 3.3929053127925135,
+      "dynamic_simulation_median_s": 35.42899999999733,
+      "planning_failures": []
+    }
+  ],
+  "historical_files_verified": 452,
+  "historical_hashes_all_unchanged": true,
+  "planning_run": "research-archive/results/runs/phase2d_planning_1792574321886172200",
+  "dynamic_run": "research-archive/results/runs/phase2d_dynamic_1792574604439729300",
+  "video_run": "research-archive/results/runs/phase2d_margin_video_1792574741305131600",
+  "video_alignment": [
+    {
+      "episode": "A_original_failed_baseline",
+      "frames_matched": 156
+    },
+    {
+      "episode": "B_replanned_margin",
+      "frames_matched": 489
+    }
+  ],
+  "csv_all_metrics_match": true,
+  "traditional_controller_changed": false,
+  "reinforcement_learning_executed": false,
+  "execution_clearance_m": 0.005,
+  "hashes": {
+    "src/planning/margin_study.py": "0381c66c4b1131f71df537533ac0a5771cf226a273155f88a20d197109d3e247",
+    "configs/phase2d_margin_study.yaml": "0d32b35324ca1b09407a1c526cae05a67d57f76cc8b96d32bbcc76e50fbc9b45",
+    "scripts/run_phase2d_planning.py": "719105479ba489a076e31deb45a45eb9031789e11e6dfe5c80bdc594cab2f108",
+    "scripts/run_phase2d_execution.py": "90549e0bb2e6e497e60b3824d7c2847b335761528530cee4b126005634191327",
+    "scripts/audit_phase2d_csv.py": "f99e318a31d7a5a261dc4f5fd7a4dc876d0227b4fa9e73b7b476592b0e15e568",
+    "scripts/analyze_phase2d_failure.py": "6f5795449d0b5ab88acb0a5e17bfeb55f0dd3a121d2b7ac21aa0571f96ca738f",
+    "scripts/demo_margin_execution.py": "1e6139112d26425af348aba522cf87c8f4b2d196fc3f4b6b35552e33d0c2afa5",
+    "tests/test_phase2d_margin.py": "24f94e75fd6708a28487bb5ff7e5833e882928031014bc95c5f663f08c1f176f",
+    "docs/13_Phase2C失败机制分析.md": "d103b284a50aa2ddb72857c13844feda9957bafebe5d27954778f7be75cbcddc",
+    "docs/14_Phase2D验收报告.md": "b157b253408615b2c5e85c41997278807bfd7ed0c4aa74feb7829106e65f1794"
+  }
+}

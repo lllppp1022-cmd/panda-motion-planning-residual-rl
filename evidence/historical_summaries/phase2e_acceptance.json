@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-22",
+  "phase": "2E",
+  "tests_passed": 137,
+  "actual_formal_runs": 66,
+  "groups": [
+    {
+      "method": "M0",
+      "actual_runs": 22,
+      "outcomes": {
+        "success": 16,
+        "failure": 6
+      },
+      "contact_intervals": 2,
+      "hard_violation_runs": 6,
+      "minimum_actual_gap_m": -0.0004432894079066107,
+      "torque_saturation_steps": 0,
+      "maximum_successful_final_tcp_error_m": 0.006724463928965086,
+      "median_successful_final_tcp_error_m": 0.006724433301467459,
+      "joint_rmse_mean_rad": [
+        0.00651239109581436,
+        0.006590986380441324,
+        0.0030234903899259073,
+        0.006569379899761982,
+        0.002753279002510971,
+        0.0029301160127689196,
+        0.004195831040244259
+      ],
+      "actual_max_velocity_rad_s": 0.1508439656335108,
+      "actual_max_acceleration_rad_s2": 8.941548359977293,
+      "max_ctrl_rate_rad_s": 0.35000000000001696,
+      "max_ctrl_acceleration_rad_s2": 239.06785931961105,
+      "compensation_clipped_steps": 0,
+      "position_clipped_steps": 0,
+      "effective_rate_limit_steps": 73,
+      "gravity_amortized_us_per_physics_step": 0.0,
+      "guard_amortized_us_per_physics_step": 0.0,
+      "guard_call_p50_s": null,
+      "guard_call_p95_s": null,
+      "guard_call_max_s": null
+    },
+    {
+      "method": "M1",
+      "actual_runs": 22,
+      "outcomes": {
+        "success": 22
+      },
+      "contact_intervals": 0,
+      "hard_violation_runs": 0,
+      "minimum_actual_gap_m": 0.005741749129003169,
+      "torque_saturation_steps": 0,
+      "maximum_successful_final_tcp_error_m": 3.9686005083077377e-07,
+      "median_successful_final_tcp_error_m": 6.681329113469108e-08,
+      "joint_rmse_mean_rad": [
+        0.006736171232505123,
+        0.00242293903964399,
+        0.003477735814874626,
+        0.001753161561025292,
+        0.0026038856882475083,
+        0.00229204043736919,
+        0.0042133490922627095
+      ],
+      "actual_max_velocity_rad_s": 0.1499583365527186,
+      "actual_max_acceleration_rad_s2": 8.085360157163256,
+      "max_ctrl_rate_rad_s": 0.35000000000000003,
+      "max_ctrl_acceleration_rad_s2": 174.99999999999997,
+      "compensation_clipped_steps": 0,
+      "position_clipped_steps": 0,
+      "effective_rate_limit_steps": 198,
+      "gravity_amortized_us_per_physics_step": 124.21396416834502,
+      "guard_amortized_us_per_physics_step": 0.0,
+      "guard_call_p50_s": null,
+      "guard_call_p95_s": null,
+      "guard_call_max_s": null
+    },
+    {
+      "method": "M2",
+      "actual_runs": 22,
+      "outcomes": {
+        "success": 20,
+        "protected_stop": 2
+      },
+      "contact_intervals": 0,
+      "hard_violation_runs": 0,
+      "minimum_actual_gap_m": 0.007276340182687,
+      "torque_saturation_steps": 0,
+      "maximum_successful_final_tcp_error_m": 3.9686005083077377e-07,
+      "median_successful_final_tcp_error_m": 7.66812776586475e-08,
+      "joint_rmse_mean_rad": [
+        0.0063468687635209195,
+        0.002437659295384944,
+        0.0034814609278224174,
+        0.001784581370548131,
+        0.002669797968367328,
+        0.0023276255700585484,
+        0.004352144590945208
+      ],
+      "actual_max_velocity_rad_s": 0.1499583365527186,
+      "actual_max_acceleration_rad_s2": 8.085360157163256,
+      "max_ctrl_rate_rad_s": 0.35000000000001696,
+      "max_ctrl_acceleration_rad_s2": 220.74411236601765,
+      "compensation_clipped_steps": 0,
+      "position_clipped_steps": 0,
+      "effective_rate_limit_steps": 219,
+      "gravity_amortized_us_per_physics_step": 124.24611884739056,
+      "guard_amortized_us_per_physics_step": 1286.3842988410156,
+      "guard_call_p50_s": 0.03047339990735054,
+      "guard_call_p95_s": 0.04212507014162838,
+      "guard_call_max_s": 0.5736206998117268
+    }
+  ],
+  "history": {
+    "frozen_files": 740,
+    "unchanged_at_original_paths": 739,
+    "archived_original_test_sources": 1,
+    "experimental_artifacts_all_unchanged": true,
+    "test_assertions_unchanged": true,
+    "explicit_test_selection_fixes": [
+      {
+        "path": "tests/test_phase2d_margin.py",
+        "original_sha256": "24f94e75fd6708a28487bb5ff7e5833e882928031014bc95c5f663f08c1f176f",
+        "original_backup": "research-archive/results/runs/phase2e_freeze_1792636184488662300/original_test_phase2d_margin.py",
+        "reason": "Latest Phase2D demo was user-aborted (viewer_closed). Keep all experiment artifacts; regression must use the immutable accepted video, not mutable latest.",
+        "accepted_video_run": "research-archive/results/runs/phase2d_margin_video_1792574741305131600",
+        "patched_sha256": "dffee7da6a5acb704f4de7e6014aac1efe954fa5a129c0ad177f103f14a4df10"
+      }
+    ]
+  },
+  "static_run": "research-archive/results/runs/phase2e_static_1792636862073499200",
+  "shadow_run": "research-archive/results/runs/phase2e_shadow_1792636652674219100",
+  "active_pilot_run": "research-archive/results/runs/phase2e_active_pilot_1792636796126864100",
+  "batch_run": "research-archive/results/runs/phase2e_batch_1792636904499048400",
+  "controller_video_run": "research-archive/results/runs/phase2e_controller_video_1792637158337802100",
+  "guard_video_run": "research-archive/results/runs/phase2e_guard_video_1792637274410103600",
+  "rl_executed": false,
+  "parameter_perturbations_executed": false,
+  "required_files": {
+    "docs/15_重力补偿控制器设计.md": {
+      "sha256": "c3aa02e28d4e9e93ac1f4df2fcfe09358e5961c2ccd5c0f25a9472158ed886d8",
+      "bytes": 5755
+    },
+    "docs/16_提前保护策略设计.md": {
+      "sha256": "1c03e24aea593fbd0cea731237727c656f71f6c439551c03ddd46537e695d595",
+      "bytes": 5744
+    },
+    "docs/17_Phase2E验收报告.md": {
+      "sha256": "2e83c4d5aff8caf480fd02a0eafcbec94a4c3adbd404e4570c7517501bcbfae7",
+      "bytes": 14772
+    },
+    "results/phase2e_controller_comparison.csv": {
+      "sha256": "a5563f8bb19deb2acfc7f7f989bee4e6f6393dd200ed487cf37e6e8ff186e29c",
+      "bytes": 152550
+    },
+    "results/phase2e_safety_guard_analysis.csv": {
+      "sha256": "2d0fdd845857fcae4d3801da5ebc8aa42eb2ee1454465ae53f91d2b79c391f3b",
+      "bytes": 21155
+    },
+    "results/phase2e_performance.json": {
+      "sha256": "ec27c448acc088873c7ab09035be7a8dc60cbfce7800333e4b2f12db9e2c77c4",
+      "bytes": 6713
+    },
+    "assets/videos/phase2e_controller_comparison.mp4": {
+      "sha256": "652f9d5c0bca050ad3cf5a6d4a8dba6fafdd790688ab4a15b605881543f254e8",
+      "bytes": 1298207
+    },
+    "assets/videos/phase2e_safety_guard.mp4": {
+      "sha256": "1b1a3fac30d8381cf679c85e797d284bcb941c59334eead5391c689059f2ff83",
+      "bytes": 1260309
+    }
+  }
+}

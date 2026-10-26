@@ -1,0 +1,9 @@
+# Preserve archived source/model/evidence bytes across Windows/Linux clones.
+* -text
+*.npz binary
+*.pt binary
+*.zip binary
+*.mp4 binary
+*.gif binary
+*.png binary
+*.stl binary

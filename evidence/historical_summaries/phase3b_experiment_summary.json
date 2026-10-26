@@ -1,0 +1,505 @@
+{
+  "training_run": "research-archive/results/runs/phase3b_training_1792658731055848900",
+  "training": {
+    "actual_ppo_decisions": 1024,
+    "training_step_integrations": 25582,
+    "physical_steps_before_cleanup": 28582,
+    "actual_physics_integrations_total": 28833,
+    "reset_hold_integrations": 3000,
+    "cleanup_hold_integrations": 251,
+    "ppo_update_calls": 4,
+    "optimizer_epochs": 20,
+    "actor_delta_l2": 0.05299441457982718,
+    "critic_delta_l2": 0.5190894708850095,
+    "initial_actor_sha256": "a3431010031868ae1d29b663475233b9a3a5a729c5f08dd87e26c10cd3e0b0b1",
+    "final_actor_sha256": "2d5b41f9ebaaf57f5c0504cdedc7b9928da50cbfddc255d52c9f255b2518b7f2",
+    "initial_critic_sha256": "9ae4f014b88f18857de031dd47d2ee5ec1317c1969c68433e47c55dd6d7f8e04",
+    "final_critic_sha256": "c0ecb366e92217cde8a0a0a60943b5cd6a6b348782c5602324fef03798be0010",
+    "action_head_weight_norm": 0.0195548627525568,
+    "exact_reload_prediction": true,
+    "stochastic_action_nonzero_fraction": 1.0,
+    "maximum_executed_normalized_action": 0.39915692806243896,
+    "completed_episodes": [
+      {
+        "decision": 327,
+        "success": true,
+        "reason": ""
+      },
+      {
+        "decision": 654,
+        "success": true,
+        "reason": ""
+      },
+      {
+        "decision": 981,
+        "success": true,
+        "reason": ""
+      }
+    ],
+    "episode_results": [
+      {
+        "scene": "b_train_sphere",
+        "seed": 73,
+        "reference_speed_rad_s": 0.15,
+        "success": true,
+        "failure_reason": "",
+        "physics_steps": 8919,
+        "logged_physics_steps": 8919,
+        "simulation_time_s": 17.838000000000992,
+        "wall_time_s": 15.448894700035453,
+        "trajectory_duration_s": 15.836759384211664,
+        "minimum_actual_clearance_m": 0.023081256915726284,
+        "minimum_is_lower_bound": false,
+        "planning_minimum_clearance_m": 0.023081767815121373,
+        "safety_violation_steps": 0,
+        "prohibited_contact_observations": 0,
+        "native_contact_observations": 0,
+        "command_rate_limit_steps": 8917,
+        "actual_max_velocity_rad_s": 0.15220261639233074,
+        "actual_max_acceleration_fd_rad_s2": 8.359877836586156,
+        "final_q": [
+          0.5199170248761814,
+          -0.04489689630530828,
+          -8.425046841430138e-05,
+          -1.5708186808142686,
+          7.360788021615691e-05,
+          1.5706539558149122,
+          -0.7852936719989548
+        ],
+        "goal_q": [
+          0.52,
+          -0.045,
+          0.0,
+          -1.57079,
+          0.0,
+          1.57079,
+          -0.7853
+        ],
+        "final_joint_max_error_rad": 0.00013604418508772476,
+        "final_tcp_error_m": 0.00011336600570781406,
+        "joint_rmse_rad": [
+          0.00017017744483002354,
+          0.00010544171105066031,
+          0.00013962200723126032,
+          0.0001026247915396602,
+          0.00010826350749120729,
+          7.717308821212143e-05,
+          8.474481697416781e-05
+        ],
+        "joint_max_abs_error_rad": [
+          0.0004219583175835845,
+          0.00029131682727653874,
+          0.00046607093457734505,
+          0.0003583600530454589,
+          0.00039534594866807993,
+          0.0002707248941353768,
+          0.00027514794851735136
+        ],
+        "tcp_rmse_m": 0.0001424537326243171,
+        "tcp_max_error_m": 0.00034037961913514775,
+        "path_max_deviation_rad": 0.0004566967565171155,
+        "actual_finger_max_deviation_from_planning_m": 1.5695452558889267e-06,
+        "first_violation": null,
+        "errors": [],
+        "live_qpos_writes_after_initialization": 0,
+        "controller": "Unmodified upstream position servos; ctrl targets radians; original JointPositionController",
+        "run_directory": "research-archive/results/runs/phase3b_training_1792658731055848900/actual_training/episode_0000",
+        "source": "actual live MjData / ctrl + mj_step"
+      },
+      {
+        "scene": "b_train_sphere",
+        "seed": 73,
+        "reference_speed_rad_s": 0.15,
+        "success": true,
+        "failure_reason": "",
+        "physics_steps": 8919,
+        "logged_physics_steps": 8919,
+        "simulation_time_s": 17.838000000000992,
+        "wall_time_s": 15.418857300188392,
+        "trajectory_duration_s": 15.836759384211664,
+        "minimum_actual_clearance_m": 0.023080510817587437,
+        "minimum_is_lower_bound": false,
+        "planning_minimum_clearance_m": 0.023081767815121373,
+        "safety_violation_steps": 0,
+        "prohibited_contact_observations": 0,
+        "native_contact_observations": 0,
+        "command_rate_limit_steps": 8917,
+        "actual_max_velocity_rad_s": 0.15214731045307633,
+        "actual_max_acceleration_fd_rad_s2": 8.402680723987098,
+        "final_q": [
+          0.5200401589994189,
+          -0.044548626396067326,
+          -3.2590238096932976e-05,
+          -1.5711574127895243,
+          -0.00012824056323460832,
+          1.5705681435694434,
+          -0.7852883668689126
+        ],
+        "goal_q": [
+          0.52,
+          -0.045,
+          0.0,
+          -1.57079,
+          0.0,
+          1.57079,
+          -0.7853
+        ],
+        "final_joint_max_error_rad": 0.0004513736039326727,
+        "final_tcp_error_m": 0.00044386691868655875,
+        "joint_rmse_rad": [
+          0.000291274072064042,
+          0.00031977615295341634,
+          0.00021675150982042597,
+          0.00034466996859991124,
+          0.0001501209437719442,
+          0.0001190244063424465,
+          0.00010201388797317162
+        ],
+        "joint_max_abs_error_rad": [
+          0.0006619237528616151,
+          0.0007215003220985006,
+          0.0006422659080336512,
+          0.0006639464741735601,
+          0.00046242591250886256,
+          0.0003277687475189417,
+          0.0003400128620922871
+        ],
+        "tcp_rmse_m": 0.0003806521676750582,
+        "tcp_max_error_m": 0.0007750135578556764,
+        "path_max_deviation_rad": 0.0007455180294628262,
+        "actual_finger_max_deviation_from_planning_m": 1.4400211875709168e-06,
+        "first_violation": null,
+        "errors": [],
+        "live_qpos_writes_after_initialization": 0,
+        "controller": "Unmodified upstream position servos; ctrl targets radians; original JointPositionController",
+        "run_directory": "research-archive/results/runs/phase3b_training_1792658731055848900/actual_training/episode_0001",
+        "source": "actual live MjData / ctrl + mj_step"
+      },
+      {
+        "scene": "b_train_sphere",
+        "seed": 73,
+        "reference_speed_rad_s": 0.15,
+        "success": true,
+        "failure_reason": "",
+        "physics_steps": 8919,
+        "logged_physics_steps": 8919,
+        "simulation_time_s": 17.838000000000992,
+        "wall_time_s": 15.443137500435114,
+        "trajectory_duration_s": 15.836759384211664,
+        "minimum_actual_clearance_m": 0.02308070007526836,
+        "minimum_is_lower_bound": false,
+        "planning_minimum_clearance_m": 0.023081767815121373,
+        "safety_violation_steps": 0,
+        "prohibited_contact_observations": 0,
+        "native_contact_observations": 0,
+        "command_rate_limit_steps": 8917,
+        "actual_max_velocity_rad_s": 0.15193909782328807,
+        "actual_max_acceleration_fd_rad_s2": 8.359877836586156,
+        "final_q": [
+          0.5199797935454155,
+          -0.04481067166407338,
+          -6.232880258099907e-05,
+          -1.5707376211817357,
+          -7.26542305659363e-05,
+          1.5707028225685216,
+          -0.7853715262111014
+        ],
+        "goal_q": [
+          0.52,
+          -0.045,
+          0.0,
+          -1.57079,
+          0.0,
+          1.57079,
+          -0.7853
+        ],
+        "final_joint_max_error_rad": 0.0001893283359266154,
+        "final_tcp_error_m": 0.00010959594732555075,
+        "joint_rmse_rad": [
+          0.00016796153511304814,
+          0.00011215714471453325,
+          0.00014303455333937833,
+          9.181908906122225e-05,
+          9.885201562485962e-05,
+          9.624484315435826e-05,
+          9.903624807307648e-05
+        ],
+        "joint_max_abs_error_rad": [
+          0.00042779980472194834,
+          0.00032613206370402104,
+          0.00039442597821368053,
+          0.0003322917967993888,
+          0.0003353579992107225,
+          0.0002733398869521064,
+          0.00030053641342553394
+        ],
+        "tcp_rmse_m": 0.00013706800040219947,
+        "tcp_max_error_m": 0.0003509467581600587,
+        "path_max_deviation_rad": 0.00044512504166271613,
+        "actual_finger_max_deviation_from_planning_m": 1.3941920113391681e-06,
+        "first_violation": null,
+        "errors": [],
+        "live_qpos_writes_after_initialization": 0,
+        "controller": "Unmodified upstream position servos; ctrl targets radians; original JointPositionController",
+        "run_directory": "research-archive/results/runs/phase3b_training_1792658731055848900/actual_training/episode_0002",
+        "source": "actual live MjData / ctrl + mj_step"
+      },
+      {
+        "scene": "b_train_sphere",
+        "seed": 73,
+        "reference_speed_rad_s": 0.15,
+        "success": false,
+        "failure_reason": "rl_external_truncation",
+        "physics_steps": 2076,
+        "logged_physics_steps": 2076,
+        "simulation_time_s": 4.151999999999765,
+        "wall_time_s": 3.548301499802619,
+        "trajectory_duration_s": 15.836759384211664,
+        "minimum_actual_clearance_m": 0.023081722039133935,
+        "minimum_is_lower_bound": false,
+        "planning_minimum_clearance_m": 0.023081767815121373,
+        "safety_violation_steps": 0,
+        "prohibited_contact_observations": 0,
+        "native_contact_observations": 0,
+        "command_rate_limit_steps": 2074,
+        "actual_max_velocity_rad_s": 0.15207724605378176,
+        "actual_max_acceleration_fd_rad_s2": 8.359877836586156,
+        "final_q": [
+          -0.44222360175537045,
+          -0.12714659244445334,
+          0.17363255586226842,
+          -1.533462924966823,
+          -0.1037719654066875,
+          1.5872281203478775,
+          -0.7364597091027201
+        ],
+        "goal_q": [
+          0.52,
+          -0.045,
+          0.0,
+          -1.57079,
+          0.0,
+          1.57079,
+          -0.7853
+        ],
+        "final_joint_max_error_rad": 0.9622236017553705,
+        "final_tcp_error_m": 0.434156853675336,
+        "joint_rmse_rad": [
+          0.00010582882632499454,
+          0.0001101380406937097,
+          0.00013359899339190453,
+          7.801152023828566e-05,
+          0.00011222989127578343,
+          9.550079788612428e-05,
+          7.644254118590686e-05
+        ],
+        "joint_max_abs_error_rad": [
+          0.00023090159630057006,
+          0.0002524830366457398,
+          0.0003388143884012207,
+          0.00018854669236634258,
+          0.0002460481808537335,
+          0.00024166083385579462,
+          0.00016787039386145786
+        ],
+        "tcp_rmse_m": 0.00010877404833454287,
+        "tcp_max_error_m": 0.00022357266051408994,
+        "path_max_deviation_rad": 0.00034583937103651983,
+        "actual_finger_max_deviation_from_planning_m": 2.2622154553647578e-06,
+        "first_violation": {
+          "time": 3.6519999999998194,
+          "q": [
+            -0.4422250547693601,
+            -0.12714080937875705,
+            0.17360946866953716,
+            -1.5334648747699602,
+            -0.10376377335064974,
+            1.5872278030611693,
+            -0.7364612060727178
+          ],
+          "reason": "rl_external_truncation",
+          "monitor": null,
+          "trajectory_time": 2.1519999999999846
+        },
+        "errors": [],
+        "live_qpos_writes_after_initialization": 0,
+        "controller": "Unmodified upstream position servos; ctrl targets radians; original JointPositionController",
+        "run_directory": "research-archive/results/runs/phase3b_training_1792658731055848900/actual_training/episode_0003",
+        "source": "actual live MjData / ctrl + mj_step"
+      }
+    ],
+    "wall_s": 51.79713169997558,
+    "error": null,
+    "source_hashes": {
+      "src\\rl\\dependencies.py": "14c068caff3e8f4329dc4f2bb6e86cc3c582d0b001f00c12677273f1e4670336",
+      "src\\rl\\panda_residual_env.py": "13807415398c8fe12b8832f1eadaa1223e1bc7cfb290ce066e624e2f8e20eed8",
+      "src\\rl\\residual_controller.py": "97a9e7f9f01062eb7669d2aaba8323e2c9cbee98a4c7b0c6b13e024e6fbbd156",
+      "src\\rl\\__init__.py": "32086ac67b55b38e959d65086778985f7324a5271b2d1749f5f550af4a972df5",
+      "configs\\phase3b_smoke.json": "634b821a3a185d51ba148902e2276e5eceac8bfb11e58addbdb442a2f217b1fb",
+      "scripts\\train_phase3b.py": "67d0bd4686ed751090955908619d9c422f845de1fe4f05f5f7a0928bc8d58eaa"
+    },
+    "final_model": "research-archive/results/runs/phase3b_training_1792658731055848900/checkpoints/ppo_smoke_final.zip",
+    "final_model_sha256": "32ae03f299209d96056b1f044b2a290224ec52997daf9fa410ca8f6b354f163e",
+    "warning": "A smoke experiment only; no automatic long training or claim of PPO superiority"
+  },
+  "paired_evaluation": [
+    {
+      "method": "M1",
+      "runs": 9,
+      "success": 9,
+      "violation_runs": 0,
+      "contact_runs": 0,
+      "median_tcp_rmse_m": 0.004692960912581773,
+      "median_final_tcp_error_m": 1.200040279346684e-06,
+      "max_final_tcp_error_m": 0.0003634676777376904
+    },
+    {
+      "method": "M3",
+      "runs": 9,
+      "success": 9,
+      "violation_runs": 0,
+      "contact_runs": 0,
+      "median_tcp_rmse_m": 0.00011843557034009068,
+      "median_final_tcp_error_m": 1.91346573923592e-07,
+      "max_final_tcp_error_m": 0.00036399668596625174
+    },
+    {
+      "method": "M3_PPO",
+      "runs": 9,
+      "success": 9,
+      "violation_runs": 0,
+      "contact_runs": 0,
+      "median_tcp_rmse_m": 0.00011675252543230713,
+      "median_final_tcp_error_m": 2.1992610144356784e-05,
+      "max_final_tcp_error_m": 0.0003789018886061121
+    }
+  ],
+  "paired_changes": [
+    {
+      "scene": "b_train_sphere",
+      "condition": "nominal",
+      "M3_tcp_rmse_m": 8.55070977090583e-05,
+      "PPO_tcp_rmse_m": 8.431598259504887e-05,
+      "rmse_change_fraction": -0.013930014535895596,
+      "success_M3": true,
+      "success_PPO": true
+    },
+    {
+      "scene": "b_train_sphere",
+      "condition": "mild_gain",
+      "M3_tcp_rmse_m": 0.00035763885748465996,
+      "PPO_tcp_rmse_m": 0.00036192013551267856,
+      "rmse_change_fraction": 0.011970953207181223,
+      "success_M3": true,
+      "success_PPO": true
+    },
+    {
+      "scene": "b_validation_cylinder",
+      "condition": "nominal",
+      "M3_tcp_rmse_m": 8.709940381110206e-05,
+      "PPO_tcp_rmse_m": 8.562711761018042e-05,
+      "rmse_change_fraction": -0.016903516401956975,
+      "success_M3": true,
+      "success_PPO": true
+    },
+    {
+      "scene": "b_validation_cylinder",
+      "condition": "mild_gain",
+      "M3_tcp_rmse_m": 0.0003409688959129387,
+      "PPO_tcp_rmse_m": 0.0003448181757770946,
+      "rmse_change_fraction": 0.011289240485849783,
+      "success_M3": true,
+      "success_PPO": true
+    },
+    {
+      "scene": "b_validation_cylinder",
+      "condition": "mild_mass",
+      "M3_tcp_rmse_m": 0.00030025551336821266,
+      "PPO_tcp_rmse_m": 0.00030249602038259576,
+      "rmse_change_fraction": 0.0074620012443717965,
+      "success_M3": true,
+      "success_PPO": true
+    },
+    {
+      "scene": "b_validation_cylinder",
+      "condition": "mild_damping",
+      "M3_tcp_rmse_m": 8.597857977805859e-05,
+      "PPO_tcp_rmse_m": 8.453643874096773e-05,
+      "rmse_change_fraction": -0.016773259581788214,
+      "success_M3": true,
+      "success_PPO": true
+    },
+    {
+      "scene": "b_validation_cylinder",
+      "condition": "mild_observation",
+      "M3_tcp_rmse_m": 8.799402140903568e-05,
+      "PPO_tcp_rmse_m": 8.655073059654328e-05,
+      "rmse_change_fraction": -0.016402146297909592,
+      "success_M3": true,
+      "success_PPO": true
+    },
+    {
+      "scene": "b_final_box",
+      "condition": "nominal",
+      "M3_tcp_rmse_m": 0.00011843557034009068,
+      "PPO_tcp_rmse_m": 0.00011675252543230713,
+      "rmse_change_fraction": -0.014210637082682553,
+      "success_M3": true,
+      "success_PPO": true
+    },
+    {
+      "scene": "b_final_box",
+      "condition": "mild_gain",
+      "M3_tcp_rmse_m": 0.0003580579204099927,
+      "PPO_tcp_rmse_m": 0.00036186589634736363,
+      "rmse_change_fraction": 0.010635083656327593,
+      "success_M3": true,
+      "success_PPO": true
+    }
+  ],
+  "initial_policy_equivalence": [
+    {
+      "scene": "b_train_sphere",
+      "condition": "nominal",
+      "bitwise_equal_to_M3": true
+    },
+    {
+      "scene": "b_train_sphere",
+      "condition": "mild_gain",
+      "bitwise_equal_to_M3": true
+    },
+    {
+      "scene": "b_validation_cylinder",
+      "condition": "nominal",
+      "bitwise_equal_to_M3": true
+    },
+    {
+      "scene": "b_validation_cylinder",
+      "condition": "mild_gain",
+      "bitwise_equal_to_M3": true
+    }
+  ],
+  "failed_original_candidate_runs": [
+    "research-archive/results/runs/phase3b_safety_1792658056441764900/train_nominal_alternating/episode_0000",
+    "research-archive/results/runs/phase3b_safety_1792658056441764900/train_mild_gain_alternating/episode_0000",
+    "research-archive/results/runs/phase3b_safety_1792658056441764900/validation_nominal_alternating/episode_0000",
+    "research-archive/results/runs/phase3b_safety_1792658056441764900/validation_mild_gain_alternating/episode_0000"
+  ],
+  "failed_candidate_count": 4,
+  "corrected_gate_successes": 12,
+  "test_count": 173,
+  "history_files_unchanged": 2132,
+  "conclusion": "环境和烟雾训练基本验收通过；不能证明PPO超过M3，暂不具备直接大规模正式训练的证据",
+  "next_requirements": [
+    "multiple bounded training seeds",
+    "bounded integral/adaptive baseline",
+    "reward/observation analysis",
+    "more safety states and unseen tasks"
+  ],
+  "training_complete_episode_returns": [
+    200.31071943419795,
+    200.29748192487006,
+    200.30933647967726
+  ],
+  "final_test_already_opened": true
+}

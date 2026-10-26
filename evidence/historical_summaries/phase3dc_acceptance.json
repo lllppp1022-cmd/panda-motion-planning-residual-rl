@@ -1,0 +1,224 @@
+{
+  "passed": true,
+  "tests": 222,
+  "historical_files_verified": 9982,
+  "historical_changed": false,
+  "interface": {
+    "passed": true,
+    "action_max_abs_error": 1.1920928955078125e-07,
+    "all_four_trajectories_bitwise_equal": true,
+    "exact_reload": true
+  },
+  "common_gate_passed": true,
+  "training_decisions": 16384,
+  "training_physics": 447208,
+  "metrics": {
+    "validation": {
+      "M3": {
+        "n": 3,
+        "success": 3,
+        "tcp_mm": 0.5600753897704482,
+        "joint_rad": 0.00036100713007569175,
+        "final_tcp_mm": 0.45877136564885745,
+        "min_gap_mm": 21.693487591158632,
+        "violations": 0,
+        "contacts": 0,
+        "residual_squared_rate": 0.0,
+        "saturation": 0
+      },
+      "Integral500": {
+        "n": 3,
+        "success": 3,
+        "tcp_mm": 0.36211159481353034,
+        "joint_rad": 0.0002842508496898914,
+        "final_tcp_mm": 0.1846386027216933,
+        "min_gap_mm": 21.693465710379748,
+        "violations": 0,
+        "contacts": 0,
+        "residual_squared_rate": 1.2720350625248214e-08,
+        "saturation": 0
+      },
+      "Integral20": {
+        "n": 3,
+        "success": 3,
+        "tcp_mm": 0.3624858152813244,
+        "joint_rad": 0.000285072153692986,
+        "final_tcp_mm": 0.18562280693228092,
+        "min_gap_mm": 21.69346397369852,
+        "violations": 0,
+        "contacts": 0,
+        "residual_squared_rate": 3.2441249147196185e-07,
+        "saturation": 0
+      },
+      "BC85": {
+        "n": 3,
+        "success": 3,
+        "tcp_mm": 0.43335786022238265,
+        "joint_rad": 0.0003317619648801105,
+        "final_tcp_mm": 0.27982530906761793,
+        "min_gap_mm": 21.693409335820554,
+        "violations": 0,
+        "contacts": 0,
+        "residual_squared_rate": 3.17009747741358e-07,
+        "saturation": 0
+      },
+      "A_seed42": {
+        "n": 3,
+        "success": 3,
+        "tcp_mm": 0.4464147920157419,
+        "joint_rad": 0.0003358506602328776,
+        "final_tcp_mm": 0.31452275960322096,
+        "min_gap_mm": 21.693495384472243,
+        "violations": 0,
+        "contacts": 0,
+        "residual_squared_rate": 3.503704213179321e-07,
+        "saturation": 0
+      },
+      "A_seed123": {
+        "n": 3,
+        "success": 3,
+        "tcp_mm": 0.44526733715597855,
+        "joint_rad": 0.00033776203319663345,
+        "final_tcp_mm": 0.2797530193955942,
+        "min_gap_mm": 21.693422992226033,
+        "violations": 0,
+        "contacts": 0,
+        "residual_squared_rate": 3.147728344379993e-07,
+        "saturation": 0
+      },
+      "B_seed42": {
+        "n": 3,
+        "success": 3,
+        "tcp_mm": 0.36187973932702305,
+        "joint_rad": 0.00028485855038736413,
+        "final_tcp_mm": 0.18482002546371656,
+        "min_gap_mm": 21.693461151836324,
+        "violations": 0,
+        "contacts": 0,
+        "residual_squared_rate": 3.2396211121395574e-07,
+        "saturation": 0
+      },
+      "B_seed123": {
+        "n": 3,
+        "success": 3,
+        "tcp_mm": 0.3629557955029417,
+        "joint_rad": 0.0002851140520981331,
+        "final_tcp_mm": 0.1859081829629695,
+        "min_gap_mm": 21.6934637154817,
+        "violations": 0,
+        "contacts": 0,
+        "residual_squared_rate": 3.243856440221303e-07,
+        "saturation": 0
+      }
+    },
+    "test": {
+      "M3": {
+        "n": 6,
+        "success": 6,
+        "tcp_mm": 1.154319470616465,
+        "joint_rad": 0.000747591319423309,
+        "final_tcp_mm": 1.2047756005073358,
+        "min_gap_mm": 21.72873184532979,
+        "violations": 0,
+        "contacts": 0,
+        "residual_squared_rate": 0.0,
+        "saturation": 0
+      },
+      "Integral500": {
+        "n": 6,
+        "success": 6,
+        "tcp_mm": 0.4729030203801316,
+        "joint_rad": 0.0003993359696128724,
+        "final_tcp_mm": 0.31059116150882976,
+        "min_gap_mm": 21.728213174318114,
+        "violations": 0,
+        "contacts": 0,
+        "residual_squared_rate": 2.3260992581571564e-08,
+        "saturation": 0
+      },
+      "Integral20": {
+        "n": 6,
+        "success": 6,
+        "tcp_mm": 0.469298587421813,
+        "joint_rad": 0.00039942924640721687,
+        "final_tcp_mm": 0.3114591237928518,
+        "min_gap_mm": 21.728210807636096,
+        "violations": 0,
+        "contacts": 0,
+        "residual_squared_rate": 5.554039844549886e-07,
+        "saturation": 0
+      },
+      "BC85": {
+        "n": 6,
+        "success": 6,
+        "tcp_mm": 0.6648385423623342,
+        "joint_rad": 0.0005356382446483812,
+        "final_tcp_mm": 0.5994285451774459,
+        "min_gap_mm": 21.72800464618706,
+        "violations": 0,
+        "contacts": 0,
+        "residual_squared_rate": 2.2947685231359945e-07,
+        "saturation": 0
+      },
+      "A_seed42": {
+        "n": 6,
+        "success": 6,
+        "tcp_mm": 0.6618443822033789,
+        "joint_rad": 0.0005344569480261185,
+        "final_tcp_mm": 0.6104976939454957,
+        "min_gap_mm": 21.72801365999125,
+        "violations": 0,
+        "contacts": 0,
+        "residual_squared_rate": 2.46569740962893e-07,
+        "saturation": 0
+      },
+      "A_seed123": {
+        "n": 6,
+        "success": 6,
+        "tcp_mm": 0.6947249798767808,
+        "joint_rad": 0.0005486956424151284,
+        "final_tcp_mm": 0.6206489472151404,
+        "min_gap_mm": 21.728158959148757,
+        "violations": 0,
+        "contacts": 0,
+        "residual_squared_rate": 2.1354961107090978e-07,
+        "saturation": 0
+      },
+      "B_seed42": {
+        "n": 6,
+        "success": 6,
+        "tcp_mm": 0.4691336799318963,
+        "joint_rad": 0.00039936959888792553,
+        "final_tcp_mm": 0.3112321221965808,
+        "min_gap_mm": 21.728213053771157,
+        "violations": 0,
+        "contacts": 0,
+        "residual_squared_rate": 5.548622247895008e-07,
+        "saturation": 0
+      },
+      "B_seed123": {
+        "n": 6,
+        "success": 6,
+        "tcp_mm": 0.46969187514713173,
+        "joint_rad": 0.00039948276212585526,
+        "final_tcp_mm": 0.3116084425551476,
+        "min_gap_mm": 21.72820911910761,
+        "violations": 0,
+        "contacts": 0,
+        "residual_squared_rate": 5.551880048269118e-07,
+        "saturation": 0
+      }
+    }
+  },
+  "relative_tcp_improvement_over_integral20": {
+    "A_seed42": -0.4102841984659602,
+    "A_seed123": -0.48034747705803554,
+    "B_seed42": 0.00035139140482536496,
+    "B_seed123": -0.0008380330473171032
+  },
+  "cross_seed_integral_ppo_effect_at_least_one_percent": false,
+  "conclusion": "未获得跨两个训练种子、达到1%描述性效果门槛且保持安全的强积分基线额外收益证据。建议结束当前算法扩展，整理为求职作品集；本轮后不自动扩大训练。",
+  "videos_validated": true,
+  "stage_paused": true,
+  "statistics": "descriptive only; no significance claim"
+}

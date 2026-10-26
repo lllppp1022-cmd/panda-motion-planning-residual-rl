@@ -1,0 +1,19 @@
+project: Motion Planning and Residual Reinforcement Learning for Safe Robotic Manipulation
+phase: 1
+upstream_directory: models/mujoco_menagerie/franka_emika_panda
+scene: models/derived/phase1_scene.xml
+arm_joint_names: [joint1, joint2, joint3, joint4, joint5, joint6, joint7]
+base_body: link0
+tool_body: hand
+tool_site: tool_site
+tool_site_position_in_hand_m: [0.0, 0.0, 0.1034]
+timestep_s: 0.002
+max_command_velocity_rad_s: 0.35
+ik:
+  position_tolerance_m: 0.001
+  phase1_acceptance_m: 0.01
+  damping_m_per_rad: 0.03
+  max_joint_step_rad: 0.08
+  max_iterations: 200
+  joint_margin_rad: 0.0001
+sampling_seed: 20261020

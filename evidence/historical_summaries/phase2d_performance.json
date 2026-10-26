@@ -1,0 +1,91 @@
+{
+  "groups": [
+    {
+      "planning_clearance_m": 0.005,
+      "execution_clearance_m": 0.005,
+      "planning_trials": 3,
+      "planning_successes": 3,
+      "raw_fine_passes": 3,
+      "final_fine_passes": 3,
+      "dynamic_trials": 6,
+      "dynamic_successes": 0,
+      "minimum_planned_gap_m": 0.005756321983164421,
+      "minimum_actual_gap_m": -0.0004432894079066107,
+      "contact_intervals": 2,
+      "contact_executions": 2,
+      "planning_median_s": 1.777681399602443,
+      "path_length_median_rad": 1.9628175911420223,
+      "dynamic_simulation_median_s": 12.40000000000081,
+      "planning_failures": []
+    },
+    {
+      "planning_clearance_m": 0.008,
+      "execution_clearance_m": 0.005,
+      "planning_trials": 3,
+      "planning_successes": 3,
+      "raw_fine_passes": 3,
+      "final_fine_passes": 3,
+      "dynamic_trials": 6,
+      "dynamic_successes": 4,
+      "minimum_planned_gap_m": 0.009300346870848797,
+      "minimum_actual_gap_m": -0.0004432894079066107,
+      "contact_intervals": 2,
+      "contact_executions": 2,
+      "planning_median_s": 1.7821841998957098,
+      "path_length_median_rad": 2.2538562254423846,
+      "dynamic_simulation_median_s": 26.009999999996463,
+      "planning_failures": []
+    },
+    {
+      "planning_clearance_m": 0.01,
+      "execution_clearance_m": 0.005,
+      "planning_trials": 3,
+      "planning_successes": 3,
+      "raw_fine_passes": 3,
+      "final_fine_passes": 3,
+      "dynamic_trials": 6,
+      "dynamic_successes": 6,
+      "minimum_planned_gap_m": 0.01415581696124524,
+      "minimum_actual_gap_m": 0.008516963927930693,
+      "contact_intervals": 0,
+      "contact_executions": 0,
+      "planning_median_s": 1.799793700221926,
+      "path_length_median_rad": 2.2538562254423846,
+      "dynamic_simulation_median_s": 28.59399999999503,
+      "planning_failures": []
+    },
+    {
+      "planning_clearance_m": 0.015,
+      "execution_clearance_m": 0.005,
+      "planning_trials": 3,
+      "planning_successes": 3,
+      "raw_fine_passes": 3,
+      "final_fine_passes": 3,
+      "dynamic_trials": 6,
+      "dynamic_successes": 6,
+      "minimum_planned_gap_m": 0.01809694987233695,
+      "minimum_actual_gap_m": 0.013438546962784534,
+      "contact_intervals": 0,
+      "contact_executions": 0,
+      "planning_median_s": 2.1617737002670765,
+      "path_length_median_rad": 3.3929053127925135,
+      "dynamic_simulation_median_s": 35.42899999999733,
+      "planning_failures": []
+    }
+  ],
+  "unique_final_joint_paths": 8,
+  "planning_conditions": 12,
+  "dynamic_trials": 24,
+  "cohort": "three planning seeds, paired velocities, no independent stochastic execution repeats",
+  "csv_audit": true,
+  "video_alignment": [
+    {
+      "episode": "A_original_failed_baseline",
+      "frames_matched": 156
+    },
+    {
+      "episode": "B_replanned_margin",
+      "frames_matched": 489
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name":"Phase3D-B bounded integral-teacher BC pilot", "seed":42,
+  "physics_dt_s":0.002, "actor_decimation":25,"residual_cap_rad":0.002,"residual_slew_rad_s":0.01,"command_slew_rad_s":0.35,
+  "integral_ki_per_s":0.3,"planning_clearance_m":0.02,"execution_clearance_m":0.005,
+  "layouts":[
+    {"name":"bc_train_sphere","split":"train","obstacle":"obstacle_sphere","cross":-0.07,"start":-0.36,"goal":0.50,"q2":-0.08},
+    {"name":"bc_train_cylinder","split":"train","obstacle":"obstacle_cylinder","cross":0.06,"start":-0.50,"goal":0.48,"q2":0.03},
+    {"name":"bc_validation_sphere","split":"validation","obstacle":"obstacle_sphere","cross":0.10,"start":-0.42,"goal":0.56,"q2":0.10},
+    {"name":"bc_final_box","split":"test","obstacle":"obstacle_box","cross":-0.02,"start":-0.55,"goal":0.46,"q2":-0.12},
+    {"name":"bc_final_sphere","split":"test","obstacle":"obstacle_sphere","cross":0.12,"start":-0.31,"goal":0.61,"q2":0.14}
+  ],
+  "planning_seeds":[211,307],
+  "train_conditions":[{"name":"nominal"},{"name":"gain95","kp_scale":0.95},{"name":"gain90","kp_scale":0.9},{"name":"mass105","mass_inertia_scale":1.05},{"name":"damping110","joint_damping_scale":1.1},{"name":"combo_light","kp_scale":0.95,"mass_inertia_scale":1.05,"joint_damping_scale":1.1}],
+  "validation_conditions":[{"name":"nominal"},{"name":"gain92","kp_scale":0.92},{"name":"mass108","mass_inertia_scale":1.08},{"name":"combo_val","kp_scale":0.94,"mass_inertia_scale":1.07,"joint_damping_scale":1.08}],
+  "test_conditions":[{"name":"gain88","kp_scale":0.88},{"name":"mass112","mass_inertia_scale":1.12},{"name":"combo_test","kp_scale":0.9,"mass_inertia_scale":1.1,"joint_damping_scale":1.15}],
+  "train_physical_seeds":[4101,4102],"validation_physical_seed":5101,"test_physical_seed":6101,"workers":3,
+  "demonstration_budget":"24 train +4 validation episodes; pilot first two train layouts x nominal/gain90 xseed4101 (4); no test demonstrations",
+  "quality_filter":"success; finite valid task; no warnings, prohibited contacts or5mm violations; label and applied bounds; independent observable integral matches original teacher at every physics step; all rejected episodes retained",
+  "label":"current causal desired integral residual /0.002 at decision boundary BEFORE next25 physics steps, NOT post-slew applied residual, NOT future integral",
+  "observation":"same78 sensor/reference/nominal-controller/history fields; optional7 own observable integral state /0.002; no true dynamics parameters, no future reference",
+  "student_integral":"update each physical step using current known reference minus last delayed observable q; ki0.3/s; clamp+/-.002; block on prior ctrl slew or native force saturation; reset at episode start/protective hold",
+  "bc":{"dimensions":[78,85],"hidden":[64,64],"epochs":150,"patience":25,"batch_size":256,"learning_rate":0.001,"normalization_std_floor":0.01,"selection":"minimum validation action MSE independently per architecture; fixed seed42; never select using closed-loop or final test"},
+  "methods":["M3","Integral500","Integral20","BC78","BC85"],
+  "evaluation_budget":"validation4 conditions x5methods (expert4 reused); final2 layouts x3 conditions x5methods=30; pilot validation gate before final opening",
+  "final_opening_gate":"all checkpoints and controller/config frozen, demonstration quality and normalization verified; validation failures retained rather than retuned; execute final only with valid control numerics/no safety failures",
+  "video_case":"first frozen final layout bc_final_box / gain88 / seed6101 for all5 methods, independent actual ctrl+mj_step executions; no selection by performance",
+  "prohibited":"no PPO optimization; no original code/model/data overwrite; no relaxation of safety; no new test tuning; discrete checks not a continuous safety guarantee"
+}

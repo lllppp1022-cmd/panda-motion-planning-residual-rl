@@ -1,0 +1,2726 @@
+{
+  "passed": true,
+  "clear": {
+    "minimum": {
+      "robot_geom": "panda_link0_collision_11",
+      "robot_geom_id": 12,
+      "obstacle_geom": "obstacle_cylinder",
+      "obstacle_geom_id": 84,
+      "signed_distance_m": 0.7393622576366446,
+      "distmax": 2.0,
+      "capped": false,
+      "nearest_surface_segment": [
+        -0.13369852540047372,
+        0.06693206643137956,
+        0.007415017201025574,
+        -0.561450984243014,
+        0.6476647978491756,
+        0.16999999999999998
+      ]
+    },
+    "external_contact_count": 0,
+    "external_contacts": [],
+    "pairs": [
+      {
+        "robot_geom": "panda_link0_collision_11",
+        "robot_geom_id": 12,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 1.2938257981055439,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.04624744482252652,
+          0.030032589665873573,
+          0.13999995681053395,
+          1.053298900494346,
+          0.7658759312426354,
+          0.4840452127433281
+        ]
+      },
+      {
+        "robot_geom": "panda_link0_collision_11",
+        "robot_geom_id": 12,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 0.7393622576366446,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          -0.13369852540047372,
+          0.06693206643137956,
+          0.007415017201025574,
+          -0.561450984243014,
+          0.6476647978491756,
+          0.16999999999999998
+        ]
+      },
+      {
+        "robot_geom": "panda_link1_collision_1",
+        "robot_geom_id": 14,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 1.2663195059418795,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.05488298259886993,
+          -0.000572618704504254,
+          0.3389492814015103,
+          1.052721029312212,
+          0.7637837211116345,
+          0.4927143926688711
+        ]
+      },
+      {
+        "robot_geom": "panda_link1_collision_1",
+        "robot_geom_id": 14,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 0.8019352184111551,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          -0.03590894356581041,
+          0.041685851316250924,
+          0.1693659422069974,
+          -0.5577062698618057,
+          0.650641714059367,
+          0.16999999999999998
+        ]
+      },
+      {
+        "robot_geom": "panda_link2_collision_1",
+        "robot_geom_id": 16,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 1.2115336387740139,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.046281937729857156,
+          0.107482684316599,
+          0.33600058762850293,
+          1.050278087965359,
+          0.7673221079852306,
+          0.49226134138946
+        ]
+      },
+      {
+        "robot_geom": "panda_link2_collision_1",
+        "robot_geom_id": 16,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 0.7455821118443043,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          -0.04276382781112113,
+          0.11133098565846553,
+          0.32760592085320084,
+          -0.5553155175925744,
+          0.6527951588078897,
+          0.32760592085410745
+        ]
+      },
+      {
+        "robot_geom": "panda_link3_collision_4",
+        "robot_geom_id": 21,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 1.1504117467828463,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.128177611694626,
+          0.09301726439108245,
+          0.6443372920948407,
+          1.0518268527603911,
+          0.764954930213392,
+          0.5071547864176867
+        ]
+      },
+      {
+        "robot_geom": "panda_link3_collision_4",
+        "robot_geom_id": 21,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 0.8016727636370736,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          -0.03708672658783786,
+          0.041023273668638095,
+          0.5279824671544237,
+          -0.5577816866338292,
+          0.6505771913331929,
+          0.527982467154429
+        ]
+      },
+      {
+        "robot_geom": "panda_link4_collision_4",
+        "robot_geom_id": 26,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 1.1248358410874495,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.20649588266562668,
+          0.0545800728276012,
+          0.7232386498933862,
+          1.0547530171007837,
+          0.7622519896179923,
+          0.5113047888400386
+        ]
+      },
+      {
+        "robot_geom": "panda_link4_collision_4",
+        "robot_geom_id": 26,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 0.8829022963341574,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.029163189977959608,
+          -0.0005738594448930974,
+          0.6351291533376929,
+          -0.5565688936195523,
+          0.651639489264826,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_link5_collision_3",
+        "robot_geom_id": 30,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 1.001001232798242,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.3329608626540035,
+          0.09544804486397837,
+          0.7024379418313383,
+          1.0566236618600506,
+          0.7601573344107511,
+          0.5114479381685978
+        ]
+      },
+      {
+        "robot_geom": "panda_link5_collision_3",
+        "robot_geom_id": 30,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 0.9877025645080162,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.2074996082260843,
+          0.05088199985773578,
+          0.7105787917359544,
+          -0.54933905307726,
+          0.6592757018858356,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_link5_collision_4",
+        "robot_geom_id": 31,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.9389507410712457,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.4087290291155523,
+          0.1076958931974525,
+          0.7018961406357012,
+          1.0584801767016172,
+          0.7584181234365887,
+          0.5121264922684292
+        ]
+      },
+      {
+        "robot_geom": "panda_link5_collision_4",
+        "robot_geom_id": 31,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.0309730393451726,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.29126973342480156,
+          0.08851394719225948,
+          0.7058305871030517,
+          -0.546401859956297,
+          0.663227192331077,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_link5_collision_5",
+        "robot_geom_id": 32,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.8733470870379023,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.49794628329277235,
+          0.12150779341844273,
+          0.7198099922415723,
+          1.0612971171131254,
+          0.7563832866033896,
+          0.5141304341307263
+        ]
+      },
+      {
+        "robot_geom": "panda_link5_collision_5",
+        "robot_geom_id": 32,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.1112438655157695,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.398681404339892,
+          0.11115024511747598,
+          0.7229915889259925,
+          -0.5440083433583481,
+          0.6669858456639676,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_link6_collision_17",
+        "robot_geom_id": 50,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.881699547074771,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5756577116614904,
+          0.0388471085331428,
+          0.6803038475252446,
+          1.066591746382339,
+          0.7515034560334293,
+          0.5114879856161338
+        ]
+      },
+      {
+        "robot_geom": "panda_link6_collision_17",
+        "robot_geom_id": 50,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.1793567387658141,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.41849433538753367,
+          0.014747349757276366,
+          0.7283384081397118,
+          -0.5460700760058735,
+          0.6637155226303624,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_link7_collision_8",
+        "robot_geom_id": 59,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.8482623270628527,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.6380714868188923,
+          0.030802591983564574,
+          0.6410597425657532,
+          1.0694849054452211,
+          0.7491866577465209,
+          0.5093184362069875
+        ]
+      },
+      {
+        "robot_geom": "panda_link7_collision_8",
+        "robot_geom_id": 59,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.2429034688252347,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5007258922085273,
+          0.003842741214976345,
+          0.646888614694691,
+          -0.5450648955876053,
+          0.6652561616513187,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_hand_collision_5",
+        "robot_geom_id": 65,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.843160947898147,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.6529949375046364,
+          0.01925915411358768,
+          0.5795606905221721,
+          1.0703039598732225,
+          0.7481327764866251,
+          0.5052854825515204
+        ]
+      },
+      {
+        "robot_geom": "panda_hand_collision_5",
+        "robot_geom_id": 65,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.192942118980993,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.45496355235934527,
+          0.016239883327406904,
+          0.5729183390428945,
+          -0.5454547488812984,
+          0.6646472691239025,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_collision_2",
+        "robot_geom_id": 68,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.8653810758069034,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.6197534988210242,
+          0.010393592353572774,
+          0.5470654286137706,
+          1.0688617037628385,
+          0.7488033787405098,
+          0.5030516354728389
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_collision_2",
+        "robot_geom_id": 68,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.3169618799365759,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5970634940631905,
+          0.01034582060126716,
+          0.5643024295158254,
+          -0.5436784142116352,
+          0.6675519033796454,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_1_3",
+        "robot_geom_id": 69,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.8741666384756901,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.6040003124787688,
+          0.008495139142320252,
+          0.5131024294875892,
+          1.068142748814243,
+          0.7491629333617044,
+          0.5008415476820476
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_1_3",
+        "robot_geom_id": 69,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.3165189588486252,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5960003125173405,
+          0.008495924728857242,
+          0.5138643889006156,
+          -0.5437285764986776,
+          0.66746498967059,
+          0.5138643889006183
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_2_4",
+        "robot_geom_id": 70,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.877098020491186,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5985003125052869,
+          0.00849567923306449,
+          0.5131024294875892,
+          1.0678902520422449,
+          0.7493219938495607,
+          0.5008389151957053
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_2_4",
+        "robot_geom_id": 70,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.3152205182596466,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5945003125245728,
+          0.00849607202633292,
+          0.5133794388402503,
+          -0.543746376445705,
+          0.6674342229171226,
+          0.5133794388403373
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_3_5",
+        "robot_geom_id": 71,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.8864078816254508,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5984992323237984,
+          -0.002504320713899555,
+          0.5131024294875892,
+          1.0682060487399019,
+          0.7491231421698044,
+          0.5008306627454382
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_3_5",
+        "robot_geom_id": 71,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.3207633942389725,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5944992323430843,
+          -0.0025039279206310722,
+          0.5133794388402503,
+          -0.5439714335173947,
+          0.667048524495794,
+          0.5133794388403324
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_4_6",
+        "robot_geom_id": 72,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.8772911759950859,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5985003125052869,
+          0.008495679233064435,
+          0.5231024294875892,
+          1.0678968691690307,
+          0.7493324374940389,
+          0.5014788849023184
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_4_6",
+        "robot_geom_id": 72,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.3152205182596735,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5945003125245728,
+          0.008496072026332919,
+          0.523233990778016,
+          -0.5437463813633374,
+          0.6674342144224812,
+          0.5232339907780534
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_5_7",
+        "robot_geom_id": 73,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.8865991374349151,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5984992323237985,
+          -0.0025043207138994994,
+          0.5231024294875892,
+          1.0682124725550564,
+          0.7491334215945815,
+          0.5014643429456438
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_5_7",
+        "robot_geom_id": 73,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.3207633942389982,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5944992323430842,
+          -0.0025039279206310727,
+          0.523233990778016,
+          -0.5439714383623535,
+          0.6670485162577396,
+          0.5232339907780511
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_collision_2",
+        "robot_geom_id": 76,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.9266574042366227,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5119374947218966,
+          0.010354180134984304,
+          0.5643024291197309,
+          1.0642391065377093,
+          0.7519805466533159,
+          0.5039103195603837
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_collision_2",
+        "robot_geom_id": 76,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.2238302443319715,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.4881964995753591,
+          0.010397510378765002,
+          0.565938429327183,
+          -0.545096085170386,
+          0.6652068952753207,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_1_3",
+        "robot_geom_id": 77,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.9254978971492243,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5130003129175214,
+          0.008504075189177951,
+          0.5131024294875892,
+          1.0642617388359417,
+          0.751811408602672,
+          0.5007977143041396
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_1_3",
+        "robot_geom_id": 77,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.2385302908655011,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.505000312956093,
+          0.008504860775715,
+          0.5138643889006156,
+          -0.5448995986627236,
+          0.6655189070290531,
+          0.5138643889006183
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_2_4",
+        "robot_geom_id": 78,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.9334700638659239,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5144992327288009,
+          -0.002496072055261589,
+          0.5131024294875892,
+          1.0646390492134512,
+          0.7515337541868654,
+          0.5007913129925587
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_2_4",
+        "robot_geom_id": 78,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.249042893255974,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5104992327480867,
+          -0.0024956792619931422,
+          0.5133794388402501,
+          -0.5450685167242979,
+          0.6652504367634459,
+          0.5133794388403452
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_3_5",
+        "robot_geom_id": 79,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.9246052962499691,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5145003129102891,
+          0.0085039278917024,
+          0.5131024294875892,
+          1.0643207472484848,
+          0.7517677139180838,
+          0.5007984374776873
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_3_5",
+        "robot_geom_id": 79,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.2431961701246295,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.510500312929575,
+          0.008504320684970852,
+          0.5133794388402501,
+          -0.5448229590232436,
+          0.6656416800607284,
+          0.5133794388403506
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_4_6",
+        "robot_geom_id": 80,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.9336522613004585,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5144992327288008,
+          -0.0024960720552616444,
+          0.5231024294875892,
+          1.0646455330456397,
+          0.7515426410238331,
+          0.5013950008702655
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_4_6",
+        "robot_geom_id": 80,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.2490428932560054,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5104992327480867,
+          -0.0024956792619931422,
+          0.523233990778016,
+          -0.5450685223567803,
+          0.6652504278597211,
+          0.523233990778056
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_5_7",
+        "robot_geom_id": 81,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.9247891337709009,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5145003129102892,
+          0.008503927891702512,
+          0.5231024294875892,
+          1.064327407745793,
+          0.7517767177785023,
+          0.5014075559139728
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_5_7",
+        "robot_geom_id": 81,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.2431961701246625,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.510500312929575,
+          0.00850432068497085,
+          0.5232339907780159,
+          -0.5448229647612063,
+          0.6656416708459663,
+          0.5232339907780585
+        ]
+      }
+    ],
+    "robot_collision_geoms": [
+      "panda_link0_collision_11",
+      "panda_link1_collision_1",
+      "panda_link2_collision_1",
+      "panda_link3_collision_4",
+      "panda_link4_collision_4",
+      "panda_link5_collision_3",
+      "panda_link5_collision_4",
+      "panda_link5_collision_5",
+      "panda_link6_collision_17",
+      "panda_link7_collision_8",
+      "panda_hand_collision_5",
+      "panda_left_finger_collision_2",
+      "panda_left_finger_fingertip_pad_collision_1_3",
+      "panda_left_finger_fingertip_pad_collision_2_4",
+      "panda_left_finger_fingertip_pad_collision_3_5",
+      "panda_left_finger_fingertip_pad_collision_4_6",
+      "panda_left_finger_fingertip_pad_collision_5_7",
+      "panda_right_finger_collision_2",
+      "panda_right_finger_fingertip_pad_collision_1_3",
+      "panda_right_finger_fingertip_pad_collision_2_4",
+      "panda_right_finger_fingertip_pad_collision_3_5",
+      "panda_right_finger_fingertip_pad_collision_4_6",
+      "panda_right_finger_fingertip_pad_collision_5_7"
+    ],
+    "obstacles": [
+      {
+        "name": "obstacle_sphere",
+        "id": 83,
+        "type": 2,
+        "position_world": [
+          1.1,
+          0.8,
+          0.5
+        ],
+        "size": [
+          0.06,
+          0.0,
+          0.0
+        ],
+        "rotation_world": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "contype": 1,
+        "conaffinity": 1
+      },
+      {
+        "name": "obstacle_cylinder",
+        "id": 84,
+        "type": 5,
+        "position_world": [
+          -0.6,
+          0.7,
+          0.35
+        ],
+        "size": [
+          0.065,
+          0.18,
+          0.0
+        ],
+        "rotation_world": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "contype": 1,
+        "conaffinity": 1
+      }
+    ],
+    "scope": "Only named robot collision geoms vs two external obstacles. Not a planner, continuous collision guarantee or self-collision certificate."
+  },
+  "intentional_collision": {
+    "minimum": {
+      "robot_geom": "panda_link3_collision_4",
+      "robot_geom_id": 21,
+      "obstacle_geom": "obstacle_sphere",
+      "obstacle_geom_id": 83,
+      "signed_distance_m": -0.035982924882094716,
+      "distmax": 2.0,
+      "capped": false,
+      "nearest_surface_segment": [
+        0.11637682569956315,
+        -0.0019160759989355924,
+        0.6825439128496561,
+        0.10791405516808933,
+        0.0322436470775218,
+        0.6750428651000525
+      ]
+    },
+    "external_contact_count": 1,
+    "external_contacts": [
+      {
+        "geom1": "obstacle_sphere",
+        "geom2": "panda_link3_collision_4",
+        "distance_m": -0.035982924882094716,
+        "position_world": [
+          0.11214544043382624,
+          0.015163785539293104,
+          0.6787933889748543
+        ]
+      }
+    ],
+    "pairs": [
+      {
+        "robot_geom": "panda_link0_collision_11",
+        "robot_geom_id": 12,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.49197165216979283,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.05351363971117634,
+          -0.0117888404473548,
+          0.13999987908261424,
+          0.11457805663188447,
+          -0.023311016863646766,
+          0.6280311106400233
+        ]
+      },
+      {
+        "robot_geom": "panda_link0_collision_11",
+        "robot_geom_id": 12,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 0.7393622576366446,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          -0.13369852540047372,
+          0.06693206643137956,
+          0.007415017201025574,
+          -0.561450984243014,
+          0.6476647978491756,
+          0.16999999999999998
+        ]
+      },
+      {
+        "robot_geom": "panda_link1_collision_1",
+        "robot_geom_id": 14,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.2601394181076205,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.01644414231077557,
+          -0.023786815138706778,
+          0.38532382691338485,
+          0.10223750763356917,
+          -0.02454204978242436,
+          0.6309077126644536
+        ]
+      },
+      {
+        "robot_geom": "panda_link1_collision_1",
+        "robot_geom_id": 14,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 0.8019352184111551,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          -0.03590894356581041,
+          0.041685851316250924,
+          0.1693659422069974,
+          -0.5577062698618057,
+          0.650641714059367,
+          0.16999999999999998
+        ]
+      },
+      {
+        "robot_geom": "panda_link2_collision_1",
+        "robot_geom_id": 16,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.11505849000244617,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.053957097586597946,
+          -0.009342214633164182,
+          0.5270020306754588,
+          0.09869547138490156,
+          -0.019446907601213124,
+          0.6325237308681099
+        ]
+      },
+      {
+        "robot_geom": "panda_link2_collision_1",
+        "robot_geom_id": 16,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 0.7455821118443043,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          -0.04276382781112113,
+          0.11133098565846553,
+          0.32760592085320084,
+          -0.5553155175925744,
+          0.6527951588078897,
+          0.32760592085410745
+        ]
+      },
+      {
+        "robot_geom": "panda_link3_collision_4",
+        "robot_geom_id": 21,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": -0.035982924882094716,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.11637682569956315,
+          -0.0019160759989355924,
+          0.6825439128496561,
+          0.10791405516808933,
+          0.0322436470775218,
+          0.6750428651000525
+        ]
+      },
+      {
+        "robot_geom": "panda_link3_collision_4",
+        "robot_geom_id": 21,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 0.8016727636370736,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          -0.03708672658783786,
+          0.041023273668638095,
+          0.5279824671544237,
+          -0.5577816866338292,
+          0.6505771913331929,
+          0.527982467154429
+        ]
+      },
+      {
+        "robot_geom": "panda_link4_collision_4",
+        "robot_geom_id": 26,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.0,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.1220253658398101,
+          -0.024716241294624592,
+          0.6875505438518754,
+          0.1220253658398101,
+          -0.024716241294624592,
+          0.6875505438518754
+        ]
+      },
+      {
+        "robot_geom": "panda_link4_collision_4",
+        "robot_geom_id": 26,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 0.8829022963341574,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.029163189977959608,
+          -0.0005738594448930974,
+          0.6351291533376929,
+          -0.5565688936195523,
+          0.651639489264826,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_link5_collision_3",
+        "robot_geom_id": 30,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.02547445426745082,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.20749981994584715,
+          -0.02471128917867382,
+          0.6875522960104485,
+          0.18202536572650344,
+          -0.024712765086913262,
+          0.6875517738043249
+        ]
+      },
+      {
+        "robot_geom": "panda_link5_collision_3",
+        "robot_geom_id": 30,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 0.9877025645080162,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.2074996082260843,
+          0.05088199985773578,
+          0.7105787917359544,
+          -0.54933905307726,
+          0.6592757018858356,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_link5_collision_4",
+        "robot_geom_id": 31,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.1262223581886866,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.29097946522166795,
+          0.053371217893640105,
+          0.6935194389708983,
+          0.17646161109796582,
+          0.0004431842269265601,
+          0.6894736948130425
+        ]
+      },
+      {
+        "robot_geom": "panda_link5_collision_4",
+        "robot_geom_id": 31,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.0309730393451726,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.29126973342480156,
+          0.08851394719225948,
+          0.7058305871030517,
+          -0.546401859956297,
+          0.663227192331077,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_link5_collision_5",
+        "robot_geom_id": 32,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.24213338140194451,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.41529770721528014,
+          0.043411179432764666,
+          0.7127411866891656,
+          0.1802656714984517,
+          -0.011186967486228896,
+          0.6925530979001043
+        ]
+      },
+      {
+        "robot_geom": "panda_link5_collision_5",
+        "robot_geom_id": 32,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.1112438655157695,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.398681404339892,
+          0.11115024511747598,
+          0.7229915889259925,
+          -0.5440083433583481,
+          0.6669858456639676,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_link6_collision_17",
+        "robot_geom_id": 50,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.24027863110655318,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.41922403038279954,
+          -0.01600339338824011,
+          0.7295540719709429,
+          0.18140994411255354,
+          -0.022975288658545853,
+          0.6959434543891883
+        ]
+      },
+      {
+        "robot_geom": "panda_link6_collision_17",
+        "robot_geom_id": 50,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.1793567387658141,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.41849433538753367,
+          0.014747349757276366,
+          0.7283384081397118,
+          -0.5460700760058735,
+          0.6637155226303624,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_link7_collision_8",
+        "robot_geom_id": 59,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.3213496524322194,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5006061005762045,
+          -0.0036767979985016016,
+          0.6467887170722084,
+          0.1815897156151674,
+          -0.021405981039459548,
+          0.6811372441643538
+        ]
+      },
+      {
+        "robot_geom": "panda_link7_collision_8",
+        "robot_geom_id": 59,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.2429034688252347,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5007258922085273,
+          0.003842741214976345,
+          0.646888614694691,
+          -0.5450648955876053,
+          0.6652561616513187,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_hand_collision_5",
+        "robot_geom_id": 65,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.2740278126565554,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.4507567804706094,
+          -7.085966994814691e-06,
+          0.6337017341533179,
+          0.18107399631456605,
+          -0.020277840468457067,
+          0.6778779104378565
+        ]
+      },
+      {
+        "robot_geom": "panda_hand_collision_5",
+        "robot_geom_id": 65,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.192942118980993,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.45496355235934527,
+          0.016239883327406904,
+          0.5729183390428945,
+          -0.5454547488812984,
+          0.6646472691239025,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_collision_2",
+        "robot_geom_id": 68,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.4305201488212084,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5970224600983239,
+          -0.01037017584676782,
+          0.5659694299742883,
+          0.18012659924276014,
+          -0.022961442987276877,
+          0.672678847245353
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_collision_2",
+        "robot_geom_id": 68,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.3169618799365759,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5970634940631905,
+          0.01034582060126716,
+          0.5643024295158254,
+          -0.5436784142116352,
+          0.6675519033796454,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_1_3",
+        "robot_geom_id": 69,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.43970332262956,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5959986431459495,
+          -0.008504075189178017,
+          0.5301024294875892,
+          0.17893592726797683,
+          -0.022769626328752308,
+          0.6686455527620715
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_1_3",
+        "robot_geom_id": 69,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.3165189588486252,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5960003125173405,
+          0.008495924728857242,
+          0.5138643889006156,
+          -0.5437285764986776,
+          0.66746498967059,
+          0.5138643889006183
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_2_4",
+        "robot_geom_id": 70,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.44234181163916314,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.59449972333467,
+          0.0024960720552616514,
+          0.5191024294875892,
+          0.17845797963556312,
+          -0.021465986660901215,
+          0.6674310024804773
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_2_4",
+        "robot_geom_id": 70,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.3152205182596466,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5945003125245728,
+          0.00849607202633292,
+          0.5133794388402503,
+          -0.543746376445705,
+          0.6674342229171226,
+          0.5133794388403373
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_3_5",
+        "robot_geom_id": 71,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.44186512542115935,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5944986431531816,
+          -0.008503927891702342,
+          0.5191024294875892,
+          0.17851145184750558,
+          -0.02277799383549096,
+          0.6674118923498893
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_3_5",
+        "robot_geom_id": 71,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.3207633942389725,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5944992323430843,
+          -0.0025039279206310722,
+          0.5133794388402503,
+          -0.5439714335173947,
+          0.667048524495794,
+          0.5133794388403324
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_4_6",
+        "robot_geom_id": 72,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.43876090184065364,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5944997233346699,
+          0.0024960720552616514,
+          0.5301024294875892,
+          0.17886314391157385,
+          -0.021442651093452766,
+          0.6686098313241012
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_4_6",
+        "robot_geom_id": 72,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.3152205182596735,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5945003125245728,
+          0.008496072026332919,
+          0.523233990778016,
+          -0.5437463813633374,
+          0.6674342144224812,
+          0.5232339907780534
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_5_7",
+        "robot_geom_id": 73,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.4382807899146642,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5944986431531816,
+          -0.008503927891702342,
+          0.5301024294875891,
+          0.17891777913886076,
+          -0.022764051236601416,
+          0.6685915812487313
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_5_7",
+        "robot_geom_id": 73,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.3207633942389982,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5944992323430842,
+          -0.0025039279206310727,
+          0.523233990778016,
+          -0.5439714383623535,
+          0.6670485162577396,
+          0.5232339907780511
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_collision_2",
+        "robot_geom_id": 76,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.32611501385266695,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.4882184573529746,
+          -0.010382491318514715,
+          0.5659694299315847,
+          0.17892961639343852,
+          -0.022488860934598606,
+          0.6686575545261586
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_collision_2",
+        "robot_geom_id": 76,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.2238302443319715,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.4881964995753591,
+          0.010397510378765002,
+          0.565938429327183,
+          -0.545096085170386,
+          0.6652068952753207,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_1_3",
+        "robot_geom_id": 77,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.35439300710626237,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.504998643584702,
+          -0.008495139142320262,
+          0.5301024294875891,
+          0.17747610045802564,
+          -0.022367586485184974,
+          0.6647536175045281
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_1_3",
+        "robot_geom_id": 77,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.2385302908655011,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.505000312956093,
+          0.008504860775715,
+          0.5138643889006156,
+          -0.5448995986627236,
+          0.6655189070290531,
+          0.5138643889006183
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_2_4",
+        "robot_geom_id": 78,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.3637326531761899,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5104986435581841,
+          -0.00849567923306441,
+          0.5191024294875892,
+          0.17703268351615367,
+          -0.022419430519248874,
+          0.6636985069930244
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_2_4",
+        "robot_geom_id": 78,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.249042893255974,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5104992327480867,
+          -0.0024956792619931422,
+          0.5133794388402501,
+          -0.5450685167242979,
+          0.6652504367634459,
+          0.5133794388403452
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_3_5",
+        "robot_geom_id": 79,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.364297128171584,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5104997237396722,
+          0.002504320713899579,
+          0.5191024294875892,
+          0.17695965581352405,
+          -0.020866972440155725,
+          0.6637302391861082
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_3_5",
+        "robot_geom_id": 79,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.2431961701246295,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.510500312929575,
+          0.008504320684970852,
+          0.5133794388402501,
+          -0.5448229590232436,
+          0.6656416800607284,
+          0.5133794388403506
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_4_6",
+        "robot_geom_id": 80,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.3594812306310247,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.510498643558184,
+          -0.008495679233064409,
+          0.5301024294875891,
+          0.17759018009393013,
+          -0.0223961524500544,
+          0.665030139666815
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_4_6",
+        "robot_geom_id": 80,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.2490428932560054,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5104992327480867,
+          -0.0024956792619931422,
+          0.523233990778016,
+          -0.5450685223567803,
+          0.6652504278597211,
+          0.523233990778056
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_5_7",
+        "robot_geom_id": 81,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.3600514188270756,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5104997237396722,
+          0.002504320713899579,
+          0.5301024294875892,
+          0.17751490933207326,
+          -0.02082806559205942,
+          0.6650607094210429
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_5_7",
+        "robot_geom_id": 81,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.2431961701246625,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.510500312929575,
+          0.00850432068497085,
+          0.5232339907780159,
+          -0.5448229647612063,
+          0.6656416708459663,
+          0.5232339907780585
+        ]
+      }
+    ],
+    "robot_collision_geoms": [
+      "panda_link0_collision_11",
+      "panda_link1_collision_1",
+      "panda_link2_collision_1",
+      "panda_link3_collision_4",
+      "panda_link4_collision_4",
+      "panda_link5_collision_3",
+      "panda_link5_collision_4",
+      "panda_link5_collision_5",
+      "panda_link6_collision_17",
+      "panda_link7_collision_8",
+      "panda_hand_collision_5",
+      "panda_left_finger_collision_2",
+      "panda_left_finger_fingertip_pad_collision_1_3",
+      "panda_left_finger_fingertip_pad_collision_2_4",
+      "panda_left_finger_fingertip_pad_collision_3_5",
+      "panda_left_finger_fingertip_pad_collision_4_6",
+      "panda_left_finger_fingertip_pad_collision_5_7",
+      "panda_right_finger_collision_2",
+      "panda_right_finger_fingertip_pad_collision_1_3",
+      "panda_right_finger_fingertip_pad_collision_2_4",
+      "panda_right_finger_fingertip_pad_collision_3_5",
+      "panda_right_finger_fingertip_pad_collision_4_6",
+      "panda_right_finger_fingertip_pad_collision_5_7"
+    ],
+    "obstacles": [
+      {
+        "name": "obstacle_sphere",
+        "id": 83,
+        "type": 2,
+        "position_world": [
+          0.1220253658398101,
+          -0.024716241294624592,
+          0.6875505438518754
+        ],
+        "size": [
+          0.06,
+          0.0,
+          0.0
+        ],
+        "rotation_world": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "contype": 1,
+        "conaffinity": 1
+      },
+      {
+        "name": "obstacle_cylinder",
+        "id": 84,
+        "type": 5,
+        "position_world": [
+          -0.6,
+          0.7,
+          0.35
+        ],
+        "size": [
+          0.065,
+          0.18,
+          0.0
+        ],
+        "rotation_world": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "contype": 1,
+        "conaffinity": 1
+      }
+    ],
+    "scope": "Only named robot collision geoms vs two external obstacles. Not a planner, continuous collision guarantee or self-collision certificate."
+  },
+  "moved_away": {
+    "minimum": {
+      "robot_geom": "panda_link0_collision_11",
+      "robot_geom_id": 12,
+      "obstacle_geom": "obstacle_cylinder",
+      "obstacle_geom_id": 84,
+      "signed_distance_m": 0.7393622576366446,
+      "distmax": 2.0,
+      "capped": false,
+      "nearest_surface_segment": [
+        -0.13369852540047372,
+        0.06693206643137956,
+        0.007415017201025574,
+        -0.561450984243014,
+        0.6476647978491756,
+        0.16999999999999998
+      ]
+    },
+    "external_contact_count": 0,
+    "external_contacts": [],
+    "pairs": [
+      {
+        "robot_geom": "panda_link0_collision_11",
+        "robot_geom_id": 12,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 1.2938257981055439,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.04624744482252652,
+          0.030032589665873573,
+          0.13999995681053395,
+          1.053298900494346,
+          0.7658759312426354,
+          0.4840452127433281
+        ]
+      },
+      {
+        "robot_geom": "panda_link0_collision_11",
+        "robot_geom_id": 12,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 0.7393622576366446,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          -0.13369852540047372,
+          0.06693206643137956,
+          0.007415017201025574,
+          -0.561450984243014,
+          0.6476647978491756,
+          0.16999999999999998
+        ]
+      },
+      {
+        "robot_geom": "panda_link1_collision_1",
+        "robot_geom_id": 14,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 1.2663195059418795,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.05488298259886993,
+          -0.000572618704504254,
+          0.3389492814015103,
+          1.052721029312212,
+          0.7637837211116345,
+          0.4927143926688711
+        ]
+      },
+      {
+        "robot_geom": "panda_link1_collision_1",
+        "robot_geom_id": 14,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 0.8019352184111551,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          -0.03590894356581041,
+          0.041685851316250924,
+          0.1693659422069974,
+          -0.5577062698618057,
+          0.650641714059367,
+          0.16999999999999998
+        ]
+      },
+      {
+        "robot_geom": "panda_link2_collision_1",
+        "robot_geom_id": 16,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 1.2115336387740139,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.046281937729857156,
+          0.107482684316599,
+          0.33600058762850293,
+          1.050278087965359,
+          0.7673221079852306,
+          0.49226134138946
+        ]
+      },
+      {
+        "robot_geom": "panda_link2_collision_1",
+        "robot_geom_id": 16,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 0.7455821118443043,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          -0.04276382781112113,
+          0.11133098565846553,
+          0.32760592085320084,
+          -0.5553155175925744,
+          0.6527951588078897,
+          0.32760592085410745
+        ]
+      },
+      {
+        "robot_geom": "panda_link3_collision_4",
+        "robot_geom_id": 21,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 1.1504117467828463,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.128177611694626,
+          0.09301726439108245,
+          0.6443372920948407,
+          1.0518268527603911,
+          0.764954930213392,
+          0.5071547864176867
+        ]
+      },
+      {
+        "robot_geom": "panda_link3_collision_4",
+        "robot_geom_id": 21,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 0.8016727636370736,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          -0.03708672658783786,
+          0.041023273668638095,
+          0.5279824671544237,
+          -0.5577816866338292,
+          0.6505771913331929,
+          0.527982467154429
+        ]
+      },
+      {
+        "robot_geom": "panda_link4_collision_4",
+        "robot_geom_id": 26,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 1.1248358410874495,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.20649588266562668,
+          0.0545800728276012,
+          0.7232386498933862,
+          1.0547530171007837,
+          0.7622519896179923,
+          0.5113047888400386
+        ]
+      },
+      {
+        "robot_geom": "panda_link4_collision_4",
+        "robot_geom_id": 26,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 0.8829022963341574,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.029163189977959608,
+          -0.0005738594448930974,
+          0.6351291533376929,
+          -0.5565688936195523,
+          0.651639489264826,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_link5_collision_3",
+        "robot_geom_id": 30,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 1.001001232798242,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.3329608626540035,
+          0.09544804486397837,
+          0.7024379418313383,
+          1.0566236618600506,
+          0.7601573344107511,
+          0.5114479381685978
+        ]
+      },
+      {
+        "robot_geom": "panda_link5_collision_3",
+        "robot_geom_id": 30,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 0.9877025645080162,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.2074996082260843,
+          0.05088199985773578,
+          0.7105787917359544,
+          -0.54933905307726,
+          0.6592757018858356,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_link5_collision_4",
+        "robot_geom_id": 31,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.9389507410712457,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.4087290291155523,
+          0.1076958931974525,
+          0.7018961406357012,
+          1.0584801767016172,
+          0.7584181234365887,
+          0.5121264922684292
+        ]
+      },
+      {
+        "robot_geom": "panda_link5_collision_4",
+        "robot_geom_id": 31,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.0309730393451726,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.29126973342480156,
+          0.08851394719225948,
+          0.7058305871030517,
+          -0.546401859956297,
+          0.663227192331077,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_link5_collision_5",
+        "robot_geom_id": 32,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.8733470870379023,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.49794628329277235,
+          0.12150779341844273,
+          0.7198099922415723,
+          1.0612971171131254,
+          0.7563832866033896,
+          0.5141304341307263
+        ]
+      },
+      {
+        "robot_geom": "panda_link5_collision_5",
+        "robot_geom_id": 32,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.1112438655157695,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.398681404339892,
+          0.11115024511747598,
+          0.7229915889259925,
+          -0.5440083433583481,
+          0.6669858456639676,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_link6_collision_17",
+        "robot_geom_id": 50,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.881699547074771,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5756577116614904,
+          0.0388471085331428,
+          0.6803038475252446,
+          1.066591746382339,
+          0.7515034560334293,
+          0.5114879856161338
+        ]
+      },
+      {
+        "robot_geom": "panda_link6_collision_17",
+        "robot_geom_id": 50,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.1793567387658141,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.41849433538753367,
+          0.014747349757276366,
+          0.7283384081397118,
+          -0.5460700760058735,
+          0.6637155226303624,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_link7_collision_8",
+        "robot_geom_id": 59,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.8482623270628527,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.6380714868188923,
+          0.030802591983564574,
+          0.6410597425657532,
+          1.0694849054452211,
+          0.7491866577465209,
+          0.5093184362069875
+        ]
+      },
+      {
+        "robot_geom": "panda_link7_collision_8",
+        "robot_geom_id": 59,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.2429034688252347,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5007258922085273,
+          0.003842741214976345,
+          0.646888614694691,
+          -0.5450648955876053,
+          0.6652561616513187,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_hand_collision_5",
+        "robot_geom_id": 65,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.843160947898147,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.6529949375046364,
+          0.01925915411358768,
+          0.5795606905221721,
+          1.0703039598732225,
+          0.7481327764866251,
+          0.5052854825515204
+        ]
+      },
+      {
+        "robot_geom": "panda_hand_collision_5",
+        "robot_geom_id": 65,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.192942118980993,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.45496355235934527,
+          0.016239883327406904,
+          0.5729183390428945,
+          -0.5454547488812984,
+          0.6646472691239025,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_collision_2",
+        "robot_geom_id": 68,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.8653810758069034,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.6197534988210242,
+          0.010393592353572774,
+          0.5470654286137706,
+          1.0688617037628385,
+          0.7488033787405098,
+          0.5030516354728389
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_collision_2",
+        "robot_geom_id": 68,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.3169618799365759,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5970634940631905,
+          0.01034582060126716,
+          0.5643024295158254,
+          -0.5436784142116352,
+          0.6675519033796454,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_1_3",
+        "robot_geom_id": 69,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.8741666384756901,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.6040003124787688,
+          0.008495139142320252,
+          0.5131024294875892,
+          1.068142748814243,
+          0.7491629333617044,
+          0.5008415476820476
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_1_3",
+        "robot_geom_id": 69,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.3165189588486252,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5960003125173405,
+          0.008495924728857242,
+          0.5138643889006156,
+          -0.5437285764986776,
+          0.66746498967059,
+          0.5138643889006183
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_2_4",
+        "robot_geom_id": 70,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.877098020491186,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5985003125052869,
+          0.00849567923306449,
+          0.5131024294875892,
+          1.0678902520422449,
+          0.7493219938495607,
+          0.5008389151957053
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_2_4",
+        "robot_geom_id": 70,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.3152205182596466,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5945003125245728,
+          0.00849607202633292,
+          0.5133794388402503,
+          -0.543746376445705,
+          0.6674342229171226,
+          0.5133794388403373
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_3_5",
+        "robot_geom_id": 71,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.8864078816254508,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5984992323237984,
+          -0.002504320713899555,
+          0.5131024294875892,
+          1.0682060487399019,
+          0.7491231421698044,
+          0.5008306627454382
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_3_5",
+        "robot_geom_id": 71,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.3207633942389725,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5944992323430843,
+          -0.0025039279206310722,
+          0.5133794388402503,
+          -0.5439714335173947,
+          0.667048524495794,
+          0.5133794388403324
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_4_6",
+        "robot_geom_id": 72,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.8772911759950859,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5985003125052869,
+          0.008495679233064435,
+          0.5231024294875892,
+          1.0678968691690307,
+          0.7493324374940389,
+          0.5014788849023184
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_4_6",
+        "robot_geom_id": 72,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.3152205182596735,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5945003125245728,
+          0.008496072026332919,
+          0.523233990778016,
+          -0.5437463813633374,
+          0.6674342144224812,
+          0.5232339907780534
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_5_7",
+        "robot_geom_id": 73,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.8865991374349151,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5984992323237985,
+          -0.0025043207138994994,
+          0.5231024294875892,
+          1.0682124725550564,
+          0.7491334215945815,
+          0.5014643429456438
+        ]
+      },
+      {
+        "robot_geom": "panda_left_finger_fingertip_pad_collision_5_7",
+        "robot_geom_id": 73,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.3207633942389982,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5944992323430842,
+          -0.0025039279206310727,
+          0.523233990778016,
+          -0.5439714383623535,
+          0.6670485162577396,
+          0.5232339907780511
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_collision_2",
+        "robot_geom_id": 76,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.9266574042366227,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5119374947218966,
+          0.010354180134984304,
+          0.5643024291197309,
+          1.0642391065377093,
+          0.7519805466533159,
+          0.5039103195603837
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_collision_2",
+        "robot_geom_id": 76,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.2238302443319715,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.4881964995753591,
+          0.010397510378765002,
+          0.565938429327183,
+          -0.545096085170386,
+          0.6652068952753207,
+          0.53
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_1_3",
+        "robot_geom_id": 77,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.9254978971492243,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5130003129175214,
+          0.008504075189177951,
+          0.5131024294875892,
+          1.0642617388359417,
+          0.751811408602672,
+          0.5007977143041396
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_1_3",
+        "robot_geom_id": 77,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.2385302908655011,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.505000312956093,
+          0.008504860775715,
+          0.5138643889006156,
+          -0.5448995986627236,
+          0.6655189070290531,
+          0.5138643889006183
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_2_4",
+        "robot_geom_id": 78,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.9334700638659239,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5144992327288009,
+          -0.002496072055261589,
+          0.5131024294875892,
+          1.0646390492134512,
+          0.7515337541868654,
+          0.5007913129925587
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_2_4",
+        "robot_geom_id": 78,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.249042893255974,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5104992327480867,
+          -0.0024956792619931422,
+          0.5133794388402501,
+          -0.5450685167242979,
+          0.6652504367634459,
+          0.5133794388403452
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_3_5",
+        "robot_geom_id": 79,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.9246052962499691,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5145003129102891,
+          0.0085039278917024,
+          0.5131024294875892,
+          1.0643207472484848,
+          0.7517677139180838,
+          0.5007984374776873
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_3_5",
+        "robot_geom_id": 79,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.2431961701246295,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.510500312929575,
+          0.008504320684970852,
+          0.5133794388402501,
+          -0.5448229590232436,
+          0.6656416800607284,
+          0.5133794388403506
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_4_6",
+        "robot_geom_id": 80,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.9336522613004585,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5144992327288008,
+          -0.0024960720552616444,
+          0.5231024294875892,
+          1.0646455330456397,
+          0.7515426410238331,
+          0.5013950008702655
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_4_6",
+        "robot_geom_id": 80,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.2490428932560054,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5104992327480867,
+          -0.0024956792619931422,
+          0.523233990778016,
+          -0.5450685223567803,
+          0.6652504278597211,
+          0.523233990778056
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_5_7",
+        "robot_geom_id": 81,
+        "obstacle_geom": "obstacle_sphere",
+        "obstacle_geom_id": 83,
+        "signed_distance_m": 0.9247891337709009,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.5145003129102892,
+          0.008503927891702512,
+          0.5231024294875892,
+          1.064327407745793,
+          0.7517767177785023,
+          0.5014075559139728
+        ]
+      },
+      {
+        "robot_geom": "panda_right_finger_fingertip_pad_collision_5_7",
+        "robot_geom_id": 81,
+        "obstacle_geom": "obstacle_cylinder",
+        "obstacle_geom_id": 84,
+        "signed_distance_m": 1.2431961701246625,
+        "distmax": 2.0,
+        "capped": false,
+        "nearest_surface_segment": [
+          0.510500312929575,
+          0.00850432068497085,
+          0.5232339907780159,
+          -0.5448229647612063,
+          0.6656416708459663,
+          0.5232339907780585
+        ]
+      }
+    ],
+    "robot_collision_geoms": [
+      "panda_link0_collision_11",
+      "panda_link1_collision_1",
+      "panda_link2_collision_1",
+      "panda_link3_collision_4",
+      "panda_link4_collision_4",
+      "panda_link5_collision_3",
+      "panda_link5_collision_4",
+      "panda_link5_collision_5",
+      "panda_link6_collision_17",
+      "panda_link7_collision_8",
+      "panda_hand_collision_5",
+      "panda_left_finger_collision_2",
+      "panda_left_finger_fingertip_pad_collision_1_3",
+      "panda_left_finger_fingertip_pad_collision_2_4",
+      "panda_left_finger_fingertip_pad_collision_3_5",
+      "panda_left_finger_fingertip_pad_collision_4_6",
+      "panda_left_finger_fingertip_pad_collision_5_7",
+      "panda_right_finger_collision_2",
+      "panda_right_finger_fingertip_pad_collision_1_3",
+      "panda_right_finger_fingertip_pad_collision_2_4",
+      "panda_right_finger_fingertip_pad_collision_3_5",
+      "panda_right_finger_fingertip_pad_collision_4_6",
+      "panda_right_finger_fingertip_pad_collision_5_7"
+    ],
+    "obstacles": [
+      {
+        "name": "obstacle_sphere",
+        "id": 83,
+        "type": 2,
+        "position_world": [
+          1.1,
+          0.8,
+          0.5
+        ],
+        "size": [
+          0.06,
+          0.0,
+          0.0
+        ],
+        "rotation_world": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "contype": 1,
+        "conaffinity": 1
+      },
+      {
+        "name": "obstacle_cylinder",
+        "id": 84,
+        "type": 5,
+        "position_world": [
+          -0.6,
+          0.7,
+          0.35
+        ],
+        "size": [
+          0.065,
+          0.18,
+          0.0
+        ],
+        "rotation_world": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "contype": 1,
+        "conaffinity": 1
+      }
+    ],
+    "scope": "Only named robot collision geoms vs two external obstacles. Not a planner, continuous collision guarantee or self-collision certificate."
+  },
+  "fixture": "Sphere placed at the world center of link4 collision mesh to create an explicit negative collision-query test. No colliding dynamic path executed.",
+  "robot_qpos_unchanged": true,
+  "api_signature": "mj_geomDistance(m: mujoco._structs.MjModel, d: mujoco._structs.MjData, geom1: typing.SupportsInt | typing.SupportsIndex, geom2: typing.SupportsInt | typing.SupportsIndex, distmax: typing.SupportsFloat | typing.SupportsIndex, fromto: typing.Annotated[numpy.typing.NDArray[numpy.float64], \"[m, n]\", \"flags.writeable\", \"flags.c_contiguous\"] | None) -> float\n\nReturn smallest signed distance between two geoms and optionally segment from geom1 to geom2.\n",
+  "viewer": {
+    "launched": true,
+    "was_running": true,
+    "closed": true
+  },
+  "screenshots": []
+}

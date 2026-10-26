@@ -1,0 +1,66 @@
+{
+  "phase": "2C",
+  "date": "2026-10-21",
+  "tests_passed": 104,
+  "batch_run": "research-archive/results/runs/phase2c_batch_1792573101827506800",
+  "pilot_runs": [
+    "research-archive/results/runs/phase2c_pilot_1792572841221590800",
+    "research-archive/results/runs/phase2c_pilot_1792572939772182400"
+  ],
+  "native_demo_run": "research-archive/results/runs/phase2c_dynamic_demo_1792573114343141400",
+  "viewer_close_run": "research-archive/results/runs/phase2c_dynamic_demo_1792573202340571200",
+  "successes": 12,
+  "trials": 16,
+  "historical_hashes_unchanged": {
+    "results/phase2b_planning_results.csv": true,
+    "results/phase2b_path_validation.csv": true,
+    "results/phase2b_performance.json": true,
+    "results/phase2b_acceptance.json": true,
+    "assets/videos/phase2b_rrt_planning_demo.mp4": true,
+    "configs/trajectory_execution.yaml": true,
+    "src/robot/teleop.py": true,
+    "src/robot/joint_controller.py": true,
+    "models/derived/panda_phase1.xml": true,
+    "models/derived/phase2a_scene.xml": true,
+    "src/planning/collision_checker.py": true,
+    "src/planning/rrt_connect.py": true
+  },
+  "totals": {
+    "physics_steps": 188030,
+    "simulation_s": 376.0599999999748,
+    "safety_violation_steps": 1004,
+    "native_contacts": 0
+  },
+  "video": {
+    "source": "DYNAMIC SERVO EXECUTION / same live MjData used by mj_step",
+    "frames": 333,
+    "decoded_frames": 333,
+    "duration_s": 33.3,
+    "fps": 10,
+    "resolution": [
+      960,
+      768
+    ],
+    "raw_unique_frames": 333,
+    "decoded_unique_frames": 333,
+    "maximum_joint_displacement_rad": 1.3000324973635455,
+    "all_frames_same_live_data": true,
+    "frame_times_monotonic": true,
+    "sha256": "c36cd8b80f817929e42b81220d553b94938f890cd91a31ec6f83c5736fb3d49c",
+    "file_bytes": 927050,
+    "final_success": true
+  },
+  "reinforcement_learning_executed": false,
+  "remaining_dynamic_failure": "D_two_obstacles / both speeds / all repeats",
+  "simulation_only": true,
+  "source_sha256": {
+    "src/control/trajectory_executor.py": "b8d99a2c6e8ff288e4bb0f311db7cb57d875703e7921ec0a52f4a56f0a0d8e4f",
+    "src/control/trajectory_generator.py": "6f3d92ef424b96b973966bc0cbb79afbfaa06a5fac802d4b545799e5ef5a269a",
+    "src/control/validated_path.py": "f3b099047c5f3446e52e5314a5b7e90c6f181806745fc1a5fe1a05dc941fe21e",
+    "scripts/demo_rrt_execution.py": "3984db3c173901ddffc3913cb2d2de59572bebd42220cd099ed7809e065189dd",
+    "configs/trajectory_execution.yaml": "8c8b5ea116b79d257b15b8903684904b4b2b0099e7330c0d9d82ac36da46c5a8",
+    "tests/test_trajectory_execution.py": "cabddd5e541d2e57b6a92a11fe48096b6721add47359f9c0f97b1ad398385c4d",
+    "docs/11_轨迹时间参数化与动力学执行.md": "b9e527fbf03e7d08f66323c8aa9b74dd35303cd4dd5daca7081fda828b52bdfe",
+    "docs/12_Phase2C验收报告.md": "d2a1f55cd1424d1087246d27262f6de080f6c72f63cc2f35f78ebceceeb2c714"
+  }
+}

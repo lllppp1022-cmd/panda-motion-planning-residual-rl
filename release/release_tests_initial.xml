@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="1" failures="0" skipped="0" tests="1" time="0.485" timestamp="2026-10-26T10:58:24.694789+08:00" hostname="DESKTOP-1S488UK"><testcase classname="" name="tests.release.test_portfolio" time="0.000"><error message="collection failure">ImportError while importing test module 'D:\mujoco_learning\panda-motion-planning-residual-rl\tests\release\test_portfolio.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+D:\miniconda\envs\panda_safe_rl\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\release\test_portfolio.py:8: in &lt;module&gt;
+    from scripts.portfolio import manifest,checkpoint,selected_scene
+scripts\portfolio.py:2: in &lt;module&gt;
+    from _bootstrap import ROOT,main_guard
+E   ModuleNotFoundError: No module named '_bootstrap'</error></testcase></testsuite></testsuites>

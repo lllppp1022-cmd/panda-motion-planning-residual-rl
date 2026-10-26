@@ -1,0 +1,35 @@
+{
+  "required_files": {
+    "docs/13_Phase2C失败机制分析.md": {
+      "sha256": "d103b284a50aa2ddb72857c13844feda9957bafebe5d27954778f7be75cbcddc",
+      "bytes": 5355
+    },
+    "docs/14_Phase2D验收报告.md": {
+      "sha256": "b157b253408615b2c5e85c41997278807bfd7ed0c4aa74feb7829106e65f1794",
+      "bytes": 14516
+    },
+    "results/phase2d_tracking_clearance_analysis.csv": {
+      "sha256": "1b3ca4f972ec786130bec32cf5c64faf9925f0b1ce61bc58a23637a515ed6fc0",
+      "bytes": 8839
+    },
+    "results/phase2d_planning_margin_results.csv": {
+      "sha256": "19c64107fae3934db4575ebce458a23d2238e742e03ee88b92122b6a7ae0b64a",
+      "bytes": 3358
+    },
+    "results/phase2d_dynamic_execution_results.csv": {
+      "sha256": "73bc1667d856f6e995ecd9afa9f5a9016c1920b0f0d02aa380195120135f42ae",
+      "bytes": 38639
+    },
+    "results/phase2d_failure_analysis.json": {
+      "sha256": "b8467755c22df169481ac30e25cda25bee50c0aa4acb27e169589ccb249cbaf2",
+      "bytes": 34586
+    },
+    "assets/videos/phase2d_margin_comparison.mp4": {
+      "sha256": "61dd0e6b6470d84a122b0a5bc75e1a490a35cd42d0b915033073df78500ab733",
+      "bytes": 1807309
+    }
+  },
+  "historical_files_unchanged": 452,
+  "execution_threshold_m": 0.005,
+  "reinforcement_learning_executed": false
+}

@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "condition": {
+        "name": "nominal"
+      },
+      "physics_steps_old": 8919,
+      "physics_steps_zero": 8919,
+      "full_trace_bitwise_equal": true,
+      "original_run": "research-archive/results/runs/phase3b_equivalence_1792658351688456200/nominal_original_M3",
+      "zero_run": "research-archive/results/runs/phase3b_equivalence_1792658351688456200/nominal_zero_residual/episode_0000",
+      "old_success": true,
+      "zero_success": true
+    },
+    {
+      "condition": {
+        "name": "mild_gain",
+        "kp_scale": 0.95
+      },
+      "physics_steps_old": 8919,
+      "physics_steps_zero": 8919,
+      "full_trace_bitwise_equal": true,
+      "original_run": "research-archive/results/runs/phase3b_equivalence_1792658351688456200/mild_gain_original_M3",
+      "zero_run": "research-archive/results/runs/phase3b_equivalence_1792658351688456200/mild_gain_zero_residual/episode_0000",
+      "old_success": true,
+      "zero_success": true
+    }
+  ],
+  "controller": "Frozen Phase3A M3 versus full Gym bridge with exactly zero residual, every physics step including reset hold"
+}

@@ -1,0 +1,7 @@
+{
+  "cases": 48,
+  "source": "SHA checked original CSV or lossless float64 error projection; TCP/joint RMSE independently recomputed",
+  "compact_requested": true,
+  "success_derived_from_unchanged_thresholds": true,
+  "new_experiments": false
+}

@@ -1,0 +1,14 @@
+{
+  "gym_seed": 42,
+  "physical_seed": 420000,
+  "source": "evidence/scenes/dc_train_sphere_521.json",
+  "perturbation": {
+    "name": "mass107",
+    "mass_inertia_scale": 1.07
+  },
+  "frame_skip": 25,
+  "decision_hz": 20,
+  "physics_hz": 500,
+  "residual_cap_rad": 0.002,
+  "initialization_only_at_reset": true
+}

@@ -1,0 +1,296 @@
+{
+  "artifacts": [
+    {
+      "path": "research-archive/docs/27_Phase3D_B专家示教与BC设计.md",
+      "bytes": 7326,
+      "sha256": "fc0ce8b8c46c62c76f863ef4118aa875db4fd4a4cae480a2f18246457e0d7177"
+    },
+    {
+      "path": "research-archive/docs/28_Phase3D_B验收报告.md",
+      "bytes": 9251,
+      "sha256": "bc69e397a1accabe3b3cfc183e263c04bc324e3b9227e8159f0f4673fec824a2"
+    },
+    {
+      "path": "research-archive/configs/phase3d_bc.json",
+      "bytes": 3809,
+      "sha256": "50ea55626d045690ddfcc57aaa8c00f06a0402d6470adc29ff5692dff95b3eb0"
+    },
+    {
+      "path": "research-archive/results/phase3d_bc_dataset_audit.csv",
+      "bytes": 20490,
+      "sha256": "bd07f321e7d4fd8459e8cadf764a84086092cda4ccca12e975658b7daf4ec730"
+    },
+    {
+      "path": "research-archive/results/phase3d_bc_dataset_manifest.csv",
+      "bytes": 17188,
+      "sha256": "51f314191ab4c6968e074bb27c6f602997d03f1fb70cbe88550791090c47c700"
+    },
+    {
+      "path": "research-archive/results/phase3d_bc_evaluation.csv",
+      "bytes": 36843,
+      "sha256": "9434513cebd9b57c46086af3c952831eab968b8b85ec047247d055f421c93d27"
+    },
+    {
+      "path": "research-archive/results/phase3d_bc_training.csv",
+      "bytes": 5665,
+      "sha256": "d3707ca4cfe1cf58ae92c37f9849d67bdce573aae34e9be22e7a8915485d8fc3"
+    },
+    {
+      "path": "research-archive/results/phase3d_bc_acceptance.json",
+      "bytes": 4438,
+      "sha256": "7702e5688e38364d5d3a133308fce172a7e517c2c1eed5a21f9fb93a83447f5f"
+    },
+    {
+      "path": "research-archive/results/phase3d_bc_analysis.json",
+      "bytes": 86695,
+      "sha256": "65227838033e30799c542f452c6bbc5c08037af05defed2351c4eb564ccf6270"
+    },
+    {
+      "path": "research-archive/results/phase3d_bc_data_complete_latest.json",
+      "bytes": 121,
+      "sha256": "159aea5fc94c1dcd1c8aec4158136e3b0e4f6c1b9d1dab82493305d4c01920d6"
+    },
+    {
+      "path": "research-archive/results/phase3d_bc_data_pilot_latest.json",
+      "bytes": 118,
+      "sha256": "d47c2ee11f54ec1589d1f604307e405bc5b9c0c14931a70796040b2c0a6643ff"
+    },
+    {
+      "path": "research-archive/results/phase3d_bc_eval_final_latest.json",
+      "bytes": 118,
+      "sha256": "1b9b0c2dd475a18d127240164802437eed3fa99a4bf4d104a89807962abeba83"
+    },
+    {
+      "path": "research-archive/results/phase3d_bc_eval_validation_latest.json",
+      "bytes": 123,
+      "sha256": "7c964e8bb549075e66d51828d5f22c89d962eef994afd3363484e585819843e1"
+    },
+    {
+      "path": "research-archive/results/phase3d_bc_prepare_latest.json",
+      "bytes": 115,
+      "sha256": "1265ba74386dd8938cd126bfa36494742f817c0f9a458790f844d4af34a71088"
+    },
+    {
+      "path": "research-archive/results/phase3d_bc_training_latest.json",
+      "bytes": 116,
+      "sha256": "cd43d688830bdcdcd5b3b6dc6986424eae32dddb05200cf567829ffa12f0963f"
+    },
+    {
+      "path": "research-archive/results/phase3d_bc_video_latest.json",
+      "bytes": 113,
+      "sha256": "c67dbd996cebf94fd02be77c5c6592676f6be3080e3b428819a3492ad29ae327"
+    },
+    {
+      "path": "research-archive/assets/plots/phase3d_bc_closed_loop_comparison.png",
+      "bytes": 41064,
+      "sha256": "bf8f242537666cb15a7b0cf6751af60ff45f6994c2de44da8dc5f8a4dd23adb8"
+    },
+    {
+      "path": "research-archive/assets/plots/phase3d_bc_learning_curve.png",
+      "bytes": 98052,
+      "sha256": "0c30ef51de1ee5759fbe462fdb41a909c05b5455b4f90cf580fafa6028993330"
+    },
+    {
+      "path": "research-archive/assets/plots/phase3d_bc_video_contact_sheet.png",
+      "bytes": 563771,
+      "sha256": "e7692f2a84ea54baeb49c5e0e7e7cb474e8a5d419683d9ac9f8906f36bcdda9b"
+    },
+    {
+      "path": "research-archive/assets/videos/phase3d_bc_vs_integral.mp4",
+      "bytes": 4242824,
+      "sha256": "26753aaeca83fe5013a1cac69616acd20e071c5f434732715b1ec382ed31eeba"
+    },
+    {
+      "path": "research-archive/results/runs/phase3d_bc_training_1792743671084278200/BC78_best.pt",
+      "bytes": 46633,
+      "sha256": "31be9237c94fe78c72262ed4f5052713916bd8d3951a9a5e926aa9094cb9dd2d"
+    },
+    {
+      "path": "research-archive/results/runs/phase3d_bc_training_1792743671084278200/BC78_final.pt",
+      "bytes": 46647,
+      "sha256": "9281b55ae448be044f2320782972aab40649261aebc6a6967c1dee8f43e6852b"
+    },
+    {
+      "path": "research-archive/results/runs/phase3d_bc_training_1792743671084278200/BC78_initial.pt",
+      "bytes": 46675,
+      "sha256": "18060a15b0ee1f0870c8eee37992c925d850b67e2aa538ffe35d8e41cb9fed46"
+    },
+    {
+      "path": "research-archive/results/runs/phase3d_bc_training_1792743671084278200/BC85_best.pt",
+      "bytes": 48553,
+      "sha256": "b245652748bd3c6a23eae99c955fdf755da5cde7f3fb6621428bb46ddbf453d7"
+    },
+    {
+      "path": "research-archive/results/runs/phase3d_bc_training_1792743671084278200/BC85_final.pt",
+      "bytes": 48567,
+      "sha256": "6d2e7743852843bc26d1583be9d915979102baa9230073e3416d8ed610d2ab5e"
+    },
+    {
+      "path": "research-archive/results/runs/phase3d_bc_training_1792743671084278200/BC85_initial.pt",
+      "bytes": 48595,
+      "sha256": "667776595916c010149ca7e50bb84cebf0885db0f5f0c4dfd3597dabcff1c210"
+    }
+  ],
+  "protocol": {
+    "config_sha256": "50ea55626d045690ddfcc57aaa8c00f06a0402d6470adc29ff5692dff95b3eb0",
+    "checkpoints": {
+      "BC78": {
+        "path": "research-archive/results/runs/phase3d_bc_training_1792743671084278200/BC78_best.pt",
+        "sha256": "31be9237c94fe78c72262ed4f5052713916bd8d3951a9a5e926aa9094cb9dd2d"
+      },
+      "BC85": {
+        "path": "research-archive/results/runs/phase3d_bc_training_1792743671084278200/BC85_best.pt",
+        "sha256": "b245652748bd3c6a23eae99c955fdf755da5cde7f3fb6621428bb46ddbf453d7"
+      }
+    },
+    "validation_run": "research-archive/results/runs/phase3d_bc_eval_validation_1792743695143401600",
+    "no_further_training_or_selection": true,
+    "methods": [
+      "M3",
+      "Integral500",
+      "Integral20",
+      "BC78",
+      "BC85"
+    ],
+    "controller_code_sha256": {
+      "src\\bc_residual\\core.py": "d61c8282dda8a76c38aea28f0a3a382257f5833f3abc030f45a79649a179383e",
+      "src\\bc_residual\\recording.py": "de02f345dedf94154c42e9b59c5b4b1f5922d5428b117aa2916b0cc6d640fd40",
+      "src\\bc_residual\\runner.py": "b103a2d3da7dddc8e84d4f82b8eb0a15268ab410bdbfccee40ccb846e92aec78",
+      "src\\bc_residual\\__init__.py": "d6b7c0cf9711f893826802691a8c18d32a828fdf0287730128640d250780747c"
+    }
+  },
+  "acceptance": {
+    "passed": true,
+    "tests": 209,
+    "historical_files_verified": 8661,
+    "historical_changes": [],
+    "final_frozen_source_and_checkpoints_match": true,
+    "unique_dynamic_runs": 79,
+    "unique_experiment_physics_steps": 681342,
+    "dataset_physics_steps": 239536,
+    "video_additional_physics_steps": 49570,
+    "counts_exclude_automated_test_executions": true,
+    "ppo_optimizer_steps": 0,
+    "aggregates": {
+      "validation": {
+        "M3": {
+          "n": 4,
+          "success": 4,
+          "tcp_rmse_mm": 0.6137572866142027,
+          "joint_rmse_rad": 0.00034503227581140995,
+          "final_tcp_mm": 0.546825114616863,
+          "minimum_clearance_mm": 19.74182701829362,
+          "violations": 0,
+          "prohibited_contacts": 0,
+          "own_state_action_mse": 0.19010499212890863
+        },
+        "Integral500": {
+          "n": 4,
+          "success": 4,
+          "tcp_rmse_mm": 0.3215703200128865,
+          "joint_rmse_rad": 0.00021270259262287942,
+          "final_tcp_mm": 0.1332918734975748,
+          "minimum_clearance_mm": 20.489939712408866,
+          "violations": 0,
+          "prohibited_contacts": 0,
+          "own_state_action_mse": 0.0
+        },
+        "Integral20": {
+          "n": 4,
+          "success": 4,
+          "tcp_rmse_mm": 0.3195726363138369,
+          "joint_rmse_rad": 0.0002122393732566788,
+          "final_tcp_mm": 0.13318170452804867,
+          "minimum_clearance_mm": 20.53024159274404,
+          "violations": 0,
+          "prohibited_contacts": 0,
+          "own_state_action_mse": 0.0
+        },
+        "BC78": {
+          "n": 4,
+          "success": 4,
+          "tcp_rmse_mm": 0.5937598346310967,
+          "joint_rmse_rad": 0.00041133953486189505,
+          "final_tcp_mm": 0.40199152082132844,
+          "minimum_clearance_mm": 20.45567795222851,
+          "violations": 0,
+          "prohibited_contacts": 0,
+          "own_state_action_mse": 0.13653230480849743
+        },
+        "BC85": {
+          "n": 4,
+          "success": 4,
+          "tcp_rmse_mm": 0.3941673133792141,
+          "joint_rmse_rad": 0.0002600465361586986,
+          "final_tcp_mm": 0.17555308100292855,
+          "minimum_clearance_mm": 20.543447438282236,
+          "violations": 0,
+          "prohibited_contacts": 0,
+          "own_state_action_mse": 0.006657663092482835
+        }
+      },
+      "final": {
+        "M3": {
+          "n": 6,
+          "success": 6,
+          "tcp_rmse_mm": 1.0866625695973884,
+          "joint_rmse_rad": 0.0006341194952888382,
+          "final_tcp_mm": 1.0680815915749988,
+          "minimum_clearance_mm": 22.88800322900553,
+          "violations": 0,
+          "prohibited_contacts": 0,
+          "own_state_action_mse": 0.36174846937259036
+        },
+        "Integral500": {
+          "n": 6,
+          "success": 6,
+          "tcp_rmse_mm": 0.403321488016908,
+          "joint_rmse_rad": 0.0003115591054922597,
+          "final_tcp_mm": 0.24719198030489295,
+          "minimum_clearance_mm": 22.883144976272604,
+          "violations": 0,
+          "prohibited_contacts": 0,
+          "own_state_action_mse": 0.0
+        },
+        "Integral20": {
+          "n": 6,
+          "success": 6,
+          "tcp_rmse_mm": 0.3976129961046228,
+          "joint_rmse_rad": 0.00031079073090178937,
+          "final_tcp_mm": 0.24785503372287807,
+          "minimum_clearance_mm": 22.883058133181425,
+          "violations": 0,
+          "prohibited_contacts": 0,
+          "own_state_action_mse": 0.0
+        },
+        "BC78": {
+          "n": 6,
+          "success": 6,
+          "tcp_rmse_mm": 0.7161253208432065,
+          "joint_rmse_rad": 0.0005846501304167814,
+          "final_tcp_mm": 0.6691080319895719,
+          "minimum_clearance_mm": 22.884603723326777,
+          "violations": 0,
+          "prohibited_contacts": 0,
+          "own_state_action_mse": 0.2989969352881114
+        },
+        "BC85": {
+          "n": 6,
+          "success": 6,
+          "tcp_rmse_mm": 0.5040663941966218,
+          "joint_rmse_rad": 0.00035810122800822167,
+          "final_tcp_mm": 0.44241561981940225,
+          "minimum_clearance_mm": 22.885298476320187,
+          "violations": 0,
+          "prohibited_contacts": 0,
+          "own_state_action_mse": 0.030497040327948827
+        }
+      }
+    },
+    "video": "research-archive/results/runs/phase3d_bc_video_1792744038891360000/phase3d_bc_vs_integral.mp4",
+    "video_frames": 1000,
+    "video_duration_s": 100.0,
+    "video_all_tracking_matches": true,
+    "ready_for_automatic_ppo": false
+  }
+}

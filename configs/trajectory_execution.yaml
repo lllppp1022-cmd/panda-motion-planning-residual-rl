@@ -1,0 +1,19 @@
+# Frozen before the first dynamic pilot; do not relax after observing results.
+reference_speeds_rad_s: [0.10, 0.15]
+reference_acceleration_rad_s2: 0.30
+command_slew_rad_s: 0.35
+minimum_segment_duration_s: 0.10
+prehold_s: 1.50
+final_settle_budget_s: 2.0
+stable_hold_s: 0.50
+protective_hold_s: 0.50
+initial_joint_tolerance_rad: 0.02
+goal_joint_tolerance_rad: 0.02
+goal_tcp_tolerance_m: 0.010
+stable_velocity_rad_s: 0.02
+tracking_abort_rad: 0.10
+velocity_abort_rad_s: 1.0
+maximum_simulation_s: 120.0
+maximum_wall_s: 180.0
+monitor_every_physics_step: true
+repeats: 2

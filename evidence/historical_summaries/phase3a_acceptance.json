@@ -1,0 +1,99 @@
+{
+  "tests_passed": 157,
+  "groups": [
+    {
+      "method": "M1",
+      "runs": 60,
+      "success": 54,
+      "failures": 6,
+      "gap_violation_runs": 6,
+      "contacts": 0,
+      "minimum_gap_m": 0.0038114713164793296,
+      "saturation_steps": 0,
+      "successful_tcp_rmse_median_m": 0.0052892376054295785,
+      "successful_final_tcp_median_m": 2.2676426007802044e-07,
+      "successful_final_tcp_max_m": 0.0035424428091362582,
+      "actual_max_velocity_rad_s": 0.14997748871732147,
+      "actual_max_acceleration_rad_s2": 10.55206162335393,
+      "extra_cost_median_us_per_step": 134.8050620642856,
+      "joint_rmse_mean_rad": [
+        0.008221871598563036,
+        0.003144365761468818,
+        0.0039001207274764766,
+        0.0017167242600824913,
+        0.0031471085649488217,
+        0.0025565530536940137,
+        0.008297926057867125
+      ]
+    },
+    {
+      "method": "M3",
+      "runs": 60,
+      "success": 54,
+      "failures": 6,
+      "gap_violation_runs": 6,
+      "contacts": 0,
+      "minimum_gap_m": 0.00380491875952389,
+      "saturation_steps": 0,
+      "successful_tcp_rmse_median_m": 0.00010885956010970633,
+      "successful_final_tcp_median_m": 2.376973087984196e-08,
+      "successful_final_tcp_max_m": 0.0035430935511417726,
+      "actual_max_velocity_rad_s": 0.15026675692629887,
+      "actual_max_acceleration_rad_s2": 10.55206162335393,
+      "extra_cost_median_us_per_step": 135.12184389828977,
+      "joint_rmse_mean_rad": [
+        0.0008561730824453713,
+        0.0006846970931271081,
+        0.00038840140633390914,
+        0.0006853052148213279,
+        0.0003231985270977689,
+        0.0003263584630190718,
+        0.000830928746338787
+      ]
+    }
+  ],
+  "actual_formal_runs": 120,
+  "history_files_unchanged": 1093,
+  "prepare_run": "research-archive/results/runs/phase3a_prepare_1792654990380499700",
+  "video_run": "research-archive/results/runs/phase3a_video_1792655259835544100",
+  "pilot_run": "research-archive/results/runs/phase3a_pilot_1792655052903997300",
+  "test_run": "research-archive/results/runs/phase3a_test_1792655750724721800",
+  "paired_audit": {
+    "actual_runs": 120,
+    "valid_recomputed": 120,
+    "invalid_runs": [],
+    "paired_conditions": 60,
+    "all_pairs_fair": true,
+    "all_metrics_match": true,
+    "zero_live_qpos_writes": true
+  },
+  "video_frames": 747,
+  "recommendation": "暂不需要RL：先完成增益/负载辨识或受限积分补偿对照；允许以后独立设计残差研究，但本pilot未证明其必要性",
+  "rl_executed": false,
+  "required_files": {
+    "docs/18_Phase3A扰动实验设计.md": {
+      "sha256": "987dfb4d7979c3b1a855e399751628313efcb1a86e333bb2b4a18e67d9af36a3",
+      "bytes": 6010
+    },
+    "docs/19_Phase3A验收报告.md": {
+      "sha256": "63d2c4cbf4cf435b700f2637a52ab965639f362ca1e6c342833aec40cab6fa58",
+      "bytes": 12299
+    },
+    "results/phase3a_nominal_vs_perturbed.csv": {
+      "sha256": "8289f6498e9e4da5f6502882762a9c013ea62ad40d0543e4aa409f3ac6ad33a3",
+      "bytes": 33574
+    },
+    "results/phase3a_controller_comparison.csv": {
+      "sha256": "11fb82fbf15a3df2d598ff5ae6bedb8402174cba99e805dc03ff00b958aa1ed6",
+      "bytes": 103114
+    },
+    "results/phase3a_failure_analysis.json": {
+      "sha256": "26bc102e9e128d5cd7be3a3b21db2bc06ec01ce55c34ba26c72c41721e80252b",
+      "bytes": 37038
+    },
+    "assets/videos/phase3a_robustness_comparison.mp4": {
+      "sha256": "52e0c60d864535388d1790de7b8d6093f6c07bf863bdc75acd0706878bc5ab96",
+      "bytes": 1973037
+    }
+  }
+}

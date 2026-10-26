@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "reachable_targets": 20,
+  "converged": 20,
+  "mean_theoretical_error_m": 0.00017184430500062511,
+  "maximum_theoretical_error_m": 0.0009744129210352302,
+  "failure_cases": [
+    {
+      "case": "beyond_chain_bound",
+      "status": "unreachable_bound",
+      "success": false,
+      "error_m": 16.705297939958115,
+      "reason": "Target beyond conservative chain-length bound"
+    },
+    {
+      "case": "limited_iteration",
+      "status": "max_iterations",
+      "success": false,
+      "error_m": 0.2933809302822116,
+      "reason": "No convergence; not automatically classified unreachable"
+    }
+  ],
+  "dynamic_targets": [
+    {
+      "target_id": 0,
+      "theoretical_ik_error_m": 3.430717650684792e-05,
+      "actual_dynamic_error_m": 0.005807212431053674,
+      "actual_world": [
+        0.44892445965819844,
+        0.29991819312044804,
+        0.642496357847335
+      ],
+      "target_world": [
+        0.44770475949784494,
+        0.2996863496585331,
+        0.6481693020870914
+      ],
+      "last_250_max_error_m": 0.005807212431055393,
+      "passed_1cm": true
+    },
+    {
+      "target_id": 1,
+      "theoretical_ik_error_m": 0.0007865837147601967,
+      "actual_dynamic_error_m": 0.007513327389585558,
+      "actual_world": [
+        0.5740233902960727,
+        0.1284069766626319,
+        0.5417971796475534
+      ],
+      "target_world": [
+        0.5739500968497494,
+        0.12904627787663114,
+        0.5492829000866027
+      ],
+      "last_250_max_error_m": 0.00751332738958611,
+      "passed_1cm": true
+    },
+    {
+      "target_id": 2,
+      "theoretical_ik_error_m": 4.723438385471882e-05,
+      "actual_dynamic_error_m": 0.0074849731547615515,
+      "actual_world": [
+        0.5323560269037891,
+        0.2827799330188642,
+        0.48227578081829864
+      ],
+      "target_world": [
+        0.5323287979780461,
+        0.28322174072200307,
+        0.4897476539212462
+      ],
+      "last_250_max_error_m": 0.007484973154761833,
+      "passed_1cm": true
+    }
+  ],
+  "physics_steps": 7500,
+  "simulation_seconds": 15.000000000001679,
+  "kinematics_uses_independent_data": true,
+  "viewer": {
+    "launched": true,
+    "was_running": true,
+    "closed": true
+  },
+  "video": null
+}

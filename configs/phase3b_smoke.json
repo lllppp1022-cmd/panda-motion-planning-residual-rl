@@ -1,0 +1,19 @@
+{
+  "seed":42,"decisions":1024,"physical_dt_s":0.002,"frame_skip":25,"residual_cap_rad":0.002,"residual_slew_rad_s":0.01,
+  "reference_speed_rad_s":0.15,"planning_clearance_m":0.020,"execution_clearance_m":0.005,
+  "max_decisions_per_episode":800,"history_decisions":3,
+  "ppo":{"learning_rate":0.0001,"n_steps":256,"batch_size":64,"n_epochs":5,"gamma":0.995,"gae_lambda":0.95,"clip_range":0.1,"ent_coef":0.0,"vf_coef":0.5,"max_grad_norm":0.5,"initial_log_std":-2.302585092994046,"net_arch":[64,64]},
+  "training_conditions":[{"name":"nominal"},{"name":"mild_gain","kp_scale":0.95}],
+  "diagnostic_conditions":[{"name":"nominal"},{"name":"mild_gain","kp_scale":0.95},{"name":"mild_mass","mass_inertia_scale":1.05},{"name":"mild_damping","joint_damping_scale":1.1},{"name":"mild_observation","q_noise_std_rad":0.0005,"observation_delay_steps":2}],
+  "layouts":[
+    {"name":"b_train_sphere","split":"train","obstacle":"obstacle_sphere","crossing_angle_rad":-0.06,"start_joint1_rad":-0.48,"goal_joint1_rad":0.52,"joint2_rad":-0.045},
+    {"name":"b_validation_cylinder","split":"validation","obstacle":"obstacle_cylinder","crossing_angle_rad":0.13,"start_joint1_rad":-0.53,"goal_joint1_rad":0.56,"joint2_rad":0.045},
+    {"name":"b_final_box","split":"test","obstacle":"obstacle_box","crossing_angle_rad":-0.04,"start_joint1_rad":-0.51,"goal_joint1_rad":0.57,"joint2_rad":-0.085}
+  ],
+  "planning_seeds":[73,101],"maximum_planning_attempts_per_layout":2,
+  "safety_patterns":["positive","negative","alternating"],
+  "training_budget":"1024 decisions only, four rollouts/optimizer updates; no automatic continuation",
+  "reward":{"joint_max_penalty":0.1,"velocity_max_penalty":0.025,"action_penalty":0.005,"smoothness_max_penalty":0.005,"time_penalty":0.005,"progress_total":2.0,"success_bonus":200.0,"failure_penalty":200.0,"contact_penalty":400.0},
+  "evaluation_budget":"M1/M3: train+validation x nominal/mild_gain; initial deterministic PPO: same4; trained deterministic PPO: same4 plus validation mild_mass/damping/observation; final heldout nominal/mild_gain for M1/M3/PPO only after model frozen",
+  "scope":"supervisory observation noise/delay only, no privileged physical parameters or obstacle distances in actor observation; simulator distances used solely for safety and reward"
+}

@@ -1,0 +1,1561 @@
+{
+  "passed": true,
+  "training_run": "research-archive/results/runs/phase3d_observation_1792740617259955400",
+  "video": {
+    "episodes": [
+      {
+        "episode": 0,
+        "frames": 151,
+        "duration_s": 15.1,
+        "simulation_duration_s": 15.010000000001682,
+        "decoded_unique_frames": 151,
+        "raw_unique_frames": 146,
+        "joint_displacement_rad": 1.030018975666552,
+        "policy_versions": [
+          0,
+          1
+        ],
+        "output_first_frame": 0,
+        "outcome": "success",
+        "all_frames_match_actual_logs": true
+      },
+      {
+        "episode": 1,
+        "frames": 151,
+        "duration_s": 15.1,
+        "simulation_duration_s": 15.010000000001682,
+        "decoded_unique_frames": 151,
+        "raw_unique_frames": 145,
+        "joint_displacement_rad": 1.0300552016822886,
+        "policy_versions": [
+          1,
+          2
+        ],
+        "output_first_frame": 151,
+        "outcome": "success",
+        "all_frames_match_actual_logs": true
+      },
+      {
+        "episode": 2,
+        "frames": 151,
+        "duration_s": 15.1,
+        "simulation_duration_s": 15.010000000001682,
+        "decoded_unique_frames": 151,
+        "raw_unique_frames": 147,
+        "joint_displacement_rad": 1.030084951282236,
+        "policy_versions": [
+          2,
+          3
+        ],
+        "output_first_frame": 302,
+        "outcome": "success",
+        "all_frames_match_actual_logs": true
+      },
+      {
+        "episode": 3,
+        "frames": 126,
+        "duration_s": 12.6,
+        "simulation_duration_s": 12.552000000000861,
+        "decoded_unique_frames": 126,
+        "raw_unique_frames": 122,
+        "joint_displacement_rad": 0.8851072994450542,
+        "policy_versions": [
+          3
+        ],
+        "output_first_frame": 453,
+        "outcome": "rl_external_truncation",
+        "all_frames_match_actual_logs": true
+      }
+    ],
+    "total_frames": 579,
+    "duration_s": 57.9,
+    "output": "research-archive/results/runs/phase3d_validation_1792741307761834600/phase3d_actual_training.mp4",
+    "published": "research-archive/assets/videos/phase3d_actual_training.mp4",
+    "sha256": "684dd42a9a61b255650219d4ab62a6cd4fddfd7613052b15486a916b4f532acf",
+    "bytes": 3866316,
+    "decoded_frames": 579,
+    "full_state_and_control_match": true,
+    "rgb_lossy_note": "MP4 is lossy: decoded pixels are not claimed bitwise identical to pre-encode RGB; original RGB SHA and physical frame association retained."
+  },
+  "observer_equivalence": {
+    "passed": true,
+    "decision_samples_exact": true,
+    "observations_exact": true,
+    "tracking_exact": true,
+    "control_signals_exact_except_wall_timing": true,
+    "rewards_done_exact": true,
+    "network_parameters_bitwise_equal": true,
+    "optimizer_state_bitwise_equal": true,
+    "update_steps_off": [
+      256,
+      512,
+      768,
+      1024
+    ],
+    "update_steps_on": [
+      256,
+      512,
+      768,
+      1024
+    ],
+    "final_checkpoint_zip_hash_equal": false,
+    "zip_caveat": "archive metadata/paths may differ; every policy tensor and Adam state compared exactly",
+    "off": {
+      "run": "research-archive/results/runs/phase3d_observation_1792740617259955400/observer_off",
+      "record": false,
+      "render": false,
+      "decisions": 1024,
+      "physics_total": 28791,
+      "reset_physics": 3000,
+      "decision_physics": 25540,
+      "cleanup_physics": 251,
+      "initial_actor_sha256": "a3431010031868ae1d29b663475233b9a3a5a729c5f08dd87e26c10cd3e0b0b1",
+      "initial_critic_sha256": "9ae4f014b88f18857de031dd47d2ee5ec1317c1969c68433e47c55dd6d7f8e04",
+      "final_actor_sha256": "61d25b9eec8393568b052ef384da014743efd9137117d0f17635fb7df7240ad2",
+      "final_critic_sha256": "8b61f495dcf7189ad7dea24d7b6440fc695266a2fdae6e2b98d610bebd7afff6",
+      "actor_delta_l2": 0.08117976911326606,
+      "critic_delta_l2": 0.2776862143618483,
+      "updates": [
+        {
+          "update": 1,
+          "decision_steps": 256,
+          "optimizer_epochs_total": 5,
+          "actor_parameter_delta_l2": 0.02709920674070369,
+          "critic_parameter_delta_l2": 0.10081214221893763,
+          "actor_sha256": "c039e3d62812bc8711fba7fdf0a19a0c796b3bdf7d96d10f594962f0bed39d40",
+          "critic_sha256": "6cba5008ab2dba04fe0c22b03ac33311f36bf7379a5a632f03e79395be6fd79a",
+          "optimization_wall_s": 0.14772799983620644,
+          "policy_gradient_loss": -0.015475274459458888,
+          "value_loss": 0.00965049231890589,
+          "approx_kl": 0.0048745982348918915,
+          "clip_fraction": 0.1703125,
+          "entropy_loss": 6.183382368087768,
+          "explained_variance": 0.886051595211029,
+          "advantage_mean": 0.12468516826629639,
+          "advantage_std": 0.07567411661148071,
+          "advantage_min": -0.10046200454235077,
+          "advantage_max": 0.31811589002609253,
+          "target_min": -0.4680377244949341,
+          "target_max": 0.2605229318141937,
+          "preoptimization_value_mse": 0.021272962912917137,
+          "gae_quantiles": [
+            -0.10046200454235077,
+            -0.018976420164108276,
+            0.13361912965774536,
+            0.229608952999115,
+            0.31811589002609253
+          ],
+          "value_target_quantiles": [
+            -0.4680377244949341,
+            -0.4265705645084381,
+            -0.09789394587278366,
+            0.2480497919023037,
+            0.2605229318141937
+          ],
+          "actor_mean_average": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "actor_std_average": [
+            0.09999999403953552,
+            0.09999999403953552,
+            0.09999999403953552,
+            0.09999999403953552,
+            0.09999999403953552,
+            0.09999999403953552,
+            0.09999999403953552
+          ],
+          "active_episode": 0,
+          "active_episode_return": 0.7893743864011219,
+          "episode_state": "partial episode may cross update"
+        },
+        {
+          "update": 2,
+          "decision_steps": 512,
+          "optimizer_epochs_total": 10,
+          "actor_parameter_delta_l2": 0.03964732819430633,
+          "critic_parameter_delta_l2": 0.10774969934476816,
+          "actor_sha256": "491753159889ecbe537dbf5b0682825339e7c1682a824011714129c7bdf487cc",
+          "critic_sha256": "e73cada959c0d77f6e82096f2332db6700713100e0cdb2088e74d83947c8a785",
+          "optimization_wall_s": 0.035210699774324894,
+          "policy_gradient_loss": -0.01102420249953866,
+          "value_loss": 0.11424014791846275,
+          "approx_kl": 0.005560070276260376,
+          "clip_fraction": 0.11015625,
+          "entropy_loss": 6.180959320068359,
+          "explained_variance": 0.46680670976638794,
+          "advantage_mean": -0.09396809339523315,
+          "advantage_std": 0.3465287685394287,
+          "advantage_min": -0.46554046869277954,
+          "advantage_max": 1.638929843902588,
+          "target_min": -0.5669841170310974,
+          "target_max": 1.9998950958251953,
+          "preoptimization_value_mse": 0.12891218066215515,
+          "gae_quantiles": [
+            -0.46554046869277954,
+            -0.3602536469697952,
+            -0.1629345491528511,
+            0.8169993758201599,
+            1.638929843902588
+          ],
+          "value_target_quantiles": [
+            -0.5669841170310974,
+            -0.5606870651245117,
+            -0.16251201927661896,
+            1.1256835460662842,
+            1.9998950958251953
+          ],
+          "actor_mean_average": [
+            0.004988942820205011,
+            -0.0007797458254117373,
+            0.0016968135724937383,
+            0.0021868804128644115,
+            0.00010179620088024421,
+            0.0032352149409007325,
+            0.0019578805165565427
+          ],
+          "actor_std_average": [
+            0.10005684942007065,
+            0.10016884654760361,
+            0.09992086887359619,
+            0.09995146840810776,
+            0.10006379336118698,
+            0.10014723241329193,
+            0.1001400426030159
+          ],
+          "active_episode": 1,
+          "active_episode_return": -3.2886491356548677,
+          "episode_state": "partial episode may cross update"
+        },
+        {
+          "update": 3,
+          "decision_steps": 768,
+          "optimizer_epochs_total": 15,
+          "actor_parameter_delta_l2": 0.04293928796342017,
+          "critic_parameter_delta_l2": 0.10146475582800159,
+          "actor_sha256": "14d8a0c2680a62c4c86ba8dda3835fa8effb41fa9bdedb34474ce121d16e5dee",
+          "critic_sha256": "3aa6c06d36056b2be8e1dadf9cf25024b6807d3d3fba273a0d9cec04d669173e",
+          "optimization_wall_s": 0.03443140024319291,
+          "policy_gradient_loss": -0.008954721922054886,
+          "value_loss": 0.07930121934041381,
+          "approx_kl": 0.002709408523514867,
+          "clip_fraction": 0.0515625,
+          "entropy_loss": 6.183105540275574,
+          "explained_variance": 0.6685841083526611,
+          "advantage_mean": 0.11711780726909637,
+          "advantage_std": 0.2750231623649597,
+          "advantage_min": -0.1032947301864624,
+          "advantage_max": 1.6241166591644287,
+          "target_min": -0.577481210231781,
+          "target_max": 1.998471975326538,
+          "preoptimization_value_mse": 0.08935432881116867,
+          "gae_quantiles": [
+            -0.1032947301864624,
+            -0.06528444588184357,
+            0.047366753220558167,
+            0.6902596354484558,
+            1.6241166591644287
+          ],
+          "value_target_quantiles": [
+            -0.577481210231781,
+            -0.5323356091976166,
+            -0.12645817175507545,
+            1.0798425376415253,
+            1.998471975326538
+          ],
+          "actor_mean_average": [
+            0.005742548051898666,
+            -0.0020676876533229915,
+            0.0014162246977775794,
+            0.0032542456660848984,
+            -0.005439056549221277,
+            0.0025793555887645425,
+            -0.0011772719681175658
+          ],
+          "actor_std_average": [
+            0.09998083114624023,
+            0.10019253939390182,
+            0.09989386051893234,
+            0.09983635693788528,
+            0.10008111596107483,
+            0.10010738670825958,
+            0.10025007277727127
+          ],
+          "active_episode": 2,
+          "active_episode_return": -0.6205074586643529,
+          "episode_state": "partial episode may cross update"
+        },
+        {
+          "update": 4,
+          "decision_steps": 1024,
+          "optimizer_epochs_total": 20,
+          "actor_parameter_delta_l2": 0.037434202369857644,
+          "critic_parameter_delta_l2": 0.12471775123815293,
+          "actor_sha256": "61d25b9eec8393568b052ef384da014743efd9137117d0f17635fb7df7240ad2",
+          "critic_sha256": "8b61f495dcf7189ad7dea24d7b6440fc695266a2fdae6e2b98d610bebd7afff6",
+          "optimization_wall_s": 0.037851300090551376,
+          "policy_gradient_loss": -0.007071058871224523,
+          "value_loss": 0.06447188975289464,
+          "approx_kl": 0.002862754510715604,
+          "clip_fraction": 0.07109375,
+          "entropy_loss": 6.185141324996948,
+          "explained_variance": 0.8013616800308228,
+          "advantage_mean": 0.2082013338804245,
+          "advantage_std": 0.21182352304458618,
+          "advantage_min": 0.012658938765525818,
+          "advantage_max": 1.510646939277649,
+          "target_min": -0.49210721254348755,
+          "target_max": 1.9983227252960205,
+          "preoptimization_value_mse": 0.08821700513362885,
+          "gae_quantiles": [
+            0.012658938765525818,
+            0.0570357758551836,
+            0.16185886412858963,
+            0.600775882601738,
+            1.510646939277649
+          ],
+          "value_target_quantiles": [
+            -0.49210721254348755,
+            -0.428753562271595,
+            0.01530449092388153,
+            1.1471798419952393,
+            1.9983227252960205
+          ],
+          "actor_mean_average": [
+            0.010521564967575614,
+            -0.002108967027879771,
+            0.0014058301210013724,
+            0.00453584220463199,
+            -0.00528099255370762,
+            0.0009747334214580405,
+            -0.00020335408134997124
+          ],
+          "actor_std_average": [
+            0.10001397132873535,
+            0.10017330944538116,
+            0.09993595629930496,
+            0.09969761222600937,
+            0.09996123611927032,
+            0.10010436177253723,
+            0.10026480257511139
+          ],
+          "active_episode": 3,
+          "active_episode_return": 0.6942127471411487,
+          "episode_state": "partial episode may cross update"
+        }
+      ],
+      "episodes": [
+        {
+          "scene": "c_train_sphere",
+          "seed": 101,
+          "reference_speed_rad_s": 0.15,
+          "success": true,
+          "failure_reason": "",
+          "physics_steps": 7505,
+          "logged_physics_steps": 7505,
+          "simulation_time_s": 15.010000000001682,
+          "wall_time_s": 16.80579079966992,
+          "trajectory_duration_s": 13.009356990304681,
+          "minimum_actual_clearance_m": 0.022086462270991234,
+          "minimum_is_lower_bound": false,
+          "planning_minimum_clearance_m": 0.022087873856895607,
+          "safety_violation_steps": 0,
+          "prohibited_contact_observations": 0,
+          "native_contact_observations": 0,
+          "command_rate_limit_steps": 7503,
+          "actual_max_velocity_rad_s": 0.15310227664434975,
+          "actual_max_acceleration_fd_rad_s2": 8.475921158359315,
+          "final_q": [
+            0.5900187752322079,
+            -0.0647763184905651,
+            2.944423570537869e-05,
+            -1.57082137868555,
+            -0.00013960708482007805,
+            1.5707485732897855,
+            -0.7853737800661935
+          ],
+          "goal_q": [
+            0.59,
+            -0.065,
+            0.0,
+            -1.57079,
+            0.0,
+            1.57079,
+            -0.7853
+          ],
+          "final_joint_max_error_rad": 0.0002236815094349004,
+          "final_tcp_error_m": 0.00014550246855382212,
+          "joint_rmse_rad": [
+            0.000189347250531511,
+            9.724262533223206e-05,
+            0.00015748582872790478,
+            0.00015348901029347268,
+            0.00011926948591461631,
+            8.465313547417794e-05,
+            8.886023959234417e-05
+          ],
+          "joint_max_abs_error_rad": [
+            0.0003988006065118732,
+            0.00028408574303603884,
+            0.0005111829966700093,
+            0.00048306604611281223,
+            0.00039886958643872705,
+            0.00023591491910712747,
+            0.0002587985655123637
+          ],
+          "tcp_rmse_m": 0.00016436223950191858,
+          "tcp_max_error_m": 0.00038065874693479193,
+          "path_max_deviation_rad": 0.0004644220162678674,
+          "actual_finger_max_deviation_from_planning_m": 1.0788092404262484e-06,
+          "first_violation": null,
+          "errors": [],
+          "live_qpos_writes_after_initialization": 0,
+          "controller": "Unmodified upstream position servos; ctrl targets radians; original JointPositionController",
+          "run_directory": "research-archive/results/runs/phase3d_observation_1792740617259955400/observer_off/actual_training/episode_0000",
+          "source": "actual live MjData / ctrl + mj_step"
+        },
+        {
+          "scene": "c_train_sphere",
+          "seed": 101,
+          "reference_speed_rad_s": 0.15,
+          "success": true,
+          "failure_reason": "",
+          "physics_steps": 7505,
+          "logged_physics_steps": 7505,
+          "simulation_time_s": 15.010000000001682,
+          "wall_time_s": 15.431762999854982,
+          "trajectory_duration_s": 13.009356990304681,
+          "minimum_actual_clearance_m": 0.022086389145939182,
+          "minimum_is_lower_bound": false,
+          "planning_minimum_clearance_m": 0.022087873856895607,
+          "safety_violation_steps": 0,
+          "prohibited_contact_observations": 0,
+          "native_contact_observations": 0,
+          "command_rate_limit_steps": 7503,
+          "actual_max_velocity_rad_s": 0.15204785111991692,
+          "actual_max_acceleration_fd_rad_s2": 8.561521633628058,
+          "final_q": [
+            0.5899468908881943,
+            -0.06438527536051764,
+            -6.381074521662567e-05,
+            -1.5712884282811035,
+            -2.368459582032467e-05,
+            1.5703852209112785,
+            -0.7853448643754641
+          ],
+          "goal_q": [
+            0.59,
+            -0.065,
+            0.0,
+            -1.57079,
+            0.0,
+            1.57079,
+            -0.7853
+          ],
+          "final_joint_max_error_rad": 0.0006147246394823669,
+          "final_tcp_error_m": 0.0006164202726854697,
+          "joint_rmse_rad": [
+            0.0008674362661103648,
+            0.0006266390018076996,
+            0.0006965834982447405,
+            0.0008361746477054501,
+            0.0003816316424078561,
+            0.00031290120767872576,
+            0.0002180266154644065
+          ],
+          "joint_max_abs_error_rad": [
+            0.001543670870064226,
+            0.0009227531627630792,
+            0.0016520820034720551,
+            0.0014339682236248485,
+            0.0008763409847244441,
+            0.0007884691152135748,
+            0.0005405481706463044
+          ],
+          "tcp_rmse_m": 0.000888756356247347,
+          "tcp_max_error_m": 0.0014271796149082409,
+          "path_max_deviation_rad": 0.0011223368041663095,
+          "actual_finger_max_deviation_from_planning_m": 1.0547888815715112e-06,
+          "first_violation": null,
+          "errors": [],
+          "live_qpos_writes_after_initialization": 0,
+          "controller": "Unmodified upstream position servos; ctrl targets radians; original JointPositionController",
+          "run_directory": "research-archive/results/runs/phase3d_observation_1792740617259955400/observer_off/actual_training/episode_0001",
+          "source": "actual live MjData / ctrl + mj_step"
+        },
+        {
+          "scene": "c_train_sphere",
+          "seed": 101,
+          "reference_speed_rad_s": 0.15,
+          "success": true,
+          "failure_reason": "",
+          "physics_steps": 7505,
+          "logged_physics_steps": 7505,
+          "simulation_time_s": 15.010000000001682,
+          "wall_time_s": 15.231423799879849,
+          "trajectory_duration_s": 13.009356990304681,
+          "minimum_actual_clearance_m": 0.02208546155973737,
+          "minimum_is_lower_bound": false,
+          "planning_minimum_clearance_m": 0.022087873856895607,
+          "safety_violation_steps": 0,
+          "prohibited_contact_observations": 0,
+          "native_contact_observations": 0,
+          "command_rate_limit_steps": 7503,
+          "actual_max_velocity_rad_s": 0.1533719548654601,
+          "actual_max_acceleration_fd_rad_s2": 8.975652869008652,
+          "final_q": [
+            0.5900548847795605,
+            -0.06434915337465416,
+            -1.1063873855060958e-05,
+            -1.5713830127854345,
+            1.8433960294821546e-06,
+            1.5706913918903977,
+            -0.7854299965569502
+          ],
+          "goal_q": [
+            0.59,
+            -0.065,
+            0.0,
+            -1.57079,
+            0.0,
+            1.57079,
+            -0.7853
+          ],
+          "final_joint_max_error_rad": 0.0006508466253458411,
+          "final_tcp_error_m": 0.0006503537756012531,
+          "joint_rmse_rad": [
+            0.0001868664904566434,
+            0.0005443489995202994,
+            0.0001586496415767027,
+            0.0005938182429383966,
+            0.00012044916452586224,
+            0.00015227578214074928,
+            9.391957257476328e-05
+          ],
+          "joint_max_abs_error_rad": [
+            0.0004205901401306833,
+            0.0008249876226703728,
+            0.00045972237114538794,
+            0.000974745748647754,
+            0.00037075456487310754,
+            0.0003878170961395533,
+            0.00030042612790925904
+          ],
+          "tcp_rmse_m": 0.0006003184840229286,
+          "tcp_max_error_m": 0.0009151494901982437,
+          "path_max_deviation_rad": 0.0010574373397042904,
+          "actual_finger_max_deviation_from_planning_m": 1.2070768734204207e-06,
+          "first_violation": null,
+          "errors": [],
+          "live_qpos_writes_after_initialization": 0,
+          "controller": "Unmodified upstream position servos; ctrl targets radians; original JointPositionController",
+          "run_directory": "research-archive/results/runs/phase3d_observation_1792740617259955400/observer_off/actual_training/episode_0002",
+          "source": "actual live MjData / ctrl + mj_step"
+        },
+        {
+          "scene": "c_train_sphere",
+          "seed": 101,
+          "reference_speed_rad_s": 0.15,
+          "success": false,
+          "failure_reason": "rl_external_truncation",
+          "physics_steps": 6276,
+          "logged_physics_steps": 6276,
+          "simulation_time_s": 12.552000000000861,
+          "wall_time_s": 13.340019699651748,
+          "trajectory_duration_s": 13.009356990304681,
+          "minimum_actual_clearance_m": 0.022085846689777183,
+          "minimum_is_lower_bound": false,
+          "planning_minimum_clearance_m": 0.022087873856895607,
+          "safety_violation_steps": 0,
+          "prohibited_contact_observations": 0,
+          "native_contact_observations": 0,
+          "command_rate_limit_steps": 6274,
+          "actual_max_velocity_rad_s": 0.1525475950663531,
+          "actual_max_acceleration_fd_rad_s2": 8.475921158359315,
+          "final_q": [
+            0.3934907330939972,
+            -0.09732493514265084,
+            -0.20191105653950892,
+            -1.4199687110480474,
+            0.10635136404521918,
+            1.4908614709182146,
+            -0.7231825188958302
+          ],
+          "goal_q": [
+            0.59,
+            -0.065,
+            0.0,
+            -1.57079,
+            0.0,
+            1.57079,
+            -0.7853
+          ],
+          "final_joint_max_error_rad": 0.20191105653950892,
+          "final_tcp_error_m": 0.21042835174106092,
+          "joint_rmse_rad": [
+            0.00020433179919963793,
+            9.531706351245418e-05,
+            0.00013051680729492737,
+            0.0001138205296177153,
+            0.00010513406205389979,
+            9.60509458100353e-05,
+            0.00010400034127085865
+          ],
+          "joint_max_abs_error_rad": [
+            0.0005591216600541807,
+            0.0002803990827327796,
+            0.0003281827517110092,
+            0.00029958456335976713,
+            0.0003149446733933525,
+            0.000289980713988891,
+            0.0003234483985093961
+          ],
+          "tcp_rmse_m": 0.00012696503875187548,
+          "tcp_max_error_m": 0.00027063749199488505,
+          "path_max_deviation_rad": 0.00041802208944648276,
+          "actual_finger_max_deviation_from_planning_m": 4.426053682858588e-06,
+          "first_violation": {
+            "time": 12.052000000000694,
+            "q": [
+              0.3934692683510825,
+              -0.09732640667847481,
+              -0.2019338979942685,
+              -1.4199565859761145,
+              0.10635774098081627,
+              1.490858637722719,
+              -0.7231806183834448
+            ],
+            "reason": "rl_external_truncation",
+            "monitor": null,
+            "trajectory_time": 10.552000000000193
+          },
+          "errors": [],
+          "live_qpos_writes_after_initialization": 0,
+          "controller": "Unmodified upstream position servos; ctrl targets radians; original JointPositionController",
+          "run_directory": "research-archive/results/runs/phase3d_observation_1792740617259955400/observer_off/actual_training/episode_0003",
+          "source": "actual live MjData / ctrl + mj_step"
+        }
+      ],
+      "record_errors": [],
+      "wall_s": 62.83794440003112,
+      "error": null,
+      "checkpoint": "research-archive/results/runs/phase3d_observation_1792740617259955400/observer_off/checkpoints/final.zip",
+      "checkpoint_sha256": "75f57ed667b99a079a768c0f87ce5f98bbb73cfddabe3cc3d0a0152e7e8d3c93",
+      "stop_reason": "decision_budget",
+      "display_pid": null
+    },
+    "on": {
+      "run": "research-archive/results/runs/phase3d_observation_1792740617259955400/observer_on",
+      "record": true,
+      "render": true,
+      "decisions": 1024,
+      "physics_total": 28791,
+      "reset_physics": 3000,
+      "decision_physics": 25540,
+      "cleanup_physics": 251,
+      "initial_actor_sha256": "a3431010031868ae1d29b663475233b9a3a5a729c5f08dd87e26c10cd3e0b0b1",
+      "initial_critic_sha256": "9ae4f014b88f18857de031dd47d2ee5ec1317c1969c68433e47c55dd6d7f8e04",
+      "final_actor_sha256": "61d25b9eec8393568b052ef384da014743efd9137117d0f17635fb7df7240ad2",
+      "final_critic_sha256": "8b61f495dcf7189ad7dea24d7b6440fc695266a2fdae6e2b98d610bebd7afff6",
+      "actor_delta_l2": 0.08117976911326606,
+      "critic_delta_l2": 0.2776862143618483,
+      "updates": [
+        {
+          "update": 1,
+          "decision_steps": 256,
+          "optimizer_epochs_total": 5,
+          "actor_parameter_delta_l2": 0.02709920674070369,
+          "critic_parameter_delta_l2": 0.10081214221893763,
+          "actor_sha256": "c039e3d62812bc8711fba7fdf0a19a0c796b3bdf7d96d10f594962f0bed39d40",
+          "critic_sha256": "6cba5008ab2dba04fe0c22b03ac33311f36bf7379a5a632f03e79395be6fd79a",
+          "optimization_wall_s": 0.0352874998934567,
+          "policy_gradient_loss": -0.015475274459458888,
+          "value_loss": 0.00965049231890589,
+          "approx_kl": 0.0048745982348918915,
+          "clip_fraction": 0.1703125,
+          "entropy_loss": 6.183382368087768,
+          "explained_variance": 0.886051595211029,
+          "advantage_mean": 0.12468516826629639,
+          "advantage_std": 0.07567411661148071,
+          "advantage_min": -0.10046200454235077,
+          "advantage_max": 0.31811589002609253,
+          "target_min": -0.4680377244949341,
+          "target_max": 0.2605229318141937,
+          "preoptimization_value_mse": 0.021272962912917137,
+          "gae_quantiles": [
+            -0.10046200454235077,
+            -0.018976420164108276,
+            0.13361912965774536,
+            0.229608952999115,
+            0.31811589002609253
+          ],
+          "value_target_quantiles": [
+            -0.4680377244949341,
+            -0.4265705645084381,
+            -0.09789394587278366,
+            0.2480497919023037,
+            0.2605229318141937
+          ],
+          "actor_mean_average": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "actor_std_average": [
+            0.09999999403953552,
+            0.09999999403953552,
+            0.09999999403953552,
+            0.09999999403953552,
+            0.09999999403953552,
+            0.09999999403953552,
+            0.09999999403953552
+          ],
+          "active_episode": 0,
+          "active_episode_return": 0.7893743864011219,
+          "episode_state": "partial episode may cross update"
+        },
+        {
+          "update": 2,
+          "decision_steps": 512,
+          "optimizer_epochs_total": 10,
+          "actor_parameter_delta_l2": 0.03964732819430633,
+          "critic_parameter_delta_l2": 0.10774969934476816,
+          "actor_sha256": "491753159889ecbe537dbf5b0682825339e7c1682a824011714129c7bdf487cc",
+          "critic_sha256": "e73cada959c0d77f6e82096f2332db6700713100e0cdb2088e74d83947c8a785",
+          "optimization_wall_s": 0.03940899996086955,
+          "policy_gradient_loss": -0.01102420249953866,
+          "value_loss": 0.11424014791846275,
+          "approx_kl": 0.005560070276260376,
+          "clip_fraction": 0.11015625,
+          "entropy_loss": 6.180959320068359,
+          "explained_variance": 0.46680670976638794,
+          "advantage_mean": -0.09396809339523315,
+          "advantage_std": 0.3465287685394287,
+          "advantage_min": -0.46554046869277954,
+          "advantage_max": 1.638929843902588,
+          "target_min": -0.5669841170310974,
+          "target_max": 1.9998950958251953,
+          "preoptimization_value_mse": 0.12891218066215515,
+          "gae_quantiles": [
+            -0.46554046869277954,
+            -0.3602536469697952,
+            -0.1629345491528511,
+            0.8169993758201599,
+            1.638929843902588
+          ],
+          "value_target_quantiles": [
+            -0.5669841170310974,
+            -0.5606870651245117,
+            -0.16251201927661896,
+            1.1256835460662842,
+            1.9998950958251953
+          ],
+          "actor_mean_average": [
+            0.004988942820205011,
+            -0.0007797458254117373,
+            0.0016968135724937383,
+            0.0021868804128644115,
+            0.00010179620088024421,
+            0.0032352149409007325,
+            0.0019578805165565427
+          ],
+          "actor_std_average": [
+            0.10005684942007065,
+            0.10016884654760361,
+            0.09992086887359619,
+            0.09995146840810776,
+            0.10006379336118698,
+            0.10014723241329193,
+            0.1001400426030159
+          ],
+          "active_episode": 1,
+          "active_episode_return": -3.2886491356548677,
+          "episode_state": "partial episode may cross update"
+        },
+        {
+          "update": 3,
+          "decision_steps": 768,
+          "optimizer_epochs_total": 15,
+          "actor_parameter_delta_l2": 0.04293928796342017,
+          "critic_parameter_delta_l2": 0.10146475582800159,
+          "actor_sha256": "14d8a0c2680a62c4c86ba8dda3835fa8effb41fa9bdedb34474ce121d16e5dee",
+          "critic_sha256": "3aa6c06d36056b2be8e1dadf9cf25024b6807d3d3fba273a0d9cec04d669173e",
+          "optimization_wall_s": 0.04125320026651025,
+          "policy_gradient_loss": -0.008954721922054886,
+          "value_loss": 0.07930121934041381,
+          "approx_kl": 0.002709408523514867,
+          "clip_fraction": 0.0515625,
+          "entropy_loss": 6.183105540275574,
+          "explained_variance": 0.6685841083526611,
+          "advantage_mean": 0.11711780726909637,
+          "advantage_std": 0.2750231623649597,
+          "advantage_min": -0.1032947301864624,
+          "advantage_max": 1.6241166591644287,
+          "target_min": -0.577481210231781,
+          "target_max": 1.998471975326538,
+          "preoptimization_value_mse": 0.08935432881116867,
+          "gae_quantiles": [
+            -0.1032947301864624,
+            -0.06528444588184357,
+            0.047366753220558167,
+            0.6902596354484558,
+            1.6241166591644287
+          ],
+          "value_target_quantiles": [
+            -0.577481210231781,
+            -0.5323356091976166,
+            -0.12645817175507545,
+            1.0798425376415253,
+            1.998471975326538
+          ],
+          "actor_mean_average": [
+            0.005742548051898666,
+            -0.0020676876533229915,
+            0.0014162246977775794,
+            0.0032542456660848984,
+            -0.005439056549221277,
+            0.0025793555887645425,
+            -0.0011772719681175658
+          ],
+          "actor_std_average": [
+            0.09998083114624023,
+            0.10019253939390182,
+            0.09989386051893234,
+            0.09983635693788528,
+            0.10008111596107483,
+            0.10010738670825958,
+            0.10025007277727127
+          ],
+          "active_episode": 2,
+          "active_episode_return": -0.6205074586643529,
+          "episode_state": "partial episode may cross update"
+        },
+        {
+          "update": 4,
+          "decision_steps": 1024,
+          "optimizer_epochs_total": 20,
+          "actor_parameter_delta_l2": 0.037434202369857644,
+          "critic_parameter_delta_l2": 0.12471775123815293,
+          "actor_sha256": "61d25b9eec8393568b052ef384da014743efd9137117d0f17635fb7df7240ad2",
+          "critic_sha256": "8b61f495dcf7189ad7dea24d7b6440fc695266a2fdae6e2b98d610bebd7afff6",
+          "optimization_wall_s": 0.04097899980843067,
+          "policy_gradient_loss": -0.007071058871224523,
+          "value_loss": 0.06447188975289464,
+          "approx_kl": 0.002862754510715604,
+          "clip_fraction": 0.07109375,
+          "entropy_loss": 6.185141324996948,
+          "explained_variance": 0.8013616800308228,
+          "advantage_mean": 0.2082013338804245,
+          "advantage_std": 0.21182352304458618,
+          "advantage_min": 0.012658938765525818,
+          "advantage_max": 1.510646939277649,
+          "target_min": -0.49210721254348755,
+          "target_max": 1.9983227252960205,
+          "preoptimization_value_mse": 0.08821700513362885,
+          "gae_quantiles": [
+            0.012658938765525818,
+            0.0570357758551836,
+            0.16185886412858963,
+            0.600775882601738,
+            1.510646939277649
+          ],
+          "value_target_quantiles": [
+            -0.49210721254348755,
+            -0.428753562271595,
+            0.01530449092388153,
+            1.1471798419952393,
+            1.9983227252960205
+          ],
+          "actor_mean_average": [
+            0.010521564967575614,
+            -0.002108967027879771,
+            0.0014058301210013724,
+            0.00453584220463199,
+            -0.00528099255370762,
+            0.0009747334214580405,
+            -0.00020335408134997124
+          ],
+          "actor_std_average": [
+            0.10001397132873535,
+            0.10017330944538116,
+            0.09993595629930496,
+            0.09969761222600937,
+            0.09996123611927032,
+            0.10010436177253723,
+            0.10026480257511139
+          ],
+          "active_episode": 3,
+          "active_episode_return": 0.6942127471411487,
+          "episode_state": "partial episode may cross update"
+        }
+      ],
+      "episodes": [
+        {
+          "scene": "c_train_sphere",
+          "seed": 101,
+          "reference_speed_rad_s": 0.15,
+          "success": true,
+          "failure_reason": "",
+          "physics_steps": 7505,
+          "logged_physics_steps": 7505,
+          "simulation_time_s": 15.010000000001682,
+          "wall_time_s": 26.143470000009984,
+          "trajectory_duration_s": 13.009356990304681,
+          "minimum_actual_clearance_m": 0.022086462270991234,
+          "minimum_is_lower_bound": false,
+          "planning_minimum_clearance_m": 0.022087873856895607,
+          "safety_violation_steps": 0,
+          "prohibited_contact_observations": 0,
+          "native_contact_observations": 0,
+          "command_rate_limit_steps": 7503,
+          "actual_max_velocity_rad_s": 0.15310227664434975,
+          "actual_max_acceleration_fd_rad_s2": 8.475921158359315,
+          "final_q": [
+            0.5900187752322079,
+            -0.0647763184905651,
+            2.944423570537869e-05,
+            -1.57082137868555,
+            -0.00013960708482007805,
+            1.5707485732897855,
+            -0.7853737800661935
+          ],
+          "goal_q": [
+            0.59,
+            -0.065,
+            0.0,
+            -1.57079,
+            0.0,
+            1.57079,
+            -0.7853
+          ],
+          "final_joint_max_error_rad": 0.0002236815094349004,
+          "final_tcp_error_m": 0.00014550246855382212,
+          "joint_rmse_rad": [
+            0.000189347250531511,
+            9.724262533223206e-05,
+            0.00015748582872790478,
+            0.00015348901029347268,
+            0.00011926948591461631,
+            8.465313547417794e-05,
+            8.886023959234417e-05
+          ],
+          "joint_max_abs_error_rad": [
+            0.0003988006065118732,
+            0.00028408574303603884,
+            0.0005111829966700093,
+            0.00048306604611281223,
+            0.00039886958643872705,
+            0.00023591491910712747,
+            0.0002587985655123637
+          ],
+          "tcp_rmse_m": 0.00016436223950191858,
+          "tcp_max_error_m": 0.00038065874693479193,
+          "path_max_deviation_rad": 0.0004644220162678674,
+          "actual_finger_max_deviation_from_planning_m": 1.0788092404262484e-06,
+          "first_violation": null,
+          "errors": [],
+          "live_qpos_writes_after_initialization": 0,
+          "controller": "Unmodified upstream position servos; ctrl targets radians; original JointPositionController",
+          "run_directory": "research-archive/results/runs/phase3d_observation_1792740617259955400/observer_on/actual_training/episode_0000",
+          "source": "actual live MjData / ctrl + mj_step"
+        },
+        {
+          "scene": "c_train_sphere",
+          "seed": 101,
+          "reference_speed_rad_s": 0.15,
+          "success": true,
+          "failure_reason": "",
+          "physics_steps": 7505,
+          "logged_physics_steps": 7505,
+          "simulation_time_s": 15.010000000001682,
+          "wall_time_s": 24.58193049998954,
+          "trajectory_duration_s": 13.009356990304681,
+          "minimum_actual_clearance_m": 0.022086389145939182,
+          "minimum_is_lower_bound": false,
+          "planning_minimum_clearance_m": 0.022087873856895607,
+          "safety_violation_steps": 0,
+          "prohibited_contact_observations": 0,
+          "native_contact_observations": 0,
+          "command_rate_limit_steps": 7503,
+          "actual_max_velocity_rad_s": 0.15204785111991692,
+          "actual_max_acceleration_fd_rad_s2": 8.561521633628058,
+          "final_q": [
+            0.5899468908881943,
+            -0.06438527536051764,
+            -6.381074521662567e-05,
+            -1.5712884282811035,
+            -2.368459582032467e-05,
+            1.5703852209112785,
+            -0.7853448643754641
+          ],
+          "goal_q": [
+            0.59,
+            -0.065,
+            0.0,
+            -1.57079,
+            0.0,
+            1.57079,
+            -0.7853
+          ],
+          "final_joint_max_error_rad": 0.0006147246394823669,
+          "final_tcp_error_m": 0.0006164202726854697,
+          "joint_rmse_rad": [
+            0.0008674362661103648,
+            0.0006266390018076996,
+            0.0006965834982447405,
+            0.0008361746477054501,
+            0.0003816316424078561,
+            0.00031290120767872576,
+            0.0002180266154644065
+          ],
+          "joint_max_abs_error_rad": [
+            0.001543670870064226,
+            0.0009227531627630792,
+            0.0016520820034720551,
+            0.0014339682236248485,
+            0.0008763409847244441,
+            0.0007884691152135748,
+            0.0005405481706463044
+          ],
+          "tcp_rmse_m": 0.000888756356247347,
+          "tcp_max_error_m": 0.0014271796149082409,
+          "path_max_deviation_rad": 0.0011223368041663095,
+          "actual_finger_max_deviation_from_planning_m": 1.0547888815715112e-06,
+          "first_violation": null,
+          "errors": [],
+          "live_qpos_writes_after_initialization": 0,
+          "controller": "Unmodified upstream position servos; ctrl targets radians; original JointPositionController",
+          "run_directory": "research-archive/results/runs/phase3d_observation_1792740617259955400/observer_on/actual_training/episode_0001",
+          "source": "actual live MjData / ctrl + mj_step"
+        },
+        {
+          "scene": "c_train_sphere",
+          "seed": 101,
+          "reference_speed_rad_s": 0.15,
+          "success": true,
+          "failure_reason": "",
+          "physics_steps": 7505,
+          "logged_physics_steps": 7505,
+          "simulation_time_s": 15.010000000001682,
+          "wall_time_s": 25.401834999676794,
+          "trajectory_duration_s": 13.009356990304681,
+          "minimum_actual_clearance_m": 0.02208546155973737,
+          "minimum_is_lower_bound": false,
+          "planning_minimum_clearance_m": 0.022087873856895607,
+          "safety_violation_steps": 0,
+          "prohibited_contact_observations": 0,
+          "native_contact_observations": 0,
+          "command_rate_limit_steps": 7503,
+          "actual_max_velocity_rad_s": 0.1533719548654601,
+          "actual_max_acceleration_fd_rad_s2": 8.975652869008652,
+          "final_q": [
+            0.5900548847795605,
+            -0.06434915337465416,
+            -1.1063873855060958e-05,
+            -1.5713830127854345,
+            1.8433960294821546e-06,
+            1.5706913918903977,
+            -0.7854299965569502
+          ],
+          "goal_q": [
+            0.59,
+            -0.065,
+            0.0,
+            -1.57079,
+            0.0,
+            1.57079,
+            -0.7853
+          ],
+          "final_joint_max_error_rad": 0.0006508466253458411,
+          "final_tcp_error_m": 0.0006503537756012531,
+          "joint_rmse_rad": [
+            0.0001868664904566434,
+            0.0005443489995202994,
+            0.0001586496415767027,
+            0.0005938182429383966,
+            0.00012044916452586224,
+            0.00015227578214074928,
+            9.391957257476328e-05
+          ],
+          "joint_max_abs_error_rad": [
+            0.0004205901401306833,
+            0.0008249876226703728,
+            0.00045972237114538794,
+            0.000974745748647754,
+            0.00037075456487310754,
+            0.0003878170961395533,
+            0.00030042612790925904
+          ],
+          "tcp_rmse_m": 0.0006003184840229286,
+          "tcp_max_error_m": 0.0009151494901982437,
+          "path_max_deviation_rad": 0.0010574373397042904,
+          "actual_finger_max_deviation_from_planning_m": 1.2070768734204207e-06,
+          "first_violation": null,
+          "errors": [],
+          "live_qpos_writes_after_initialization": 0,
+          "controller": "Unmodified upstream position servos; ctrl targets radians; original JointPositionController",
+          "run_directory": "research-archive/results/runs/phase3d_observation_1792740617259955400/observer_on/actual_training/episode_0002",
+          "source": "actual live MjData / ctrl + mj_step"
+        },
+        {
+          "scene": "c_train_sphere",
+          "seed": 101,
+          "reference_speed_rad_s": 0.15,
+          "success": false,
+          "failure_reason": "rl_external_truncation",
+          "physics_steps": 6276,
+          "logged_physics_steps": 6276,
+          "simulation_time_s": 12.552000000000861,
+          "wall_time_s": 21.032854199875146,
+          "trajectory_duration_s": 13.009356990304681,
+          "minimum_actual_clearance_m": 0.022085846689777183,
+          "minimum_is_lower_bound": false,
+          "planning_minimum_clearance_m": 0.022087873856895607,
+          "safety_violation_steps": 0,
+          "prohibited_contact_observations": 0,
+          "native_contact_observations": 0,
+          "command_rate_limit_steps": 6274,
+          "actual_max_velocity_rad_s": 0.1525475950663531,
+          "actual_max_acceleration_fd_rad_s2": 8.475921158359315,
+          "final_q": [
+            0.3934907330939972,
+            -0.09732493514265084,
+            -0.20191105653950892,
+            -1.4199687110480474,
+            0.10635136404521918,
+            1.4908614709182146,
+            -0.7231825188958302
+          ],
+          "goal_q": [
+            0.59,
+            -0.065,
+            0.0,
+            -1.57079,
+            0.0,
+            1.57079,
+            -0.7853
+          ],
+          "final_joint_max_error_rad": 0.20191105653950892,
+          "final_tcp_error_m": 0.21042835174106092,
+          "joint_rmse_rad": [
+            0.00020433179919963793,
+            9.531706351245418e-05,
+            0.00013051680729492737,
+            0.0001138205296177153,
+            0.00010513406205389979,
+            9.60509458100353e-05,
+            0.00010400034127085865
+          ],
+          "joint_max_abs_error_rad": [
+            0.0005591216600541807,
+            0.0002803990827327796,
+            0.0003281827517110092,
+            0.00029958456335976713,
+            0.0003149446733933525,
+            0.000289980713988891,
+            0.0003234483985093961
+          ],
+          "tcp_rmse_m": 0.00012696503875187548,
+          "tcp_max_error_m": 0.00027063749199488505,
+          "path_max_deviation_rad": 0.00041802208944648276,
+          "actual_finger_max_deviation_from_planning_m": 4.426053682858588e-06,
+          "first_violation": {
+            "time": 12.052000000000694,
+            "q": [
+              0.3934692683510825,
+              -0.09732640667847481,
+              -0.2019338979942685,
+              -1.4199565859761145,
+              0.10635774098081627,
+              1.490858637722719,
+              -0.7231806183834448
+            ],
+            "reason": "rl_external_truncation",
+            "monitor": null,
+            "trajectory_time": 10.552000000000193
+          },
+          "errors": [],
+          "live_qpos_writes_after_initialization": 0,
+          "controller": "Unmodified upstream position servos; ctrl targets radians; original JointPositionController",
+          "run_directory": "research-archive/results/runs/phase3d_observation_1792740617259955400/observer_on/actual_training/episode_0003",
+          "source": "actual live MjData / ctrl + mj_step"
+        }
+      ],
+      "record_errors": [
+        {
+          "episode": 0,
+          "step": 201,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 0,
+          "step": 601,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 0,
+          "step": 2351,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 0,
+          "step": 2901,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 0,
+          "step": 3701,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 0,
+          "step": 3851,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 0,
+          "step": 5101,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 0,
+          "step": 7251,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 1,
+          "step": 1,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 1,
+          "step": 2251,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 1,
+          "step": 3201,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 1,
+          "step": 4651,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 1,
+          "step": 4751,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 1,
+          "step": 6201,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 1,
+          "step": 6701,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 1,
+          "step": 7101,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 1,
+          "step": 7301,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 2,
+          "step": 101,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 2,
+          "step": 301,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 2,
+          "step": 401,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 2,
+          "step": 801,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 2,
+          "step": 1651,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 2,
+          "step": 2951,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 2,
+          "step": 3051,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 2,
+          "step": 3301,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 2,
+          "step": 3801,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 2,
+          "step": 4601,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 2,
+          "step": 4651,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 2,
+          "step": 4751,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 2,
+          "step": 6901,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 2,
+          "step": 7251,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 2,
+          "step": 7301,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 3,
+          "step": 551,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 3,
+          "step": 1451,
+          "error": "PermissionError(13, '拒绝访问。')"
+        },
+        {
+          "episode": 3,
+          "step": 3051,
+          "error": "PermissionError(13, '拒绝访问。')"
+        }
+      ],
+      "wall_s": 100.09968970017508,
+      "error": null,
+      "checkpoint": "research-archive/results/runs/phase3d_observation_1792740617259955400/observer_on/checkpoints/final.zip",
+      "checkpoint_sha256": "0800b4f31f0c355ffaf3923cafe080a8de4e3103bdd200d3a9a4807c997c4d60",
+      "stop_reason": "decision_budget",
+      "display_pid": 35936
+    }
+  },
+  "historical_integrity_files": 3355,
+  "historical_unchanged": true,
+  "retained_live_preview_file_sharing_errors": [
+    {
+      "episode": 0,
+      "step": 201,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 0,
+      "step": 601,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 0,
+      "step": 2351,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 0,
+      "step": 2901,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 0,
+      "step": 3701,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 0,
+      "step": 3851,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 0,
+      "step": 5101,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 0,
+      "step": 7251,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 1,
+      "step": 1,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 1,
+      "step": 2251,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 1,
+      "step": 3201,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 1,
+      "step": 4651,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 1,
+      "step": 4751,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 1,
+      "step": 6201,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 1,
+      "step": 6701,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 1,
+      "step": 7101,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 1,
+      "step": 7301,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 2,
+      "step": 101,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 2,
+      "step": 301,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 2,
+      "step": 401,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 2,
+      "step": 801,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 2,
+      "step": 1651,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 2,
+      "step": 2951,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 2,
+      "step": 3051,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 2,
+      "step": 3301,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 2,
+      "step": 3801,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 2,
+      "step": 4601,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 2,
+      "step": 4651,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 2,
+      "step": 4751,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 2,
+      "step": 6901,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 2,
+      "step": 7251,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 2,
+      "step": 7301,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 3,
+      "step": 551,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 3,
+      "step": 1451,
+      "error": "PermissionError(13, '拒绝访问。')"
+    },
+    {
+      "episode": 3,
+      "step": 3051,
+      "error": "PermissionError(13, '拒绝访问。')"
+    }
+  ],
+  "preview_fix": "Unique immutable PNG paths + bounded JSON replace retry. Verify separately without more PPO training.",
+  "historical_audit_run": "research-archive/results/runs/phase3d_history_1792740387513354000",
+  "actual_task_failures": [],
+  "budget_interrupted_episodes": 1
+}

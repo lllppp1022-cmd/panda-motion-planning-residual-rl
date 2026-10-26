@@ -1,0 +1,116 @@
+{
+  "runs": 22,
+  "all_matched": true,
+  "comparisons": [
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_74663d8e54c2_M0_v0.15",
+      "historical_source": "research-archive/results/runs/phase2c_batch_1792573101827506800/A_clear_v0.15_repeat1",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_74663d8e54c2_M0_v0.10",
+      "historical_source": "research-archive/results/runs/phase2c_batch_1792573101827506800/A_clear_v0.10_repeat1",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_1ad6dc119ad1_M0_v0.10",
+      "historical_source": "research-archive/results/runs/phase2c_batch_1792573101827506800/B_sphere_v0.10_repeat1",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_1ad6dc119ad1_M0_v0.15",
+      "historical_source": "research-archive/results/runs/phase2c_batch_1792573101827506800/B_sphere_v0.15_repeat1",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_3fc0c37d1ad3_M0_v0.10",
+      "historical_source": "research-archive/results/runs/phase2c_batch_1792573101827506800/C_cylinder_v0.10_repeat1",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_3fc0c37d1ad3_M0_v0.15",
+      "historical_source": "research-archive/results/runs/phase2c_batch_1792573101827506800/C_cylinder_v0.15_repeat1",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_0bfa1d638a43_M0_v0.10",
+      "historical_source": "research-archive/results/runs/phase2c_batch_1792573101827506800/D_two_obstacles_v0.10_repeat1",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_0bfa1d638a43_M0_v0.15",
+      "historical_source": "research-archive/results/runs/phase2c_batch_1792573101827506800/D_two_obstacles_v0.15_repeat1",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_216a0f889455_M0_v0.15",
+      "historical_source": "research-archive/results/runs/phase2d_dynamic_1792574604439729300/margin05mm_seed123_v0.15",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_216a0f889455_M0_v0.10",
+      "historical_source": "research-archive/results/runs/phase2d_dynamic_1792574604439729300/margin05mm_seed123_v0.10",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_0e633078ee03_M0_v0.10",
+      "historical_source": "research-archive/results/runs/phase2d_dynamic_1792574604439729300/margin05mm_seed2026_v0.10",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_0e633078ee03_M0_v0.15",
+      "historical_source": "research-archive/results/runs/phase2d_dynamic_1792574604439729300/margin05mm_seed2026_v0.15",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_3e502c089122_M0_v0.10",
+      "historical_source": "research-archive/results/runs/phase2d_dynamic_1792574604439729300/margin08mm_seed42_v0.10",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_3e502c089122_M0_v0.15",
+      "historical_source": "research-archive/results/runs/phase2d_dynamic_1792574604439729300/margin08mm_seed42_v0.15",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_59cec598b264_M0_v0.10",
+      "historical_source": "research-archive/results/runs/phase2d_dynamic_1792574604439729300/margin08mm_seed2026_v0.10",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_59cec598b264_M0_v0.15",
+      "historical_source": "research-archive/results/runs/phase2d_dynamic_1792574604439729300/margin08mm_seed2026_v0.15",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_5916977a1200_M0_v0.10",
+      "historical_source": "research-archive/results/runs/phase2d_dynamic_1792574604439729300/margin10mm_seed123_v0.10",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_5916977a1200_M0_v0.15",
+      "historical_source": "research-archive/results/runs/phase2d_dynamic_1792574604439729300/margin10mm_seed123_v0.15",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_d13150b9b265_M0_v0.10",
+      "historical_source": "research-archive/results/runs/phase2d_dynamic_1792574604439729300/margin15mm_seed123_v0.10",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_d13150b9b265_M0_v0.15",
+      "historical_source": "research-archive/results/runs/phase2d_dynamic_1792574604439729300/margin15mm_seed123_v0.15",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_07de6c360ac1_M0_v0.10",
+      "historical_source": "research-archive/results/runs/phase2d_dynamic_1792574604439729300/margin15mm_seed2026_v0.10",
+      "matched": true
+    },
+    {
+      "run": "research-archive/results/runs/phase2e_batch_1792636904499048400/path_07de6c360ac1_M0_v0.15",
+      "historical_source": "research-archive/results/runs/phase2d_dynamic_1792574604439729300/margin15mm_seed2026_v0.15",
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "files": {
+    "docs/22_Phase3B训练诊断.md": "d1e4def9e141eb8d53de5c26dcf5f6c342d3cbe306fa0dfbccfe73de0b9f9ef1",
+    "docs/23_Phase3C奖励与训练方案.md": "b4797c722c06e03ce6ed1b4befd36c024cdf9e750004e97f11510d866a72b439",
+    "docs/24_Phase3C验收报告.md": "f378f739d50cb52eba6ceb053fd85cc669b9c18ed32f5fd66dbc4b7fdcf54482",
+    "results/phase3c_training_comparison.csv": "80b9fde6bdfe7bcea210a437a8ef36bd0a978652e8f8ee8f19b1017678526bb6",
+    "results/phase3c_evaluation_comparison.csv": "4019af9b76c99446e9dcbabd75733d8e5dc8d52f62ce1cb291537840fff12813",
+    "results/phase3c_reward_value_audit.csv": "b9daef2052bddc102c58547f4d4810d5e535cc198565cbbd1f1e18fc6f17cc6c",
+    "results/phase3c_action_effectiveness.csv": "1e312248cbc1c07184b907679819e1515d90e2a2132f4a96e572bea348fe00a8",
+    "assets/plots/phase3c_learning_curves.png": "bf0b912025133dbc174b0bf13d2aec2aed848e4054e4cb7b356ed059ed640b98",
+    "assets/plots/phase3c_control_comparison.png": "36b4d9a9e6dea01c9a7477bf077be7af173e3722ecaae39cfe1226d32b1f69a4"
+  },
+  "tests": {
+    "passed": 186,
+    "historical": 173,
+    "new": 13,
+    "skipped": 0,
+    "failures": 0,
+    "historical_files_verified": 2652,
+    "historical_integrity_passed": true,
+    "training_sources_unchanged": true
+  },
+  "checkpoints": {
+    "D:\\mujoco_learning\\panda_safe_residual_rl\\results\\runs\\phase3c_training_continue_1792662132222765100\\R0_seed42\\checkpoints\\ppo_4096.zip": "4d9b557c94eaa536cd57e245915d6ea44a214916be1f6b35be1e5d67305661b3",
+    "D:\\mujoco_learning\\panda_safe_residual_rl\\results\\runs\\phase3c_training_continue_1792662132222765100\\R0_seed123\\checkpoints\\ppo_4096.zip": "d7c0903365eb98093ccd3f75bd28db4acc6bad88d449335daf37ce17e4fd3b12",
+    "D:\\mujoco_learning\\panda_safe_residual_rl\\results\\runs\\phase3c_training_continue_1792662132222765100\\R1_seed42\\checkpoints\\ppo_4096.zip": "8ad1738acf72e1131dd57f14bf894d82abe35f41a5ebe4bdf8e4d866f582249f",
+    "D:\\mujoco_learning\\panda_safe_residual_rl\\results\\runs\\phase3c_training_continue_1792662132222765100\\R1_seed123\\checkpoints\\ppo_4096.zip": "8ceb24791eb2331b72787db27371e87c699b83fc0fc395d5188d21af8f98eb43"
+  },
+  "training_total_decisions": 16384,
+  "training_total_physics_steps": 458488
+}

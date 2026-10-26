@@ -1,0 +1,13 @@
+﻿scene,method,phase,physics_steps,smaller_error_fraction,mean_tcp_error_change_mm
+c_train_sphere,FeedbackProbe,prehold,750,0.0,0.0
+c_train_sphere,FeedbackProbe,settle,250,1.0,-0.3530845478886272
+c_train_sphere,FeedbackProbe,trajectory,6505,1.0,-0.4645272966901426
+c_train_sphere,CounterProbe,prehold,750,0.0,0.0
+c_train_sphere,CounterProbe,settle,250,0.0,2.6159251677820787
+c_train_sphere,CounterProbe,trajectory,6505,0.0,1.9904944438877636
+c_validation_cylinder,FeedbackProbe,prehold,750,0.0,0.0
+c_validation_cylinder,FeedbackProbe,settle,250,1.0,-0.3894920923710823
+c_validation_cylinder,FeedbackProbe,trajectory,13923,1.0,-0.39349411747362995
+c_validation_cylinder,CounterProbe,prehold,750,0.0,0.0
+c_validation_cylinder,CounterProbe,settle,250,0.0,1.990242465605609
+c_validation_cylinder,CounterProbe,trajectory,13923,0.0,2.7103426454061887

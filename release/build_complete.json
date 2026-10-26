@@ -1,0 +1,12 @@
+{
+  "original_files": 13449,
+  "inaccessible": [
+    "pytest-cache-files-a58ybqvf",
+    "results\\runs\\phase3dc_pytest_acceptance_20261023_c",
+    "results\\runs\\phase3dc_pytest_preflight_20261023_a",
+    "results\\runs\\phase3dc_pytest_preflight_20261023_b"
+  ],
+  "copied_files": 395,
+  "final_cases": 48,
+  "trained_now": false
+}

@@ -1,0 +1,22 @@
+{
+  "seeds":[42,123],"methods":["A","B"],"stage_decisions":2048,"max_decisions":4096,"workers":2,
+  "correction_cap_rad":0.0002,"total_cap_rad":0.002,"residual_slew_rad_s":0.01,"command_slew_rad_s":0.35,
+  "planning_clearance_m":0.02,"execution_clearance_m":0.005,"initial_std":0.03,
+  "layouts":[
+    {"name":"dc_train_sphere","split":"train","obstacle":"obstacle_sphere","cross":-0.09,"start":-0.39,"goal":0.54,"q2":-0.095},
+    {"name":"dc_train_cylinder","split":"train","obstacle":"obstacle_cylinder","cross":0.09,"start":-0.54,"goal":0.53,"q2":0.085},
+    {"name":"dc_validation_box","split":"validation","obstacle":"obstacle_box","cross":0.035,"start":-0.46,"goal":0.58,"q2":-0.035},
+    {"name":"dc_final_cylinder","split":"test","obstacle":"obstacle_cylinder","cross":-0.025,"start":-0.43,"goal":0.63,"q2":0.115},
+    {"name":"dc_final_sphere","split":"test","obstacle":"obstacle_sphere","cross":0.145,"start":-0.59,"goal":0.44,"q2":-0.145}
+  ],
+  "planning_seeds":[521,719],
+  "train_conditions":[{"name":"nominal"},{"name":"gain93","kp_scale":0.93},{"name":"mass107","mass_inertia_scale":1.07},{"name":"combo_train","kp_scale":0.95,"mass_inertia_scale":1.05,"joint_damping_scale":1.1}],
+  "validation_conditions":[{"name":"nominal"},{"name":"gain90","kp_scale":0.9},{"name":"mass110","mass_inertia_scale":1.1}],
+  "test_conditions":[{"name":"gain86","kp_scale":0.86},{"name":"mass114","mass_inertia_scale":1.14},{"name":"combo_final","kp_scale":0.89,"mass_inertia_scale":1.11,"joint_damping_scale":1.12}],
+  "validation_seed":7201,"test_seed":8201,
+  "gate":{"no_training_safety_contact":true,"all_validation_success":true,"max_relative_mean_tcp_degradation":0.05,"minimum_mismatched_completed_episodes":2,"minimum_effective_correction_fraction":0.1,"actor_critic_all_updates_nonzero":true,"finite_losses":true,"all_four_or_none_continue":true},
+  "reward":"unchanged Phase3C R1 on actual TOTAL normalized target for BOTH methods; no test tuning",
+  "checkpoint_selection":"fixed final accepted common budget; all seeds retained; no best-checkpoint selection",
+  "interface_tolerance":{"action_max_abs":0.000002,"joint_max_abs_rad":0.000002,"tcp_max_abs_m":0.000002},
+  "scope":"bounded pilot, no100k; actual5mm failures; no historical overwrite; no true physical parameters in actor"
+}

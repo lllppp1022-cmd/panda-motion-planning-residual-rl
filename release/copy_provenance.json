@@ -1,0 +1,2372 @@
+[
+  {
+    "source": "src\\common.py",
+    "destination": "src\\common.py",
+    "sha256": "efc1947a6f7634d8fe1553e6777501d188013591ad56f8f47f86ef5688b0528a",
+    "bytes": 984
+  },
+  {
+    "source": "src\\bc_residual\\core.py",
+    "destination": "src\\bc_residual\\core.py",
+    "sha256": "d61c8282dda8a76c38aea28f0a3a382257f5833f3abc030f45a79649a179383e",
+    "bytes": 4200
+  },
+  {
+    "source": "src\\bc_residual\\recording.py",
+    "destination": "src\\bc_residual\\recording.py",
+    "sha256": "de02f345dedf94154c42e9b59c5b4b1f5922d5428b117aa2916b0cc6d640fd40",
+    "bytes": 3593
+  },
+  {
+    "source": "src\\bc_residual\\runner.py",
+    "destination": "src\\bc_residual\\runner.py",
+    "sha256": "b103a2d3da7dddc8e84d4f82b8eb0a15268ab410bdbfccee40ccb846e92aec78",
+    "bytes": 6076
+  },
+  {
+    "source": "src\\bc_residual\\__init__.py",
+    "destination": "src\\bc_residual\\__init__.py",
+    "sha256": "d6b7c0cf9711f893826802691a8c18d32a828fdf0287730128640d250780747c",
+    "bytes": 86
+  },
+  {
+    "source": "src\\control\\compensated_joint_controller.py",
+    "destination": "src\\control\\compensated_joint_controller.py",
+    "sha256": "0af0b4d019698ad679241c4cb730d2aa786b85642a3a3764eb43672f17f1f7ed",
+    "bytes": 1838
+  },
+  {
+    "source": "src\\control\\gravity_compensation.py",
+    "destination": "src\\control\\gravity_compensation.py",
+    "sha256": "4938bf7f532da6208a5056889680ca493ce47da1a1e3f987fce1dcd0ab2152ad",
+    "bytes": 3267
+  },
+  {
+    "source": "src\\control\\phase2e_provenance.py",
+    "destination": "src\\control\\phase2e_provenance.py",
+    "sha256": "6fadad79ef86ea3d8747ace38562851dbde3c9b55e682a687fe223cdd0170e1a",
+    "bytes": 1453
+  },
+  {
+    "source": "src\\control\\phase2e_runtime.py",
+    "destination": "src\\control\\phase2e_runtime.py",
+    "sha256": "d07b4baf5ae8c76646a5f26656092760270ba81667313bd34cbed556d08414d3",
+    "bytes": 7894
+  },
+  {
+    "source": "src\\control\\predictive_safety_guard.py",
+    "destination": "src\\control\\predictive_safety_guard.py",
+    "sha256": "7ef998d53ea089a05110219b9bfdde9556082c461fd6a9636a2540583da19f59",
+    "bytes": 3886
+  },
+  {
+    "source": "src\\control\\trajectory_executor.py",
+    "destination": "src\\control\\trajectory_executor.py",
+    "sha256": "b8d99a2c6e8ff288e4bb0f311db7cb57d875703e7921ec0a52f4a56f0a0d8e4f",
+    "bytes": 16831
+  },
+  {
+    "source": "src\\control\\trajectory_generator.py",
+    "destination": "src\\control\\trajectory_generator.py",
+    "sha256": "6f3d92ef424b96b973966bc0cbb79afbfaa06a5fac802d4b545799e5ef5a269a",
+    "bytes": 2108
+  },
+  {
+    "source": "src\\control\\uncertain_models.py",
+    "destination": "src\\control\\uncertain_models.py",
+    "sha256": "29773d91e93c00a3dce750043aef975b3aeddfbe4bad9d729ed607e8192bc0af",
+    "bytes": 3118
+  },
+  {
+    "source": "src\\control\\validated_path.py",
+    "destination": "src\\control\\validated_path.py",
+    "sha256": "f3b099047c5f3446e52e5314a5b7e90c6f181806745fc1a5fe1a05dc941fe21e",
+    "bytes": 4582
+  },
+  {
+    "source": "src\\control\\velocity_feedforward_controller.py",
+    "destination": "src\\control\\velocity_feedforward_controller.py",
+    "sha256": "d91112270540a25e9b6ba9651a35b519c9af67f6249e3abb1ac4902e24e07ad4",
+    "bytes": 2979
+  },
+  {
+    "source": "src\\control\\__init__.py",
+    "destination": "src\\control\\__init__.py",
+    "sha256": "ebe32735dd7bd0099013b4fb5bb72eefcbdd4ec9375543d0fd8d5b2bca542f54",
+    "bytes": 71
+  },
+  {
+    "source": "src\\experiments\\integral_control.py",
+    "destination": "src\\experiments\\integral_control.py",
+    "sha256": "bb42ac434fdd38f3d912577df8d56f6cdf4320d3a0eb0a6adb3ed0ca4b6967c3",
+    "bytes": 1420
+  },
+  {
+    "source": "src\\experiments\\phase3c.py",
+    "destination": "src\\experiments\\phase3c.py",
+    "sha256": "09b3c91aaee7e7c85d811d874542e556485090825f733aa58be3e99385b97f86",
+    "bytes": 4796
+  },
+  {
+    "source": "src\\experiments\\__init__.py",
+    "destination": "src\\experiments\\__init__.py",
+    "sha256": "c4ed0f76edeab7e39405c982689f33ba323e8964a30ed269df361750e941f559",
+    "bytes": 85
+  },
+  {
+    "source": "src\\phase3dc\\common.py",
+    "destination": "src\\phase3dc\\common.py",
+    "sha256": "f92e7546f77ad1318925dbfa2f2e6e72b7fc4157bebfdb3128af6f2b74228698",
+    "bytes": 2031
+  },
+  {
+    "source": "src\\phase3dc\\environment.py",
+    "destination": "src\\phase3dc\\environment.py",
+    "sha256": "bad6ae83b273ad6fd351ced33b1017c57f3cd7251dbee3715e70a7125817959c",
+    "bytes": 6900
+  },
+  {
+    "source": "src\\phase3dc\\policy.py",
+    "destination": "src\\phase3dc\\policy.py",
+    "sha256": "be45aa915a8e1b0a6947f42313c14641936c9796af2d60b0610718a70fe511b0",
+    "bytes": 2344
+  },
+  {
+    "source": "src\\phase3dc\\__init__.py",
+    "destination": "src\\phase3dc\\__init__.py",
+    "sha256": "7eb6cf4e702a65ca4820487ffd344f571724872fb48865eeb0f35227f74aa352",
+    "bytes": 78
+  },
+  {
+    "source": "src\\planning\\collision_checker.py",
+    "destination": "src\\planning\\collision_checker.py",
+    "sha256": "6b45feda5270bf0e3477f980544bda60e99814998c4877f9ab176495c302f79a",
+    "bytes": 19930
+  },
+  {
+    "source": "src\\planning\\margin_study.py",
+    "destination": "src\\planning\\margin_study.py",
+    "sha256": "0381c66c4b1131f71df537533ac0a5771cf226a273155f88a20d197109d3e247",
+    "bytes": 3812
+  },
+  {
+    "source": "src\\planning\\rrt_connect.py",
+    "destination": "src\\planning\\rrt_connect.py",
+    "sha256": "fb48db3543f02b61b65fc65ae580e95da0889dd0c169e6c7cc45d40590807308",
+    "bytes": 16800
+  },
+  {
+    "source": "src\\rl\\dependencies.py",
+    "destination": "src\\rl\\dependencies.py",
+    "sha256": "14c068caff3e8f4329dc4f2bb6e86cc3c582d0b001f00c12677273f1e4670336",
+    "bytes": 748
+  },
+  {
+    "source": "src\\rl\\panda_residual_env.py",
+    "destination": "src\\rl\\panda_residual_env.py",
+    "sha256": "13807415398c8fe12b8832f1eadaa1223e1bc7cfb290ce066e624e2f8e20eed8",
+    "bytes": 12114
+  },
+  {
+    "source": "src\\rl\\residual_controller.py",
+    "destination": "src\\rl\\residual_controller.py",
+    "sha256": "97a9e7f9f01062eb7669d2aaba8323e2c9cbee98a4c7b0c6b13e024e6fbbd156",
+    "bytes": 3958
+  },
+  {
+    "source": "src\\rl\\__init__.py",
+    "destination": "src\\rl\\__init__.py",
+    "sha256": "32086ac67b55b38e959d65086778985f7324a5271b2d1749f5f550af4a972df5",
+    "bytes": 81
+  },
+  {
+    "source": "src\\robot\\inverse_kinematics.py",
+    "destination": "src\\robot\\inverse_kinematics.py",
+    "sha256": "29ec03d4bd0edb35bfc088cfbeaa42810655fa903b9a2ec5a1d526aa942af072",
+    "bytes": 2606
+  },
+  {
+    "source": "src\\robot\\joint_controller.py",
+    "destination": "src\\robot\\joint_controller.py",
+    "sha256": "f1623ca73b743e75cea99789b2bb71346b176cdf3b6ffd6b57154c112dd0e69c",
+    "bytes": 1544
+  },
+  {
+    "source": "src\\robot\\kinematics.py",
+    "destination": "src\\robot\\kinematics.py",
+    "sha256": "0af01fe26fe21d29373739b6012a8eb198394078b8d312143577878a98c04d0f",
+    "bytes": 1937
+  },
+  {
+    "source": "src\\robot\\model_loader.py",
+    "destination": "src\\robot\\model_loader.py",
+    "sha256": "4874cf2b0220ae29f9c736f4215292115674ed9fa8a5020ae2ee7e740a563b5e",
+    "bytes": 3702
+  },
+  {
+    "source": "src\\robot\\panda_interface.py",
+    "destination": "src\\robot\\panda_interface.py",
+    "sha256": "3752b2461a1705413c60ab3c7e8ec35d06911ca7a69342e7746908878df39496",
+    "bytes": 4116
+  },
+  {
+    "source": "src\\robot\\teleop.py",
+    "destination": "src\\robot\\teleop.py",
+    "sha256": "63da24b8ed52ae79d09a6454601517b13c3ac1eb2d0749fda801d8ee9199de10",
+    "bytes": 12682
+  },
+  {
+    "source": "src\\scene\\obstacles.py",
+    "destination": "src\\scene\\obstacles.py",
+    "sha256": "31c5a56534741f3cc29d86fe3e59edd3b37c23b02efa7c2f18eeaaa836dacd3b",
+    "bytes": 3183
+  },
+  {
+    "source": "src\\training_observer\\observer.py",
+    "destination": "src\\training_observer\\observer.py",
+    "sha256": "7d8b91c1126be073ce1a366c7f844ff20b6784245424a59c3c6003b10b267a36",
+    "bytes": 7648
+  },
+  {
+    "source": "src\\training_observer\\replay.py",
+    "destination": "src\\training_observer\\replay.py",
+    "sha256": "7d715c517ddaedc842390125c003873028af96e0afc09055067926e539d39105",
+    "bytes": 8533
+  },
+  {
+    "source": "src\\training_observer\\__init__.py",
+    "destination": "src\\training_observer\\__init__.py",
+    "sha256": "3d0944c0422797524cc1dc5c83ea1a369bcbd47548bd06973d7f547115ea93b4",
+    "bytes": 87
+  },
+  {
+    "source": "src\\visualization\\viewer.py",
+    "destination": "src\\visualization\\viewer.py",
+    "sha256": "c866a9068957dc379c0edd7609dc9b9e8fbda2daf99d094fe57fb245953c68b7",
+    "bytes": 5265
+  },
+  {
+    "source": "src\\visualization\\windows_close.py",
+    "destination": "src\\visualization\\windows_close.py",
+    "sha256": "4d2174e2b61b809067a4bd23c60d81705561b5b6acb3f7d21328762c482fa34d",
+    "bytes": 3278
+  },
+  {
+    "source": "scripts\\analyze_phase2d_failure.py",
+    "destination": "scripts\\analyze_phase2d_failure.py",
+    "sha256": "6f5795449d0b5ab88acb0a5e17bfeb55f0dd3a121d2b7ac21aa0571f96ca738f",
+    "bytes": 11804
+  },
+  {
+    "source": "scripts\\analyze_phase3dc.py",
+    "destination": "scripts\\analyze_phase3dc.py",
+    "sha256": "6c2304dca1d27c07796241f44350ffe3285c948fb0875dd9c2ec8f2608dfe250",
+    "bytes": 9225
+  },
+  {
+    "source": "scripts\\analyze_phase3d_bc.py",
+    "destination": "scripts\\analyze_phase3d_bc.py",
+    "sha256": "735f87585a0816dc520d68e1fc308b41d3890a0ea43ab45d93baaed4ecc07c5b",
+    "bytes": 8100
+  },
+  {
+    "source": "scripts\\audit_phase2d_csv.py",
+    "destination": "scripts\\audit_phase2d_csv.py",
+    "sha256": "f99e318a31d7a5a261dc4f5fd7a4dc876d0227b4fa9e73b7b476592b0e15e568",
+    "bytes": 4587
+  },
+  {
+    "source": "scripts\\audit_phase2e.py",
+    "destination": "scripts\\audit_phase2e.py",
+    "sha256": "229f6abb2a5928068ba19165f1091364819fafde64e98e5208451f3ff31147fa",
+    "bytes": 7759
+  },
+  {
+    "source": "scripts\\audit_phase3a.py",
+    "destination": "scripts\\audit_phase3a.py",
+    "sha256": "08eed0cd845dfeac1e4f901352adf410e2e9fd9f4d8ad61dd0c8e3827137534b",
+    "bytes": 8949
+  },
+  {
+    "source": "scripts\\audit_phase3b.py",
+    "destination": "scripts\\audit_phase3b.py",
+    "sha256": "9f6524c42281bef1edaf5f84a1a44d79108534000275dca84a4c867371248ae8",
+    "bytes": 6129
+  },
+  {
+    "source": "scripts\\audit_phase3b_values.py",
+    "destination": "scripts\\audit_phase3b_values.py",
+    "sha256": "14c432acd738d134fc091b46cf122ba7ac66774786bd88d9574f30b0b092a197",
+    "bytes": 10098
+  },
+  {
+    "source": "scripts\\audit_phase3dc.py",
+    "destination": "scripts\\audit_phase3dc.py",
+    "sha256": "eb8bf3311ecaa6e55cdf0ac0ce6974b5525962c956f73817312c8b8379ce777e",
+    "bytes": 3550
+  },
+  {
+    "source": "scripts\\audit_phase3d_history.py",
+    "destination": "scripts\\audit_phase3d_history.py",
+    "sha256": "e3b47f8ae4ac74c34a65757a2265ce865645df271356130753009403b75bfb40",
+    "bytes": 3275
+  },
+  {
+    "source": "scripts\\check_environment.py",
+    "destination": "scripts\\check_environment.py",
+    "sha256": "edd09980deb2e6bd1d98af523fc9dba3778e3be29ec2b1fec45f3cda02f1f948",
+    "bytes": 2851
+  },
+  {
+    "source": "scripts\\check_phase3d_preview_fix.py",
+    "destination": "scripts\\check_phase3d_preview_fix.py",
+    "sha256": "d8898cea0bb7f11fc55113bab5d79602ed8293d9718d26ccfff9b8b6832141e0",
+    "bytes": 1327
+  },
+  {
+    "source": "scripts\\collect_phase3d_bc.py",
+    "destination": "scripts\\collect_phase3d_bc.py",
+    "sha256": "7a44401c2b3fcd5c6513d52d1e49b2ccbf9a6d239c7a8a4a8dc1d2b271e71509",
+    "bytes": 3285
+  },
+  {
+    "source": "scripts\\demo_collision_checker.py",
+    "destination": "scripts\\demo_collision_checker.py",
+    "sha256": "64835128ced67f6a1058feb0d5edf2b7cd9e44bc099e8f0be47c2c614719169e",
+    "bytes": 911
+  },
+  {
+    "source": "scripts\\demo_compensated_control.py",
+    "destination": "scripts\\demo_compensated_control.py",
+    "sha256": "984a68c44a4582383fe5e15151276a2fbb409569644e4f57bb95b888a2cbf1d0",
+    "bytes": 144
+  },
+  {
+    "source": "scripts\\demo_edge_validation.py",
+    "destination": "scripts\\demo_edge_validation.py",
+    "sha256": "c2f204a72a496d06f1885b515709e07434b72c2e45b7f142ddade9199fcd322a",
+    "bytes": 2092
+  },
+  {
+    "source": "scripts\\demo_ik.py",
+    "destination": "scripts\\demo_ik.py",
+    "sha256": "d40af92d36ce92ed4886b66da15560f4581f180bc1b82abf4e3f0cd66f872453",
+    "bytes": 4877
+  },
+  {
+    "source": "scripts\\demo_joint_control.py",
+    "destination": "scripts\\demo_joint_control.py",
+    "sha256": "45bb6143e9a708ac58ca335c95eb98f8c5013a768c51e3bd89c3825c26c25a82",
+    "bytes": 2862
+  },
+  {
+    "source": "scripts\\demo_margin_execution.py",
+    "destination": "scripts\\demo_margin_execution.py",
+    "sha256": "1e6139112d26425af348aba522cf87c8f4b2d196fc3f4b6b35552e33d0c2afa5",
+    "bytes": 8367
+  },
+  {
+    "source": "scripts\\demo_obstacles.py",
+    "destination": "scripts\\demo_obstacles.py",
+    "sha256": "6b3935869078e5addfef367b677847fc23f385790bf3cdcd5fd1cf3b03494a80",
+    "bytes": 2988
+  },
+  {
+    "source": "scripts\\demo_robustness.py",
+    "destination": "scripts\\demo_robustness.py",
+    "sha256": "401735ed26c36308d869a4ae8ad3f8c5453635e04d4fd4741cfdf9ad690a49d0",
+    "bytes": 7332
+  },
+  {
+    "source": "scripts\\demo_rrt_connect.py",
+    "destination": "scripts\\demo_rrt_connect.py",
+    "sha256": "91d2855f91fd5e067f9e0580df4c4a1a29175337981e39d15a037d0845da3f94",
+    "bytes": 3458
+  },
+  {
+    "source": "scripts\\demo_rrt_execution.py",
+    "destination": "scripts\\demo_rrt_execution.py",
+    "sha256": "3984db3c173901ddffc3913cb2d2de59572bebd42220cd099ed7809e065189dd",
+    "bytes": 7837
+  },
+  {
+    "source": "scripts\\demo_safety_guard.py",
+    "destination": "scripts\\demo_safety_guard.py",
+    "sha256": "ab8f4d91783c7d161de3c9f87c49f797f42b9087ad2993d3107e6435b85e8cbb",
+    "bytes": 139
+  },
+  {
+    "source": "scripts\\evaluate_phase3b.py",
+    "destination": "scripts\\evaluate_phase3b.py",
+    "sha256": "aec0e11bad3b3ecd27faeb4a29bc2ac24dc9934c2f2f1ac5bd5caef2fa830300",
+    "bytes": 4503
+  },
+  {
+    "source": "scripts\\evaluate_phase3b_updates.py",
+    "destination": "scripts\\evaluate_phase3b_updates.py",
+    "sha256": "c81f22eaa45d916686b2b6b3b9f50a5ff16d547ece7ecab36217db33bee84548",
+    "bytes": 1920
+  },
+  {
+    "source": "scripts\\evaluate_phase3c.py",
+    "destination": "scripts\\evaluate_phase3c.py",
+    "sha256": "fa60b1a6cea5ac827b9146be7c5f103ea1a3615dd1df9f241a26ca83f5332ce6",
+    "bytes": 4265
+  },
+  {
+    "source": "scripts\\evaluate_phase3dc.py",
+    "destination": "scripts\\evaluate_phase3dc.py",
+    "sha256": "dee475581acc068404bb4605bff4be1235041db10c91a369ef467b76e4b51ade",
+    "bytes": 5122
+  },
+  {
+    "source": "scripts\\evaluate_phase3d_bc.py",
+    "destination": "scripts\\evaluate_phase3d_bc.py",
+    "sha256": "ef0e24eeeed332afcffb9b401367562b1a6bfdfaac7b6ca88ddcc297d4cb9840",
+    "bytes": 3533
+  },
+  {
+    "source": "scripts\\finalize_phase3c.py",
+    "destination": "scripts\\finalize_phase3c.py",
+    "sha256": "c88a59b19c5264d0163754e56b967edfa0e7f85982237a5679c8fd3b2cb93067",
+    "bytes": 7666
+  },
+  {
+    "source": "scripts\\finalize_phase3d.py",
+    "destination": "scripts\\finalize_phase3d.py",
+    "sha256": "61d20e7cce0ae685ac9a42e821c1c93c07800cbc6e21dd7ee4fa5d152187512b",
+    "bytes": 20676
+  },
+  {
+    "source": "scripts\\finalize_phase3dc.py",
+    "destination": "scripts\\finalize_phase3dc.py",
+    "sha256": "9ac41c32cb3528c78cb51bca73cbb5a0b80c6e16faff3e93faac4abc382c0a56",
+    "bytes": 23086
+  },
+  {
+    "source": "scripts\\finalize_phase3d_bc.py",
+    "destination": "scripts\\finalize_phase3d_bc.py",
+    "sha256": "1b01f8b77ea6cf76d02b82e44f42ebf577ac6a47bfcc26a5163dfdf0e65ec354",
+    "bytes": 21015
+  },
+  {
+    "source": "scripts\\freeze_phase2c_inputs.py",
+    "destination": "scripts\\freeze_phase2c_inputs.py",
+    "sha256": "f41717d4630f5de41d2d296e210382757f7d8d712718295b50ef11611bfce367",
+    "bytes": 1474
+  },
+  {
+    "source": "scripts\\freeze_phase2d.py",
+    "destination": "scripts\\freeze_phase2d.py",
+    "sha256": "8e45e7f3d39449fce335665c4f1c9c16598e2148176dbf42f548ed9c777a728e",
+    "bytes": 1954
+  },
+  {
+    "source": "scripts\\freeze_phase2e.py",
+    "destination": "scripts\\freeze_phase2e.py",
+    "sha256": "62a8d17b924295a5ba62c9b17aeeddd956a0502d9442c10bcc946cade1c6f15e",
+    "bytes": 1960
+  },
+  {
+    "source": "scripts\\inspect_model.py",
+    "destination": "scripts\\inspect_model.py",
+    "sha256": "08385fcd722776495ad30b4aa5d2973efc76c0601a840c26844bab2c57e3ab38",
+    "bytes": 1293
+  },
+  {
+    "source": "scripts\\phase2a_cases.py",
+    "destination": "scripts\\phase2a_cases.py",
+    "sha256": "2d853a8333334bbe6758d4023a4c91d069e2d94cdb9cee8268da92f4c95a34f1",
+    "bytes": 7073
+  },
+  {
+    "source": "scripts\\phase2a_resolution.py",
+    "destination": "scripts\\phase2a_resolution.py",
+    "sha256": "793062c344e97d980cb50550745d80fa3791d4c45ac9a5509e7c7c1bd13222e0",
+    "bytes": 2366
+  },
+  {
+    "source": "scripts\\phase2a_visualization.py",
+    "destination": "scripts\\phase2a_visualization.py",
+    "sha256": "b775161fd90bcb6e23f2567d46b1267ddafba2f4c74e7120f107461d3b5f7929",
+    "bytes": 7824
+  },
+  {
+    "source": "scripts\\phase2b_common.py",
+    "destination": "scripts\\phase2b_common.py",
+    "sha256": "e1ade9f154dcb389495909131ea00dac5de8b3ea319bc77bdedca90e72ec01c9",
+    "bytes": 435
+  },
+  {
+    "source": "scripts\\phase2b_regression_evidence.py",
+    "destination": "scripts\\phase2b_regression_evidence.py",
+    "sha256": "ddb6beed42e94148d61f61a8a3e2389eef1930482015157dcc1d991bccdea380",
+    "bytes": 2234
+  },
+  {
+    "source": "scripts\\phase2b_visualization.py",
+    "destination": "scripts\\phase2b_visualization.py",
+    "sha256": "4535aa017d16ec3afc73379b212971761a299546bce00b91812e127feb6b10ca",
+    "bytes": 7631
+  },
+  {
+    "source": "scripts\\phase2e_visualization.py",
+    "destination": "scripts\\phase2e_visualization.py",
+    "sha256": "94c63d339805e54001c098a647b9dc1685180cf9c254a1c681e912d986d25bf7",
+    "bytes": 8164
+  },
+  {
+    "source": "scripts\\phase3c_common.py",
+    "destination": "scripts\\phase3c_common.py",
+    "sha256": "35cda4ff4d9b9416d83615d0a6b888500e318b2d9bce5520fc1d1defdd6a8b7f",
+    "bytes": 3731
+  },
+  {
+    "source": "scripts\\prepare_phase3b.py",
+    "destination": "scripts\\prepare_phase3b.py",
+    "sha256": "94c46db3850db45e70b23d2c0d5a928de57baa30fb6e185e08bd4b5154f5fc83",
+    "bytes": 3897
+  },
+  {
+    "source": "scripts\\prepare_phase3c.py",
+    "destination": "scripts\\prepare_phase3c.py",
+    "sha256": "274cc4af1dd23ad434fc6099837b288a4cdafc1f08ca929af8b4a70f7dcda490",
+    "bytes": 3247
+  },
+  {
+    "source": "scripts\\prepare_phase3dc.py",
+    "destination": "scripts\\prepare_phase3dc.py",
+    "sha256": "35d928b435e6ffa6c9f251ad0126dfb9127b8765b8d04e0a3f9dbc1b600038b8",
+    "bytes": 2765
+  },
+  {
+    "source": "scripts\\prepare_phase3d_bc.py",
+    "destination": "scripts\\prepare_phase3d_bc.py",
+    "sha256": "efff5f009b781765c5f62565361b33629e53821252d2a247292367df363fae59",
+    "bytes": 3147
+  },
+  {
+    "source": "scripts\\record_phase3dc.py",
+    "destination": "scripts\\record_phase3dc.py",
+    "sha256": "0fe90559f751aba07bb98ac0950ca1c817d8c0ac548256da66be4d6dbbba6607",
+    "bytes": 6068
+  },
+  {
+    "source": "scripts\\record_phase3d_bc.py",
+    "destination": "scripts\\record_phase3d_bc.py",
+    "sha256": "1105218db9c0f05af53a1049daf8f7e1d1cdf0c241e6af6b8d33b2a3728ccd1d",
+    "bytes": 2880
+  },
+  {
+    "source": "scripts\\run_phase1_acceptance.py",
+    "destination": "scripts\\run_phase1_acceptance.py",
+    "sha256": "23ada38ad6045e4d12cf012d229337b157aedbb08e1fb85d71532551b65055db",
+    "bytes": 2242
+  },
+  {
+    "source": "scripts\\run_phase2a_validation.py",
+    "destination": "scripts\\run_phase2a_validation.py",
+    "sha256": "e5ca74a287fb33b7d77b642e21bcc694d6165ebe9413d6245117f67d8029f311",
+    "bytes": 8242
+  },
+  {
+    "source": "scripts\\run_phase2b_experiments.py",
+    "destination": "scripts\\run_phase2b_experiments.py",
+    "sha256": "1c037b116b34734be76f896295bf5cf0dd666decc013a4c15767f2c9f43d72fc",
+    "bytes": 7326
+  },
+  {
+    "source": "scripts\\run_phase2c_experiments.py",
+    "destination": "scripts\\run_phase2c_experiments.py",
+    "sha256": "40dad0bbfdd29a2eb2c2e1d3f977254b0e51696beb0417566fa9194a5e0adfb3",
+    "bytes": 2799
+  },
+  {
+    "source": "scripts\\run_phase2d_execution.py",
+    "destination": "scripts\\run_phase2d_execution.py",
+    "sha256": "90549e0bb2e6e497e60b3824d7c2847b335761528530cee4b126005634191327",
+    "bytes": 3791
+  },
+  {
+    "source": "scripts\\run_phase2d_planning.py",
+    "destination": "scripts\\run_phase2d_planning.py",
+    "sha256": "719105479ba489a076e31deb45a45eb9031789e11e6dfe5c80bdc594cab2f108",
+    "bytes": 3297
+  },
+  {
+    "source": "scripts\\run_phase2e.py",
+    "destination": "scripts\\run_phase2e.py",
+    "sha256": "72caed85af59ab53b8ae66ab5277c7b5327b5eb40e8784994ba463ec687a7376",
+    "bytes": 10442
+  },
+  {
+    "source": "scripts\\run_phase3a.py",
+    "destination": "scripts\\run_phase3a.py",
+    "sha256": "2aad264ca48ed2e661039638c7ffc7bd06fe9cd6514bd99418a5abeed028316f",
+    "bytes": 15186
+  },
+  {
+    "source": "scripts\\run_phase3d_evaluations.py",
+    "destination": "scripts\\run_phase3d_evaluations.py",
+    "sha256": "ed70f34a4fb172bad3c6edf956415657aacb13297b83bed33fa4f49a085437fc",
+    "bytes": 1629
+  },
+  {
+    "source": "scripts\\setup_phase2b_scenes.py",
+    "destination": "scripts\\setup_phase2b_scenes.py",
+    "sha256": "d2b0079ee4d4e50944b08f6d3826d0deff331948f1b36d142e41c0d85557720e",
+    "bytes": 3752
+  },
+  {
+    "source": "scripts\\snapshot_existing.py",
+    "destination": "scripts\\snapshot_existing.py",
+    "sha256": "cab6bc6001fc3e12cb213a1a3425d21ad6706c78c8f7901e2f2a8cc41bfbdd27",
+    "bytes": 2391
+  },
+  {
+    "source": "scripts\\summarize_phase2b.py",
+    "destination": "scripts\\summarize_phase2b.py",
+    "sha256": "59b989aac53a3e2c5bbb58b55683c4d6aac013482e2759beecea508e85536cf1",
+    "bytes": 16926
+  },
+  {
+    "source": "scripts\\summarize_phase2c.py",
+    "destination": "scripts\\summarize_phase2c.py",
+    "sha256": "c8e42af74e6eb098884357c53d04a156afeb279b3ffee642223f9e621ab0c26a",
+    "bytes": 22323
+  },
+  {
+    "source": "scripts\\summarize_phase2d.py",
+    "destination": "scripts\\summarize_phase2d.py",
+    "sha256": "4a417cfc49489e440a580e8e9826007ea28268e53f112d616655709f91d1a456",
+    "bytes": 22308
+  },
+  {
+    "source": "scripts\\summarize_phase2e.py",
+    "destination": "scripts\\summarize_phase2e.py",
+    "sha256": "b6a45fde5ee0ba34ad3667854a6348b5d4c824a51f19571c9b2668bc6c6fa317",
+    "bytes": 24335
+  },
+  {
+    "source": "scripts\\summarize_phase3a.py",
+    "destination": "scripts\\summarize_phase3a.py",
+    "sha256": "bb51f55be0095b1c45035dbf5baf9882ab2f25ebc58c869e621d125932dedd25",
+    "bytes": 21976
+  },
+  {
+    "source": "scripts\\summarize_phase3b.py",
+    "destination": "scripts\\summarize_phase3b.py",
+    "sha256": "ed7a5f7d0639f28ae77786e7e154ca596cf06993c7c569f568eaad8fb5dd7500",
+    "bytes": 18750
+  },
+  {
+    "source": "scripts\\summarize_phase3c.py",
+    "destination": "scripts\\summarize_phase3c.py",
+    "sha256": "23be27741ed1d0c12fe1c2295968758cee4af97a6ed3d31726b228b05b06a3ad",
+    "bytes": 36032
+  },
+  {
+    "source": "scripts\\teleop_panda.py",
+    "destination": "scripts\\teleop_panda.py",
+    "sha256": "443980bedb98d1ea9d45201f81d8417c977f7d171b3ded723830d32dd22cb456",
+    "bytes": 11830
+  },
+  {
+    "source": "scripts\\test_jacobian.py",
+    "destination": "scripts\\test_jacobian.py",
+    "sha256": "e505ff0803d7f385cc510d0bf3f5ffa9a9b921d6d6bc575197ceb5b88b66b7da",
+    "bytes": 1505
+  },
+  {
+    "source": "scripts\\train_phase3b.py",
+    "destination": "scripts\\train_phase3b.py",
+    "sha256": "67d0bd4686ed751090955908619d9c422f845de1fe4f05f5f7a0928bc8d58eaa",
+    "bytes": 8533
+  },
+  {
+    "source": "scripts\\train_phase3c.py",
+    "destination": "scripts\\train_phase3c.py",
+    "sha256": "f90311e87048b8c72d89ad535705e8fda40ed81ef366c90cad037086a015ec03",
+    "bytes": 8894
+  },
+  {
+    "source": "scripts\\train_phase3dc.py",
+    "destination": "scripts\\train_phase3dc.py",
+    "sha256": "e5e8addcc39d94d88442d80ddf0126b47d1c62d94a2af0bcef00f15f091289e4",
+    "bytes": 6153
+  },
+  {
+    "source": "scripts\\train_phase3d_bc.py",
+    "destination": "scripts\\train_phase3d_bc.py",
+    "sha256": "abdbc569d1876876d116391002bdb944933a706dc3facc0ccdbece7e00c7634d",
+    "bytes": 4776
+  },
+  {
+    "source": "scripts\\train_phase3d_observed.py",
+    "destination": "scripts\\train_phase3d_observed.py",
+    "sha256": "7a8c4ff2ee11e77b7cf4ea9e412f0e6ca85fd1004803a285aa535efa4516941f",
+    "bytes": 10789
+  },
+  {
+    "source": "scripts\\validate_phase3b.py",
+    "destination": "scripts\\validate_phase3b.py",
+    "sha256": "938c80678cd128b5e532945024690baa562bbd442db07b8c0d9f8f2702c491a5",
+    "bytes": 7097
+  },
+  {
+    "source": "scripts\\validate_phase3c.py",
+    "destination": "scripts\\validate_phase3c.py",
+    "sha256": "ab49a709131e5ab2b0786a60653cc6b337177f0acba0458c2b9ade3d11c96bc0",
+    "bytes": 3396
+  },
+  {
+    "source": "scripts\\validate_phase3d_recordings.py",
+    "destination": "scripts\\validate_phase3d_recordings.py",
+    "sha256": "5bb4c5b5795e4d455ed74c97f28570d78915cd4d40d62b4765a73c4a5c93bb6d",
+    "bytes": 10644
+  },
+  {
+    "source": "scripts\\validate_teleop_recording.py",
+    "destination": "scripts\\validate_teleop_recording.py",
+    "sha256": "73fa475a02fb3ce4dcaa549227c2a1169469e86e4f8fc7c05b88fa58c0e26ff2",
+    "bytes": 6530
+  },
+  {
+    "source": "scripts\\view_phase3c.py",
+    "destination": "scripts\\view_phase3c.py",
+    "sha256": "7b64ff56f3ad3d1733fe120d43b1ce4021a4c880484c964f1a698fcd664bb39d",
+    "bytes": 1281
+  },
+  {
+    "source": "scripts\\watch_ppo_training.py",
+    "destination": "scripts\\watch_ppo_training.py",
+    "sha256": "8038d1074c1d6439d39adf8ea8b7ed709adff8a535151870ae51120853e7c54d",
+    "bytes": 8172
+  },
+  {
+    "source": "scripts\\write_phase1_docs.py",
+    "destination": "scripts\\write_phase1_docs.py",
+    "sha256": "49a92ec9f102559dec6377842551c6603197808b36c03689669510ca1155ce36",
+    "bytes": 28847
+  },
+  {
+    "source": "scripts\\write_phase2a_docs.py",
+    "destination": "scripts\\write_phase2a_docs.py",
+    "sha256": "18b316f24d3b21176b160a322967b60bbb6d19466eb686c2cdd130311cedbe8b",
+    "bytes": 29355
+  },
+  {
+    "source": "scripts\\write_teleop_docs.py",
+    "destination": "scripts\\write_teleop_docs.py",
+    "sha256": "57943e63587e29faf319883d20d03970a15973429bf56ae75f8ea84c247e1240",
+    "bytes": 22162
+  },
+  {
+    "source": "scripts\\_bootstrap.py",
+    "destination": "scripts\\_bootstrap.py",
+    "sha256": "a32858202879dfec4eff4f877b8bdb645ee341787efac28b8585962d7ffba355",
+    "bytes": 837
+  },
+  {
+    "source": "configs\\phase1.yaml",
+    "destination": "configs\\phase1.yaml",
+    "sha256": "a1b8f5a05e9f9c4755a0684e69816e141e0f1df46e62024f67c16660a6d5a9f0",
+    "bytes": 618
+  },
+  {
+    "source": "configs\\phase2b_scenes.yaml",
+    "destination": "configs\\phase2b_scenes.yaml",
+    "sha256": "a988cb5bde348e5a2c5f9dd86ce514dbfdb7721ca532d2b6e9c13a99529b46fd",
+    "bytes": 9405
+  },
+  {
+    "source": "configs\\phase2d_margin_study.yaml",
+    "destination": "configs\\phase2d_margin_study.yaml",
+    "sha256": "0d32b35324ca1b09407a1c526cae05a67d57f76cc8b96d32bbcc76e50fbc9b45",
+    "bytes": 445
+  },
+  {
+    "source": "configs\\phase2e_controllers.yaml",
+    "destination": "configs\\phase2e_controllers.yaml",
+    "sha256": "1c5b7093a7b9f36aa9c74450d14f469306876e66780ea50acf4995249b371e93",
+    "bytes": 482
+  },
+  {
+    "source": "configs\\phase3a_pilot.json",
+    "destination": "configs\\phase3a_pilot.json",
+    "sha256": "1fee6907c824a9d75240599d0f852bd6b817b9ec42d4c88d13e190e8452c71cc",
+    "bytes": 2266
+  },
+  {
+    "source": "configs\\phase3b_smoke.json",
+    "destination": "configs\\phase3b_smoke.json",
+    "sha256": "634b821a3a185d51ba148902e2276e5eceac8bfb11e58addbdb442a2f217b1fb",
+    "bytes": 2290
+  },
+  {
+    "source": "configs\\phase3c_pilot.json",
+    "destination": "configs\\phase3c_pilot.json",
+    "sha256": "83cbb3c071b4919eae1428c0790deb6234ccee432a3872575e10aec5b573a295",
+    "bytes": 2980
+  },
+  {
+    "source": "configs\\phase3dc.json",
+    "destination": "configs\\phase3dc.json",
+    "sha256": "360b9749bd43cec01b8600da64d3fed8b77b47c7812ad61073961e385bc18fc2",
+    "bytes": 2298
+  },
+  {
+    "source": "configs\\phase3dc_interpretation.json",
+    "destination": "configs\\phase3dc_interpretation.json",
+    "sha256": "71d8b2173ef56f716a87586f18e244a0b0bd5a2b2bb5b0637f261439fe476db4",
+    "bytes": 705
+  },
+  {
+    "source": "configs\\phase3d_bc.json",
+    "destination": "configs\\phase3d_bc.json",
+    "sha256": "50ea55626d045690ddfcc57aaa8c00f06a0402d6470adc29ff5692dff95b3eb0",
+    "bytes": 3809
+  },
+  {
+    "source": "configs\\planning_collision.yaml",
+    "destination": "configs\\planning_collision.yaml",
+    "sha256": "201b70f001a03ce894c01779772a84e466f669972afad46573d2503c480f0d41",
+    "bytes": 379
+  },
+  {
+    "source": "configs\\rrt_connect.yaml",
+    "destination": "configs\\rrt_connect.yaml",
+    "sha256": "26a7b2bcf1461635190e6ce28a7d32d9aadcb5cd9c01d142cec40d8bd582100f",
+    "bytes": 330
+  },
+  {
+    "source": "configs\\teleop.yaml",
+    "destination": "configs\\teleop.yaml",
+    "sha256": "3b13a967ae7c1de596bc5817f56bc099e45b13ba56ba3b666fd686c3f7ad05e1",
+    "bytes": 474
+  },
+  {
+    "source": "configs\\trajectory_execution.yaml",
+    "destination": "configs\\trajectory_execution.yaml",
+    "sha256": "8c8b5ea116b79d257b15b8903684904b4b2b0099e7330c0d9d82ac36da46c5a8",
+    "bytes": 563
+  },
+  {
+    "source": "tests\\conftest.py",
+    "destination": "tests\\historical\\conftest.py",
+    "sha256": "464b88a826edc3c8ac19bf3598fa3a30207b3882d8467cd1604d23e2e0acfa58",
+    "bytes": 503
+  },
+  {
+    "source": "tests\\test_phase1.py",
+    "destination": "tests\\historical\\test_phase1.py",
+    "sha256": "a9d62972ae888e97d3be032e03960f29d225772812bddfd9a1add26db52a5dd8",
+    "bytes": 6729
+  },
+  {
+    "source": "tests\\test_phase2a_collision.py",
+    "destination": "tests\\historical\\test_phase2a_collision.py",
+    "sha256": "c339938b32b1de598ecfdc493d9e378967bfbb919c177ebe498e6145fd2b8fe8",
+    "bytes": 9400
+  },
+  {
+    "source": "tests\\test_phase2d_margin.py",
+    "destination": "tests\\historical\\test_phase2d_margin.py",
+    "sha256": "dffee7da6a5acb704f4de7e6014aac1efe954fa5a129c0ad177f103f14a4df10",
+    "bytes": 7058
+  },
+  {
+    "source": "tests\\test_phase2e_control.py",
+    "destination": "tests\\historical\\test_phase2e_control.py",
+    "sha256": "92a9e81051850a24bb608c4dca8733666f22af15ab3cdc3697b7e277d98d3b8b",
+    "bytes": 7603
+  },
+  {
+    "source": "tests\\test_phase3a_uncertainty.py",
+    "destination": "tests\\historical\\test_phase3a_uncertainty.py",
+    "sha256": "770ca41c587d3f4599f766164d98e91d52554b6a5f87fde21f1824fc33c93b63",
+    "bytes": 9145
+  },
+  {
+    "source": "tests\\test_phase3b_residual.py",
+    "destination": "tests\\historical\\test_phase3b_residual.py",
+    "sha256": "1e5c4775b7e5b89caf757e4cc0e543e1c6db51b0855c894a71bb998eab3a5f90",
+    "bytes": 7661
+  },
+  {
+    "source": "tests\\test_phase3c_pilot.py",
+    "destination": "tests\\historical\\test_phase3c_pilot.py",
+    "sha256": "b27bd2f2fc8486ac2031ebe6b0dc2713c4d0fdd59a2b9996596fa8fff5f02532",
+    "bytes": 7244
+  },
+  {
+    "source": "tests\\test_phase3dc.py",
+    "destination": "tests\\historical\\test_phase3dc.py",
+    "sha256": "b2edd52763238e7a051aeb4d132fa875021c045c1daf7cc65bb34d76eab6a500",
+    "bytes": 6258
+  },
+  {
+    "source": "tests\\test_phase3d_bc.py",
+    "destination": "tests\\historical\\test_phase3d_bc.py",
+    "sha256": "8701d023fb911a19e65233aab1220afe0d35f6c05609b1ea38137bda24e4d2af",
+    "bytes": 6944
+  },
+  {
+    "source": "tests\\test_phase3d_observer.py",
+    "destination": "tests\\historical\\test_phase3d_observer.py",
+    "sha256": "d51d680a6f8727467e3bf4c24ee5808489ff0df0ae5c26186efa88a6730dcf97",
+    "bytes": 5238
+  },
+  {
+    "source": "tests\\test_rrt_connect.py",
+    "destination": "tests\\historical\\test_rrt_connect.py",
+    "sha256": "5d2cec81c0423837cd04addfa3cef33349bbe1511aa9918337ce44fd334787cc",
+    "bytes": 7432
+  },
+  {
+    "source": "tests\\test_teleop.py",
+    "destination": "tests\\historical\\test_teleop.py",
+    "sha256": "2f926625ec4637bb1ece5c976e4818fcb91ab5950bb5ed97c551832209bf2cbc",
+    "bytes": 5805
+  },
+  {
+    "source": "tests\\test_trajectory_execution.py",
+    "destination": "tests\\historical\\test_trajectory_execution.py",
+    "sha256": "cabddd5e541d2e57b6a92a11fe48096b6721add47359f9c0f97b1ad398385c4d",
+    "bytes": 6721
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\CHANGELOG.md",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\CHANGELOG.md",
+    "sha256": "d992a29b21dced2da82854d207d53bc5c1d860f603ec865d4cc3aac26617a350",
+    "bytes": 244
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\hand.xml",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\hand.xml",
+    "sha256": "c9d8bc3ea6bfe6efb4335a24492757b911389fbf20964afd143d261e688c627a",
+    "bytes": 4661
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\LICENSE",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\LICENSE",
+    "sha256": "6d1d968fb225eca367cb7f0b8831ab012a35d92b547e945e17ef8e7b05c3e5cc",
+    "bytes": 10349
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\mjx_hand.xml",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\mjx_hand.xml",
+    "sha256": "584d5c96e704f94ea64549404248cc81e02b0de2ae48b3dc276201870766e54b",
+    "bytes": 4317
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\mjx_panda.xml",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\mjx_panda.xml",
+    "sha256": "586bd2d765177ee15fc0a607cf11d36c3ae237a368cbbe10169917164df251cb",
+    "bytes": 14662
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\mjx_panda_nohand.xml",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\mjx_panda_nohand.xml",
+    "sha256": "b40e6e63504fbebf41540dc8d22a733cd228330c2c5187f0e7db4e12e62769b0",
+    "bytes": 10679
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\mjx_scene.xml",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\mjx_scene.xml",
+    "sha256": "ad8c924a56bb356367f8fcaa35637ecd59375fa8021931123a61276a7e7af228",
+    "bytes": 1193
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\mjx_single_cube.xml",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\mjx_single_cube.xml",
+    "sha256": "3398533b8a28e89f1e024dd2742283c2993555be04b058850075f5ce3c52094e",
+    "bytes": 1205
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\panda.png",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\panda.png",
+    "sha256": "d6ad5fcfc60237f0f006cf22d6e0b70febb559f609d915cd4316e9f1ad383c2d",
+    "bytes": 2192427
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\panda.xml",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\panda.xml",
+    "sha256": "c5a92e6ff47e7282ea303ffe13530ffe150248a22bb4b349a9369881e52facf0",
+    "bytes": 14725
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\panda_nohand.xml",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\panda_nohand.xml",
+    "sha256": "9c00a40fd4d24272517975ec7702a0016708fa080923c86397701d11302addb1",
+    "bytes": 11467
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\README.md",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\README.md",
+    "sha256": "85cdebf8f4dd52e29b77984e934b815b488b24717a350521b44827680dbbf085",
+    "bytes": 2970
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\scene.xml",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\scene.xml",
+    "sha256": "60658e01f59909eadaffbb4eb98a98715f67f67e9ae49f42ac114567fddaf230",
+    "bytes": 840
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\finger_0.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\finger_0.obj",
+    "sha256": "07478de3ac3f20a03c6aaae6e1162241cd40c2626f869f8b6300214b84e39993",
+    "bytes": 90360
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\finger_1.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\finger_1.obj",
+    "sha256": "723674cdfa74e3c502d83d695e76db713679d0209899e5dfb0cb7fc99ca883c0",
+    "bytes": 66487
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\hand.stl",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\hand.stl",
+    "sha256": "94493e94f30fe940f2c8ca2f155c3bbe67bbff406d3edf5e261670d2f0f6e2ed",
+    "bytes": 10084
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\hand_0.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\hand_0.obj",
+    "sha256": "6108861e452533528ede1f96ac849b2b82464709241de9d060f7811542f22cb5",
+    "bytes": 9355
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\hand_1.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\hand_1.obj",
+    "sha256": "20aefc64bec54c4435c488a841836f90c68f8d049c955878734fa8e58cbca303",
+    "bytes": 125223
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\hand_2.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\hand_2.obj",
+    "sha256": "0030f19e5401af70f3d3e2d495657122f5ad5b4ed80123fac54eb1de1a57e7aa",
+    "bytes": 612111
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\hand_3.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\hand_3.obj",
+    "sha256": "45d8b5e2dd8538ababdf7e595e5b3a3c47c5275da0148281bafcbb33cf0292d8",
+    "bytes": 926779
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\hand_4.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\hand_4.obj",
+    "sha256": "04b433d44ab6d0c35022ad20bc101eaa5817cf7eca4cc53995e16fd0f0bc2199",
+    "bytes": 156224
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0.stl",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0.stl",
+    "sha256": "dfc6d94330de8ddb005b311bfdba9f3b8e1aa7c256b71592ee7ff32cb9a9a5aa",
+    "bytes": 10084
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_0.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_0.obj",
+    "sha256": "b27078c9e1feb6eaea65df4210e63cec26055407f438fb6c651cd2a26ecc944b",
+    "bytes": 304687
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_1.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_1.obj",
+    "sha256": "cd41413866654b119cd940bd7e53d6bd1b600bce57cbb2b3a66cf50cf01d5e3e",
+    "bytes": 106898
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_10.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_10.obj",
+    "sha256": "7a55588817ce6381a9e7f7dd67a1a6a80f453ebfb9047afed34062dc6ee05b92",
+    "bytes": 352663
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_11.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_11.obj",
+    "sha256": "05699cd6c858814fe0509ef723f588e01126128a5809e44f8bea04341e6f7320",
+    "bytes": 22941
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_2.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_2.obj",
+    "sha256": "1546699b6ae8ba13bc3a881f455d9b6967b7d66b61a17c91e502067e8dbcb3f0",
+    "bytes": 606944
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_3.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_3.obj",
+    "sha256": "a7d5778cf2e5c4b2e6d947a7cafc538d211365469457138f41535ca67531f54d",
+    "bytes": 48906
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_4.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_4.obj",
+    "sha256": "a5c22dd5ca62ca2347c9dead46fd0a2083cec1ca6b014d4f45b6a2bf72662c14",
+    "bytes": 217010
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_5.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_5.obj",
+    "sha256": "85b08f6c19abf49b894e3e5c9cd646acd29cef723019cbd885f1b397af9243fa",
+    "bytes": 17508
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_7.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_7.obj",
+    "sha256": "c4bb67ddf29f5510789e1c9e21b8dc41280ad00858d1a5d13ccba5519ef14aec",
+    "bytes": 31569
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_8.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_8.obj",
+    "sha256": "658bd4effeb44b10c62e8f74eb1a71bb5d3d42dc72d7f64215dca4401a834cbc",
+    "bytes": 3351185
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_9.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link0_9.obj",
+    "sha256": "546794c9e0fbdfff309ddbe94bbdf92186370935de7cf9ba62c5f0ba4e897500",
+    "bytes": 108535
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link1.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link1.obj",
+    "sha256": "e471edf2075a419213365285144b8759e6b6f7178b1bd556cc0afdc2ebb72153",
+    "bytes": 3362025
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link1.stl",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link1.stl",
+    "sha256": "e41a39a94108fcf56aacff603fc91ec80541f4c1af17b51a0de5617f5566e6d2",
+    "bytes": 15084
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link2.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link2.obj",
+    "sha256": "61d778ec01a499a5ab08e3cd81bfa7d05614120474921f4e484aa8eac062b554",
+    "bytes": 3383842
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link2.stl",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link2.stl",
+    "sha256": "370f7605a0fae3529db169ded50f52f171024aa792d4d773bc84197301f6a039",
+    "bytes": 15084
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link3.stl",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link3.stl",
+    "sha256": "0a8d638b9349c6c0eefc4e888636ac4838c4b27170f18a51699321118af709c1",
+    "bytes": 15084
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link3_0.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link3_0.obj",
+    "sha256": "bf3ee138bed84e9df7820ab7346ea2673bef7b081d49393574f778e5b05e668f",
+    "bytes": 3129111
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link3_1.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link3_1.obj",
+    "sha256": "d58142af5e93ed0960f0c170b10b29dc30a8869bccaca7575dbb284bb8c24e64",
+    "bytes": 67075
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link3_2.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link3_2.obj",
+    "sha256": "06a3150f719582233cfbc1741072597081c701e30defcb62b244fb7c3efb1ee6",
+    "bytes": 85917
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link3_3.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link3_3.obj",
+    "sha256": "8d2a7b47309d0375d9ffa116a90d9ff92d7cf90c94ce4db3f24f62bb6ef49c76",
+    "bytes": 470331
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link4.stl",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link4.stl",
+    "sha256": "0180ebb5772ec9840cb049750cffb29a9ddc90311752a16ea34757782ef9e48d",
+    "bytes": 15084
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link4_0.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link4_0.obj",
+    "sha256": "fbddcbda74b9fb5052a0591fcf377cef2acee8fa2ff8638982309284aea34c88",
+    "bytes": 85819
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link4_1.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link4_1.obj",
+    "sha256": "ed6edd7072e74d6b3b1ba7508256aa01950066d74d945836f20f4afe990a76b3",
+    "bytes": 3232698
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link4_2.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link4_2.obj",
+    "sha256": "1e09136da7bb325651bba4e0951af946eb650233654583c3ec194a63ce30bf97",
+    "bytes": 468074
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link4_3.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link4_3.obj",
+    "sha256": "ff7084c63cbf3240a382f33dc6f2284a11652e670bc22a07f11448eb56fd0dc3",
+    "bytes": 69354
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link5_0.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link5_0.obj",
+    "sha256": "4fb4ea24fc8c83e2a0aaa30cf0336b5e66935892e8b10e48b9118fbc38c4f85c",
+    "bytes": 846795
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link5_1.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link5_1.obj",
+    "sha256": "961b25796b301896979a946c90a301ff3d871e4b005e1d061c3280b929e60f1d",
+    "bytes": 64922
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link5_2.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link5_2.obj",
+    "sha256": "ed5e8dc11b90a72904d5d5aeedf2c230b2970b9556184799dc9d30b1ef5aa1af",
+    "bytes": 3959847
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link5_collision_0.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link5_collision_0.obj",
+    "sha256": "9f05f0c305b8445ff9857dc7370bc8bcd435ebdbafb090f9d43789b4fd6b3988",
+    "bytes": 4049
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link5_collision_1.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link5_collision_1.obj",
+    "sha256": "c9b2e0b36a0614126b0067551be4f903c1cf0465d47ad689a392222eaeb1b6cb",
+    "bytes": 2531
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link5_collision_2.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link5_collision_2.obj",
+    "sha256": "7ff733d0babd8651eda633dfbb3323c2e3b1e536e63f5a6bf664653b4d0b2d19",
+    "bytes": 3974
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6.stl",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6.stl",
+    "sha256": "20b768e99a0e0440b5754dcca108016434e57937cc356acd9c352ccd3cb27f77",
+    "bytes": 10084
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_0.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_0.obj",
+    "sha256": "902cf514cd7f601de754d60aef8bf03abfb6cc2de2ea87ae21f716a24b0bec93",
+    "bytes": 161909
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_1.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_1.obj",
+    "sha256": "57f55c5a1ecd4290de49e629ff65f58247a5adeeefbff167954dbde4daea7045",
+    "bytes": 27879
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_10.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_10.obj",
+    "sha256": "a002320736e73707e998d61e9fa8cd85a2f350b06e57a36d72b2f73b5a7026d9",
+    "bytes": 378804
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_11.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_11.obj",
+    "sha256": "9ce6c90aa16a0f6a7c93870e0e7768af2d8a16ef46758b4547e855f9f6d9cf3f",
+    "bytes": 33593
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_12.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_12.obj",
+    "sha256": "619f03b4c218c2d3c12fa0a69a632038da3ee0a94770c31d2067a86e15565ae2",
+    "bytes": 4008
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_13.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_13.obj",
+    "sha256": "23bb4d531b4f0564a49cd639b8421218d4bfdb6fca25f49747d6456cf8efbbb8",
+    "bytes": 3912
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_14.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_14.obj",
+    "sha256": "ebdd009a84f1d8a29efa22703811bab0db78a911f978a52708cf948d7c9f8f5b",
+    "bytes": 456755
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_15.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_15.obj",
+    "sha256": "b18583b353d7c565d6ce8b972ba76afda8b5849dc79c7489e3ab9870e9b2e452",
+    "bytes": 687184
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_16.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_16.obj",
+    "sha256": "94aa55fe21b990c76d294ad48683b96838822808392d82f4cad9ab11d9bc4c6d",
+    "bytes": 3774517
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_2.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_2.obj",
+    "sha256": "ad4aa11e1b824ddd58b5ebb5bd60d5391fe2f6c566f5e7250e106df1b81e8447",
+    "bytes": 10205
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_3.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_3.obj",
+    "sha256": "93d42375fd8b9e307de87fc93985c466d5e7d41fff2ffb3bef8e405fcd845888",
+    "bytes": 12288
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_4.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_4.obj",
+    "sha256": "7c5593a873b4faded71ffd218853f0ede03878be3af0cea993d8dc8f79736e4b",
+    "bytes": 14247
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_5.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_5.obj",
+    "sha256": "fb8860a3ed1840f563b1ecf06de31daa1941a2cecaad348f893c7c183beb0096",
+    "bytes": 12186
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_6.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_6.obj",
+    "sha256": "7842cd39a2ab542e2af46d21b9c2b4a6e13060b716b6c6a3ce9079cce8acd0af",
+    "bytes": 12963
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_7.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_7.obj",
+    "sha256": "bb49ae82f8ea91ad854b5409379a5773f7c9b63baf3ceac229a569d7ccd1dba4",
+    "bytes": 4510
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_8.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_8.obj",
+    "sha256": "95e21cf52f75de64a112111cc72026a88a2ad28127b0e8249264c13212ad0c21",
+    "bytes": 9399
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_9.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link6_9.obj",
+    "sha256": "a6e914bfbe305dc26995e54043b70a70ef41654903d23efb9eb395da5dbe5540",
+    "bytes": 18118
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link7.stl",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link7.stl",
+    "sha256": "92ac6afcf7574c034d3170d8a68e95ac9048ab9d0dd5bbd8311b86e551b9ab1c",
+    "bytes": 10084
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link7_0.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link7_0.obj",
+    "sha256": "6c45c2d72bee4b9f76a7cb8ce495095f66837522362381ef7dd8332fd6504d37",
+    "bytes": 1399813
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link7_1.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link7_1.obj",
+    "sha256": "09bac69cc6ebf22cf0b7b41e5d5e5c94be1ab986b59e59dc01fa0891cfa4c70a",
+    "bytes": 124785
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link7_2.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link7_2.obj",
+    "sha256": "8a49b056e21f69b8e3ef512d4106d9c76e81357473c718bec29bc0e27595a3b8",
+    "bytes": 214613
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link7_3.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link7_3.obj",
+    "sha256": "ef63541f12b2b440f0ad6b11dc0fbec1447a0da030fad827cb18e8ca8cd2043e",
+    "bytes": 127095
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link7_4.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link7_4.obj",
+    "sha256": "c7b273306967759cf197247486197ab12ded1b92d13112b185fb25e4202503c5",
+    "bytes": 88107
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link7_5.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link7_5.obj",
+    "sha256": "83733d3b94caf2a61f752942ca9dc7cf6cf403bb4f4ab953c24157c240dae92c",
+    "bytes": 232742
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link7_6.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link7_6.obj",
+    "sha256": "6c4f4d7528eb4b5dbd4be1e0c7dbd5b83e44ef14c9991d4e67bd6d8e1e23cf04",
+    "bytes": 102723
+  },
+  {
+    "source": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link7_7.obj",
+    "destination": "models\\mujoco_menagerie\\franka_emika_panda\\assets\\link7_7.obj",
+    "sha256": "69f1a8efeaf8c4f8ef7c3265981ac5b1d03faa8d9e07c5b22d9628afae16bf41",
+    "bytes": 814020
+  },
+  {
+    "source": "models\\mujoco_menagerie\\LICENSE",
+    "destination": "models\\mujoco_menagerie\\LICENSE",
+    "sha256": "5645da0e6aa7baf5b54b80f2415208ee91e39883ca9c087c1a14d03fd4ba87bc",
+    "bytes": 442353
+  },
+  {
+    "source": "models\\mujoco_menagerie\\README.md",
+    "destination": "models\\mujoco_menagerie\\README.md",
+    "sha256": "01592e1aeec40c7edf5089a6f32235c5cc5860b8544e4ab383c7897b2c1eef6b",
+    "bytes": 30128
+  },
+  {
+    "source": "models\\mujoco_menagerie\\CONTRIBUTORS.md",
+    "destination": "models\\mujoco_menagerie\\CONTRIBUTORS.md",
+    "sha256": "e133d88271574e8bc62aac5fb8eaa6dd3defeda4341e6f9eca8d915c171e91b2",
+    "bytes": 2760
+  },
+  {
+    "source": "models\\mujoco_menagerie\\CITATION.cff",
+    "destination": "models\\mujoco_menagerie\\CITATION.cff",
+    "sha256": "f5ef8df14e48f876e699a4f6f8863a72570c38bfb718ca39b220db90b2c0f8b9",
+    "bytes": 347
+  },
+  {
+    "source": "models\\derived\\panda_phase1.xml",
+    "destination": "models\\derived\\panda_phase1.xml",
+    "sha256": "6bbe9e79aee916da63af2d1ef361e80dc8ab331c51d991a42ccec5b5c86b6cb9",
+    "bytes": 17441
+  },
+  {
+    "source": "models\\derived\\phase1_scene.xml",
+    "destination": "models\\derived\\phase1_scene.xml",
+    "sha256": "158bf8582f2d42cbabf1395605b5664e44759331c2ada4e43fb1af23223eee8e",
+    "bytes": 1147
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792551794922041600.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792551794922041600.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792551874135583600.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792551874135583600.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792551874595379500.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792551874595379500.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792551875639421600.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792551875639421600.xml",
+    "sha256": "57d24e54e17d147dd53ce13b7020524fd76eb76e61920453293bd5ebc12c880d",
+    "bytes": 1796
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792551876608998500.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792551876608998500.xml",
+    "sha256": "7e77e54d7714ea1a670e1d8ebfcaaf55e68817a86469e5cc3204c43915405b36",
+    "bytes": 2667
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792551977473349000.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792551977473349000.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792552137056643000.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792552137056643000.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792552137580852700.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792552137580852700.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792552138764308400.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792552138764308400.xml",
+    "sha256": "57d24e54e17d147dd53ce13b7020524fd76eb76e61920453293bd5ebc12c880d",
+    "bytes": 1796
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792552139968353000.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792552139968353000.xml",
+    "sha256": "7e77e54d7714ea1a670e1d8ebfcaaf55e68817a86469e5cc3204c43915405b36",
+    "bytes": 2667
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792552146820642400.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792552146820642400.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792552424146383900.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792552424146383900.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792552513284655700.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792552513284655700.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792552513719368700.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792552513719368700.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792552514714575500.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792552514714575500.xml",
+    "sha256": "57d24e54e17d147dd53ce13b7020524fd76eb76e61920453293bd5ebc12c880d",
+    "bytes": 1796
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792552515664050900.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792552515664050900.xml",
+    "sha256": "7e77e54d7714ea1a670e1d8ebfcaaf55e68817a86469e5cc3204c43915405b36",
+    "bytes": 2667
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792552896566095900.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792552896566095900.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792571173162974400.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792571173162974400.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792571471114134400.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792571471114134400.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792571481099323400.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792571481099323400.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792571537524808100.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792571537524808100.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792573262456363600.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792573262456363600.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792573273140259400.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792573273140259400.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792574965106880600.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792574965106880600.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792574990102537300.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792574990102537300.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792575085361867200.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792575085361867200.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792575110012843400.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792575110012843400.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792637817229270300.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792637817229270300.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792637847727716100.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792637847727716100.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792638070745153000.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792638070745153000.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792638101627604000.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792638101627604000.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792638582127155500.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792638582127155500.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792638614518265900.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792638614518265900.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792656165258476600.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792656165258476600.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792656204705188000.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792656204705188000.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792659232509357300.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792659232509357300.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792659298135765400.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792659298135765400.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792662251724201100.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792662251724201100.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792662319390674900.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792662319390674900.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792741339179723400.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792741339179723400.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792741482621844600.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792741482621844600.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792744016618876300.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792744016618876300.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792744170971014000.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792744170971014000.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792746174731529600.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792746174731529600.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_fixture_1792746385284662900.xml",
+    "destination": "models\\derived\\phase2a_fixture_1792746385284662900.xml",
+    "sha256": "995b1920fea4154380e15938c6d5d5097a4de2a37159195eb4bf32ba07267e7a",
+    "bytes": 1362
+  },
+  {
+    "source": "models\\derived\\phase2a_scene.xml",
+    "destination": "models\\derived\\phase2a_scene.xml",
+    "sha256": "7d9c191b17f0b02596fc7dc329e1155ba3ab22aca61e364115b19f8862cb79e3",
+    "bytes": 1361
+  },
+  {
+    "source": "models\\derived\\teleop_practice_scene.xml",
+    "destination": "models\\derived\\teleop_practice_scene.xml",
+    "sha256": "d80198575033e7514777e2dce522faf208dfca8d81761f434dd86d815f28d090",
+    "bytes": 795
+  },
+  {
+    "source": "models\\README.md",
+    "destination": "models\\README.md",
+    "sha256": "82358d3ee9a75a09477c9ce8e43c1c66734e803f23fdd5e8ad9a59d1fb185e31",
+    "bytes": 747
+  },
+  {
+    "source": "assets\\videos\\panda_ik_servo.mp4",
+    "destination": "assets\\source_videos\\panda_ik_servo.mp4",
+    "sha256": "031026468b68e29373abf2df272268b30cd0a2c127ea5c9a3ee19e65146f42ce",
+    "bytes": 181530
+  },
+  {
+    "source": "assets\\videos\\panda_joint_control.mp4",
+    "destination": "assets\\source_videos\\panda_joint_control.mp4",
+    "sha256": "d5667984252aeb7a916d1d57005ecb86de55d0ce86cd7c73657789cdf1a67182",
+    "bytes": 101136
+  },
+  {
+    "source": "assets\\videos\\panda_keyboard_teleop_20261021.mp4",
+    "destination": "assets\\source_videos\\panda_keyboard_teleop_20261021.mp4",
+    "sha256": "a9024ad54d451e9aa50d6376094b9af0202070b6772923fbf2bca18556b2ccd7",
+    "bytes": 252349
+  },
+  {
+    "source": "assets\\videos\\phase2a_collision_demo.mp4",
+    "destination": "assets\\source_videos\\phase2a_collision_demo.mp4",
+    "sha256": "1391debfe2b0feb77d57c76ce256f2ef9b95669f65f4176a72db58ec150ea3c4",
+    "bytes": 248374
+  },
+  {
+    "source": "assets\\videos\\phase2a_edge_demo.mp4",
+    "destination": "assets\\source_videos\\phase2a_edge_demo.mp4",
+    "sha256": "51baefca6b9b60615dbb362e9e3eb31484d85a41ddbc939a6f54fe58aea4ffdc",
+    "bytes": 223136
+  },
+  {
+    "source": "assets\\videos\\phase2b_rrt_planning_demo.mp4",
+    "destination": "assets\\source_videos\\phase2b_rrt_planning_demo.mp4",
+    "sha256": "15384ceb63be8af11a2cd6cba6bde20680fff14a5662abcea035450b49c5b952",
+    "bytes": 910932
+  },
+  {
+    "source": "assets\\videos\\phase2c_dynamic_execution.mp4",
+    "destination": "assets\\source_videos\\phase2c_dynamic_execution.mp4",
+    "sha256": "10516c3b70b0512390ed18f7a4a7d014ad79043c5aceed12e82036ca4b8f84c0",
+    "bytes": 927013
+  },
+  {
+    "source": "assets\\videos\\phase2d_margin_comparison.mp4",
+    "destination": "assets\\source_videos\\phase2d_margin_comparison.mp4",
+    "sha256": "61dd0e6b6470d84a122b0a5bc75e1a490a35cd42d0b915033073df78500ab733",
+    "bytes": 1807309
+  },
+  {
+    "source": "assets\\videos\\phase2e_controller_comparison.mp4",
+    "destination": "assets\\source_videos\\phase2e_controller_comparison.mp4",
+    "sha256": "652f9d5c0bca050ad3cf5a6d4a8dba6fafdd790688ab4a15b605881543f254e8",
+    "bytes": 1298207
+  },
+  {
+    "source": "assets\\videos\\phase2e_safety_guard.mp4",
+    "destination": "assets\\source_videos\\phase2e_safety_guard.mp4",
+    "sha256": "1b1a3fac30d8381cf679c85e797d284bcb941c59334eead5391c689059f2ff83",
+    "bytes": 1260309
+  },
+  {
+    "source": "assets\\videos\\phase3a_robustness_comparison.mp4",
+    "destination": "assets\\source_videos\\phase3a_robustness_comparison.mp4",
+    "sha256": "52e0c60d864535388d1790de7b8d6093f6c07bf863bdc75acd0706878bc5ab96",
+    "bytes": 1973037
+  },
+  {
+    "source": "assets\\videos\\phase3dc_actual_training.mp4",
+    "destination": "assets\\source_videos\\phase3dc_actual_training.mp4",
+    "sha256": "e7661a2b15abc806ebaf45f21c6c8afafc90e7d448b6a6aa144c3cbb7b619e13",
+    "bytes": 4047669
+  },
+  {
+    "source": "assets\\videos\\phase3dc_policy_comparison.mp4",
+    "destination": "assets\\source_videos\\phase3dc_policy_comparison.mp4",
+    "sha256": "bcfe80e1b5beb08832edabebf2272aed03d319a1356d8badf9e1a65d8b31656d",
+    "bytes": 12311236
+  },
+  {
+    "source": "assets\\videos\\phase3d_actual_training.mp4",
+    "destination": "assets\\source_videos\\phase3d_actual_training.mp4",
+    "sha256": "dc5bcdada20b6c5d09cb7086e559b1dd064754156bab348ff64e8671167d6a07",
+    "bytes": 3866881
+  },
+  {
+    "source": "assets\\videos\\phase3d_bc_vs_integral.mp4",
+    "destination": "assets\\source_videos\\phase3d_bc_vs_integral.mp4",
+    "sha256": "26753aaeca83fe5013a1cac69616acd20e071c5f434732715b1ec382ed31eeba",
+    "bytes": 4242824
+  },
+  {
+    "source": "assets\\plots\\phase2b_path_clearance.png",
+    "destination": "assets\\plots\\phase2b_path_clearance.png",
+    "sha256": "78a5f78c2dc09a6ecbf219f8711f5b04740e526e575c219be69caf11829f986f",
+    "bytes": 56535
+  },
+  {
+    "source": "assets\\plots\\phase2b_performance.png",
+    "destination": "assets\\plots\\phase2b_performance.png",
+    "sha256": "26bbd8dbc50d0c1815f158afe68cc90f30d992af38e9a1305aefa946ffb4f9a8",
+    "bytes": 54026
+  },
+  {
+    "source": "assets\\plots\\phase2c_clearance.png",
+    "destination": "assets\\plots\\phase2c_clearance.png",
+    "sha256": "1794dbfe679e104ec9b8ce08529f5bd6c145c196905e3a8bdfceea0e23745880",
+    "bytes": 82796
+  },
+  {
+    "source": "assets\\plots\\phase2c_joint_tracking.png",
+    "destination": "assets\\plots\\phase2c_joint_tracking.png",
+    "sha256": "f98074d98255188aa7675143d6e973d1e2a9355988cfe4d43b4a7ffc62d8a19c",
+    "bytes": 243767
+  },
+  {
+    "source": "assets\\plots\\phase2d_local_sensitivity.png",
+    "destination": "assets\\plots\\phase2d_local_sensitivity.png",
+    "sha256": "b33393aa94230b2dfd1cb5237151415819ee2cdcf7e9fe98cce9250df962535b",
+    "bytes": 97197
+  },
+  {
+    "source": "assets\\plots\\phase2d_margin_vs_actual.png",
+    "destination": "assets\\plots\\phase2d_margin_vs_actual.png",
+    "sha256": "e4f8676d1cf5ee01aceff5257e0b564a09e118a0a68b55706d15aa430d5faae1",
+    "bytes": 98830
+  },
+  {
+    "source": "assets\\plots\\phase2e_guard_and_goal.png",
+    "destination": "assets\\plots\\phase2e_guard_and_goal.png",
+    "sha256": "d6cb230a4678e14723b18c27fd826fd19d99807a123e9c5672107375f07bec3d",
+    "bytes": 97840
+  },
+  {
+    "source": "assets\\plots\\phase2e_static_accuracy.png",
+    "destination": "assets\\plots\\phase2e_static_accuracy.png",
+    "sha256": "1789c69895da7fcca3cc0ca9f526105c67053c942bcdcf2db8b3cba871fe948a",
+    "bytes": 26256
+  },
+  {
+    "source": "assets\\plots\\phase3a_combined_tracking.png",
+    "destination": "assets\\plots\\phase3a_combined_tracking.png",
+    "sha256": "5f3b67b84cea5839239078b60cf116d93c657622f102557edc575b28ccc5ee8b",
+    "bytes": 124769
+  },
+  {
+    "source": "assets\\plots\\phase3a_robustness_summary.png",
+    "destination": "assets\\plots\\phase3a_robustness_summary.png",
+    "sha256": "12ca74beb026a73617d3f8c00b99cc5cae7fd722ae4b4b899cb9dc7cb48b8342",
+    "bytes": 74249
+  },
+  {
+    "source": "assets\\plots\\phase3a_video_contact_sheet.png",
+    "destination": "assets\\plots\\phase3a_video_contact_sheet.png",
+    "sha256": "c74796f97aa95f20d22fe4606307169a236ee6dfb3d999dc9c69c5ad2b3ea536",
+    "bytes": 316095
+  },
+  {
+    "source": "assets\\plots\\phase3b_reward_curve.png",
+    "destination": "assets\\plots\\phase3b_reward_curve.png",
+    "sha256": "8550a76f09741b5200578eafd152288a086b75fe9d10bd1966c8a8d1a91d94de",
+    "bytes": 91088
+  },
+  {
+    "source": "assets\\plots\\phase3c_control_comparison.png",
+    "destination": "assets\\plots\\phase3c_control_comparison.png",
+    "sha256": "36b4d9a9e6dea01c9a7477bf077be7af173e3722ecaae39cfe1226d32b1f69a4",
+    "bytes": 74027
+  },
+  {
+    "source": "assets\\plots\\phase3c_learning_curves.png",
+    "destination": "assets\\plots\\phase3c_learning_curves.png",
+    "sha256": "bf0b912025133dbc174b0bf13d2aec2aed848e4054e4cb7b356ed059ed640b98",
+    "bytes": 329072
+  },
+  {
+    "source": "assets\\plots\\phase3dc_action_tcp_clearance.png",
+    "destination": "assets\\plots\\phase3dc_action_tcp_clearance.png",
+    "sha256": "9d72de6e2021a1e4589d732e31eb490a08cd4229c68ef7094738eeb55cfb1900",
+    "bytes": 227868
+  },
+  {
+    "source": "assets\\plots\\phase3dc_actual_training_contact_sheet.png",
+    "destination": "assets\\plots\\phase3dc_actual_training_contact_sheet.png",
+    "sha256": "74dc95cd5f17fbd0f6b729ed15e167fb33d50ce95247902b3bf80bd98c063062",
+    "bytes": 418789
+  },
+  {
+    "source": "assets\\plots\\phase3dc_final_comparison.png",
+    "destination": "assets\\plots\\phase3dc_final_comparison.png",
+    "sha256": "9916a4484e7a018b047ea3ba185b8acea23a54c63d3f48216ee4e92e41786236",
+    "bytes": 46168
+  },
+  {
+    "source": "assets\\plots\\phase3dc_learning_curves.png",
+    "destination": "assets\\plots\\phase3dc_learning_curves.png",
+    "sha256": "3d1a13e8e60a9d0dc2c2f6f9a3a7b5aff0fe3adcc633878c3604391a44e1551d",
+    "bytes": 419862
+  },
+  {
+    "source": "assets\\plots\\phase3dc_policy_comparison_contact_sheet.png",
+    "destination": "assets\\plots\\phase3dc_policy_comparison_contact_sheet.png",
+    "sha256": "6934cd3d65c7132163c6eac685f8e91dcb0303251c59748c4f4991f83e4c0ed5",
+    "bytes": 728593
+  },
+  {
+    "source": "assets\\plots\\phase3d_action_vs_applied.png",
+    "destination": "assets\\plots\\phase3d_action_vs_applied.png",
+    "sha256": "881c54c59eb1352dbdc1ad4718184c85a26831e9817f8e0a71f09695e3c90c99",
+    "bytes": 983447
+  },
+  {
+    "source": "assets\\plots\\phase3d_bc_closed_loop_comparison.png",
+    "destination": "assets\\plots\\phase3d_bc_closed_loop_comparison.png",
+    "sha256": "bf8f242537666cb15a7b0cf6751af60ff45f6994c2de44da8dc5f8a4dd23adb8",
+    "bytes": 41064
+  },
+  {
+    "source": "assets\\plots\\phase3d_bc_learning_curve.png",
+    "destination": "assets\\plots\\phase3d_bc_learning_curve.png",
+    "sha256": "0c30ef51de1ee5759fbe462fdb41a909c05b5455b4f90cf580fafa6028993330",
+    "bytes": 98052
+  },
+  {
+    "source": "assets\\plots\\phase3d_bc_video_contact_sheet.png",
+    "destination": "assets\\plots\\phase3d_bc_video_contact_sheet.png",
+    "sha256": "e7692f2a84ea54baeb49c5e0e7e7cb474e8a5d419683d9ac9f8906f36bcdda9b",
+    "bytes": 563771
+  },
+  {
+    "source": "assets\\plots\\phase3d_independent_evaluation.png",
+    "destination": "assets\\plots\\phase3d_independent_evaluation.png",
+    "sha256": "fae62d9eea564ca998480e5c425e04e8971057c46fe13a242ad7f85a6ea079b3",
+    "bytes": 50486
+  },
+  {
+    "source": "assets\\plots\\phase3d_ppo_update_timeline.png",
+    "destination": "assets\\plots\\phase3d_ppo_update_timeline.png",
+    "sha256": "8556d13c9faf71b62ff94a685cfb9b7c7f1d5e147a9d381452349e1e2098f790",
+    "bytes": 76333
+  },
+  {
+    "source": "assets\\plots\\phase3d_reward_components.png",
+    "destination": "assets\\plots\\phase3d_reward_components.png",
+    "sha256": "751cc102d8d088ee74c56f6d06b0a5af9b833000fdb2f8a64e42b0fd0b23fb8e",
+    "bytes": 44828
+  },
+  {
+    "source": "assets\\plots\\phase3d_tcp_error.png",
+    "destination": "assets\\plots\\phase3d_tcp_error.png",
+    "sha256": "df391aeb6e914fe797210e947fcfa031c0c9024dbcabd8fa632731dea6dd6ed3",
+    "bytes": 78230
+  },
+  {
+    "source": "results\\forward_kinematics.csv",
+    "destination": "evidence\\historical_summaries\\forward_kinematics.csv",
+    "sha256": "8d0d2fcf7b172055e5b7a6cc4c9f063e778a68692106a1f31e3ac8f4e84e4797",
+    "bytes": 1009
+  },
+  {
+    "source": "results\\ik_iteration_errors.csv",
+    "destination": "evidence\\historical_summaries\\ik_iteration_errors.csv",
+    "sha256": "1b67ff146a13cde2fc0946d3a0a0343a8368181bd2877075cf3455b09f48b424",
+    "bytes": 2631
+  },
+  {
+    "source": "results\\ik_reachable_results.csv",
+    "destination": "evidence\\historical_summaries\\ik_reachable_results.csv",
+    "sha256": "64ea821790e6ca818b9f005fca7e81b675ca345f031a47dad5a6af1599d2dca2",
+    "bytes": 11402
+  },
+  {
+    "source": "results\\jacobian_validation.csv",
+    "destination": "evidence\\historical_summaries\\jacobian_validation.csv",
+    "sha256": "0f34f31b2bcd05dd3fdeeb91dd2b8277e6df7bcab2e3cad27ebcdf8f85a0228a",
+    "bytes": 6469
+  },
+  {
+    "source": "results\\joint_control.csv",
+    "destination": "evidence\\historical_summaries\\joint_control.csv",
+    "sha256": "79f0d8c016a3a2839dd2186f6259f14be612ac5e80f659b134c1d7a8e1c43d67",
+    "bytes": 2267401
+  },
+  {
+    "source": "results\\phase2a_collision_cases.csv",
+    "destination": "evidence\\historical_summaries\\phase2a_collision_cases.csv",
+    "sha256": "3ade8934f55527d2ab52df8c7cef4af06fc8f7a7b6752f5b3d0b958fadcb2c60",
+    "bytes": 12866
+  },
+  {
+    "source": "results\\phase2a_edge_validation.csv",
+    "destination": "evidence\\historical_summaries\\phase2a_edge_validation.csv",
+    "sha256": "c9b43d93131b90d9b798ad0eea486c8f8376b80f011e87c893b7aa16b7ab5755",
+    "bytes": 14766
+  },
+  {
+    "source": "results\\phase2a_excluded_pairs.csv",
+    "destination": "evidence\\historical_summaries\\phase2a_excluded_pairs.csv",
+    "sha256": "940ad5852c64238efc2f438b64ccf6058e1d523daf80960d05ba3b8eec2c0f0c",
+    "bytes": 9476
+  },
+  {
+    "source": "results\\phase2a_included_pairs.csv",
+    "destination": "evidence\\historical_summaries\\phase2a_included_pairs.csv",
+    "sha256": "f0ad1b9fb60ba5d6c616404eef29cc88d4da96e0ff34df5ecf3fb382b439b0f9",
+    "bytes": 25836
+  },
+  {
+    "source": "results\\phase2b_path_validation.csv",
+    "destination": "evidence\\historical_summaries\\phase2b_path_validation.csv",
+    "sha256": "23c77d256cd8708eb63d24ea94f7d95e5a383e9ed49ad34f70c51b6e038d7261",
+    "bytes": 7562
+  },
+  {
+    "source": "results\\phase2b_planning_results.csv",
+    "destination": "evidence\\historical_summaries\\phase2b_planning_results.csv",
+    "sha256": "923e20c98b91586593031cbe0a2a23392a1bc9563b5e7d838e3127d488559c28",
+    "bytes": 27980
+  },
+  {
+    "source": "results\\phase2c_acceleration_audit.csv",
+    "destination": "evidence\\historical_summaries\\phase2c_acceleration_audit.csv",
+    "sha256": "141ceb87f8cc326c413c626b2414a02726a13c3aea988d4510dfbdb0113923d3",
+    "bytes": 1205
+  },
+  {
+    "source": "results\\phase2c_execution_summary.csv",
+    "destination": "evidence\\historical_summaries\\phase2c_execution_summary.csv",
+    "sha256": "b31652ba87611a590574c89edd9c504a3d7deb8b225f32da337be3f1e7cb8d11",
+    "bytes": 18433
+  },
+  {
+    "source": "results\\phase2d_csv_recomputation.csv",
+    "destination": "evidence\\historical_summaries\\phase2d_csv_recomputation.csv",
+    "sha256": "bdbdbb6c4811f69b058bb60ec2e99f74f2ad3e37110277d99a8c325e0528da73",
+    "bytes": 4752
+  },
+  {
+    "source": "results\\phase2d_dynamic_execution_results.csv",
+    "destination": "evidence\\historical_summaries\\phase2d_dynamic_execution_results.csv",
+    "sha256": "73bc1667d856f6e995ecd9afa9f5a9016c1920b0f0d02aa380195120135f42ae",
+    "bytes": 38639
+  },
+  {
+    "source": "results\\phase2d_planning_margin_results.csv",
+    "destination": "evidence\\historical_summaries\\phase2d_planning_margin_results.csv",
+    "sha256": "19c64107fae3934db4575ebce458a23d2238e742e03ee88b92122b6a7ae0b64a",
+    "bytes": 3358
+  },
+  {
+    "source": "results\\phase2d_tracking_clearance_analysis.csv",
+    "destination": "evidence\\historical_summaries\\phase2d_tracking_clearance_analysis.csv",
+    "sha256": "1b3ca4f972ec786130bec32cf5c64faf9925f0b1ce61bc58a23637a515ed6fc0",
+    "bytes": 8839
+  },
+  {
+    "source": "results\\phase2e_condition_results.csv",
+    "destination": "evidence\\historical_summaries\\phase2e_condition_results.csv",
+    "sha256": "921c01c5b868cc93843ca01b742b12024c9cf5f56f431b9ac0adf46c8c6d1644",
+    "bytes": 36778
+  },
+  {
+    "source": "results\\phase2e_controller_comparison.csv",
+    "destination": "evidence\\historical_summaries\\phase2e_controller_comparison.csv",
+    "sha256": "a5563f8bb19deb2acfc7f7f989bee4e6f6393dd200ed487cf37e6e8ff186e29c",
+    "bytes": 152550
+  },
+  {
+    "source": "results\\phase2e_csv_audit.csv",
+    "destination": "evidence\\historical_summaries\\phase2e_csv_audit.csv",
+    "sha256": "464960a31c7c3152514c46ce0b2c7fff89565a881bdf9e895c4b0c9eb774b768",
+    "bytes": 10195
+  },
+  {
+    "source": "results\\phase2e_safety_guard_analysis.csv",
+    "destination": "evidence\\historical_summaries\\phase2e_safety_guard_analysis.csv",
+    "sha256": "2d0fdd845857fcae4d3801da5ebc8aa42eb2ee1454465ae53f91d2b79c391f3b",
+    "bytes": 21155
+  },
+  {
+    "source": "results\\phase3a_controller_comparison.csv",
+    "destination": "evidence\\historical_summaries\\phase3a_controller_comparison.csv",
+    "sha256": "11fb82fbf15a3df2d598ff5ae6bedb8402174cba99e805dc03ff00b958aa1ed6",
+    "bytes": 103114
+  },
+  {
+    "source": "results\\phase3a_nominal_vs_perturbed.csv",
+    "destination": "evidence\\historical_summaries\\phase3a_nominal_vs_perturbed.csv",
+    "sha256": "8289f6498e9e4da5f6502882762a9c013ea62ad40d0543e4aa409f3ac6ad33a3",
+    "bytes": 33574
+  },
+  {
+    "source": "results\\phase3a_paired_fairness.csv",
+    "destination": "evidence\\historical_summaries\\phase3a_paired_fairness.csv",
+    "sha256": "e770b42f7f041a38a28e7db8300314e91793c7fe9ade7297ddf1d83c546f1f23",
+    "bytes": 6586
+  },
+  {
+    "source": "results\\phase3b_evaluation_comparison.csv",
+    "destination": "evidence\\historical_summaries\\phase3b_evaluation_comparison.csv",
+    "sha256": "f8b0aff2569dd8f4f90862d3aaa65aa4f2973fa44026b2b81935c78422db739d",
+    "bytes": 14715
+  },
+  {
+    "source": "results\\phase3b_smoke_training.csv",
+    "destination": "evidence\\historical_summaries\\phase3b_smoke_training.csv",
+    "sha256": "e35cd819b27fc0831136a6fe575f9c89180a08a335b875a40397c550fae7cae4",
+    "bytes": 541476
+  },
+  {
+    "source": "results\\phase3c_action_effectiveness.csv",
+    "destination": "evidence\\historical_summaries\\phase3c_action_effectiveness.csv",
+    "sha256": "1e312248cbc1c07184b907679819e1515d90e2a2132f4a96e572bea348fe00a8",
+    "bytes": 141573
+  },
+  {
+    "source": "results\\phase3c_evaluation_comparison.csv",
+    "destination": "evidence\\historical_summaries\\phase3c_evaluation_comparison.csv",
+    "sha256": "4019af9b76c99446e9dcbabd75733d8e5dc8d52f62ce1cb291537840fff12813",
+    "bytes": 32488
+  },
+  {
+    "source": "results\\phase3c_probe_effects_by_phase.csv",
+    "destination": "evidence\\historical_summaries\\phase3c_probe_effects_by_phase.csv",
+    "sha256": "a522bab80fd4b747df80562b1a9ce00a0e2e3c091c97aa70e590bec4cff7948c",
+    "bytes": 859
+  },
+  {
+    "source": "results\\phase3c_reward_component_distributions.csv",
+    "destination": "evidence\\historical_summaries\\phase3c_reward_component_distributions.csv",
+    "sha256": "b17a83d2b4a46b8ad7960e5d20d6ad43aa3e8f90837e3995866df8c512a0f447",
+    "bytes": 5421
+  },
+  {
+    "source": "results\\phase3c_reward_value_audit.csv",
+    "destination": "evidence\\historical_summaries\\phase3c_reward_value_audit.csv",
+    "sha256": "b9daef2052bddc102c58547f4d4810d5e535cc198565cbbd1f1e18fc6f17cc6c",
+    "bytes": 944543
+  },
+  {
+    "source": "results\\phase3c_training_comparison.csv",
+    "destination": "evidence\\historical_summaries\\phase3c_training_comparison.csv",
+    "sha256": "80b9fde6bdfe7bcea210a437a8ef36bd0a978652e8f8ee8f19b1017678526bb6",
+    "bytes": 3372
+  },
+  {
+    "source": "results\\phase3dc_action_audit.csv",
+    "destination": "evidence\\historical_summaries\\phase3dc_action_audit.csv",
+    "sha256": "40d6bfe2c17fe9b59dd7646057fbaf44ca92c211fca6c94ec4212e44e99751ad",
+    "bytes": 1154
+  },
+  {
+    "source": "results\\phase3dc_controller_evaluation.csv",
+    "destination": "evidence\\historical_summaries\\phase3dc_controller_evaluation.csv",
+    "sha256": "822d20c30f9d6e23a87511ae057c85c35ebc154ebf435b37baaf19f4f264d208",
+    "bytes": 48293
+  },
+  {
+    "source": "results\\phase3dc_training_comparison.csv",
+    "destination": "evidence\\historical_summaries\\phase3dc_training_comparison.csv",
+    "sha256": "15c603e36a92573a54e1b68a215f0d36fb27598ff60c42f28521e7705811f29d",
+    "bytes": 3720
+  },
+  {
+    "source": "results\\phase3d_bc_dataset_audit.csv",
+    "destination": "evidence\\historical_summaries\\phase3d_bc_dataset_audit.csv",
+    "sha256": "bd07f321e7d4fd8459e8cadf764a84086092cda4ccca12e975658b7daf4ec730",
+    "bytes": 20490
+  },
+  {
+    "source": "results\\phase3d_bc_dataset_manifest.csv",
+    "destination": "evidence\\historical_summaries\\phase3d_bc_dataset_manifest.csv",
+    "sha256": "51f314191ab4c6968e074bb27c6f602997d03f1fb70cbe88550791090c47c700",
+    "bytes": 17188
+  },
+  {
+    "source": "results\\phase3d_bc_evaluation.csv",
+    "destination": "evidence\\historical_summaries\\phase3d_bc_evaluation.csv",
+    "sha256": "9434513cebd9b57c46086af3c952831eab968b8b85ec047247d055f421c93d27",
+    "bytes": 36843
+  },
+  {
+    "source": "results\\phase3d_bc_training.csv",
+    "destination": "evidence\\historical_summaries\\phase3d_bc_training.csv",
+    "sha256": "d3707ca4cfe1cf58ae92c37f9849d67bdce573aae34e9be22e7a8915485d8fc3",
+    "bytes": 5665
+  },
+  {
+    "source": "results\\phase3dc_all_tests.xml",
+    "destination": "evidence\\test_records\\phase3dc_all_tests.xml",
+    "sha256": "255fb1a478f3696b31b6c0329ddf281af36fdc2f89b3e8bd4f294e90f88ada45",
+    "bytes": 26728
+  },
+  {
+    "source": "results\\phase3dc_historical_tests.xml",
+    "destination": "evidence\\test_records\\phase3dc_historical_tests.xml",
+    "sha256": "3bb0c2a02923ec2d5503cc0204685e84bf7c3c4597135edbaa8b3ed11396ba7e",
+    "bytes": 24925
+  },
+  {
+    "source": "results\\phase3dc_new_tests.xml",
+    "destination": "evidence\\test_records\\phase3dc_new_tests.xml",
+    "sha256": "473a9cf5ac1913c132700f1f962b0986c09f2b7672c4427402def888da3d0200",
+    "bytes": 1886
+  },
+  {
+    "source": "results\\runs\\phase3dc_prepare_1792746020372610600\\dc_train_sphere_521.json",
+    "destination": "evidence\\scenes\\dc_train_sphere_521.json",
+    "sha256": "0ba89fcfb339713dd49b5acb15c1f29f2ba508c3f22ecb22d5c001eb9f034253",
+    "bytes": 734150
+  },
+  {
+    "source": "results\\runs\\phase3dc_prepare_1792746020372610600\\dc_train_sphere_521.csv",
+    "destination": "evidence\\scenes\\dc_train_sphere_521.csv",
+    "sha256": "b0157f1a3a5707eb435c4b80776800c4ec23f948f50d69e9eadfdb961e3687b0",
+    "bytes": 270
+  },
+  {
+    "source": "results\\runs\\phase3dc_prepare_1792746020372610600\\dc_train_cylinder_521.json",
+    "destination": "evidence\\scenes\\dc_train_cylinder_521.json",
+    "sha256": "b2fa0fb108a57b58cbe81e18e4862cb1e7b6e633caf1d31e34b2cd488cde19e5",
+    "bytes": 889474
+  },
+  {
+    "source": "results\\runs\\phase3dc_prepare_1792746020372610600\\dc_train_cylinder_521.csv",
+    "destination": "evidence\\scenes\\dc_train_cylinder_521.csv",
+    "sha256": "b8fe4ea0065fdad268cce5fdc5800282c1c809f84b4da020ed94dca54a4435bf",
+    "bytes": 266
+  },
+  {
+    "source": "results\\runs\\phase3dc_prepare_1792746020372610600\\dc_validation_box_521.json",
+    "destination": "evidence\\scenes\\dc_validation_box_521.json",
+    "sha256": "7aba6c7a2ea0a2aaf3c0358339c14fa86a5d7b20eb72b71a4bf94b373b5bbb61",
+    "bytes": 791782
+  },
+  {
+    "source": "results\\runs\\phase3dc_prepare_1792746020372610600\\dc_validation_box_521.csv",
+    "destination": "evidence\\scenes\\dc_validation_box_521.csv",
+    "sha256": "256417210fb8434360df14384f68a27de9a400717e58055b480263a7f273ee04",
+    "bytes": 413
+  },
+  {
+    "source": "results\\runs\\phase3dc_prepare_1792746020372610600\\dc_final_cylinder_521.json",
+    "destination": "evidence\\scenes\\dc_final_cylinder_521.json",
+    "sha256": "9b22e7b2f1a1d7973c2400411172dc215d9afb2eb55640fb62a3d320539f44d7",
+    "bytes": 1084486
+  },
+  {
+    "source": "results\\runs\\phase3dc_prepare_1792746020372610600\\dc_final_cylinder_521.csv",
+    "destination": "evidence\\scenes\\dc_final_cylinder_521.csv",
+    "sha256": "004433b044dcd00b7804085a661291ff448aebbbceb524f5659d1b33ae927692",
+    "bytes": 407
+  },
+  {
+    "source": "results\\runs\\phase3dc_prepare_1792746020372610600\\dc_final_sphere_521.json",
+    "destination": "evidence\\scenes\\dc_final_sphere_521.json",
+    "sha256": "b86268009b07db9f4dd640ed3c6f15c5118844a674937051d886daa98e724327",
+    "bytes": 677930
+  },
+  {
+    "source": "results\\runs\\phase3dc_prepare_1792746020372610600\\dc_final_sphere_521.csv",
+    "destination": "evidence\\scenes\\dc_final_sphere_521.csv",
+    "sha256": "172699e622185f021c775633d000e2203143ae16c0400045f159b8ee72f12015",
+    "bytes": 270
+  },
+  {
+    "source": "results\\runs\\phase3d_bc_training_1792743671084278200\\BC78_best.pt",
+    "destination": "models\\pretrained\\BC78_best.pt",
+    "sha256": "31be9237c94fe78c72262ed4f5052713916bd8d3951a9a5e926aa9094cb9dd2d",
+    "bytes": 46633
+  },
+  {
+    "source": "results\\runs\\phase3d_bc_training_1792743671084278200\\BC85_best.pt",
+    "destination": "models\\pretrained\\BC85_best.pt",
+    "sha256": "b245652748bd3c6a23eae99c955fdf755da5cde7f3fb6621428bb46ddbf453d7",
+    "bytes": 48553
+  },
+  {
+    "source": "results\\runs\\phase3dc_training_continue_1792747188828613400\\A_seed42\\checkpoints\\final.zip",
+    "destination": "models\\pretrained\\A_seed42.zip",
+    "sha256": "01c2291d9a905e8e7f813eb5aa66bc188eb1ab5c25bbde1591435ef95b7144d7",
+    "bytes": 296214
+  },
+  {
+    "source": "results\\runs\\phase3dc_training_continue_1792747188828613400\\A_seed123\\checkpoints\\final.zip",
+    "destination": "models\\pretrained\\A_seed123.zip",
+    "sha256": "c6253955cbd8dbf83d6584e015fa2455c7ffff3758a1855e7003eca5fb6d5baf",
+    "bytes": 296261
+  },
+  {
+    "source": "results\\runs\\phase3dc_training_continue_1792747188828613400\\B_seed42\\checkpoints\\final.zip",
+    "destination": "models\\pretrained\\B_seed42.zip",
+    "sha256": "36c4872b66979ee3a80f8736e45e46b005b18896620b951c5783de3f844926c3",
+    "bytes": 296224
+  },
+  {
+    "source": "results\\runs\\phase3dc_training_continue_1792747188828613400\\B_seed123\\checkpoints\\final.zip",
+    "destination": "models\\pretrained\\B_seed123.zip",
+    "sha256": "23d44f6ab366314689b41eb11ba9945094972f33220ac5d33fe65538e9405284",
+    "bytes": 296258
+  },
+  {
+    "source": "results\\runs\\phase3dc_training_initial_1792746554788972800\\A_seed42\\training_samples.csv",
+    "destination": "evidence\\actual_training\\A_seed42\\training_samples.csv",
+    "sha256": "2be61503d3cce616f07b28940e38cd794ce7b2b8e4d8cfcfd839b0a4e15ead2e",
+    "bytes": 3590899
+  },
+  {
+    "source": "results\\runs\\phase3dc_training_initial_1792746554788972800\\A_seed42\\actual_training\\episode_0000\\rgb_frames.json",
+    "destination": "evidence\\actual_training\\A_seed42\\episode_0000\\rgb_frames.json",
+    "sha256": "d8fb2a1ae4eaa16a8a00796ea230d8ebc14a5b0cae970873c400054fe6901a0f",
+    "bytes": 606241
+  },
+  {
+    "source": "results\\runs\\phase3dc_training_initial_1792746554788972800\\A_seed42\\actual_training\\episode_0000\\integration_states.npz",
+    "destination": "evidence\\actual_training\\A_seed42\\episode_0000\\integration_states.npz",
+    "sha256": "dc82348a609e46c18b7521909b9c63b35ad6854f39025999ebac915188e8163c",
+    "bytes": 4585333
+  },
+  {
+    "source": "results\\runs\\phase3dc_training_initial_1792746554788972800\\A_seed42\\actual_training\\episode_0000\\actual_rgb.mp4",
+    "destination": "evidence\\actual_training\\A_seed42\\episode_0000\\actual_rgb.mp4",
+    "sha256": "61ebddf4f30572586982ef79d975b9c6e19dd2cac250b4e54788cc9fed3e95b6",
+    "bytes": 335101
+  },
+  {
+    "source": "results\\runs\\phase3dc_training_initial_1792746554788972800\\A_seed42\\actual_training\\episode_0000\\episode_physics_summary.json",
+    "destination": "evidence\\actual_training\\A_seed42\\episode_0000\\episode_physics_summary.json",
+    "sha256": "995cf2b4052f533d54c51dd8e0d4da01526a00b48ba37e549604626ef0d087a6",
+    "bytes": 2242
+  }
+]

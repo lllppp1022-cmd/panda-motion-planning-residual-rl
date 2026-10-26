@@ -1,0 +1,359 @@
+{
+  "passed": true,
+  "run": "research-archive/results/runs/teleop_panda_1792550069788228500",
+  "commands": 25,
+  "joint_directions_verified": 8,
+  "cartesian_directions_verified": 6,
+  "measurements": [
+    {
+      "key": "K",
+      "command_type": "joint_jog",
+      "time": 24.30399999999741,
+      "endpoint_time": 24.961999999997044,
+      "actual_delta_q_rad": [
+        0.0199624693329358,
+        -1.593095453160387e-07,
+        8.703095951283668e-06,
+        -4.482999971244794e-09,
+        1.0491248779005919e-06,
+        7.449671102222055e-09,
+        -9.416271207207672e-08
+      ],
+      "actual_delta_xyz_m": [
+        -0.00010921270462305177,
+        0.01107645235371499,
+        8.680916685488427e-08
+      ],
+      "selected_joint": 1,
+      "correct_direction": true
+    },
+    {
+      "key": "K",
+      "command_type": "joint_jog",
+      "time": 26.235999999996338,
+      "endpoint_time": 26.88199999999598,
+      "actual_delta_q_rad": [
+        -1.928139308389476e-07,
+        0.020123458931247645,
+        -5.604935947097858e-06,
+        -2.7944187946271626e-05,
+        -1.9367666766244383e-07,
+        1.634664747252046e-05,
+        4.133680919782279e-08
+      ],
+      "actual_delta_xyz_m": [
+        0.003536280172069306,
+        6.748446510886248e-05,
+        -0.01120913820404923
+      ],
+      "selected_joint": 2,
+      "correct_direction": true
+    },
+    {
+      "key": "K",
+      "command_type": "joint_jog",
+      "time": 28.171999999995265,
+      "endpoint_time": 28.821999999994905,
+      "actual_delta_q_rad": [
+        7.346760262406937e-06,
+        -5.725132935677918e-06,
+        0.0199565540257663,
+        1.00004737824122e-08,
+        7.107450897070127e-07,
+        -1.2448195807479578e-09,
+        -9.246623566827594e-08
+      ],
+      "actual_delta_xyz_m": [
+        -0.0003306684434136731,
+        0.01104394448788586,
+        6.106887360357582e-06
+      ],
+      "selected_joint": 3,
+      "correct_direction": true
+    },
+    {
+      "key": "K",
+      "command_type": "joint_jog",
+      "time": 30.301999999994084,
+      "endpoint_time": 30.96199999999372,
+      "actual_delta_q_rad": [
+        -9.191928076329736e-09,
+        -2.1014669044593787e-05,
+        2.1314638130875974e-08,
+        0.0199812362423053,
+        9.693484433095489e-08,
+        -1.5931600308993765e-05,
+        -3.943643955839349e-08
+      ],
+      "actual_delta_xyz_m": [
+        0.002765122776652751,
+        0.00010570657702687475,
+        0.009375167962596853
+      ],
+      "selected_joint": 4,
+      "correct_direction": true
+    },
+    {
+      "key": "K",
+      "command_type": "joint_jog",
+      "time": 32.13399999999331,
+      "endpoint_time": 32.7819999999941,
+      "actual_delta_q_rad": [
+        5.094681754108654e-07,
+        -2.618841410811923e-07,
+        4.194336466444015e-07,
+        1.1710035585643652e-07,
+        0.019935886717302103,
+        2.088188550963821e-07,
+        2.9432151937847095e-07
+      ],
+      "actual_delta_xyz_m": [
+        -0.00016721130941155238,
+        0.004193421376055599,
+        4.288132111107679e-05
+      ],
+      "selected_joint": 5,
+      "correct_direction": true
+    },
+    {
+      "key": "K",
+      "command_type": "joint_jog",
+      "time": 34.135999999995754,
+      "endpoint_time": 34.78199999999654,
+      "actual_delta_q_rad": [
+        -1.7271122053352794e-08,
+        7.04182689705013e-06,
+        -2.2528092152168666e-08,
+        -8.720367539405416e-06,
+        4.41135822537575e-07,
+        0.019933478055916387,
+        -3.93010500809865e-08
+      ],
+      "actual_delta_xyz_m": [
+        0.004199474458533636,
+        0.00013188801201968053,
+        0.0017279920330081078
+      ],
+      "selected_joint": 6,
+      "correct_direction": true
+    },
+    {
+      "key": "K",
+      "command_type": "joint_jog",
+      "time": 36.051999999998095,
+      "endpoint_time": 36.70199999999889,
+      "actual_delta_q_rad": [
+        -4.499658345230584e-08,
+        2.0612121238994252e-08,
+        -5.3196423391299597e-08,
+        -2.2068164851063443e-08,
+        2.9678248678749464e-07,
+        -3.627555211771494e-08,
+        0.019951695147620074
+      ],
+      "actual_delta_xyz_m": [
+        -6.64649080217572e-09,
+        6.43726717763915e-09,
+        -2.4119034325309485e-08
+      ],
+      "selected_joint": 7,
+      "correct_direction": true
+    },
+    {
+      "key": "J",
+      "command_type": "joint_jog",
+      "time": 37.01199999999927,
+      "endpoint_time": 37.66200000000006,
+      "actual_delta_q_rad": [
+        4.7805962764824184e-08,
+        -2.0692711516501205e-08,
+        5.6836660621006896e-08,
+        2.2065147486927117e-08,
+        -2.952372831731276e-07,
+        3.625291511433204e-08,
+        -0.019949592185334875
+      ],
+      "actual_delta_xyz_m": [
+        6.4428133939031795e-09,
+        -2.492698252670733e-09,
+        2.4169111045857505e-08
+      ],
+      "selected_joint": 7,
+      "correct_direction": true
+    },
+    {
+      "key": "W",
+      "command_type": "xyz_jog",
+      "time": 38.982000000001676,
+      "endpoint_time": 39.62200000000246,
+      "actual_delta_q_rad": [
+        -7.951713533083798e-05,
+        0.008248565461559325,
+        -9.848469653730291e-05,
+        0.007703814846760082,
+        -0.00023687074709636408,
+        0.011345323199587254,
+        3.132428757490757e-07
+      ],
+      "actual_delta_xyz_m": [
+        0.004898417852481796,
+        -6.78006927600297e-06,
+        -4.4627181656875514e-05
+      ],
+      "axis": "X",
+      "signed_axis_movement_mm": 4.898417852481796,
+      "correct_direction": true
+    },
+    {
+      "key": "S",
+      "command_type": "xyz_jog",
+      "time": 39.96000000000287,
+      "endpoint_time": 40.602000000003656,
+      "actual_delta_q_rad": [
+        0.0001901514604321572,
+        -0.008445325950420919,
+        0.0001895884038016979,
+        -0.008123818987347597,
+        -0.0003103226072419217,
+        -0.010909125897227367,
+        3.24593218081759e-07
+      ],
+      "actual_delta_xyz_m": [
+        -0.004899666484847631,
+        6.02061126628306e-06,
+        -7.1522450099115176e-06
+      ],
+      "axis": "X",
+      "signed_axis_movement_mm": 4.899666484847631,
+      "correct_direction": true
+    },
+    {
+      "key": "A",
+      "command_type": "xyz_jog",
+      "time": 40.95000000000408,
+      "endpoint_time": 41.60200000000488,
+      "actual_delta_q_rad": [
+        0.0042271390114010515,
+        0.00015263365947752738,
+        0.004171694077581268,
+        0.00014920470675616748,
+        0.0012673488606949057,
+        0.0006539806562693151,
+        3.1658401644651946e-07
+      ],
+      "actual_delta_xyz_m": [
+        -6.918896761920479e-05,
+        0.004987364730535605,
+        4.82750920520747e-05
+      ],
+      "axis": "Y",
+      "signed_axis_movement_mm": 4.987364730535606,
+      "correct_direction": true
+    },
+    {
+      "key": "D",
+      "command_type": "xyz_jog",
+      "time": 41.93800000000529,
+      "endpoint_time": 42.582000000006076,
+      "actual_delta_q_rad": [
+        -0.0041120730896009,
+        -0.0005511899172723558,
+        -0.004074905779355459,
+        -0.0005762855362281272,
+        -0.0018130376536190235,
+        -0.00034226064549103263,
+        3.475594262392079e-07
+      ],
+      "actual_delta_xyz_m": [
+        5.246432439043325e-06,
+        -0.0049836872695876965,
+        -3.0669980666253593e-08
+      ],
+      "axis": "Y",
+      "signed_axis_movement_mm": 4.983687269587697,
+      "correct_direction": true
+    },
+    {
+      "key": "R",
+      "command_type": "xyz_jog",
+      "time": 42.85600000000641,
+      "endpoint_time": 43.5020000000072,
+      "actual_delta_q_rad": [
+        3.1889854658989636e-05,
+        -0.00503513937300918,
+        2.942098416566785e-05,
+        0.004352425579013053,
+        -0.00024650967058488515,
+        0.001340177237711071,
+        2.886672600954654e-07
+      ],
+      "actual_delta_xyz_m": [
+        -1.4446917683375027e-05,
+        -3.1345882875906395e-06,
+        0.0050205730939058
+      ],
+      "axis": "Z",
+      "signed_axis_movement_mm": 5.0205730939058,
+      "correct_direction": true
+    },
+    {
+      "key": "F",
+      "command_type": "xyz_jog",
+      "time": 43.90400000000769,
+      "endpoint_time": 44.562000000008496,
+      "actual_delta_q_rad": [
+        7.47050786043188e-05,
+        0.004889137244442222,
+        6.076428910889789e-05,
+        -0.004628557394406929,
+        -0.00030656213469266655,
+        -0.0007514489956230719,
+        3.0752740953765567e-07
+      ],
+      "actual_delta_xyz_m": [
+        7.437394217124638e-05,
+        4.25214978991284e-07,
+        -0.005019794986206749
+      ],
+      "axis": "Z",
+      "signed_axis_movement_mm": 5.019794986206749,
+      "correct_direction": true
+    }
+  ],
+  "physics_steps": 29603,
+  "simulation_seconds": 59.20600000002639,
+  "metrics": {
+    "max_actual_joint_step_rad": 0.00032671329847145866,
+    "max_actual_velocity_rad_s": 0.1633566492357301,
+    "max_ctrl_step_rad": 0.00040000000000000105,
+    "alert_steps": 0
+  },
+  "callback_processing_threads_distinct": true,
+  "commands_do_not_write_qpos": true,
+  "frame_state_max_q_error_rad": 0.0,
+  "video": {
+    "source": "Actual mj_step dynamics; rendered directly from the same live MjData",
+    "path": "research-archive/results/runs/teleop_panda_1792550069788228500/teleop_actual_interaction.gif",
+    "sha256": "c075a0eb9936a5127bea007bffd8672be8549ef96f68c26de00820f807b411a5",
+    "raw_frames": 593,
+    "raw_unique_frames": 221,
+    "encoded_frames": 593,
+    "unique_decoded_frames": 593,
+    "duration_ms": 59300,
+    "joint_displacement_rad": 0.06302666757567497,
+    "mp4_path": "research-archive/results/runs/teleop_panda_1792550069788228500/teleop_actual_interaction.mp4",
+    "mp4_error": null,
+    "mp4_decoded_frames": 593
+  },
+  "source_and_data_sha256_audited_after_run": {
+    "scripts/teleop_panda.py": "443980bedb98d1ea9d45201f81d8417c977f7d171b3ded723830d32dd22cb456",
+    "src/robot/teleop.py": "63da24b8ed52ae79d09a6454601517b13c3ac1eb2d0749fda801d8ee9199de10",
+    "src/visualization/windows_close.py": "4d2174e2b61b809067a4bd23c60d81705561b5b6acb3f7d21328762c482fa34d",
+    "configs/teleop.yaml": "3b13a967ae7c1de596bc5817f56bc099e45b13ba56ba3b666fd686c3f7ad05e1",
+    "results/runs/teleop_panda_1792550069788228500/interaction_commands.csv": "cf093ef597a6873948c28b369728d10fafa94e7b1aaf82c3fa344eb7bd28108e",
+    "results/runs/teleop_panda_1792550069788228500/physics_states.csv": "b36d5aaa301cece556c805e827d6848a4a447d301e4ebb8df08b7235f8b7c87b",
+    "results/runs/teleop_panda_1792550069788228500/complete.json": "215d61f2fdb7337e3c10ba3271ccaabf0ecd414f364e13875ce293a3df825a69"
+  },
+  "external_contact_max": 0,
+  "self_contact_max": 0
+}

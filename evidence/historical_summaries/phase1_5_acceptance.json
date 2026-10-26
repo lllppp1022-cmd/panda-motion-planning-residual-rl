@@ -1,0 +1,111 @@
+{
+  "acceptance_date_local": "2026-10-21",
+  "phase": "1.5",
+  "pytest": {
+    "passed": 38,
+    "failed": 0,
+    "skipped": 0
+  },
+  "native_default_cli_run": "teleop_panda_1792550259629003800",
+  "native_close_fix_run": "teleop_panda_1792549993249892400",
+  "final_recorded_run": "teleop_panda_1792550069788228500",
+  "runs": [
+    {
+      "run": "teleop_panda_1792548955402479000",
+      "status": "wall_timeout",
+      "steps": 140962,
+      "simulation_seconds": 281.92400000061804,
+      "error": null,
+      "video_error": "AssertionError()",
+      "viewer_closed": true
+    },
+    {
+      "run": "teleop_panda_1792548999420367600",
+      "status": "keyboard_exit",
+      "steps": 45338,
+      "simulation_seconds": 90.67599999997007,
+      "error": null,
+      "video_error": null,
+      "viewer_closed": true
+    },
+    {
+      "run": "teleop_panda_1792549166582667300",
+      "status": "keyboard_exit",
+      "steps": 50728,
+      "simulation_seconds": 101.45599999994495,
+      "error": null,
+      "video_error": "AssertionError()",
+      "viewer_closed": true
+    },
+    {
+      "run": "teleop_panda_1792549322436213600",
+      "status": "wall_timeout",
+      "steps": 70219,
+      "simulation_seconds": 140.43799999994246,
+      "error": null,
+      "video_error": null,
+      "viewer_closed": true
+    },
+    {
+      "run": "teleop_panda_1792549577940202800",
+      "status": "error",
+      "steps": 3968,
+      "simulation_seconds": 0.0,
+      "error": "RuntimeError('Viewer UI edited physics during shortcut synchronization')",
+      "video_error": "AssertionError()",
+      "viewer_closed": true
+    },
+    {
+      "run": "teleop_panda_1792549639781183200",
+      "status": "incomplete_native_close_crash",
+      "steps": null,
+      "simulation_seconds": null,
+      "error": "No complete.json; see native access violation logs",
+      "video_error": null,
+      "viewer_closed": null
+    },
+    {
+      "run": "teleop_panda_1792549882151590600",
+      "status": "incomplete_native_close_crash",
+      "steps": null,
+      "simulation_seconds": null,
+      "error": "No complete.json; see native access violation logs",
+      "video_error": null,
+      "viewer_closed": null
+    },
+    {
+      "run": "teleop_panda_1792549993249892400",
+      "status": "viewer_closed",
+      "steps": 9605,
+      "simulation_seconds": 19.210000000000232,
+      "error": null,
+      "video_error": null,
+      "viewer_closed": true
+    },
+    {
+      "run": "teleop_panda_1792550069788228500",
+      "status": "viewer_closed",
+      "steps": 29603,
+      "simulation_seconds": 59.20600000002639,
+      "error": null,
+      "video_error": null,
+      "viewer_closed": true
+    },
+    {
+      "run": "teleop_panda_1792550259629003800",
+      "status": "keyboard_exit",
+      "steps": 7948,
+      "simulation_seconds": 15.896000000001978,
+      "error": null,
+      "video_error": null,
+      "viewer_closed": true
+    }
+  ],
+  "video_sha256": {
+    "panda_keyboard_teleop_20261021.gif": "c075a0eb9936a5127bea007bffd8672be8549ef96f68c26de00820f807b411a5",
+    "panda_keyboard_teleop_20261021.mp4": "a9024ad54d451e9aa50d6376094b9af0202070b6772923fbf2bca18556b2ccd7"
+  },
+  "safety_scope": "Local empty practice scene; no path or collision safety certification",
+  "phase2_implemented": false,
+  "reinforcement_learning_executed": false
+}

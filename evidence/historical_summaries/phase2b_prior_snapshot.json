@@ -1,0 +1,14 @@
+{
+  "src/planning/collision_checker.py": "6b45feda5270bf0e3477f980544bda60e99814998c4877f9ab176495c302f79a",
+  "configs/planning_collision.yaml": "201b70f001a03ce894c01779772a84e466f669972afad46573d2503c480f0d41",
+  "src/robot/teleop.py": "63da24b8ed52ae79d09a6454601517b13c3ac1eb2d0749fda801d8ee9199de10",
+  "scripts/teleop_panda.py": "443980bedb98d1ea9d45201f81d8417c977f7d171b3ded723830d32dd22cb456",
+  "configs/teleop.yaml": "3b13a967ae7c1de596bc5817f56bc099e45b13ba56ba3b666fd686c3f7ad05e1",
+  "src/robot/joint_controller.py": "f1623ca73b743e75cea99789b2bb71346b176cdf3b6ffd6b57154c112dd0e69c",
+  "models/derived/panda_phase1.xml": "6bbe9e79aee916da63af2d1ef361e80dc8ab331c51d991a42ccec5b5c86b6cb9",
+  "models/derived/phase2a_scene.xml": "7d9c191b17f0b02596fc7dc329e1155ba3ab22aca61e364115b19f8862cb79e3",
+  "results/phase2a_acceptance.json": "ab473c5c5723bdc9849b19ec5b59c443f867c2d6ebfb8d1d524024f359fcc5b2",
+  "results/phase2a_latest.json": "5afbbc5340bc1b1b64348b0a150709f778a0213101866f3383642faed0cfeff9",
+  "scripts/phase2a_resolution.py": "793062c344e97d980cb50550745d80fa3791d4c45ac9a5509e7c7c1bd13222e0",
+  "tests/test_phase2a_collision.py": "c339938b32b1de598ecfdc493d9e378967bfbb919c177ebe498e6145fd2b8fe8"
+}

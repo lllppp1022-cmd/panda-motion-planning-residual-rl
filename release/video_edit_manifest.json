@@ -1,0 +1,80 @@
+{
+  "frames": 800,
+  "fps": 10,
+  "duration_s": 80,
+  "unique_decoded_frames": 800,
+  "timeline": [
+    {
+      "start_output_frame": 0,
+      "end_output_frame": 79,
+      "seconds": 8,
+      "source": "panda_keyboard_teleop_20261021.mp4",
+      "source_start_s": 8,
+      "playback_rate": 1.0,
+      "source_sha256": "a9024ad54d451e9aa50d6376094b9af0202070b6772923fbf2bca18556b2ccd7",
+      "classification": "Dynamic Servo Execution"
+    },
+    {
+      "start_output_frame": 80,
+      "end_output_frame": 179,
+      "seconds": 10,
+      "source": "phase2b_rrt_planning_demo.mp4",
+      "source_start_s": 8,
+      "playback_rate": 1.0,
+      "source_sha256": "15384ceb63be8af11a2cd6cba6bde20680fff14a5662abcea035450b49c5b952",
+      "classification": "Kinematic Planning Playback"
+    },
+    {
+      "start_output_frame": 180,
+      "end_output_frame": 279,
+      "seconds": 10,
+      "source": "phase2c_dynamic_execution.mp4",
+      "source_start_s": 8,
+      "playback_rate": 1.0,
+      "source_sha256": "10516c3b70b0512390ed18f7a4a7d014ad79043c5aceed12e82036ca4b8f84c0",
+      "classification": "Dynamic Servo Execution"
+    },
+    {
+      "start_output_frame": 280,
+      "end_output_frame": 399,
+      "seconds": 12,
+      "source": "phase2d_margin_comparison.mp4",
+      "source_start_s": 9.5,
+      "playback_rate": 0.5,
+      "source_sha256": "61dd0e6b6470d84a122b0a5bc75e1a490a35cd42d0b915033073df78500ab733",
+      "classification": "Dynamic Servo Execution / FAILURE BASELINE / 0.5x"
+    },
+    {
+      "start_output_frame": 400,
+      "end_output_frame": 519,
+      "seconds": 12,
+      "source": "phase3dc_policy_comparison.mp4",
+      "source_start_s": 8,
+      "playback_rate": 1.0,
+      "source_sha256": "bcfe80e1b5beb08832edabebf2272aed03d319a1356d8badf9e1a65d8b31656d",
+      "classification": "Deterministic Policy Evaluation"
+    },
+    {
+      "start_output_frame": 520,
+      "end_output_frame": 639,
+      "seconds": 12,
+      "source": "phase3dc_actual_training.mp4",
+      "source_start_s": 6,
+      "playback_rate": 1.0,
+      "source_sha256": "e7661a2b15abc806ebaf45f21c6c8afafc90e7d448b6a6aa144c3cbb7b619e13",
+      "classification": "Actual PPO Training"
+    },
+    {
+      "start_output_frame": 640,
+      "end_output_frame": 799,
+      "seconds": 16,
+      "source": "phase3dc_policy_comparison.mp4",
+      "source_start_s": 8,
+      "playback_rate": 1.0,
+      "source_sha256": "bcfe80e1b5beb08832edabebf2272aed03d319a1356d8badf9e1a65d8b31656d",
+      "classification": "Deterministic Policy Evaluation / FROZEN RESULTS"
+    }
+  ],
+  "source": "only existing actual videos / explicitly labelled kinematic clips; no new dynamics or training generated",
+  "sha256": "5af471c819a0e5e16cd3eea8ee81124112a57ff5842debecb58de4ad58718f0f"
+}

@@ -33,3 +33,9 @@ git ls-remote origin refs/heads/main
 ## 公开前单独审核
 
 需要用户明确确认本Panda仓库的Public权限、选用的自有源码开源许可证、模型/媒体的公开分发范围，以及简历个人职责表述。未确认前保持Private，不请求重复Reacher授权，也不自动公开。
+
+## 最终发布补充验收
+
+已实际推送内容提交 `fa13fb76d8f860101bf50e038316858c25e2e65c`，认证API读取远程main与本地一致；Private为true，README原始字节一致且GitHub Markdown渲染成功，远程640个文件的初始内容基线含必须的模型/媒体。此数字指首次内容基线，后续验收文档提交会增加文件，不应把该基线SHA称作未来最新HEAD。
+
+最终文档提交后另做只读HEAD/Private复核，记录在本机runtime/remote_latest_verification.json，不把自身SHA循环写回提交。代码、模型、视频均未公开。公开权限、原始大数据分发范围、自有源码许可证及简历职责仍待本人审核。

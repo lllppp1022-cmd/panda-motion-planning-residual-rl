@@ -54,6 +54,8 @@ python -m pytest -q
 
 All required source dependencies are retained. Historical222-test records are archival evidence; the relocated project's default suite is a separately executed lightweight release suite. Full historical datasets/checkpoints remain in the local research archive, not in Git. Included compact evidence cannot replace every original physics signal.
 
+For actual re-execution of the frozen protocol, use `python scripts/portfolio.py evaluate --live --limit 1 --check` for preflight, then remove `--check`. Limit is explicitly bounded1..48. This packaging stage did not rerun all48 tasks or any training.
+
 ## Limits and attribution
 
 Small fixed layouts, two training seeds, bounded optimization; no real hardware, Sim-to-Real result, continuous collision guarantee, original RL algorithm claim or safety certification. A safe simulated run does not imply certified safety.

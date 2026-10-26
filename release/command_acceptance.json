@@ -12,11 +12,14 @@
     "portfolio.py evaluate --compact",
     "portfolio.py metrics --compact",
     "portfolio.py media",
-    "pytest default release suite"
+    "pytest default release suite",
+    "portfolio.py evaluate --live --limit1 (one actual M3 task)",
+    "fresh local Git clone:8 tests, model, six weights, compact metrics, actual training replay, one Integral20 task"
   ],
   "tests": 8,
   "historical_tests_archived": 222,
   "new_training": false,
   "clean_network_install": false,
-  "manual_GUI_reacceptance": false
+  "manual_GUI_reacceptance": false,
+  "original_readable_files_unchanged": 13449
 }

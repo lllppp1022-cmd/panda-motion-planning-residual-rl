@@ -1,0 +1,11 @@
+{
+  "content_commit": "fa13fb76d8f860101bf50e038316858c25e2e65c",
+  "tests_passed": 8,
+  "no_raw_csv_bundle": true,
+  "model_load": true,
+  "all6_weights_predict": true,
+  "compact_metrics": true,
+  "actual_training_replay": true,
+  "integral20_live_execution": true,
+  "scope": "fresh local Git clone of verified content commit; same installed dependencies, NOT a clean network installation"
+}

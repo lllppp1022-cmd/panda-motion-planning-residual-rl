@@ -41,3 +41,7 @@ GUI switches `plan --viewer`, `training-replay --viewer` and legacy `scripts/tel
 - To reproduce every historical test/rollout, obtain the corresponding full local archive from the owner and validate its hashes; no public dataset/weight download URL is invented here.
 
 No continuous collision guarantee or hardware safety certification follows from discrete MuJoCo validation.
+
+## 最终发布补充验收
+
+`evaluate --live --limit 1 --check`是冻结协议复执行的实际预检命令；移除--check将使用清单中的路径、失配条件、物理种子和方法执行。limit必须1..48。已做1个回合验收，没有声称重新执行全部48回合。Git attributes保留源文件/模型/证据的原字节，不对研究源码或模型进行换行格式化。

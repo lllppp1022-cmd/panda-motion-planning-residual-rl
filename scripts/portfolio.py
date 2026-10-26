@@ -20,6 +20,16 @@ def selected_scene(name=None):
     if r is None:raise ValueError('Unknown scene')
     return ROOT/r['path']
 
+def run_controller(source,condition,seed,method,folder):
+    from src.rl.dependencies import activate
+    activate()
+    from src.bc_residual.runner import run_case
+    from src.phase3dc.common import execute
+    from stable_baselines3 import PPO
+    if method in ('M3','Integral20','Integral500','BC85'):
+        return run_case((str(source),condition,seed,method,str(checkpoint('BC85')) if method=='BC85' else None,str(folder)))
+    return execute(source,condition,seed,method[0],folder,policy=PPO.load(checkpoint(method),device='cpu'))
+
 def metrics(compact=False):
     cases=manifest('final_cases.json');detail=[]
     for case in cases:
@@ -27,10 +37,10 @@ def metrics(compact=False):
         if compact or not p.exists():
             numeric=ROOT/case['numeric_evidence'];assert sha(numeric)==case['numeric_sha256'];z=np.load(numeric)
             assert str(z['original_csv_sha256'])==case['original_csv_sha256'];mask=np.isin(z['phase'],[1,2]);tcp=np.linalg.norm(z['tcp_delta'],axis=1)
-            good=(np.max(abs(z['q_error']),axis=1)<=.02)&(tcp<=.01)&(np.max(abs(z['qvel']),axis=1)<=.02)
+            good=np.isin(z['phase'],[2,3])&(np.max(abs(z['q_error']),axis=1)<=.02)&(tcp<=.01)&(np.max(abs(z['qvel']),axis=1)<=.02)
             stable=0.
             for value in good:stable=stable+.002 if value else 0.
-            violation=int(np.sum(~z['valid']));contact=int(np.sum(z['contact']));success=stable>=.5-1e-9 and violation==contact==0
+            violation=int(np.sum(~z['valid']));contact=int(np.sum(z['contact']));success=stable>=.5-1e-9 and int(z['phase'][-1]) in (2,3) and violation==contact==0
             assert success==case['archived_success']
             detail.append(dict(case=case['case'],scene=case['scene'],condition=case['condition']['name'],method=case['method'],success=success,
                 tcp_rmse_mm=float(np.sqrt(np.mean(tcp[mask]**2))*1000),joint_rmse_rad=float(np.sqrt(np.mean(z['q_error'][mask]**2))),final_tcp_mm=float(tcp[-1]*1000),
@@ -46,9 +56,9 @@ def metrics(compact=False):
             lasttcp=float(np.linalg.norm(tcp));assert abs(lasttcp-float(row['tcp_error_m']))<1e-10
             g=float(row['minimum_clearance_m']);gap=min(gap,g);violation+=int(row['safety_valid']!='True');contact+=int(row['prohibited_contact_count'])
             if row['phase'] in ('trajectory','settle'):ssq+=lasttcp**2;qssq+=float(np.sum((qa-qr)**2));n+=1
-            good=np.max(abs(qa-qr))<=.02 and lasttcp<=.01 and np.max(abs(va))<=.02
+            good=row['phase'] in ('settle','completed') and np.max(abs(qa-qr))<=.02 and lasttcp<=.01 and np.max(abs(va))<=.02
             stable=stable+.002 if good else 0.
-        success=stable>=.5-1e-9 and violation==contact==0
+        success=stable>=.5-1e-9 and row['phase'] in ('settle','completed') and violation==contact==0
         assert success==case['archived_success']
         detail.append(dict(case=case['case'],scene=case['scene'],condition=case['condition']['name'],method=case['method'],success=success,
             tcp_rmse_mm=np.sqrt(ssq/n)*1000,joint_rmse_rad=np.sqrt(qssq/(n*7)),final_tcp_mm=lasttcp*1000,minimum_clearance_mm=gap*1000,
@@ -74,9 +84,21 @@ def metrics(compact=False):
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('command',choices=['doctor','model','plan','execute','compare','policy','training-replay','evaluate','metrics','media'])
     p.add_argument('--method',default='M3',choices=['M3','Integral20','Integral500','BC85','A_seed42','A_seed123','B_seed42','B_seed123'])
-    p.add_argument('--scene');p.add_argument('--viewer',action='store_true');p.add_argument('--check',action='store_true');p.add_argument('--compact',action='store_true');a=p.parse_args()
+    p.add_argument('--scene');p.add_argument('--viewer',action='store_true');p.add_argument('--check',action='store_true');p.add_argument('--compact',action='store_true');p.add_argument('--live',action='store_true');p.add_argument('--limit',type=int,default=48);a=p.parse_args()
     import os
     os.chdir(ROOT)
+    if a.command=='evaluate' and a.live:
+        if not 1<=a.limit<=48:raise ValueError('Bounded evaluation limit1..48 required')
+        folder=runtime('frozen_live_evaluation');results=[]
+        from src.rl.dependencies import activate
+        activate()
+        from scripts.run_phase3a import load_new
+        for case in manifest('final_cases.json')[:a.limit]:
+            source=ROOT/case['path'];load_new(source)
+            if case['method'].startswith(('A_','B_','BC')):checkpoint(case['method'])
+            if a.check:print('FROZEN LIVE PREFLIGHT',case['case']);continue
+            result=run_controller(source,case['condition'],case['physical_seed'],case['method'],folder/case['case']);results.append(result)
+        write_json(folder/'complete.json',dict(results=results,preflight_only=a.check,requested_limit=a.limit,training=False,historical_results_unchanged=True));print('OUTPUT',folder);return
     if a.command in ('metrics','evaluate'):metrics(a.compact);return
     if a.command=='doctor':
         from src.rl.dependencies import activate,provenance

@@ -81,6 +81,8 @@ python -m pytest -q
 
 `plan`只核对保存的路径；`compare`会新运行M3与Integral20两个真实动力学回合（写入被忽略的runtime目录），不会训练。`policy`校验六个checkpoint哈希并预测。`evaluate --compact`对冻结证据复算，并非新48次执行。需要单次独立策略执行可用 `python scripts/portfolio.py execute --method A_seed42`；仅做预检可加`--check`。
 
+冻结协议的新动力学复执行另用`python scripts/portfolio.py evaluate --live --limit 1 --check`预检；移除`--check`才执行，`--limit`明确限制1～48。当前收尾只验证有限回合，没有重新运行完整48回合，更没有训练。
+
 交互窗口可加`plan --viewer`或`training-replay --viewer`；原键盘控制入口为`python scripts/teleop_panda.py`。这些GUI变体本轮仅检查CLI/底层逻辑，未重新人工逐键验收。M切换模式后再用XYZ键，先聚焦窗口并切英文；详见历史教程05。
 
 ## 实际PPO训练记录
